@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files\observer">
+      <UniqueIdentifier>{6200913b-69ef-4719-be06-407ce52f8a92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\observer">
+      <UniqueIdentifier>{6eb820c8-a97d-49bd-bb4c-b0f38d848daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lualayer">
+      <UniqueIdentifier>{9bcd754a-2807-46b7-9040-aab1b8122f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lualayer">
+      <UniqueIdentifier>{f46b60af-0cdd-4bb8-bc93-b2fe049f6ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\observer\types">
+      <UniqueIdentifier>{d704f6eb-d357-403e-97c3-4c076d6b0fb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\observer\types">
+      <UniqueIdentifier>{c789a4bc-ac03-48fc-8cf4-ed559d30eb98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\observer\types\image">
+      <UniqueIdentifier>{ccf594c3-ca77-4a98-b571-eaed3cec5821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\observer\types\stateMachine">
+      <UniqueIdentifier>{fb597fda-2710-4406-b22c-acd23ee45e35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\observer\types\image">
+      <UniqueIdentifier>{f0c551d3-547d-44bb-bf82-2cd8e11999d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\observer\types\stateMachine">
+      <UniqueIdentifier>{c933a7f7-9856-4a68-bcf0-bb28dfc55264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\observer\interfaces">
+      <UniqueIdentifier>{6a2239c6-33e9-4178-876f-4dd11027f9f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\observer\interfaces">
+      <UniqueIdentifier>{bbb5e507-c108-48a2-889b-afbfd75a6996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\observer\components">
+      <UniqueIdentifier>{5c5ec054-89d3-42a2-b0f6-abc0e98f30b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\observer\components\legend">
+      <UniqueIdentifier>{a9f9f300-2fd6-44db-af75-5cec1a57d25d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\observer\components\painter">
+      <UniqueIdentifier>{68ede1ec-8fdd-4cdc-b28d-edc0b49d8028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\observer\components">
+      <UniqueIdentifier>{56340d56-1043-48d8-99d0-d1aa3f1ba166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\observer\components\painter">
+      <UniqueIdentifier>{ff58fb17-9c58-422e-88c8-055e1974bcef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\observer\components\legend">
+      <UniqueIdentifier>{7da87bb1-5b57-4f9c-82a3-f990b2718309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\observer\protocol">
+      <UniqueIdentifier>{a1bf0ecd-02b1-4701-a41f-008e44aa59b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\observer\protocol\decoder">
+      <UniqueIdentifier>{686a0e49-1cdc-4a7d-b4f2-c5560e31774b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\observer\protocol">
+      <UniqueIdentifier>{2dd8e901-846a-478d-a686-df242f6a7c5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\observer\protocol\decoder">
+      <UniqueIdentifier>{5b47ba36-e9c7-49fc-9ebd-b121a8d8f464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\observer\components\console">
+      <UniqueIdentifier>{51ecd4cd-b1ff-4225-9d75-ffc060ec6d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\observer\components\console">
+      <UniqueIdentifier>{740919d3-ac8e-4c43-bb1d-f518300f28f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\observer\protocol\blackBoard">
+      <UniqueIdentifier>{18f7f1fb-123c-48c8-9330-770e89ae0ac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\observer\protocol\blackBoard">
+      <UniqueIdentifier>{74aef4f9-609b-4f9a-bfee-31fdce3fe182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\observer\components\receiver">
+      <UniqueIdentifier>{2896725d-f219-4511-9ea6-a0ee35fb387e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\observer\components\receiver">
+      <UniqueIdentifier>{7b819644-ff04-4091-9301-c9e6fcbc5c0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\observer\types\udpSender">
+      <UniqueIdentifier>{9e969630-4d74-45c8-9b49-d7a60d673e0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\observer\types\updSender">
+      <UniqueIdentifier>{f0807693-d213-4dbb-b557-5ce4c49ba207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\observer\types\statisitc">
+      <UniqueIdentifier>{8e0bf043-23f2-4f2a-a141-809de633300a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\observer\statistic">
+      <UniqueIdentifier>{0caf1090-f3ab-4df9-851a-8c125f9f2673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\observer\components\player">
+      <UniqueIdentifier>{73e71acf-b4f7-442f-9f0f-58998e069f5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\observer\components\player">
+      <UniqueIdentifier>{4b212695-0c32-4b24-91cf-97d422f61817}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\core\environment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\luaUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\terrameLua.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\observerImpl.cpp">
+      <Filter>Source Files\observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\observerInterf.cpp">
+      <Filter>Source Files\observer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\luaCell.cpp">
+      <Filter>Source Files\lualayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\luaCellularSpace.cpp">
+      <Filter>Source Files\lualayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\luaEvent.cpp">
+      <Filter>Source Files\lualayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\luaLocalAgent.cpp">
+      <Filter>Source Files\lualayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\luaNeighborhood.cpp">
+      <Filter>Source Files\lualayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\types\agentObserverImage.cpp">
+      <Filter>Source Files\observer\types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\types\agentObserverMap.cpp">
+      <Filter>Source Files\observer\types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\types\observerGraphic.cpp">
+      <Filter>Source Files\observer\types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\types\observerImage.cpp">
+      <Filter>Source Files\observer\types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\types\observerLogFile.cpp">
+      <Filter>Source Files\observer\types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\types\observerMap.cpp">
+      <Filter>Source Files\observer\types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\types\observerScheduler.cpp">
+      <Filter>Source Files\observer\types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\types\observerStateMachine.cpp">
+      <Filter>Source Files\observer\types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\types\observerTable.cpp">
+      <Filter>Source Files\observer\types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\types\observerTextScreen.cpp">
+      <Filter>Source Files\observer\types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\types\observerUDPSender.cpp">
+      <Filter>Source Files\observer\types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\types\stateMachine\node.cpp">
+      <Filter>Source Files\observer\types\stateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\types\stateMachine\edge.cpp">
+      <Filter>Source Files\observer\types\stateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\types\image\observerImageGUI.cpp">
+      <Filter>Source Files\observer\types\image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\cellSpaceSubjectInterf.cpp">
+      <Filter>Source Files\observer\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\cellSubjectInterf.cpp">
+      <Filter>Source Files\observer\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\environmentSubjectInterf.cpp">
+      <Filter>Source Files\observer\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\eventSubjectInterf.cpp">
+      <Filter>Source Files\observer\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\globalAgentSubjectInterf.cpp">
+      <Filter>Source Files\observer\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\localAgentSubjectInterf.cpp">
+      <Filter>Source Files\observer\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\schedulerSubjectInterf.cpp">
+      <Filter>Source Files\observer\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\components\legend\legendAttributes.cpp">
+      <Filter>Source Files\observer\components\legend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\components\legend\legendColorBar.cpp">
+      <Filter>Source Files\observer\components\legend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\components\legend\legendColorUtils.cpp">
+      <Filter>Source Files\observer\components\legend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\components\legend\legendWindow.cpp">
+      <Filter>Source Files\observer\components\legend</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\components\painter\painterWidget.cpp">
+      <Filter>Source Files\observer\components\painter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\components\painter\painterThread.cpp">
+      <Filter>Source Files\observer\components\painter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\protocol\decoder\decoder.cpp">
+      <Filter>Source Files\observer\protocol\decoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\components\console\modelConsole.cpp">
+      <Filter>Source Files\observer\components\console</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\luaGlobalAgent.cpp">
+      <Filter>Source Files\lualayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\luaTimer.cpp">
+      <Filter>Source Files\lualayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\luaTrajectory.cpp">
+      <Filter>Source Files\lualayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\luaEnvironment.cpp">
+      <Filter>Source Files\lualayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\protocol\blackBoard\blackBoard.cpp">
+      <Filter>Source Files\observer\protocol\blackBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\trajectorySubjectInterf.cpp">
+      <Filter>Source Files\observer\interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\components\canvas.cpp">
+      <Filter>Source Files\observer\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\components\receiver\receiver.cpp">
+      <Filter>Source Files\observer\components\receiver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\types\udpSender\observerUDPSenderGUI.cpp">
+      <Filter>Source Files\observer\types\updSender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\statistic\statistic.cpp">
+      <Filter>Source Files\observer\statistic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\components\player\player.cpp">
+      <Filter>Source Files\observer\components\player</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedFiles\moc_canvas.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedFiles\moc_legendColorBar.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedFiles\moc_legendWindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedFiles\moc_modelConsole.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedFiles\moc_observerGraphic.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedFiles\moc_observerImageGUI.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedFiles\moc_observerMap.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedFiles\moc_observerScheduler.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedFiles\moc_observerStateMachine.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedFiles\moc_observerUdpSenderGUI.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedFiles\moc_painterThread.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedFiles\moc_painterWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedFiles\moc_receiver.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedFiles\qrc_observerResource.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="generatedFiles\moc_privatePlayerGUI.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\observer\components\player\privatePlayerGUI.cpp">
+      <Filter>Source Files\observer\components\player</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\core\agent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\bridge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\cell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\cellularSpace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\composite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\controlMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\environment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\loadNeighborhood.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\lua\include\lua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\luaUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\luna.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\message.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\neighborhood.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\region.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\rule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\scheduler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\strategy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\terrameIncludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\terrameLua.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\terrameLua5_0.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\terrameLua5_1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\observer.h">
+      <Filter>Header Files\observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\observerImpl.h">
+      <Filter>Header Files\observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\observerInterf.h">
+      <Filter>Header Files\observer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\luaAgent.h">
+      <Filter>Header Files\lualayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\luaCell.h">
+      <Filter>Header Files\lualayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\luaCellIndex.h">
+      <Filter>Header Files\lualayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\luaCellularSpace.h">
+      <Filter>Header Files\lualayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\luaControlMode.h">
+      <Filter>Header Files\lualayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\luaEnvironment.h">
+      <Filter>Header Files\lualayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\luaEvent.h">
+      <Filter>Header Files\lualayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\luaFlowCondition.h">
+      <Filter>Header Files\lualayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\luaGlobalAgent.h">
+      <Filter>Header Files\lualayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\luaJumpCondition.h">
+      <Filter>Header Files\lualayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\luaMessage.h">
+      <Filter>Header Files\lualayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\luaLocalAgent.h">
+      <Filter>Header Files\lualayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\luaNeighborhood.h">
+      <Filter>Header Files\lualayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\luaRegion.h">
+      <Filter>Header Files\lualayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\luaRule.h">
+      <Filter>Header Files\lualayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\luaTimer.h">
+      <Filter>Header Files\lualayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\core\luaTrajectory.h">
+      <Filter>Header Files\lualayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\types\agentObserverImage.h">
+      <Filter>Header Files\observer\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\types\agentObserverMap.h">
+      <Filter>Header Files\observer\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\types\observerImage.h">
+      <Filter>Header Files\observer\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\types\observerLogFile.h">
+      <Filter>Header Files\observer\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\types\observerTable.h">
+      <Filter>Header Files\observer\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\types\observerTextScreen.h">
+      <Filter>Header Files\observer\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\types\observerUDPSender.h">
+      <Filter>Header Files\observer\types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\types\stateMachine\edge.h">
+      <Filter>Header Files\observer\types\stateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\types\stateMachine\node.h">
+      <Filter>Header Files\observer\types\stateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\cellSpaceSubjectInterf.h">
+      <Filter>Header Files\observer\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\cellSubjectInterf.h">
+      <Filter>Header Files\observer\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\environmentSubjectInterf.h">
+      <Filter>Header Files\observer\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\eventSubjectInterf.h">
+      <Filter>Header Files\observer\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\globalAgentSubjectInterf.h">
+      <Filter>Header Files\observer\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\localAgentSubjectInterf.h">
+      <Filter>Header Files\observer\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\schedulerSubjectInterf.h">
+      <Filter>Header Files\observer\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\components\legend\legendAttributes.h">
+      <Filter>Header Files\observer\components\legend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\components\legend\legendColorUtils.h">
+      <Filter>Header Files\observer\components\legend</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\protocol\decoder\decoder.h">
+      <Filter>Header Files\observer\protocol\decoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\protocol\blackBoard\blackBoard.h">
+      <Filter>Header Files\observer\protocol\blackBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\trajectorySubjectInterf.h">
+      <Filter>Header Files\observer\interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\statistic\statistic.h">
+      <Filter>Header Files\observer\types\statisitc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\observer\components\player\player.h">
+      <Filter>Header Files\observer\components\player</Filter>
+    </ClInclude>
+    <ClInclude Include="generatedFiles\ui_modelConsoleGUI.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generatedFiles\ui_observerImageGUI.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generatedFiles\ui_observerUdpSenderGUI.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generatedFiles\ui_receiverGUI.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="generatedFiles\ui_privatePlayerGUI.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\observer\observerResource.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\components\console\modelConsole.h">
+      <Filter>Header Files\observer\components\console</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\components\console\modelConsoleGUI.ui">
+      <Filter>Header Files\observer\components\console</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\components\canvas.h">
+      <Filter>Header Files\observer\components</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\components\receiver\receiver.h">
+      <Filter>Header Files\observer\components\receiver</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\components\receiver\receiverGUI.ui">
+      <Filter>Header Files\observer\components\receiver</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\types\udpSender\observerUdpSenderGUI.ui">
+      <Filter>Header Files\observer\types\udpSender</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\types\udpSender\observerUdpSenderGUI.h">
+      <Filter>Header Files\observer\types\udpSender</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\components\player\privatePlayerGUI.ui">
+      <Filter>Header Files\observer\components\player</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\components\player\privatePlayerGUI.h">
+      <Filter>Header Files\observer\components\player</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\observer\components\legend\legendColorBar.h">
+      <Filter>Header Files\observer\components\legend</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\components\legend\legendWindow.h">
+      <Filter>Header Files\observer\components\legend</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\types\observerGraphic.h">
+      <Filter>Header Files\observer\types</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\types\image\observerImageGUI.h">
+      <Filter>Header Files\observer\types\image</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\types\observerMap.h">
+      <Filter>Header Files\observer\types</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\types\observerScheduler.h">
+      <Filter>Header Files\observer\types</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\components\painter\painterThread.h">
+      <Filter>Header Files\observer\components\painter</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\components\painter\painterWidget.h">
+      <Filter>Header Files\observer\components\painter</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\types\image\observerImageGUI.ui">
+      <Filter>Header Files\observer\types\image</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\types\observerStateMachine.h">
+      <Filter>Header Files\observer\types</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
