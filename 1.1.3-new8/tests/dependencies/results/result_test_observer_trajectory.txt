@@ -1,0 +1,118 @@
+Insert the Observer type:
+Insert the test number:
+OBSERVER IMAGE 01
+
+'observer' not found
+Insert the Observer type:
+Insert the test number:
+OBSERVER IMAGE 02
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER IMAGE 03
+
+'observer' not found
+Insert the Observer type:
+Insert the test number:
+OBSERVER IMAGE 04
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER IMAGE 05
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER IMAGE 06
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER IMAGE 07
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER IMAGE 08
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER IMAGE 09
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+	observerImage09:kill	true
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER MAP 01
+
+Error: Parameter 'observer' not found.
+Insert the Observer type:
+Insert the test number:
+OBSERVER MAP 02
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER MAP 03
+
+Error: Parameter 'observer' not found.
+Insert the Observer type:
+Insert the test number:
+OBSERVER MAP 04
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER MAP 05
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER MAP 06
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER MAP 07
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER MAP 08
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER MAP 09
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+	observerMap09:kill	true
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...

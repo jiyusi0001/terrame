@@ -1,0 +1,14 @@
+nada
+
+-- Starting suite "main", 2 test(s)
+  --=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+
+Testing CellsAttributesAndPast...
+READY!!!
+.--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+
+Testing test_CellsNeighborhoodAndIterator...
+READY!!!
+.
+---- Testing finished, with 25 assertion(s) ----
+  2 passed, 0 failed, 0 error(s), 0 skipped.

@@ -1,0 +1,22 @@
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "dinamica"...
+
+	Number of read cells: 583.
+
+Warning: The legend found is invalid!
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "dinamica"...
+
+	Number of read cells: 583.
+
+Warning: The legend found is invalid!
+Saving cellular space "dinamica" into "cobertura10" table...
+	number of saved cells: 583
+.
+-- DBMS Type
+-- 0 : mysql
+-- 1 : msaccess
+Please, enter database type: 
+Please, enter database password: 
+245
+READY!

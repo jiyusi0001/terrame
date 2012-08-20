@@ -1,0 +1,410 @@
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+Insert the Observer type:
+Insert the test number:
+MAP 01
+
+Error: Map observers must have exactly 'one' or 'two' attributes.
+Trying to load legends from database.
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+Insert the Observer type:
+Insert the test number:
+MAP 02
+Trying to load legends from database.
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+Insert the Observer type:
+Insert the test number:
+MAP 03
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+Insert the Observer type:
+Insert the test number:
+MAP 04
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+Insert the Observer type:
+Insert the test number:
+MAP 05
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+Insert the Observer type:
+Insert the test number:
+MAP 06
+STEP: 	1
+Warning: Was found more values in the model than those reported in the legend for the attribute "height_". Please, check the maximum and mininum value for this attribute.
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+Insert the Observer type:
+Insert the test number:
+MAP 07
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+Insert the Observer type:
+Insert the test number:
+MAP 08
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+Insert the Observer type:
+Insert the test number:
+MAP 09
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+Insert the Observer type:
+Insert the test number:
+MAP 10
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+	observerMap10:kill	true
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+Insert the Observer type:
+Insert the test number:
+IMAGE 01
+
+Error: Image observers must have exactly 'one' or 'two' attributes.
+Trying to load legends from database.
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+Insert the Observer type:
+Insert the test number:
+IMAGE 02
+Trying to load legends from database.
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+Insert the Observer type:
+Insert the test number:
+IMAGE 03
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+Insert the Observer type:
+Insert the test number:
+IMAGE 04
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+Insert the Observer type:
+Insert the test number:
+IMAGE 05
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+Insert the Observer type:
+Insert the test number:
+IMAGE 06
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+Insert the Observer type:
+Insert the test number:
+IMAGE 07
+STEP: 	1
+Warning: Was found more values in the model than those reported in the legend for the attribute "height_". Please, check the maximum and mininum value for this attribute.
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+Insert the Observer type:
+Insert the test number:
+IMAGE 08
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+Insert the Observer type:
+Insert the test number:
+IMAGE 09
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+Insert the Observer type:
+Insert the test number:
+IMAGE 10
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+Insert the Observer type:
+Insert the test number:
+IMAGE 11
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+	observerImage11:kill	true
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...

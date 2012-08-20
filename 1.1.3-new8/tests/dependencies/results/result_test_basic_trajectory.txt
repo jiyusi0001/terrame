@@ -1,0 +1,16 @@
+nada
+
+-- Starting suite "main", 1 test(s)
+  --=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+Testing Trajectory...
+------------------------------------
+RANDOMISE
+not tested :-(
+SORT:
+SORT COORD:
+REFRESH:
+GET CELL:
+READY!!!
+.
+---- Testing finished, with 259 assertion(s) ----
+  1 passed, 0 failed, 0 error(s), 0 skipped.

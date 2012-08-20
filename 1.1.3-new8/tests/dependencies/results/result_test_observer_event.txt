@@ -1,0 +1,235 @@
+Insert the Observer type:
+Insert the test number:
+Warning: The Parameters Table is empty.
+TEXTSCREEN 01
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+Warning: The Parameters Table is empty.
+TEXTSCREEN 02
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+Warning: The Parameters Table is empty.
+TEXTSCREEN 03
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+Warning: The Parameters Table is empty.
+TEXTSCREEN 04
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+Warning: The Parameters Table is empty.
+TEXTSCREEN 05
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+cObj is nil
+	observerTextScreen05:kill	false
+step	9
+step	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER LOGFILE 01
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER LOGFILE 02
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER LOGFILE 03
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER LOGFILE 04
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER LOGFILE 05
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+cObj is nil
+	observerLogFile05:kill	false
+step	9
+step	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER TABLE 01
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER TABLE 02
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+TABLE 03
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+TABLE 04
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+TABLE 05
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+TABLE 06
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+cObj is nil
+	observerTable06:kill	false
+step	9
+step	10
+Press <ENTER> to quit...

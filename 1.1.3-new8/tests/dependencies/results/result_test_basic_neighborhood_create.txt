@@ -1,0 +1,11 @@
+nada
+
+-- Starting suite "main", 1 test(s)
+  --=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+Testing Neighborhood...
+CREATE 3x3
+CREATE MxN
+READY!!
+.
+---- Testing finished, with 419 assertion(s) ----
+  1 passed, 0 failed, 0 error(s), 0 skipped.

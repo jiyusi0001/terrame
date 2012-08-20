@@ -1,0 +1,365 @@
+Insert the Observer type:
+Insert the test number:
+OBSERVER TEXTSCREEN 01
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER TEXTSCREEN 02
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER TEXTSCREEN 03
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER TEXTSCREEN 04
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER TEXTSCREEN 05
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER LOGFILE 01
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER LOGFILE 02
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER LOGFILE 03
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER LOGFILE 04
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER LOGFILE 05
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER LOGFILE 06
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER TABLE 01
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER TABLE 02
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER TABLE 03
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER TABLE 04
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER TABLE 05
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER TABLE 06
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER DYNAMIC GRAPHIC 01
+
+Error: Chart observers must have exactly 'one' or 'two' attributes.
+Insert the Observer type:
+Insert the test number:
+OBSERVER DYNAMIC GRAPHIC 02
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER GRAPHIC 01
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER GRAPHIC 02
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER GRAPHIC 03
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER GRAPHIC 04
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER GRAPHIC 05
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
+Insert the Observer type:
+Insert the test number:
+OBSERVER GRAPHIC 06
+step:	0
+step:	1
+step:	2
+step:	3
+step:	4
+step:	5
+step:	6
+step:	7
+step:	8
+step:	9
+step:	10
+Press <ENTER> to quit...
