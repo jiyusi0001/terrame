@@ -1,0 +1,777 @@
+Choose one of the options:
+0: Run all tests
+1: Run one test group
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+TEXTSCREEN 01
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+TEXTSCREEN 02
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+TEXTSCREEN 03
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+TEXTSCREEN 04
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+TEXTSCREEN 05
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+	observerTextScreen05:kill	true
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+LOGFILE 01
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+LOGFILE 02
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+LOGFILE 03
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+LOGFILE 04
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+LOGFILE 05
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+LOGFILE 06
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+	observerLogFile06:kill	true
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+TABLE 01
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+TABLE 02
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+TABLE 03
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+TABLE 04
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+TABLE 05
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+TABLE 06
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+	observerTable06:kill	true
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+DYNAMIC GRAPHIC 01
+
+Error: Chart observers must have exactly one or two attributes.
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+DYNAMIC GRAPHIC 02
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+DYNAMIC GRAPHIC 03
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+GRAPHIC 01
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+GRAPHIC 02
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+GRAPHIC 03
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+GRAPHIC 04
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+GRAPHIC 05
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+**      TESTS FOR CELL OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..10 ]
+(5) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+GRAPHIC 05
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...

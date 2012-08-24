@@ -1,0 +1,424 @@
+Choose one of the options:
+0: Run all tests
+1: Run one test group
+**     TESTS FOR EVENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..5  ]
+(3) Table        	[ Cases 1..6  ]
+(4) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+Warning: The Parameters Table is empty.
+TEXTSCREEN 01
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+**     TESTS FOR EVENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..5  ]
+(3) Table        	[ Cases 1..6  ]
+(4) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+Warning: The Parameters Table is empty.
+TEXTSCREEN 02
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+**     TESTS FOR EVENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..5  ]
+(3) Table        	[ Cases 1..6  ]
+(4) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+Warning: The Parameters Table is empty.
+TEXTSCREEN 03
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+**     TESTS FOR EVENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..5  ]
+(3) Table        	[ Cases 1..6  ]
+(4) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+Warning: The Parameters Table is empty.
+TEXTSCREEN 04
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+**     TESTS FOR EVENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..5  ]
+(3) Table        	[ Cases 1..6  ]
+(4) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+Warning: The Parameters Table is empty.
+TEXTSCREEN 05
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+Warning: cObj is nil.
+	observerTextScreen05:kill	false
+step	9
+step	10
+Press <ENTER> to quit...
+**     TESTS FOR EVENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..5  ]
+(3) Table        	[ Cases 1..6  ]
+(4) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 01
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+**     TESTS FOR EVENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..5  ]
+(3) Table        	[ Cases 1..6  ]
+(4) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 02
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+**     TESTS FOR EVENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..5  ]
+(3) Table        	[ Cases 1..6  ]
+(4) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 03
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+**     TESTS FOR EVENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..5  ]
+(3) Table        	[ Cases 1..6  ]
+(4) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 04
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+**     TESTS FOR EVENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..5  ]
+(3) Table        	[ Cases 1..6  ]
+(4) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 05
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+Warning: cObj is nil.
+	observerLogFile05:kill	false
+step	9
+step	10
+Press <ENTER> to quit...
+**     TESTS FOR EVENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..5  ]
+(3) Table        	[ Cases 1..6  ]
+(4) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 01
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+**     TESTS FOR EVENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..5  ]
+(3) Table        	[ Cases 1..6  ]
+(4) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 02
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+**     TESTS FOR EVENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..5  ]
+(3) Table        	[ Cases 1..6  ]
+(4) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+TABLE 03
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+**     TESTS FOR EVENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..5  ]
+(3) Table        	[ Cases 1..6  ]
+(4) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+TABLE 04
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+**     TESTS FOR EVENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..5  ]
+(3) Table        	[ Cases 1..6  ]
+(4) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+TABLE 05
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+Press <ENTER> to quit...
+**     TESTS FOR EVENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..5  ]
+(3) Table        	[ Cases 1..6  ]
+(4) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+TABLE 06
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+Warning: cObj is nil.
+	observerTable06:kill	false
+step	9
+step	10
+Press <ENTER> to quit...
+**     TESTS FOR EVENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..5  ]
+(3) Table        	[ Cases 1..6  ]
+(4) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+TABLE 06
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+Warning: cObj is nil.
+	observerTable06:kill	false
+step	9
+step	10
+Press <ENTER> to quit...
