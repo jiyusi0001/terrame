@@ -1,0 +1,27 @@
+
+**     TESTS FOR TIMER      **
+Choose option:
+(0) Run all tests
+(1) Run specific test:
+nada
+
+-- Starting suite "main", 3 test(s)
+  --=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+-------------------------------------
+-- test_OneTimerOneEventAndOneMessage
+-------------------------------------
+Atributo do evento:	7	3	4
+Events: 	11
+Ready!!!
+.--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+Testing Timer, Pair, Evend, and Message...
+ADDING EVENT
+READY!!
+.--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+-------------------------------------
+-- DifferentEventPriorities
+-------------------------------------
+Ready!!!
+.
+---- Testing finished, with 60 assertion(s) ----
+  3 passed, 0 failed, 0 error(s), 0 skipped.
