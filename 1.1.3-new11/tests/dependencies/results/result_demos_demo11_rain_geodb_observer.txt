@@ -1,0 +1,20 @@
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells90x90"...
+
+	Number of read cells: 10201.
+
+Warning: The legend found is invalid!
+
+Error: The Observer ID "-1" was not found. Check the declaration of this observer.
+
+-- DBMS Type
+-- 0 : mysql
+-- 1 : msaccess
+Please, enter database type: 
+Please, enter database password: 

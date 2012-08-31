@@ -1,0 +1,35 @@
+
+**     TESTS FOR ENVIRONMENT      **
+Choose option:
+(0) Run all tests
+(1) Run specific test:
+nada
+
+-- Starting suite "main", 5 test(s)
+  --=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+-------------------------------------
+-- MultipleEnvironmentsMultipleTimers 
+-------------------------------------
+READY!!!
+.--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+-------------------------------------
+-- MultipleEnvironmentsSingleTimer 
+-------------------------------------
+READY!!!
+.--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+------------------------------------------------------
+-- MutipleEnvironmentsMultipleTimersWithInternalTimer
+------------------------------------------------------
+READY!!!
+.--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+Testing Environment...
+ADDING CELLULAR SPACE
+READY!!!
+.--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+-------------------------------------
+-- MultipleTimersOneEnvironment 
+-------------------------------------
+READY
+.
+---- Testing finished, with 9 assertion(s) ----
+  5 passed, 0 failed, 0 error(s), 0 skipped.

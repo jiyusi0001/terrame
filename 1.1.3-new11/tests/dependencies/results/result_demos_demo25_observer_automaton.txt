@@ -1,0 +1,338 @@
+Warning: The Parameters Table is empty.
+Testing Automaton TME_OBSERVERS.* 
+----------------------
+at1	table: 0x20e2e50
+state1	TeState (0x20e2bb0)
+state2	TeState (0x1e3e6a0)
+----------------------
+Automaton... 
+Ev: 0	- Ag:MyAutomaton: 1 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 0	- Ag:MyAutomaton: 2 - cell[0, 0] - currentState: 	second
+Ev: 0	- Ag:MyAutomaton: 3 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 0	- Ag:MyAutomaton: 4 - cell[0, 0] - currentState: 	second
+Ev: 0	- Ag:MyAutomaton: 5 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 0	- Ag:MyAutomaton: 6 - cell[0, 0] - currentState: 	second
+Ev: 0	- Ag:MyAutomaton: 7 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 0	- Ag:MyAutomaton: 8 - cell[0, 0] - currentState: 	second
+Ev: 0	- Ag:MyAutomaton: 9 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 0	- Ag:MyAutomaton: 10 - cell[0, 0] - currentState: 	second
+Ev: 0	- Ag:MyAutomaton: 1 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 0	- Ag:MyAutomaton: 2 - cell[1, 1] - currentState: 	second
+Ev: 0	- Ag:MyAutomaton: 3 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 0	- Ag:MyAutomaton: 4 - cell[1, 1] - currentState: 	second
+Ev: 0	- Ag:MyAutomaton: 5 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 0	- Ag:MyAutomaton: 6 - cell[1, 1] - currentState: 	second
+Ev: 0	- Ag:MyAutomaton: 7 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 0	- Ag:MyAutomaton: 8 - cell[1, 1] - currentState: 	second
+Ev: 0	- Ag:MyAutomaton: 9 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 0	- Ag:MyAutomaton: 10 - cell[1, 1] - currentState: 	second
+Ev: 1	- Ag:MyAutomaton: 1 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 1	- Ag:MyAutomaton: 2 - cell[0, 0] - currentState: 	second
+Ev: 1	- Ag:MyAutomaton: 3 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 1	- Ag:MyAutomaton: 4 - cell[0, 0] - currentState: 	second
+Ev: 1	- Ag:MyAutomaton: 5 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 1	- Ag:MyAutomaton: 6 - cell[0, 0] - currentState: 	second
+Ev: 1	- Ag:MyAutomaton: 7 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 1	- Ag:MyAutomaton: 8 - cell[0, 0] - currentState: 	second
+Ev: 1	- Ag:MyAutomaton: 9 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 1	- Ag:MyAutomaton: 10 - cell[0, 0] - currentState: 	second
+Ev: 1	- Ag:MyAutomaton: 1 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 1	- Ag:MyAutomaton: 2 - cell[1, 1] - currentState: 	second
+Ev: 1	- Ag:MyAutomaton: 3 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 1	- Ag:MyAutomaton: 4 - cell[1, 1] - currentState: 	second
+Ev: 1	- Ag:MyAutomaton: 5 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 1	- Ag:MyAutomaton: 6 - cell[1, 1] - currentState: 	second
+Ev: 1	- Ag:MyAutomaton: 7 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 1	- Ag:MyAutomaton: 8 - cell[1, 1] - currentState: 	second
+Ev: 1	- Ag:MyAutomaton: 9 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 1	- Ag:MyAutomaton: 10 - cell[1, 1] - currentState: 	second
+Ev: 2	- Ag:MyAutomaton: 1 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 2	- Ag:MyAutomaton: 2 - cell[0, 0] - currentState: 	second
+Ev: 2	- Ag:MyAutomaton: 3 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 2	- Ag:MyAutomaton: 4 - cell[0, 0] - currentState: 	second
+Ev: 2	- Ag:MyAutomaton: 5 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 2	- Ag:MyAutomaton: 6 - cell[0, 0] - currentState: 	second
+Ev: 2	- Ag:MyAutomaton: 7 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 2	- Ag:MyAutomaton: 8 - cell[0, 0] - currentState: 	second
+Ev: 2	- Ag:MyAutomaton: 9 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 2	- Ag:MyAutomaton: 10 - cell[0, 0] - currentState: 	second
+Ev: 2	- Ag:MyAutomaton: 1 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 2	- Ag:MyAutomaton: 2 - cell[1, 1] - currentState: 	second
+Ev: 2	- Ag:MyAutomaton: 3 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 2	- Ag:MyAutomaton: 4 - cell[1, 1] - currentState: 	second
+Ev: 2	- Ag:MyAutomaton: 5 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 2	- Ag:MyAutomaton: 6 - cell[1, 1] - currentState: 	second
+Ev: 2	- Ag:MyAutomaton: 7 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 2	- Ag:MyAutomaton: 8 - cell[1, 1] - currentState: 	second
+Ev: 2	- Ag:MyAutomaton: 9 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 2	- Ag:MyAutomaton: 10 - cell[1, 1] - currentState: 	second
+Ev: 3	- Ag:MyAutomaton: 1 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 3	- Ag:MyAutomaton: 2 - cell[0, 0] - currentState: 	second
+Ev: 3	- Ag:MyAutomaton: 3 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 3	- Ag:MyAutomaton: 4 - cell[0, 0] - currentState: 	second
+Ev: 3	- Ag:MyAutomaton: 5 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 3	- Ag:MyAutomaton: 6 - cell[0, 0] - currentState: 	second
+Ev: 3	- Ag:MyAutomaton: 7 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 3	- Ag:MyAutomaton: 8 - cell[0, 0] - currentState: 	second
+Ev: 3	- Ag:MyAutomaton: 9 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 3	- Ag:MyAutomaton: 10 - cell[0, 0] - currentState: 	second
+Ev: 3	- Ag:MyAutomaton: 1 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 3	- Ag:MyAutomaton: 2 - cell[1, 1] - currentState: 	second
+Ev: 3	- Ag:MyAutomaton: 3 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 3	- Ag:MyAutomaton: 4 - cell[1, 1] - currentState: 	second
+Ev: 3	- Ag:MyAutomaton: 5 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 3	- Ag:MyAutomaton: 6 - cell[1, 1] - currentState: 	second
+Ev: 3	- Ag:MyAutomaton: 7 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 3	- Ag:MyAutomaton: 8 - cell[1, 1] - currentState: 	second
+Ev: 3	- Ag:MyAutomaton: 9 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 3	- Ag:MyAutomaton: 10 - cell[1, 1] - currentState: 	second
+Ev: 4	- Ag:MyAutomaton: 1 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 4	- Ag:MyAutomaton: 2 - cell[0, 0] - currentState: 	second
+Ev: 4	- Ag:MyAutomaton: 3 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 4	- Ag:MyAutomaton: 4 - cell[0, 0] - currentState: 	second
+Ev: 4	- Ag:MyAutomaton: 5 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 4	- Ag:MyAutomaton: 6 - cell[0, 0] - currentState: 	second
+Ev: 4	- Ag:MyAutomaton: 7 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 4	- Ag:MyAutomaton: 8 - cell[0, 0] - currentState: 	second
+Ev: 4	- Ag:MyAutomaton: 9 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 4	- Ag:MyAutomaton: 10 - cell[0, 0] - currentState: 	second
+Ev: 4	- Ag:MyAutomaton: 1 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 4	- Ag:MyAutomaton: 2 - cell[1, 1] - currentState: 	second
+Ev: 4	- Ag:MyAutomaton: 3 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 4	- Ag:MyAutomaton: 4 - cell[1, 1] - currentState: 	second
+Ev: 4	- Ag:MyAutomaton: 5 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 4	- Ag:MyAutomaton: 6 - cell[1, 1] - currentState: 	second
+Ev: 4	- Ag:MyAutomaton: 7 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 4	- Ag:MyAutomaton: 8 - cell[1, 1] - currentState: 	second
+Ev: 4	- Ag:MyAutomaton: 9 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 4	- Ag:MyAutomaton: 10 - cell[1, 1] - currentState: 	second
+Ev: 5	- Ag:MyAutomaton: 1 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 5	- Ag:MyAutomaton: 2 - cell[0, 0] - currentState: 	second
+Ev: 5	- Ag:MyAutomaton: 3 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 5	- Ag:MyAutomaton: 4 - cell[0, 0] - currentState: 	second
+Ev: 5	- Ag:MyAutomaton: 5 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 5	- Ag:MyAutomaton: 6 - cell[0, 0] - currentState: 	second
+Ev: 5	- Ag:MyAutomaton: 7 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 5	- Ag:MyAutomaton: 8 - cell[0, 0] - currentState: 	second
+Ev: 5	- Ag:MyAutomaton: 9 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 5	- Ag:MyAutomaton: 10 - cell[0, 0] - currentState: 	second
+Ev: 5	- Ag:MyAutomaton: 1 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 5	- Ag:MyAutomaton: 2 - cell[1, 1] - currentState: 	second
+Ev: 5	- Ag:MyAutomaton: 3 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 5	- Ag:MyAutomaton: 4 - cell[1, 1] - currentState: 	second
+Ev: 5	- Ag:MyAutomaton: 5 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 5	- Ag:MyAutomaton: 6 - cell[1, 1] - currentState: 	second
+Ev: 5	- Ag:MyAutomaton: 7 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 5	- Ag:MyAutomaton: 8 - cell[1, 1] - currentState: 	second
+Ev: 5	- Ag:MyAutomaton: 9 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 5	- Ag:MyAutomaton: 10 - cell[1, 1] - currentState: 	second
+Ev: 6	- Ag:MyAutomaton: 1 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 6	- Ag:MyAutomaton: 2 - cell[0, 0] - currentState: 	second
+Ev: 6	- Ag:MyAutomaton: 3 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 6	- Ag:MyAutomaton: 4 - cell[0, 0] - currentState: 	second
+Ev: 6	- Ag:MyAutomaton: 5 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 6	- Ag:MyAutomaton: 6 - cell[0, 0] - currentState: 	second
+Ev: 6	- Ag:MyAutomaton: 7 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 6	- Ag:MyAutomaton: 8 - cell[0, 0] - currentState: 	second
+Ev: 6	- Ag:MyAutomaton: 9 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 6	- Ag:MyAutomaton: 10 - cell[0, 0] - currentState: 	second
+Ev: 6	- Ag:MyAutomaton: 1 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 6	- Ag:MyAutomaton: 2 - cell[1, 1] - currentState: 	second
+Ev: 6	- Ag:MyAutomaton: 3 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 6	- Ag:MyAutomaton: 4 - cell[1, 1] - currentState: 	second
+Ev: 6	- Ag:MyAutomaton: 5 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 6	- Ag:MyAutomaton: 6 - cell[1, 1] - currentState: 	second
+Ev: 6	- Ag:MyAutomaton: 7 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 6	- Ag:MyAutomaton: 8 - cell[1, 1] - currentState: 	second
+Ev: 6	- Ag:MyAutomaton: 9 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 6	- Ag:MyAutomaton: 10 - cell[1, 1] - currentState: 	second
+Ev: 7	- Ag:MyAutomaton: 1 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 7	- Ag:MyAutomaton: 2 - cell[0, 0] - currentState: 	second
+Ev: 7	- Ag:MyAutomaton: 3 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 7	- Ag:MyAutomaton: 4 - cell[0, 0] - currentState: 	second
+Ev: 7	- Ag:MyAutomaton: 5 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 7	- Ag:MyAutomaton: 6 - cell[0, 0] - currentState: 	second
+Ev: 7	- Ag:MyAutomaton: 7 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 7	- Ag:MyAutomaton: 8 - cell[0, 0] - currentState: 	second
+Ev: 7	- Ag:MyAutomaton: 9 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 7	- Ag:MyAutomaton: 10 - cell[0, 0] - currentState: 	second
+Ev: 7	- Ag:MyAutomaton: 1 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 7	- Ag:MyAutomaton: 2 - cell[1, 1] - currentState: 	second
+Ev: 7	- Ag:MyAutomaton: 3 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 7	- Ag:MyAutomaton: 4 - cell[1, 1] - currentState: 	second
+Ev: 7	- Ag:MyAutomaton: 5 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 7	- Ag:MyAutomaton: 6 - cell[1, 1] - currentState: 	second
+Ev: 7	- Ag:MyAutomaton: 7 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 7	- Ag:MyAutomaton: 8 - cell[1, 1] - currentState: 	second
+Ev: 7	- Ag:MyAutomaton: 9 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 7	- Ag:MyAutomaton: 10 - cell[1, 1] - currentState: 	second
+Ev: 8	- Ag:MyAutomaton: 1 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 8	- Ag:MyAutomaton: 2 - cell[0, 0] - currentState: 	second
+Ev: 8	- Ag:MyAutomaton: 3 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 8	- Ag:MyAutomaton: 4 - cell[0, 0] - currentState: 	second
+Ev: 8	- Ag:MyAutomaton: 5 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 8	- Ag:MyAutomaton: 6 - cell[0, 0] - currentState: 	second
+Ev: 8	- Ag:MyAutomaton: 7 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 8	- Ag:MyAutomaton: 8 - cell[0, 0] - currentState: 	second
+Ev: 8	- Ag:MyAutomaton: 9 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 8	- Ag:MyAutomaton: 10 - cell[0, 0] - currentState: 	second
+Ev: 8	- Ag:MyAutomaton: 1 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 8	- Ag:MyAutomaton: 2 - cell[1, 1] - currentState: 	second
+Ev: 8	- Ag:MyAutomaton: 3 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 8	- Ag:MyAutomaton: 4 - cell[1, 1] - currentState: 	second
+Ev: 8	- Ag:MyAutomaton: 5 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 8	- Ag:MyAutomaton: 6 - cell[1, 1] - currentState: 	second
+Ev: 8	- Ag:MyAutomaton: 7 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 8	- Ag:MyAutomaton: 8 - cell[1, 1] - currentState: 	second
+Ev: 8	- Ag:MyAutomaton: 9 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 8	- Ag:MyAutomaton: 10 - cell[1, 1] - currentState: 	second
+Ev: 9	- Ag:MyAutomaton: 1 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 9	- Ag:MyAutomaton: 2 - cell[0, 0] - currentState: 	second
+Ev: 9	- Ag:MyAutomaton: 3 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 9	- Ag:MyAutomaton: 4 - cell[0, 0] - currentState: 	second
+Ev: 9	- Ag:MyAutomaton: 5 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 9	- Ag:MyAutomaton: 6 - cell[0, 0] - currentState: 	second
+Ev: 9	- Ag:MyAutomaton: 7 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 9	- Ag:MyAutomaton: 8 - cell[0, 0] - currentState: 	second
+Ev: 9	- Ag:MyAutomaton: 9 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 9	- Ag:MyAutomaton: 10 - cell[0, 0] - currentState: 	second
+Ev: 9	- Ag:MyAutomaton: 1 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 9	- Ag:MyAutomaton: 2 - cell[1, 1] - currentState: 	second
+Ev: 9	- Ag:MyAutomaton: 3 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 9	- Ag:MyAutomaton: 4 - cell[1, 1] - currentState: 	second
+Ev: 9	- Ag:MyAutomaton: 5 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 9	- Ag:MyAutomaton: 6 - cell[1, 1] - currentState: 	second
+Ev: 9	- Ag:MyAutomaton: 7 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 9	- Ag:MyAutomaton: 8 - cell[1, 1] - currentState: 	second
+Ev: 9	- Ag:MyAutomaton: 9 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 9	- Ag:MyAutomaton: 10 - cell[1, 1] - currentState: 	second
+Ev: 10	- Ag:MyAutomaton: 1 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 10	- Ag:MyAutomaton: 2 - cell[0, 0] - currentState: 	second
+Ev: 10	- Ag:MyAutomaton: 3 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 10	- Ag:MyAutomaton: 4 - cell[0, 0] - currentState: 	second
+Ev: 10	- Ag:MyAutomaton: 5 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 10	- Ag:MyAutomaton: 6 - cell[0, 0] - currentState: 	second
+Ev: 10	- Ag:MyAutomaton: 7 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 10	- Ag:MyAutomaton: 8 - cell[0, 0] - currentState: 	second
+Ev: 10	- Ag:MyAutomaton: 9 - cell[0, 0] - currentState: 	first
+currentState: 	first
+Ev: 10	- Ag:MyAutomaton: 10 - cell[0, 0] - currentState: 	second
+Ev: 10	- Ag:MyAutomaton: 1 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 10	- Ag:MyAutomaton: 2 - cell[1, 1] - currentState: 	second
+Ev: 10	- Ag:MyAutomaton: 3 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 10	- Ag:MyAutomaton: 4 - cell[1, 1] - currentState: 	second
+Ev: 10	- Ag:MyAutomaton: 5 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 10	- Ag:MyAutomaton: 6 - cell[1, 1] - currentState: 	second
+Ev: 10	- Ag:MyAutomaton: 7 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 10	- Ag:MyAutomaton: 8 - cell[1, 1] - currentState: 	second
+Ev: 10	- Ag:MyAutomaton: 9 - cell[1, 1] - currentState: 	first
+currentState: 	first
+Ev: 10	- Ag:MyAutomaton: 10 - cell[1, 1] - currentState: 	second

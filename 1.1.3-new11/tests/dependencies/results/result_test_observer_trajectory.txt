@@ -1,0 +1,1409 @@
+Choose one of the options:
+0: Run all tests
+1: Run one test group
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TEXTSCREEN 01
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TEXTSCREEN 02
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TEXTSCREEN 03
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TEXTSCREEN 04
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+	observerTextScreen04:kill	true
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 01
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 02
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 03
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 04
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 05
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+	observerLogFile05:kill	true
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 01
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 02
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 03
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 04
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 05
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+	observerTable05:kill	true
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 01
+
+Error: Chart observers must have at least one attribute.
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 02
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 03
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 04
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 05
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 06
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 07
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 08
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+GRAPHIC 01
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+GRAPHIC 02
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+GRAPHIC 03
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+GRAPHIC 04
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+GRAPHIC 05
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+GRAPHIC 06
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+GRAPHIC 07
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+	observerGraphic07:kill	true
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+GRAPHIC 08
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+GRAPHIC 09
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+GRAPHIC 10
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+GRAPHIC 11
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+GRAPHIC 12
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER IMAGE 01
+
+Error: Parameter 'observer' not found.
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER IMAGE 02
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER IMAGE 03
+
+Error: Parameter 'observer' not found.
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER IMAGE 04
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER IMAGE 05
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER IMAGE 06
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER IMAGE 07
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER IMAGE 08
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER IMAGE 09
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+	observerImage09:kill	true
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER MAP 01
+
+Error: Parameter 'observer' not found.
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER MAP 02
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER MAP 03
+
+Error: Parameter 'observer' not found.
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER MAP 04
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER MAP 05
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER MAP 06
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER MAP 07
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER MAP 08
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER MAP 09
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+	observerMap09:kill	true
+STEP:	9
+STEP:	10
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER UDPSENDER 01
+Warning: Observer will send to broadcast.
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER UDPSENDER 02
+Warning: Observer will send to broadcast.
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER UDPSENDER 03
+Warning: Port not defined.
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER UDPSENDER 04
+Warning: Observer will send to broadcast.
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER UDPSENDER 05
+Warning: Observer will send to broadcast.
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER UDPSENDER 05
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER UDPSENDER 07
+Press <ENTER> to quit...
+**     TESTS FOR TRAJECTORY OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen             	[ Cases 1..4  ]
+(2) LogFile             	[ Cases 1..5  ]
+(3) Table             	[ Cases 1..5  ]
+(4) Chart             	[ Cases 1..19  ]
+(5) Image             	[ Cases 1..9  ]
+(6) Map               	[ Cases 1..9  ]
+(7) UDP               	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER UDPSENDER 07
+Press <ENTER> to quit...

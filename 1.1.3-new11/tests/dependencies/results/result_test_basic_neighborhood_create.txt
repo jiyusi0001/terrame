@@ -1,0 +1,52 @@
+
+**     TESTS FOR NEIGHBORHOOD CREATION      **
+Choose option:
+(0) Run all tests
+(1) Run specific test:
+nada
+
+-- Starting suite "main", 2 test(s)
+  -------------------------------------
+-- test_LoadNeighborhoodMethod
+--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "cells900x900"...
+
+	Number of read cells: 121.
+
+Testing load Neighborhood method from CellularSpace...
+Loading neighborhood "gpmReg"
+ from a .gpm file...
+
+Thank you! GPM file successfully loaded!!!
+
+Loading neighborhood "galReg"
+ from a GAL file...
+
+Thank you! GAL file sucessfuly loaded!!!
+
+Loading neighborhood "gwtReg"
+ from a GWT file...
+
+Thank you! GWT file successfuly loaded!!!
+
+	-> Load Neighborhood from a .gpm file for a Regular Cellular Space!
+	-> Load Neighborhood from a .GAL file for a Regular Cellular Space!
+	-> Load Neighborhood from a .GWT file for a Regular Cellular Space!
+READY!
+.-------------------------------------
+-- test_NeighborhoodCreationMethods
+--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+Testing Neighborhood creation...
+	-> MOORE
+	-> 3x3
+	-> MxN
+	-> FUNCTION
+	-> VONNEUMANN
+Testing Coupling functions...
+	-> COORD
+	-> MxN
+READY!!
+.
+---- Testing finished, with 17037 assertion(s) ----
+  2 passed, 0 failed, 0 error(s), 0 skipped.

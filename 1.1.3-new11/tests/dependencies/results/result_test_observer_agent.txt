@@ -1,0 +1,3321 @@
+Choose one of the options:
+0: Run all tests
+1: Run one test group
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TEXTSCREEN 01
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TEXTSCREEN 02
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TEXTSCREEN 03
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TEXTSCREEN 04
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TEXTSCREEN 05
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+	observerTextScreen05:kill	true
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 01
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 02
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 03
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 04
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 05
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 06
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+	observerLogFile06:kill	true
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 01
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 02
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 03
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 04
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 05
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 06
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+	observerTable06:kill	true
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 01
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 02
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 03
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 04
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 05
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 06
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 07
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 01
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 02
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 03
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 04
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 05
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 06
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 07
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 08
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 09
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 10
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 11
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 12
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+
+Error: Image observers must have exactly one or two attributes.
+OBSERVER IMAGE 01
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+
+Error: Parameter 'observer' not found.
+OBSERVER IMAGE 02
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER IMAGE 03
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+step 	11
+walking
+3
+step 	12
+walking
+2
+step 	13
+walking
+1
+sleeping
+step 	14
+sleeping
+step 	15
+sleeping
+step 	16
+sleeping
+step 	17
+sleeping
+walking
+5
+step 	18
+walking
+4
+step 	19
+walking
+3
+step 	20
+walking
+2
+step 	21
+walking
+1
+sleeping
+step 	22
+sleeping
+step 	23
+sleeping
+step 	24
+sleeping
+step 	25
+sleeping
+walking
+5
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER IMAGE 04
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+step 	11
+walking
+3
+step 	12
+walking
+2
+step 	13
+walking
+1
+sleeping
+step 	14
+sleeping
+step 	15
+sleeping
+step 	16
+sleeping
+step 	17
+sleeping
+walking
+5
+step 	18
+walking
+4
+step 	19
+walking
+3
+step 	20
+walking
+2
+step 	21
+walking
+1
+sleeping
+step 	22
+sleeping
+step 	23
+sleeping
+step 	24
+sleeping
+step 	25
+sleeping
+walking
+5
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER IMAGE 05
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+step 	11
+walking
+3
+step 	12
+walking
+2
+step 	13
+walking
+1
+sleeping
+step 	14
+sleeping
+step 	15
+sleeping
+step 	16
+sleeping
+step 	17
+sleeping
+walking
+5
+step 	18
+walking
+4
+step 	19
+walking
+3
+step 	20
+walking
+2
+step 	21
+walking
+1
+sleeping
+step 	22
+sleeping
+step 	23
+sleeping
+step 	24
+sleeping
+step 	25
+sleeping
+walking
+5
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER IMAGE 06
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+step 	11
+walking
+3
+step 	12
+walking
+2
+step 	13
+walking
+1
+sleeping
+step 	14
+sleeping
+step 	15
+sleeping
+step 	16
+sleeping
+step 	17
+sleeping
+walking
+5
+step 	18
+walking
+4
+	observerImage06:kill	true
+step 	19
+walking
+3
+step 	20
+walking
+2
+step 	21
+walking
+1
+sleeping
+step 	22
+sleeping
+step 	23
+sleeping
+step 	24
+sleeping
+step 	25
+sleeping
+walking
+5
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+
+Error: Map observers must have exactly one or two attributes.
+OBSERVER MAP 01
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+
+Error: Parameter 'observer' not found.
+OBSERVER MAP 02
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER MAP 03
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+step 	11
+walking
+3
+step 	12
+walking
+2
+step 	13
+walking
+1
+sleeping
+step 	14
+sleeping
+step 	15
+sleeping
+step 	16
+sleeping
+step 	17
+sleeping
+walking
+5
+step 	18
+walking
+4
+step 	19
+walking
+3
+step 	20
+walking
+2
+step 	21
+walking
+1
+sleeping
+step 	22
+sleeping
+step 	23
+sleeping
+step 	24
+sleeping
+step 	25
+sleeping
+walking
+5
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER MAP 04
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+step 	11
+walking
+3
+step 	12
+walking
+2
+step 	13
+walking
+1
+sleeping
+step 	14
+sleeping
+step 	15
+sleeping
+step 	16
+sleeping
+step 	17
+sleeping
+walking
+5
+step 	18
+walking
+4
+step 	19
+walking
+3
+step 	20
+walking
+2
+step 	21
+walking
+1
+sleeping
+step 	22
+sleeping
+step 	23
+sleeping
+step 	24
+sleeping
+step 	25
+sleeping
+walking
+5
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER MAP 05
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+step 	11
+walking
+3
+step 	12
+walking
+2
+step 	13
+walking
+1
+sleeping
+step 	14
+sleeping
+step 	15
+sleeping
+step 	16
+sleeping
+step 	17
+sleeping
+walking
+5
+step 	18
+walking
+4
+step 	19
+walking
+3
+step 	20
+walking
+2
+step 	21
+walking
+1
+sleeping
+step 	22
+sleeping
+step 	23
+sleeping
+step 	24
+sleeping
+step 	25
+sleeping
+walking
+5
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER MAP 06
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+step 	11
+walking
+3
+step 	12
+walking
+2
+step 	13
+walking
+1
+sleeping
+step 	14
+sleeping
+step 	15
+sleeping
+step 	16
+sleeping
+step 	17
+sleeping
+walking
+5
+step 	18
+walking
+4
+step 	19
+walking
+3
+step 	20
+walking
+2
+step 	21
+walking
+1
+sleeping
+step 	22
+sleeping
+step 	23
+sleeping
+step 	24
+sleeping
+step 	25
+sleeping
+walking
+5
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER MAP 07
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+step 	11
+walking
+3
+step 	12
+walking
+2
+step 	13
+walking
+1
+sleeping
+step 	14
+sleeping
+step 	15
+sleeping
+step 	16
+sleeping
+step 	17
+sleeping
+walking
+5
+step 	18
+walking
+4
+	observerMap07:kill	true
+step 	19
+walking
+3
+step 	20
+walking
+2
+step 	21
+walking
+1
+sleeping
+step 	22
+sleeping
+step 	23
+sleeping
+step 	24
+sleeping
+step 	25
+sleeping
+walking
+5
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+Warning: The Parameters Table is empty.
+Warning: The attribute "currentState" is not a numerical value.
+Warning: The attribute "currentState" is not a numerical value.
+Warning: The attribute "currentState" is not a numerical value.
+OBSERVER STATEMACHINE 01
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+step 	11
+walking
+3
+step 	12
+walking
+2
+step 	13
+walking
+1
+sleeping
+step 	14
+sleeping
+step 	15
+sleeping
+step 	16
+sleeping
+step 	17
+sleeping
+walking
+5
+step 	18
+walking
+4
+step 	19
+walking
+3
+step 	20
+walking
+2
+step 	21
+walking
+1
+sleeping
+step 	22
+sleeping
+step 	23
+sleeping
+step 	24
+sleeping
+step 	25
+sleeping
+walking
+5
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+Warning: The Parameters Table is empty.
+Warning: The attribute "currentState" is not a numerical value.
+Warning: The attribute "currentState" is not a numerical value.
+Warning: The attribute "currentState" is not a numerical value.
+OBSERVER STATEMACHINE 02
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+step 	11
+walking
+3
+step 	12
+walking
+2
+step 	13
+walking
+1
+sleeping
+step 	14
+sleeping
+step 	15
+sleeping
+step 	16
+sleeping
+step 	17
+sleeping
+walking
+5
+step 	18
+walking
+4
+step 	19
+walking
+3
+step 	20
+walking
+2
+step 	21
+walking
+1
+sleeping
+step 	22
+sleeping
+step 	23
+sleeping
+step 	24
+sleeping
+step 	25
+sleeping
+walking
+5
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+Warning: The Parameters Table is empty.
+Warning: The attribute "currentState" is not a numerical value.
+Warning: The attribute "currentState" is not a numerical value.
+Warning: The attribute "currentState" is not a numerical value.
+OBSERVER STATEMACHINE 03
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+step 	11
+walking
+3
+step 	12
+walking
+2
+step 	13
+walking
+1
+sleeping
+step 	14
+sleeping
+step 	15
+sleeping
+step 	16
+sleeping
+step 	17
+sleeping
+walking
+5
+step 	18
+walking
+4
+step 	19
+walking
+3
+step 	20
+walking
+2
+step 	21
+walking
+1
+sleeping
+step 	22
+sleeping
+step 	23
+sleeping
+step 	24
+sleeping
+step 	25
+sleeping
+walking
+5
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+Warning: The Parameters Table is empty.
+Warning: The attribute "currentState" is not a numerical value.
+Warning: The attribute "currentState" is not a numerical value.
+Warning: The attribute "currentState" is not a numerical value.
+OBSERVER STATEMACHINE 04
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+step 	11
+walking
+3
+step 	12
+walking
+2
+step 	13
+walking
+1
+sleeping
+step 	14
+sleeping
+step 	15
+sleeping
+step 	16
+sleeping
+step 	17
+sleeping
+walking
+5
+step 	18
+walking
+4
+step 	19
+walking
+3
+step 	20
+walking
+2
+step 	21
+walking
+1
+sleeping
+step 	22
+sleeping
+step 	23
+sleeping
+step 	24
+sleeping
+step 	25
+sleeping
+walking
+5
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER STATEMACHINE 05
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+step 	11
+walking
+3
+step 	12
+walking
+2
+step 	13
+walking
+1
+sleeping
+step 	14
+sleeping
+step 	15
+sleeping
+step 	16
+sleeping
+step 	17
+sleeping
+walking
+5
+step 	18
+walking
+4
+step 	19
+walking
+3
+step 	20
+walking
+2
+step 	21
+walking
+1
+sleeping
+step 	22
+sleeping
+step 	23
+sleeping
+step 	24
+sleeping
+step 	25
+sleeping
+walking
+5
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER STATEMACHINE 06
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+step 	11
+walking
+3
+step 	12
+walking
+2
+step 	13
+walking
+1
+sleeping
+step 	14
+sleeping
+step 	15
+sleeping
+step 	16
+sleeping
+step 	17
+sleeping
+walking
+5
+step 	18
+walking
+4
+	observerStateMachine06:kill	true
+step 	19
+walking
+3
+step 	20
+walking
+2
+step 	21
+walking
+1
+sleeping
+step 	22
+sleeping
+step 	23
+sleeping
+step 	24
+sleeping
+step 	25
+sleeping
+walking
+5
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+step 	11
+walking
+3
+step 	12
+walking
+2
+step 	13
+walking
+1
+sleeping
+step 	14
+sleeping
+step 	15
+sleeping
+step 	16
+sleeping
+step 	17
+sleeping
+walking
+5
+step 	18
+walking
+4
+step 	19
+walking
+3
+step 	20
+walking
+2
+step 	21
+walking
+1
+sleeping
+step 	22
+sleeping
+step 	23
+sleeping
+step 	24
+sleeping
+step 	25
+sleeping
+walking
+5
+Press <ENTER> to quit...
+**     TESTS FOR AGENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table	    	[ Cases 1..6  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..7  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+step 	11
+walking
+3
+step 	12
+walking
+2
+step 	13
+walking
+1
+sleeping
+step 	14
+sleeping
+step 	15
+sleeping
+step 	16
+sleeping
+step 	17
+sleeping
+walking
+5
+step 	18
+walking
+4
+step 	19
+walking
+3
+step 	20
+walking
+2
+step 	21
+walking
+1
+sleeping
+step 	22
+sleeping
+step 	23
+sleeping
+step 	24
+sleeping
+step 	25
+sleeping
+walking
+5
+Press <ENTER> to quit...

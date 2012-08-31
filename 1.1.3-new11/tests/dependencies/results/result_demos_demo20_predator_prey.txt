@@ -1,0 +1,125 @@
+Time: 0	-	#predators:	3	#preys:	2
+
+
+---------------
+Time: 1	-	#predators:	3	#preys:	4
+
+
+---------------
+Time: 2	-	#predators:	3	#preys:	8
+
+
+---------------
+Time: 3	-	#predators:	3	#preys:	15
+
+
+---------------
+Time: 4	-	#predators:	3	#preys:	15
+
+
+---------------
+Time: 5	-	#predators:	3	#preys:	28
+
+
+---------------
+Time: 6	-	#predators:	3	#preys:	50
+
+
+---------------
+Time: 7	-	#predators:	3	#preys:	93
+
+
+---------------
+Time: 8	-	#predators:	3	#preys:	113
+
+
+---------------
+Time: 9	-	#predators:	3	#preys:	181
+
+
+---------------
+Time: 10	-	#predators:	3	#preys:	312
+
+
+---------------
+Time: 11	-	#predators:	3	#preys:	588
+
+
+---------------
+Time: 12	-	#predators:	3	#preys:	777
+
+
+---------------
+Time: 13	-	#predators:	3	#preys:	1184
+
+
+---------------
+Time: 14	-	#predators:	4	#preys:	1837
+
+
+---------------
+Time: 15	-	#predators:	5	#preys:	2994
+
+
+---------------
+Time: 16	-	#predators:	7	#preys:	4038
+
+
+---------------
+Time: 17	-	#predators:	10	#preys:	5195
+
+
+---------------
+Time: 18	-	#predators:	14	#preys:	6461
+
+
+---------------
+Time: 19	-	#predators:	20	#preys:	7760
+
+
+---------------
+Time: 20	-	#predators:	26	#preys:	9261
+
+
+---------------
+Time: 21	-	#predators:	40	#preys:	10813
+
+
+---------------
+Time: 22	-	#predators:	51	#preys:	12315
+
+
+---------------
+Time: 23	-	#predators:	78	#preys:	13747
+
+
+---------------
+Time: 24	-	#predators:	101	#preys:	15174
+
+
+---------------
+Time: 25	-	#predators:	145	#preys:	16536
+
+
+---------------
+Time: 26	-	#predators:	199	#preys:	17885
+
+
+---------------
+Time: 27	-	#predators:	274	#preys:	19163
+
+
+---------------
+Time: 28	-	#predators:	374	#preys:	20416
+
+
+---------------
+Time: 29	-	#predators:	505	#preys:	21602
+
+
+---------------
+Time: 30	-	#predators:	681	#preys:	22693
+
+
+---------------
+READY
