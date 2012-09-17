@@ -1,9 +1,0 @@
-nada
-
--- Starting suite "main", 1 test(s)
-  
-Testing CoordType...
-READY
-.
----- Testing finished, with 13 assertion(s) ----
-  1 passed, 0 failed, 0 error(s), 0 skipped.
