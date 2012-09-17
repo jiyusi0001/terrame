@@ -1,0 +1,68 @@
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "dinamica"...
+
+	Number of read cells: 583.
+
+Warning: The legend found is invalid!
+Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
+Loading cellular space: "dinamica"...
+
+	Number of read cells: 583.
+
+Warning: The legend found is invalid!
+-- DBMS Type
+-- 0 : mysql
+-- 1 : msaccess
+Please, enter database type: 
+Please, enter database password: 
+1 Time:	0
+2 Time:	0
+3 Time:	0
+4 Time:	0
+5 Time:	0
+1 Time:	1
+2 Time:	1
+3 Time:	1
+4 Time:	1
+5 Time:	1
+1 Time:	2
+2 Time:	2
+3 Time:	2
+4 Time:	2
+5 Time:	2
+1 Time:	3
+2 Time:	3
+3 Time:	3
+4 Time:	3
+5 Time:	3
+1 Time:	4
+2 Time:	4
+3 Time:	4
+4 Time:	4
+5 Time:	4
+1 Time:	5
+2 Time:	5
+3 Time:	5
+4 Time:	5
+5 Time:	5
+1 Time:	6
+2 Time:	6
+3 Time:	6
+4 Time:	6
+5 Time:	6
+1 Time:	7
+2 Time:	7
+3 Time:	7
+4 Time:	7
+5 Time:	7
+1 Time:	8
+2 Time:	8
+3 Time:	8
+4 Time:	8
+5 Time:	8
+1 Time:	9
+2 Time:	9
+3 Time:	9
+4 Time:	9
+5 Time:	9
+READY

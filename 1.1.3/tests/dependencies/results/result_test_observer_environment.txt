@@ -1,0 +1,476 @@
+Choose one of the options:
+0: Run all tests
+1: Run one test group
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TEXTSCREEN 01
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TEXTSCREEN 02
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TEXTSCREEN 03
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TEXTSCREEN 04
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TEXTSCREEN 05
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 01
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 02
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 03
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 04
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 05
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 06
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 01
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 02
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 03
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 04
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 05
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 06
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 01
+
+Error: Chart observers must have at least one attribute.
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 02
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 01
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 02
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 03
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 04
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 05
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 06
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+	observerGraphic06:kill	true
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR ENVIRONMENT OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..5  ]
+(2) LogFile      	[ Cases 1..6  ]
+(3) Table        	[ Cases 1..6  ]
+(4) Chart 	    	[ Cases 1..9  ]
+(5) UDP          	[ Cases 1..7  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 07
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+	observerGraphic06:kill	true
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
