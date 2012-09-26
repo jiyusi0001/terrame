@@ -688,6 +688,7 @@ function test_Image( case)
 		}
 
 		if(case < 8) then cs:notify() end
+		print(compareDirectory("trajectory","image",case,"."))io.flush()
 	end
 end
 --[[

@@ -498,7 +498,105 @@ function test_loadLegendFromDataBase()
 	--cs2:notify()
 end
 
+function test_DatabaseLegendRetrieval()
+	if (SKIPS[12]) then
+		skip("No testing...") -- 50002 assertions
+	end
+	pwd = "terralab0705"
+	csQ = CellularSpace{
+		dbType = "mysql",
+		host = "127.0.0.1",
+		database = "cabeca",
+		user = "root",
+		password = pwd,
+		theme = "cells90x90"
+	}
+	csQ:load()
+	print(csQ.legend)
+end
 
+function test_colorBarElementOrdering()
+	-- exemplo de modelo em TerraME 
+	-- Baseado na aula do Pedro 22/08/2012
+	VERMELHO = 1
+	PRETO = 2
+	VAZIO = 3
+	dim = 20
+	cs = CellularSpace{xdim = dim, ydim = dim}
+	cs2 = CellularSpace{xdim = dim, ydim = dim}
+
+	function coloreCelula(cell)
+		if cell.x == cell.y then
+			cell.color = VERMELHO
+		elseif cell.x + cell.y == dim - 1 then 
+			cell.color = PRETO
+		else
+			cell.color = VAZIO
+		end
+	end
+
+	forEachCell(cs, coloreCelula)
+	forEachCell(cs2, coloreCelula)
+
+	leg = Legend{
+		groupingMode = "uniquevalue",
+		colorBar = {
+			{color = "red", value = 1},
+			{color = "black", value = 2},
+			{color = "white", value = 3}
+		}
+	}
+
+	leg2 = Legend{
+		groupingMode = "uniquevalue",
+		colorBar = {
+			{color = "white", value = 3},
+			{color = "red", value = 1},
+			{color = "black", value = 2}	
+		}
+	}
+
+	obs = Observer{
+			subject = cs,
+			type = "image",
+			attributes = {"color"},
+			legends = {leg},
+			prefix = "image1_",
+			path = TME_PATH
+	}
+
+	obs2 = Observer{
+			subject = cs2,
+			type = "image",
+			attributes = {"color"},
+			legends = {leg2},
+			prefix = "image2_",
+			path = TME_PATH
+	}
+
+	cs:notify()
+	cs2:notify()
+
+	
+	if TME_DIR_SEPARATOR == "/" then
+		result = compareBinaries(TME_PATH.."/image1_000001.png", TME_PATH.."/tests/dependencies/results/legends/colorBarElementOrdering/image1_000001.png")
+		
+		assert_true(result)
+	else
+		result = compareBinaries(TME_PATH.."\\image1_000001.png", TME_PATH.."\\tests\\dependencies\\results\\legends\\colorBarElementOrdering\\image1_000001.png")
+	
+		assert_true(result)
+	end
+
+	if TME_DIR_SEPARATOR == "/" then
+		result = compareBinaries(TME_PATH.."/image2_000001.png", TME_PATH.."/tests/dependencies/results/legends/colorBarElementOrdering/image2_000001.png")
+
+		assert_true(result)
+	else
+		result = compareBinaries(TME_PATH.."\\image2_000001.png", TME_PATH.."\\tests\\dependencies\\results\\legends\\colorBarElementOrdering\\image2_000001.png")
+		assert_true(result)
+	end
+end
 --[[
 == IMAGE & MAP (1 ou 2 atributos de celulas; N agentes, M automatos)
 1) CellularSpace (branco-preto; amarelo-azul; "*" - verde-vermelho; "*" -  verde-vermelho; ... )
@@ -544,7 +642,8 @@ functionList = {
 	[10] = "test_AutomaticTrajectoryColorBar",
 	[11] = "test_AutomaticNeighborhoodColorBar",
 	[12] = "test_DatabaseLegendRetrieval",
-	[13] = "test_loadLegendFromDataBase"
+	[13] = "test_loadLegendFromDataBase",
+	[14] = "test_colorBarElementOrdering"
 
 }
 

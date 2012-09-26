@@ -454,6 +454,7 @@ function test_image( case )
 			cs:notify()
 			sc1:notify()
 		end
+		print(compareDirectory("society","image",case,"."))io.flush()
 	end
 end
 

@@ -764,6 +764,8 @@ Deverá apresentar um gráfico de dispersão XY, com duas curvas nas cores verme
 -- ================================================================================#
 -- OBSERVER IMAGE
 function test_image( case )
+	local copyCommand = ""
+	local removeCommand = ""	
 
 	if( not SKIP ) then
 
@@ -773,7 +775,7 @@ function test_image( case )
 				print("IMAGE 01") io.flush()
 				--@DEPRECATED
 				--cs1:createObserver( "image" )
-				observerImage01 = Observer{ subject = cs1, type = "image" }	
+				observerImage01 = Observer{ subject = cs1, type = "image" }
 			end,
 			[2] = function(x) 
 				-- OBSERVER IMAGE 02 
@@ -787,7 +789,7 @@ function test_image( case )
 				print("IMAGE 03") io.flush()
 				--@DEPRECATED
 				--cs1:createObserver( "image", {"soilWater"}, { soilWaterLeg } )
-				observerImage03 = Observer{ subject = cs1, type = "image", attributes={"soilWater"},legends={soilWaterLeg} }	
+				observerImage03 = Observer{ subject = cs1, type = "image", attributes={"soilWater"},legends={soilWaterLeg} }
 			end,
 			[4] = function(x)
 				-- OBSERVER IMAGE 04
@@ -874,6 +876,7 @@ function test_image( case )
 
 			delay_s(1)
 		end
+		print(compareDirectory("cellularspace","image",case,"."))io.flush()
 	end
 end
 

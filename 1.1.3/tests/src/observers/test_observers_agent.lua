@@ -227,7 +227,6 @@ function test_TextScreen( case )
 			end
 			delay_s(1)
 		end
-
 	end
 end
 
@@ -714,6 +713,7 @@ function test_Image( case )
 
 			delay_s(2)
 		end
+		print(compareDirectory("agent","image",case,"."))io.flush()
 	end
 end
 

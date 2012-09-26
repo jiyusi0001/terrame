@@ -7,9 +7,49 @@ local INPUT = RESULT_PATH .."input.txt"
 
 -- util function
 function delay_s(delay)
-	delay = delay or 1
-	local time_to = os.time() + delay
-	while os.time() < time_to do end
+	--delay = delay or 1
+	--local time_to = os.time() + delay
+	--while os.time() < time_to do end
+end
+
+function createTestFolder(subject, observer, testNumber, path)
+	local copyTo = RESULT_PATH..subject.."/"..observer..testNumber.."/"
+	local copyFrom = path
+	os.execute("mkdir -p " .. copyTo)
+	copyCommand = "cp *.png ".. copyFrom .." ".. copyTo --.." | grep \"*.png\""
+	--copyCommand = "find ".. copyFrom .." \"*.png\" -exec cp {} "..copyTo
+	removeCommand = "rm *.png"
+	os.execute(copyCommand)
+	os.execute(removeCommand)
+end
+
+function scandir(directory)
+    local i, t, popen = 0, {}, io.popen
+    for filename in popen('ls -a "'..directory..'"'):lines() do
+        i = i + 1
+        t[i] = filename
+    end
+    return t
+end
+
+function compareDirectory(subject, observer, testNumber, path)
+	createTestFolder(subject,observer,testNumber,path)
+	local file1 = RESULT_PATH..subject.."/"..observer..testNumber.."/"
+	local file2 = COMPARE_PATH..subject.."/"..observer..testNumber.."/"
+	local files1 = scandir(file1)
+	local files2 = scandir(file2)
+	if(#files1 ~= #files2) then
+		return "error: Image Comparison Failed - Different Number of Files"
+	else
+		for i=1,#files1,1 do
+			if endswith(files1[i],".png") and endswith(files2[i],".png") then
+				if not compareBinaries(file1..files1[i],file2..files2[i]) then
+					return "error: Image Comparison Failed"
+				end
+			end
+		end
+	end
+	return "Image Comparison Succeed"
 end
 
 function createTemp()
@@ -87,6 +127,10 @@ function compareResult(testName,prefix)
         end
     end
     return true;
+end
+
+function endswith(s, send)
+	return #s >= #send and s:find(send, #s-#send+1, true) and true or false
 end
 
 function string:split(delimiter)
@@ -237,6 +281,38 @@ end
 function getDataBase()
     db = extractFile(DB_PATH):split("\n")
     return {["dbms"] = tonumber(db[1]), ["pwd"] = db[2]}
+end
+
+--@Henrique
+function extractFile(filename)
+	str = ""
+	file=io.open(filename,"r")
+	for line in file:lines() do str = str .. line .. "\n" end
+	file:close()
+	return str
+end
+
+--@Henrique
+--Ainda não funciona para windows
+--Só funciona quando os dois arquivos existem
+function compareBinaries(firstFile,secondFile)
+	if TME_DIR_SEPARATOR == "/" then
+		os.execute("cmp "..firstFile .. " ".. secondFile .. " 2> resultComp.txt")
+	else
+		fileIn=io.open("in.txt","w")
+	
+		fileIn:write("n \n")
+		fileIn:close()
+		os.execute("comp /a "..firstFile .. " ".. secondFile .. "<in.txt > resultComp.txt" )
+	end
+	fi=extractFile("resultComp.txt")
+
+	if fi == "" then
+		return true
+	else
+		return false
+	end
+
 end
 
 local f = io.open(RESULT_PATH, "r")

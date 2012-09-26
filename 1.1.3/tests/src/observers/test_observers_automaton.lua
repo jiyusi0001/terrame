@@ -984,6 +984,7 @@ function test_Image( case )
 
 			delay_s(1)
 		end
+		print(compareDirectory("automaton","image",case,"."))io.flush()
 	end
 end
 -- TESTES IMAGE
