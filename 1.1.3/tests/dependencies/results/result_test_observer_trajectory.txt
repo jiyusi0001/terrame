@@ -948,6 +948,7 @@ Observer Type:
 Test Case:    
 
 OBSERVER IMAGE 02
+Image Comparison Succeed!
 Press <ENTER> to quit...
 **     TESTS FOR TRAJECTORY OBSERVERS      **
 
@@ -983,6 +984,7 @@ Observer Type:
 Test Case:    
 
 OBSERVER IMAGE 04
+Image Comparison Succeed!
 Press <ENTER> to quit...
 **     TESTS FOR TRAJECTORY OBSERVERS      **
 
@@ -1000,6 +1002,7 @@ Observer Type:
 Test Case:    
 
 OBSERVER IMAGE 05
+Image Comparison Succeed!
 Press <ENTER> to quit...
 **     TESTS FOR TRAJECTORY OBSERVERS      **
 
@@ -1017,6 +1020,7 @@ Observer Type:
 Test Case:    
 
 OBSERVER IMAGE 06
+Image Comparison Succeed!
 Press <ENTER> to quit...
 **     TESTS FOR TRAJECTORY OBSERVERS      **
 
@@ -1034,6 +1038,7 @@ Observer Type:
 Test Case:    
 
 OBSERVER IMAGE 07
+Image Comparison Succeed!
 Press <ENTER> to quit...
 **     TESTS FOR TRAJECTORY OBSERVERS      **
 
@@ -1061,6 +1066,7 @@ STEP:	7
 STEP:	8
 STEP:	9
 STEP:	10
+Image Comparison Succeed!
 Press <ENTER> to quit...
 **     TESTS FOR TRAJECTORY OBSERVERS      **
 
@@ -1089,6 +1095,7 @@ STEP:	8
 	observerImage09:kill	true
 STEP:	9
 STEP:	10
+Image Comparison Succeed!
 Press <ENTER> to quit...
 **     TESTS FOR TRAJECTORY OBSERVERS      **
 

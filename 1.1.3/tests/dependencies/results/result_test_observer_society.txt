@@ -32,6 +32,7 @@ STEP: 	9
 Members in society 'sc1':	4
 STEP: 	10
 Members in society 'sc1':	4
+Image Comparison Succeed!
 Press <ENTER> to quit...
 **     TESTS FOR SOCIETY OBSERVERS      **
 
@@ -64,6 +65,7 @@ STEP: 	9
 Members in society 'sc1':	4
 STEP: 	10
 Members in society 'sc1':	4
+Image Comparison Succeed!
 Press <ENTER> to quit...
 **     TESTS FOR SOCIETY OBSERVERS      **
 
@@ -96,6 +98,7 @@ STEP: 	9
 Members in society 'sc1':	2
 STEP: 	10
 Members in society 'sc1':	2
+Image Comparison Succeed!
 Press <ENTER> to quit...
 **     TESTS FOR SOCIETY OBSERVERS      **
 
@@ -128,6 +131,7 @@ STEP: 	9
 Members in society 'sc1':	0
 STEP: 	10
 Members in society 'sc1':	0
+Image Comparison Succeed!
 Press <ENTER> to quit...
 **     TESTS FOR SOCIETY OBSERVERS      **
 
@@ -160,6 +164,7 @@ STEP: 	9
 Members in society 'sc1':	0
 STEP: 	10
 Members in society 'sc1':	0
+Image Comparison Succeed!
 Press <ENTER> to quit...
 **     TESTS FOR SOCIETY OBSERVERS      **
 
@@ -192,6 +197,7 @@ STEP: 	9
 Members in society 'sc1':	5
 STEP: 	10
 Members in society 'sc1':	5
+Image Comparison Succeed!
 Press <ENTER> to quit...
 **     TESTS FOR SOCIETY OBSERVERS      **
 
@@ -224,6 +230,7 @@ STEP: 	9
 Members in society 'sc1':	9
 STEP: 	10
 Members in society 'sc1':	10
+Image Comparison Succeed!
 Press <ENTER> to quit...
 **     TESTS FOR SOCIETY OBSERVERS      **
 
@@ -286,6 +293,7 @@ T:	10
 -- sleeping
 boi[10] - hidden	sleeping
 Members in society 'sc1':	5
+Image Comparison Succeed!
 Press <ENTER> to quit...
 **     TESTS FOR SOCIETY OBSERVERS      **
 
@@ -319,6 +327,7 @@ STEP: 	9
 Members in society 'sc1':	5
 STEP: 	10
 Members in society 'sc1':	5
+Image Comparison Succeed!
 Press <ENTER> to quit...
 **     TESTS FOR SOCIETY OBSERVERS      **
 

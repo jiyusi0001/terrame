@@ -1823,6 +1823,7 @@ step 	25
 sleeping
 walking
 5
+Image Comparison Succeed!
 Press <ENTER> to quit...
 **     TESTS FOR AGENT OBSERVERS      **
 
@@ -1913,6 +1914,7 @@ step 	25
 sleeping
 walking
 5
+Image Comparison Succeed!
 Press <ENTER> to quit...
 **     TESTS FOR AGENT OBSERVERS      **
 
@@ -2003,6 +2005,7 @@ step 	25
 sleeping
 walking
 5
+Image Comparison Succeed!
 Press <ENTER> to quit...
 **     TESTS FOR AGENT OBSERVERS      **
 
@@ -2094,6 +2097,7 @@ step 	25
 sleeping
 walking
 5
+Image Comparison Succeed!
 Press <ENTER> to quit...
 **     TESTS FOR AGENT OBSERVERS      **
 

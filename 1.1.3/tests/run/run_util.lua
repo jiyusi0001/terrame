@@ -16,8 +16,8 @@ function createTestFolder(subject, observer, testNumber, path)
 	local copyTo = RESULT_PATH..subject.."/"..observer..testNumber.."/"
 	local copyFrom = path
 	os.execute("mkdir -p " .. copyTo)
-	copyCommand = "cp *.png ".. copyFrom .." ".. copyTo --.." | grep \"*.png\""
-	--copyCommand = "find ".. copyFrom .." \"*.png\" -exec cp {} "..copyTo
+	copyCommand = "cp *.png ".. copyFrom .." ".. copyTo .." > /dev/null 2>&1 "
+
 	removeCommand = "rm *.png"
 	os.execute(copyCommand)
 	os.execute(removeCommand)
@@ -38,18 +38,33 @@ function compareDirectory(subject, observer, testNumber, path)
 	local file2 = COMPARE_PATH..subject.."/"..observer..testNumber.."/"
 	local files1 = scandir(file1)
 	local files2 = scandir(file2)
-	if(#files1 ~= #files2) then
-		return "error: Image Comparison Failed - Different Number of Files"
+    
+    local files1Size = 0    
+    for i=1,#files1, 1 do
+        if (endswith(files1[i],".png")) then
+            files1Size = files1Size + 1
+        end
+    end
+
+    local files2Size = 0    
+    for i=1,#files2, 1 do
+        if (endswith(files2[i],".png")) then
+            files2Size = files2Size + 1
+        end
+    end
+
+	if(files1Size ~= files2Size) then
+		return "error: Image Comparison Failed - Different Number of Files."
 	else
 		for i=1,#files1,1 do
 			if endswith(files1[i],".png") and endswith(files2[i],".png") then
 				if not compareBinaries(file1..files1[i],file2..files2[i]) then
-					return "error: Image Comparison Failed"
+					return "error: Images Do Not Match\nIn.\t".. subject .."\t".. observer .. testNumber
 				end
 			end
 		end
 	end
-	return "Image Comparison Succeed"
+	return "Image Comparison Succeed!"
 end
 
 function createTemp()

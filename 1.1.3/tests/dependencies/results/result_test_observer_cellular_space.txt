@@ -1464,6 +1464,7 @@ STEP: 	7
 STEP: 	8
 STEP: 	9
 STEP: 	10
+Image Comparison Succeed!
 Press <ENTER> to quit...
 Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
 Loading cellular space: "cells90x90"...
@@ -1497,6 +1498,7 @@ STEP: 	7
 STEP: 	8
 STEP: 	9
 STEP: 	10
+Image Comparison Succeed!
 Press <ENTER> to quit...
 Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
 Loading cellular space: "cells90x90"...
@@ -1530,6 +1532,7 @@ STEP: 	7
 STEP: 	8
 STEP: 	9
 STEP: 	10
+Image Comparison Succeed!
 Press <ENTER> to quit...
 Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
 Loading cellular space: "cells90x90"...
@@ -1563,6 +1566,7 @@ STEP: 	7
 STEP: 	8
 STEP: 	9
 STEP: 	10
+Image Comparison Succeed!
 Press <ENTER> to quit...
 Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
 Loading cellular space: "cells90x90"...
@@ -1596,6 +1600,7 @@ STEP: 	7
 STEP: 	8
 STEP: 	9
 STEP: 	10
+Image Comparison Succeed!
 Press <ENTER> to quit...
 Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
 Loading cellular space: "cells90x90"...
@@ -1631,6 +1636,7 @@ STEP: 	7
 STEP: 	8
 STEP: 	9
 STEP: 	10
+Image Comparison Succeed!
 Press <ENTER> to quit...
 Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
 Loading cellular space: "cells90x90"...
@@ -1664,6 +1670,7 @@ STEP: 	7
 STEP: 	8
 STEP: 	9
 STEP: 	10
+Image Comparison Succeed!
 Press <ENTER> to quit...
 Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
 Loading cellular space: "cells90x90"...
@@ -1697,6 +1704,7 @@ STEP: 	7
 STEP: 	8
 STEP: 	9
 STEP: 	10
+Image Comparison Succeed!
 Press <ENTER> to quit...
 Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
 Loading cellular space: "cells90x90"...
@@ -1730,6 +1738,7 @@ STEP: 	7
 STEP: 	8
 STEP: 	9
 STEP: 	10
+Image Comparison Succeed!
 Press <ENTER> to quit...
 Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
 Loading cellular space: "cells90x90"...
@@ -1764,6 +1773,7 @@ STEP: 	8
 	observerImage11:kill	true
 STEP: 	9
 STEP: 	10
+Image Comparison Succeed!
 Press <ENTER> to quit...
 Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
 Loading cellular space: "cells90x90"...
