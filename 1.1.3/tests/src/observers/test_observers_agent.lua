@@ -116,7 +116,7 @@ maximum = 1,
 minimum = 0,
 
 style = 3,  -- estilo da curva
-symbol = 14, -- tipo do simbolo 
+symbol = "+", -- tipo do simbolo 
 width = 2, -- largura da linha
 
 colorBar = {
@@ -125,7 +125,24 @@ colorBar = {
 }
 }
 
+ag1LegGraph = Legend{
+type = "string",
+grouping = "uniquevalue",
+slices = 10,
+precision = 5,
+stdDeviation = "none",
+maximum = 1,
+minimum = 0,
 
+style = 3,  -- estilo da curva
+symbol = 14, -- tipo do simbolo 
+width = 2, -- largura da linha
+
+colorBar = {
+{color = "red", value = "walking"},
+{color = "blue", value = "sleeping"}
+}
+}
 
 ag1LegMinimumParameters = Legend{
 	maximum = 1,
@@ -455,14 +472,14 @@ function test_chart( case )
 				print("OBSERVER DYNAMIC GRAPHIC 05")
 				--@DEPRECATED
 				--ag1:createObserver(TME_OBSERVERS.DYNAMICGRAPHIC, {"energy"},{})
-				observerDynamicGraphic05=Observer{subject=ag1, type="chart", attributes={"currentState","energy"},legends={ag1Leg,energyLeg},title="GraphicTitle", curveLabels={"CurveTitle","CurveTitle2"},  yLabel="YLabel", xLabel="XLabel"}  
+				observerDynamicGraphic05=Observer{subject=ag1, type="chart", attributes={"currentState","energy"},legends={ag1LegGraph,energyLeg},title="GraphicTitle", curveLabels={"CurveTitle","CurveTitle2"},  yLabel="YLabel", xLabel="XLabel"}  
 			end,
 			[6] = function(x)--28/08
 				-- OBSERVER DYNAMIC GRAPHIC 06
 				print("OBSERVER DYNAMIC GRAPHIC 06")
 				--@DEPRECATED
 				--ag1:createObserver(TME_OBSERVERS.DYNAMICGRAPHIC, {"energy"},{})
-				observerDynamicGraphic06=Observer{subject=ag1, type="chart", attributes={"currentState","energy"},legends={ag1Leg},title="GraphicTitle", curveLabels={"CurveTitle","CurveTitle2"},  yLabel="YLabel", xLabel="XLabel"}  
+				observerDynamicGraphic06=Observer{subject=ag1, type="chart", attributes={"currentState","energy"},legends={ag1LegGraph},title="GraphicTitle", curveLabels={"CurveTitle","CurveTitle2"},  yLabel="YLabel", xLabel="XLabel"}  
 			end,
 			[7] = function(x)--28/08
 				-- OBSERVER DYNAMIC GRAPHIC 07
@@ -535,7 +552,7 @@ function test_chart( case )
 				print("OBSERVER GRAPHIC 09")
 				--@DEPRECATED
 				--ag1:createObserver(TME_OBSERVERS.DYNAMICGRAPHIC, {"energy"}, {"Dynamic energy", "energy", "energy x time", "time"})
-				observerGraphic09=Observer{subject=ag1, type = "chart",attributes={"currentState","energy"}, xAxis="counter",title="GraphicTitle",curveLabels={"CurveTitle"}, yLabel="YLabel",xLabel="XLabel", legends={ag1Leg}}
+				observerGraphic09=Observer{subject=ag1, type = "chart",attributes={"currentState","energy"}, xAxis="counter",title="GraphicTitle",curveLabels={"CurveTitle"}, yLabel="YLabel",xLabel="XLabel", legends={ag1LegGraph}}
 
 			end,
 			[17] = function(x)--28/08
@@ -543,7 +560,7 @@ function test_chart( case )
 				print("OBSERVER GRAPHIC 10")
 				--@DEPRECATED
 				--ag1:createObserver(TME_OBSERVERS.DYNAMICGRAPHIC, {"energy"}, {"Dynamic energy", "energy", "energy x time", "time"})
-				observerGraphic10=Observer{subject=ag1, type = "chart",attributes={"currentState","energy"}, xAxis="counter",title="GraphicTitle",curveLabels={"CurveTitle","Curvetitle2"}, yLabel="YLabel",xLabel="XLabel", legends={ag1Leg,energyLeg}}
+				observerGraphic10=Observer{subject=ag1, type = "chart",attributes={"currentState","energy"}, xAxis="counter",title="GraphicTitle",curveLabels={"CurveTitle","Curvetitle2"}, yLabel="YLabel",xLabel="XLabel", legends={ag1LegGraph,energyLeg}}
 
 			end,
 			[18] = function(x)--28/08
@@ -551,7 +568,7 @@ function test_chart( case )
 				print("OBSERVER GRAPHIC 11")
 				--@DEPRECATED
 				--ag1:createObserver(TME_OBSERVERS.DYNAMICGRAPHIC, {"energy"}, {"Dynamic energy", "energy", "energy x time", "time"})
-				observerGraphic11=Observer{subject=ag1, type = "chart",attributes={"currentState","energy"}, xAxis="counter",title="GraphicTitle",curveLabels={"CurveTitle","Curvetitle2"}, yLabel="YLabel",xLabel="XLabel", legends={ag1Leg}}
+				observerGraphic11=Observer{subject=ag1, type = "chart",attributes={"currentState","energy"}, xAxis="counter",title="GraphicTitle",curveLabels={"CurveTitle","Curvetitle2"}, yLabel="YLabel",xLabel="XLabel", legends={ag1LegGraph}}
 
 			end,
 			[19] = function(x)--28/08

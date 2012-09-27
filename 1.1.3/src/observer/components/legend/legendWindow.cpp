@@ -1299,19 +1299,19 @@ QString LegendWindow::typesOfDataToString(int e)
             break;
 
         case (TObsNumber):
-            str += "\"number\"";
+            str = "\"number\"";
             break;
 
         case (TObsDateTime):
-            str += "\"datetime\"";
+            str = "\"datetime\"";
             break;
 
         case (TObsText):
-            str += "\"string\"";
+            str = "\"string\"";
             break;
 
         default:
-            str += "\"undefined\"";
+            str = "\"undefined\"";
     }
     return str;
 }
