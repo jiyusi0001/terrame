@@ -1,0 +1,1454 @@
+Choose one of the options:
+0: Run all tests
+1: Run one test group
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TEXTSCREEN 01
+
+Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TEXTSCREEN 02
+
+Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TEXTSCREEN 03
+
+Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TEXTSCREEN 04
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TEXTSCREEN 05
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TEXTSCREEN 06
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+	observerTextScreen06:kill	true
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 01
+
+Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 02
+
+Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 03
+
+Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 04
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 05
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 06
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER LOGFILE 07
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+	observerLogFile07:kill	true
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 01
+
+Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 02
+
+Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 03
+
+Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 04
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 05
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 06
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 07
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER TABLE 08
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+	observerTable08:kill	true
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 01
+
+Error: Chart observers must have at least one attribute.
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 02
+
+Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 03
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 04
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 05
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 06
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 07
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER DYNAMIC GRAPHIC 08
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 01
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 02
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 03
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 04
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 05
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 06
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+	observerGraphic06:kill	true
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 07
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 08
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 09
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 10
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER GRAPHIC 11
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER IMAGE 01 
+
+Error: Image observers must have exactly one or two attributes.
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER IMAGE 02 
+
+Error: Parameter 'observer' not found.
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER IMAGE 03
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Image Comparison Succeed!
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER IMAGE 04 
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Image Comparison Succeed!
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER IMAGE 05 
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Image Comparison Succeed!
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER IMAGE 06 
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+	observerImage06:kill	true
+STEP: 	9
+STEP: 	10
+Image Comparison Succeed!
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER MAP 01 
+
+Error: Map observers must have exactly one or two attributes.
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER MAP 02 
+
+Error: Parameter 'observer' not found.
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER MAP 03 
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER MAP 04
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER MAP 05
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+	observerMap05:kill	true
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER STATEMACHINE 01
+
+Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER STATEMACHINE 02
+
+Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER STATEMACHINE 03
+
+Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER STATEMACHINE 04
+Warning: The Parameters Table is empty.
+STEP: 	1
+Warning: The attribute "currentState" is not a numerical value.
+STEP: 	2
+Warning: The attribute "currentState" is not a numerical value.
+STEP: 	3
+Warning: The attribute "currentState" is not a numerical value.
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER STATEMACHINE 05
+Warning: The Parameters Table is empty.
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
+**     TESTS FOR AUTOMATON OBSERVERS      **
+
+** Choose observer type and test case **
+(1) TextScreen   	[ Cases 1..6  ]
+(2) LogFile      	[ Cases 1..7  ]
+(3) Table	    	[ Cases 1..8  ]
+(4) Chart        	[ Cases 1..19 ]
+(5) Image 	    	[ Cases 1..6  ]
+(6) Map          	[ Cases 1..5  ]
+(7) StateMachine 	[ Cases 1..6  ]
+(8) UDP          	[ Cases 1..8  ]
+
+Observer Type:
+
+Test Case:    
+
+OBSERVER STATEMACHINE 06
+Warning: The Parameters Table is empty.
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+	observerStateMachine06:kill	true
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...

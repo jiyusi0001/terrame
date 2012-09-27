@@ -1,0 +1,82 @@
+
+**     TESTS FOR TIMER      **
+Choose option:
+(0) Run all tests
+(1) Run specific test:
+nada
+
+-- Starting suite "main", 5 test(s)
+  --=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+EVENT 1: 	0
+EVENT 1: 	5
+EVENT 1: 	10
+EVENT 1: 	15
+EVENT 1: 	20
+EVENT 1: 	25
+EVENT 1: 	30
+EVENT 1: 	35
+EVENT 1: 	40
+EVENT 1: 	45
+EVENT 2: 	50
+EVENT 1: 	50
+EVENT 2: 	55
+EVENT 1: 	55
+EVENT 2: 	60
+EVENT 1: 	60
+EVENT 2: 	65
+EVENT 1: 	65
+EVENT 2: 	70
+EVENT 1: 	70
+EVENT 2: 	75
+EVENT 1: 	75
+EVENT 2: 	80
+EVENT 1: 	80
+EVENT 2: 	85
+EVENT 1: 	85
+EVENT 2: 	90
+EVENT 1: 	90
+EVENT 2: 	95
+EVENT 1: 	95
+EVENT 2: 	100
+EVENT 1: 	100
+.--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+Testing Timer, Pair, Evend, and Message...
+ADDING EVENT
+READY!!
+.--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+-------------------------------------
+-- test_OneTimerOneEventAndOneMessage
+-------------------------------------
+Atributo do evento:	7	3	4
+Events: 	11
+Ready!!!
+.--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+-------------------------------------
+-- DifferentEventPriorities
+-------------------------------------
+Ready!!!
+.--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+EVENT 1: 	0
+EVENT 1: 	5
+EVENT 1: 	10
+EVENT 1: 	15
+EVENT 1: 	20
+EVENT 1: 	25
+EVENT 1: 	30
+EVENT 1: 	35
+EVENT 1: 	40
+EVENT 1: 	45
+EVENT 1: 	50
+EVENT 1: 	55
+EVENT 1: 	60
+EVENT 1: 	65
+EVENT 1: 	70
+EVENT 1: 	75
+EVENT 1: 	80
+EVENT 1: 	85
+EVENT 1: 	90
+EVENT 1: 	95
+EVENT 1: 	100
+.
+---- Testing finished, with 166 assertion(s) ----
+  5 passed, 0 failed, 0 error(s), 0 skipped.
