@@ -7,9 +7,9 @@ local INPUT = RESULT_PATH .."input.txt"
 
 -- util function
 function delay_s(delay)
-	--delay = delay or 1
-	--local time_to = os.time() + delay
-	--while os.time() < time_to do end
+	delay = delay or 1
+	local time_to = os.time() + delay
+	while os.time() < time_to do end
 end
 
 function createTestFolder(subject, observer, testNumber, path)
@@ -24,6 +24,7 @@ function createTestFolder(subject, observer, testNumber, path)
 end
 
 function scandir(directory)
+    --print(directory)
     local i, t, popen = 0, {}, io.popen
     for filename in popen('ls -a "'..directory..'"'):lines() do
         i = i + 1
