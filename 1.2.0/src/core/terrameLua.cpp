@@ -416,7 +416,7 @@ void versions()
     qWarning("    Version: %s ", TME_VERSION);     // macro in the file "terrameLua5_1.h"
     qWarning("    Lua Kernel: ");
 
-    qWarning("        Version: 1.1.3 ");
+    qWarning("        Version: 1.2.0 ");
     string buffer = "TME_PATH_";
 
     QString tmeVersion = QString("%1").arg(TME_VERSION);
@@ -514,11 +514,11 @@ int main ( int argc, char *argv[] )
     }    
 
     // Loads the TerrME constructors for LUA
-    QString tmePath(getenv("TME_PATH_1_1_3"));
+    QString tmePath(getenv("TME_PATH_1_2_0"));
 
     if (tmePath.isEmpty())
     {
-        qFatal("TME_PATH_1_1_3 environment variable should exist and point to TerraME "
+        qFatal("TME_PATH_1_2_0 environment variable should exist and point to TerraME "
             "installation folder.");
     }
 
