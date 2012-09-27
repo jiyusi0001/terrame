@@ -843,10 +843,17 @@ Observer Type:
 Test Case:    
 
 OBSERVER DYNAMIC GRAPHIC 03
-
-Error: Attribute name 'valor2' not found or not belongs to this subject.
-
-Aborted (core dumped)
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+Press <ENTER> to quit...
 Using TerraLib version '4.2.0_dev' and database version '4.1.2'. 
 Loading cellular space: "cells90x90"...
 
