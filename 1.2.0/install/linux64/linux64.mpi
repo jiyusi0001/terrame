@@ -3,7 +3,7 @@ AllowLanguageSelection
 {Yes}
 
 AppName
-{TerraME}
+{terrame}
 
 ApplicationID
 {54EF9AAD-815E-443D-9911-424A8A35F73C}
@@ -1321,7 +1321,7 @@ Linux-x86,DefaultFilePermission
 {0755}
 
 Linux-x86,Executable
-{<%AppName%>-<%Version%>-Setup-x64<%Ext%>}
+{<%AppName%>-<%Version%>-setup-x64<%Ext%>}
 
 Linux-x86,FallBackToConsole
 {Yes}
