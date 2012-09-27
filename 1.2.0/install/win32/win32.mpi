@@ -183,7 +183,7 @@ UpgradeApplicationID
 {}
 
 Version
-{1.1.3}
+{1.2.0}
 
 WizardHeight
 {365}
@@ -1001,7 +1001,7 @@ F1B5D3BF-4452-4219-B548-0149C78E7718,Destination
 {<%InstallDir%>}
 
 F1B5D3BF-4452-4219-B548-0149C78E7718,FileSize
-{20082093}
+{20203891}
 
 F1B5D3BF-4452-4219-B548-0149C78E7718,Name
 {Program Files}
@@ -1577,10 +1577,10 @@ Windows,BuildSeparateArchives
 {No}
 
 Windows,Executable
-{<%AppName%>-<%Version%>-Setup<%Ext%>}
+{<%AppName%>-<%Version%>-setup<%Ext%>}
 
 Windows,FileDescription
-{<%AppName%> <%Version%> Setup}
+{<%AppName%> <%Version%> setup}
 
 Windows,IncludeTWAPI
 {No}
