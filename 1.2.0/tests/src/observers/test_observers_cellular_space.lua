@@ -523,6 +523,8 @@ function test_chart( case )
             [3] = function(x)
                 -- OBSERVER DYNAMIC GRAPHIC 03
                 print("OBSERVER DYNAMIC GRAPHIC 03") io.flush()
+				cs1.valor1 = 0
+				cs1.valor2 = 0
                 observerDynamicGraphic03 = Observer{subject = cs1, type = "chart", attributes={"valor2","valor1"}, legends = {heightLeg}}
             end,
 			[4] = function(x)
