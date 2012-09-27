@@ -28,7 +28,7 @@
 
 if( os.setlocale(nil, "all") ~= "C" ) then os.setlocale("C", "numeric") end
 
-local TME_VERSION = "1_1_3"
+local TME_VERSION = "1_2_0"
 TME_PATH = os.getenv("TME_PATH_" .. TME_VERSION)
 local TME_LUA_PATH = TME_PATH .. "//bin//Lua"
 

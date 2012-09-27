@@ -465,7 +465,7 @@ array set Properties {
 {<%InstallDir%>}
 
 133FF43A-F9AB-77F4-0471-7174657E9F6B,Variable
-{TME_PATH_1_1_3}
+{TME_PATH_1_2_0}
 
 13453D5C-814B-4A38-858E-AE7610ABBDDF,CheckCondition
 {Before Next Pane is Displayed}

@@ -674,7 +674,7 @@ array set Properties {
 {<%InstallDir%>}
 
 7038572E-2F17-454F-8506-3413AB057659,Variable
-{TME_PATH_1_1_3}
+{TME_PATH_1_2_0}
 
 7052207B-8764-4A06-8F14-558097EFF2B8,BackButton,subst
 {1}

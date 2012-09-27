@@ -484,8 +484,8 @@ int main ( int argc, char *argv[] )
 
     // TODO
     // retrive lua version from TerraME.lua
-    TME_VERSION = "1.1.3";
-    TME_LUA_VERSION = "1.1.3";
+    TME_VERSION = "1.2.0";
+    TME_LUA_VERSION = "1.2.0";
 
     QApplication app(argc, argv);
     //app.setQuitOnLastWindowClosed(true);
