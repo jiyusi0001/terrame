@@ -5,8 +5,8 @@
 cmake_minimum_required(VERSION 2.8)
 project( TerraME )
 
-#set(ROOT ../..) # change this if TerraME is somewhere else
-set(ROOT /home/terralab/TerraME_Beta)
+set(ROOT ../..) # change this if TerraME is somewhere else
+#set(ROOT /home/terralab/TerraME_Beta)
 set(DEPS ${ROOT}/dependencies)
 set(SRCDIR ${ROOT}/src) # this is the directory where terralib sources will be located
 
@@ -20,7 +20,12 @@ set(BINARY_DIR ${ROOT}/bin)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${BINARY_DIR})
 
 file(MAKE_DIRECTORY ${ROOT}/bin/Lua)
-file(COPY ${ROOT}/tests/dependencies/XDebug.lua DESTINATION ${BINARY_DIR})
+file(COPY 
+	${ROOT}/tests/dependencies/XDebug.lua 
+	${ROOT}/tests/dependencies/lunatest.lua 
+	DESTINATION ${BINARY_DIR}
+	)
+
 file(COPY
 	${SRCDIR}/lua/Action.lua
 	${SRCDIR}/lua/Agent.lua
