@@ -123,7 +123,7 @@ terrameNumberLegend = Legend {
 
 function test_AutomaticNumberLegend()
 	if (SKIPS[3]) then
-		skip("No testing...") -- 50002 assertions
+		skip("No testing...") 
 	end
 
 	print("--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=")
@@ -154,7 +154,7 @@ terrameBoolLegend = Legend {
 
 function test_AutomaticBoolLegend()
 	if (SKIPS[4]) then
-		skip("No testing...") -- 50002 assertions
+		skip("No testing...") 
 	end
 
 	print("--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=")
@@ -184,7 +184,7 @@ terrameTextLegend = Legend {
 
 function test_AutomaticTextLegend()
 	if (SKIPS[5]) then
-		skip("No testing...") -- 50002 assertions
+		skip("No testing...") 
 	end
 
 	print("--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=")
@@ -215,7 +215,7 @@ terrameDateTimeLegend = Legend {
 
 function test_AutomaticDateTimeLegend()
 	if (SKIPS[6]) then
-		skip("No testing...") -- 50002 assertions
+		skip("No testing...") 
 	end
 
 	print("--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=")
@@ -272,7 +272,7 @@ expectedLegends = {
 
 function test_AutomaticCellularSpaceColorBar()
 	if (SKIPS[7]) then
-		skip("No testing...") -- 50002 assertions
+		skip("No testing...") 
 	end
 
 	print("--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=")
@@ -354,7 +354,7 @@ ag1 = Agent{
 
 function test_AutomaticAgentColorBar()
 	if (SKIPS[8]) then
-		skip("No testing...") -- 50002 assertions
+		skip("No testing...")
 	end
 
 	print("--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=")
@@ -374,7 +374,7 @@ end
 -- AUTOMATIC COLOR BAR BASED ON SUBJECT (Automaton)
 function test_AutomaticAutomatonColorBar()
 	if (SKIPS[9]) then
-		skip("No testing...") -- 50002 assertions
+		skip("No testing...")
 	end
 
 	print("--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=")
@@ -387,7 +387,7 @@ end
 -- AUTOMATIC COLOR BAR BASED ON SUBJECT (Trajectory)
 function test_AutomaticTrajectoryColorBar()
 	if (SKIPS[10]) then
-		skip("No testing...") -- 50002 assertions
+		skip("No testing...") 
 	end
 
 	print("--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=")
@@ -400,7 +400,7 @@ end
 -- AUTOMATIC COLOR BAR BASED ON SUBJECT (Neighborhood)
 function test_AutomaticNeighborhoodColorBar()
 	if (SKIPS[11]) then
-		skip("No testing...") -- 50002 assertions
+		skip("No testing...") 
 	end
 
 	print("--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=")
@@ -447,7 +447,7 @@ databaseLegend = Legend {
 
 function test_DatabaseLegendRetrieval()
 	if (SKIPS[12]) then
-		skip("No testing...") -- 50002 assertions
+		skip("No testing...")
 	end
 	pwd = "terralab0705"
 	csQ = CellularSpace{
@@ -461,6 +461,7 @@ function test_DatabaseLegendRetrieval()
 	csQ:load()
 	print(csQ.legend)
 end
+
 
 function test_loadLegendFromDataBase()
 	if (SKIPS[13]) then
@@ -498,26 +499,14 @@ function test_loadLegendFromDataBase()
 	--cs2:notify()
 end
 
-function test_DatabaseLegendRetrieval()
-	if (SKIPS[12]) then
-		skip("No testing...") -- 50002 assertions
-	end
-	pwd = "terralab0705"
-	csQ = CellularSpace{
-		dbType = "mysql",
-		host = "127.0.0.1",
-		database = "cabeca",
-		user = "root",
-		password = pwd,
-		theme = "cells90x90"
-	}
-	csQ:load()
-	print(csQ.legend)
-end
+
 
 function test_colorBarElementOrdering()
 	-- exemplo de modelo em TerraME 
 	-- Baseado na aula do Pedro 22/08/2012
+	if (SKIPS[14]) then
+		skip("No testing...")
+	end
 	VERMELHO = 1
 	PRETO = 2
 	VAZIO = 3
