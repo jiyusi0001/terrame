@@ -1,0 +1,9 @@
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_assert_not_len
+File: 	/home/terralab/TerraME_Beta/tests/src/unittest/test_unittest.lua
+
+Assertions: 1 total, 1 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

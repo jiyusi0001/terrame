@@ -1,0 +1,10 @@
+--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_readOnlyFunctions
+File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_trajectory.lua
+
+Assertions: 3 total, 3 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

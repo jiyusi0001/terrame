@@ -1,0 +1,117 @@
+estado: ACRE(AC)
+pos: 880923, 3207343
+
+
+estado: AMAZONAS(AM)
+pos: 1502193, 3803740
+
+
+estado: RONDONIA(RO)
+pos: 1718688, 3056312
+
+
+estado: RORAIMA(RR)
+pos: 1863557, 4506917
+
+
+estado: MATO GROSSO(MT)
+pos: 2487510, 2850959
+
+
+estado: MATO GROSSO DO SUL(MS)
+pos: 2600039, 2042874
+
+
+estado: RIO GRANDE DO SUL(RS)
+pos: 2756334, 1002126
+
+
+estado: AMAPA(AP)
+pos: 3114171, 4479402
+
+
+estado: SANTA CATARINA(SC)
+pos: 3231497, 1369690
+
+
+estado: PARANA(PR)
+pos: 3262065, 1453441
+
+
+estado: TOCANTIS(TO)
+pos: 3321868, 3151140
+
+
+estado: DISTRITO FEDERAL(DF)
+pos: 3360016, 2530354
+
+
+estado: GOIAS(GO)
+pos: 3360016, 2530354
+
+
+estado: PARA(PA)
+pos: 3410329, 4206171
+
+
+estado: SAO PAULO(SP)
+pos: 3578999, 1624336
+
+
+estado: MINAS GERAIS(MG)
+pos: 3680053, 2217855
+
+
+estado: RIO DE JANEIRO(RJ)
+pos: 3736123, 1702443
+
+
+estado: PIAUI(PI)
+pos: 3914935, 3446599
+
+
+estado: MARANHAO(MA)
+pos: 4017662, 3967217
+
+
+estado: ESPIRITO SANTO(ES)
+pos: 4088934, 2066258
+
+
+estado: CEARA(CE)
+pos: 4291204, 3688783
+
+
+estado: BAHIA(BA)
+pos: 4321129, 2741963
+
+
+estado: PERNAMBUCO(PE)
+pos: 4452734, 3321500
+
+
+estado: SERGIPE(SE)
+pos: 4506311, 3059582
+
+
+estado: PARAIBA(PB)
+pos: 4585269, 3452983
+
+
+estado: ALAGOAS(AL)
+pos: 4598611, 3181602
+
+
+estado: RIO GRANDE DO NORTE(RN)
+pos: 4606373, 3597434
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_load_shapefile
+File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_gis_integration.lua
+
+Assertions: 5 total, 5 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

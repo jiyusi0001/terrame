@@ -1,0 +1,13 @@
+------------------------------------------------
+-- LoadTerraLibWhereClause 
+wait...
+5673
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_LoadTerraLibWhereClause
+File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_gis_integration.lua
+
+Assertions: 28366 total, 28366 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

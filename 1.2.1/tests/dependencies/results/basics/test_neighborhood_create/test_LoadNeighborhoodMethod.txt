@@ -1,0 +1,17 @@
+-------------------------------------
+-- test_LoadNeighborhoodMethod
+--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+Testing load Neighborhood method from CellularSpace...
+	-> Load Neighborhood from a .gpm file for a Regular Cellular Space!
+	-> Load Neighborhood from a .GAL file for a Regular Cellular Space!
+	-> Load Neighborhood from a .GWT file for a Regular Cellular Space!
+READY!
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_LoadNeighborhoodMethod
+File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_neighborhood_create.lua
+
+Assertions: 7301 total, 7301 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

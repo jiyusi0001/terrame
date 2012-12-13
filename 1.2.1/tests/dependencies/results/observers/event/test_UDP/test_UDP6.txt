@@ -1,0 +1,11 @@
+OBSERVER UDPSENDER 06
+...alab/TerraME_Beta/tests/src/observers/event/test_UDP.lua:104: attempt to call global 'port' (a nil value)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_UDP6
+File: 	/home/terralab/TerraME_Beta/tests/src/observers/event/test_UDP.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

@@ -1,0 +1,10 @@
+--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_sampleCellularSpace
+File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_cellularspace.lua
+
+Assertions: 2 total, 2 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

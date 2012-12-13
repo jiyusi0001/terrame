@@ -1,0 +1,14 @@
+--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+
+Testing CellularSpacesPast...
+SYNCHRONIZE
+READY!!!
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_CellularSpacesPast
+File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_cellularspace.lua
+
+Assertions: 40012 total, 40012 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

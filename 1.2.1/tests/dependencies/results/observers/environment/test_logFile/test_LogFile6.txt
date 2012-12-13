@@ -1,0 +1,10 @@
+OBSERVER LOGFILE 06
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_LogFile6
+File: 	/home/terralab/TerraME_Beta/tests/src/observers/environment/test_logFile.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

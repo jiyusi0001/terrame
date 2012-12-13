@@ -1,0 +1,13 @@
+--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+Testing Timer, Pair, Evend, and Message...
+ADDING EVENT
+READY!!
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_Timer
+File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_timer.lua
+
+Assertions: 49 total, 49 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

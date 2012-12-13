@@ -1,0 +1,23 @@
+-------------------------------------
+-- AutomatonCrash
+-------------------------------------
+>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<
+>> ATENTION: this test must be ran alone when  <<
+>> the TerraME is on debug mode. Please, skip  <<
+>> it to run the other tests.                  <<
+>> This test should cause a crash in TerraME   <<
+>> on debug mode.                              <<
+>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<
+Automaton... 
+
+Count: 	44
+READY!!!
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_AutomatonCrash
+File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_agent_automaton.lua
+
+Assertions: 2 total, 2 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

@@ -1,0 +1,14 @@
+--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+-------------------------------------
+-- MultipleTimersOneEnvironment 
+-------------------------------------
+READY
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_MultipleTimersOneEnvironment
+File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_environment.lua
+
+Assertions: 19 total, 19 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

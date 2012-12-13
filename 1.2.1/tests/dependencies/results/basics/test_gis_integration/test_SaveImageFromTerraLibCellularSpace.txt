@@ -1,0 +1,12 @@
+-------------------------------------
+-- test_SaveImageFromTerraLibCellularSpace
+READY!!! -- Look into the 'test/result/rain/' filesystem directory!!!
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_SaveImageFromTerraLibCellularSpace
+File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_gis_integration.lua
+
+Assertions: 1 total, 1 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

@@ -1,0 +1,20 @@
+OBSERVER TEXTSCREEN 02
+STEP:	1
+STEP:	2
+STEP:	3
+STEP:	4
+STEP:	5
+STEP:	6
+STEP:	7
+STEP:	8
+STEP:	9
+STEP:	10
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_textScreen02
+File: 	/home/terralab/TerraME_Beta/tests/src/observers/trajectory/test_textScreen.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

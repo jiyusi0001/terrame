@@ -1,0 +1,11 @@
+IMAGE 08
+/home/terralab/TerraME_Beta//bin//Lua//Observer.lua:806: Error: Parameter 'observer' not found.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_image8
+File: 	/home/terralab/TerraME_Beta/tests/src/observers/society/test_image.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

@@ -1,0 +1,10 @@
+GRAPHIC 09
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_graph09
+File: 	/home/terralab/TerraME_Beta/tests/src/observers/trajectory/test_chart.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

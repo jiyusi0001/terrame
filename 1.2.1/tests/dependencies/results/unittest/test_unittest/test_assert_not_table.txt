@@ -1,0 +1,9 @@
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_assert_not_table
+File: 	/home/terralab/TerraME_Beta/tests/src/unittest/test_unittest.lua
+
+Assertions: 5 total, 5 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

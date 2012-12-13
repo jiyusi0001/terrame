@@ -1,0 +1,11 @@
+OBSERVER TABLE 03
+/home/terralab/TerraME_Beta//bin//Lua//Observer.lua:806: Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_table03
+File: 	/home/terralab/TerraME_Beta/tests/src/observers/automaton/test_table.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

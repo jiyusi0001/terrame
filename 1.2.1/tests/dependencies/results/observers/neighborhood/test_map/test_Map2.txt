@@ -1,0 +1,2820 @@
+MAP 02
+
+------------------------------------------------
+creating Observer Neigh for the cell C0L0
+
+------------------------------------------------
+creating Observer Neigh for the cell C0L1
+
+------------------------------------------------
+Killing observer Neigh from the cell C0L0
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C0L2
+
+------------------------------------------------
+Killing observer Neigh from the cell C0L1
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C0L3
+
+------------------------------------------------
+Killing observer Neigh from the cell C0L2
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C0L4
+
+------------------------------------------------
+Killing observer Neigh from the cell C0L3
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C0L5
+
+------------------------------------------------
+Killing observer Neigh from the cell C0L4
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C0L6
+
+------------------------------------------------
+Killing observer Neigh from the cell C0L5
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C0L7
+
+------------------------------------------------
+Killing observer Neigh from the cell C0L6
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C0L8
+
+------------------------------------------------
+Killing observer Neigh from the cell C0L7
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C0L9
+
+------------------------------------------------
+Killing observer Neigh from the cell C0L8
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C0L10
+
+------------------------------------------------
+Killing observer Neigh from the cell C0L9
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C0L11
+
+------------------------------------------------
+Killing observer Neigh from the cell C0L10
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C0L12
+
+------------------------------------------------
+Killing observer Neigh from the cell C0L11
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C0L13
+
+------------------------------------------------
+Killing observer Neigh from the cell C0L12
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C0L14
+
+------------------------------------------------
+Killing observer Neigh from the cell C0L13
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C0L15
+
+------------------------------------------------
+Killing observer Neigh from the cell C0L14
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C0L16
+
+------------------------------------------------
+Killing observer Neigh from the cell C0L15
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C0L17
+
+------------------------------------------------
+Killing observer Neigh from the cell C0L16
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C0L18
+
+------------------------------------------------
+Killing observer Neigh from the cell C0L17
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C0L19
+
+------------------------------------------------
+Killing observer Neigh from the cell C0L18
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C1L0
+
+------------------------------------------------
+Killing observer Neigh from the cell C0L19
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C1L1
+
+------------------------------------------------
+Killing observer Neigh from the cell C1L0
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C1L2
+
+------------------------------------------------
+Killing observer Neigh from the cell C1L1
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C1L3
+
+------------------------------------------------
+Killing observer Neigh from the cell C1L2
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C1L4
+
+------------------------------------------------
+Killing observer Neigh from the cell C1L3
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C1L5
+
+------------------------------------------------
+Killing observer Neigh from the cell C1L4
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C1L6
+
+------------------------------------------------
+Killing observer Neigh from the cell C1L5
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C1L7
+
+------------------------------------------------
+Killing observer Neigh from the cell C1L6
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C1L8
+
+------------------------------------------------
+Killing observer Neigh from the cell C1L7
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C1L9
+
+------------------------------------------------
+Killing observer Neigh from the cell C1L8
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C1L10
+
+------------------------------------------------
+Killing observer Neigh from the cell C1L9
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C1L11
+
+------------------------------------------------
+Killing observer Neigh from the cell C1L10
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C1L12
+
+------------------------------------------------
+Killing observer Neigh from the cell C1L11
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C1L13
+
+------------------------------------------------
+Killing observer Neigh from the cell C1L12
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C1L14
+
+------------------------------------------------
+Killing observer Neigh from the cell C1L13
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C1L15
+
+------------------------------------------------
+Killing observer Neigh from the cell C1L14
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C1L16
+
+------------------------------------------------
+Killing observer Neigh from the cell C1L15
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C1L17
+
+------------------------------------------------
+Killing observer Neigh from the cell C1L16
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C1L18
+
+------------------------------------------------
+Killing observer Neigh from the cell C1L17
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C1L19
+
+------------------------------------------------
+Killing observer Neigh from the cell C1L18
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C2L0
+
+------------------------------------------------
+Killing observer Neigh from the cell C1L19
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C2L1
+
+------------------------------------------------
+Killing observer Neigh from the cell C2L0
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C2L2
+
+------------------------------------------------
+Killing observer Neigh from the cell C2L1
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C2L3
+
+------------------------------------------------
+Killing observer Neigh from the cell C2L2
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C2L4
+
+------------------------------------------------
+Killing observer Neigh from the cell C2L3
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C2L5
+
+------------------------------------------------
+Killing observer Neigh from the cell C2L4
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C2L6
+
+------------------------------------------------
+Killing observer Neigh from the cell C2L5
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C2L7
+
+------------------------------------------------
+Killing observer Neigh from the cell C2L6
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C2L8
+
+------------------------------------------------
+Killing observer Neigh from the cell C2L7
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C2L9
+
+------------------------------------------------
+Killing observer Neigh from the cell C2L8
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C2L10
+
+------------------------------------------------
+Killing observer Neigh from the cell C2L9
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C2L11
+
+------------------------------------------------
+Killing observer Neigh from the cell C2L10
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C2L12
+
+------------------------------------------------
+Killing observer Neigh from the cell C2L11
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C2L13
+
+------------------------------------------------
+Killing observer Neigh from the cell C2L12
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C2L14
+
+------------------------------------------------
+Killing observer Neigh from the cell C2L13
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C2L15
+
+------------------------------------------------
+Killing observer Neigh from the cell C2L14
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C2L16
+
+------------------------------------------------
+Killing observer Neigh from the cell C2L15
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C2L17
+
+------------------------------------------------
+Killing observer Neigh from the cell C2L16
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C2L18
+
+------------------------------------------------
+Killing observer Neigh from the cell C2L17
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C2L19
+
+------------------------------------------------
+Killing observer Neigh from the cell C2L18
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C3L0
+
+------------------------------------------------
+Killing observer Neigh from the cell C2L19
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C3L1
+
+------------------------------------------------
+Killing observer Neigh from the cell C3L0
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C3L2
+
+------------------------------------------------
+Killing observer Neigh from the cell C3L1
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C3L3
+
+------------------------------------------------
+Killing observer Neigh from the cell C3L2
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C3L4
+
+------------------------------------------------
+Killing observer Neigh from the cell C3L3
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C3L5
+
+------------------------------------------------
+Killing observer Neigh from the cell C3L4
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C3L6
+
+------------------------------------------------
+Killing observer Neigh from the cell C3L5
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C3L7
+
+------------------------------------------------
+Killing observer Neigh from the cell C3L6
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C3L8
+
+------------------------------------------------
+Killing observer Neigh from the cell C3L7
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C3L9
+
+------------------------------------------------
+Killing observer Neigh from the cell C3L8
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C3L10
+
+------------------------------------------------
+Killing observer Neigh from the cell C3L9
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C3L11
+
+------------------------------------------------
+Killing observer Neigh from the cell C3L10
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C3L12
+
+------------------------------------------------
+Killing observer Neigh from the cell C3L11
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C3L13
+
+------------------------------------------------
+Killing observer Neigh from the cell C3L12
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C3L14
+
+------------------------------------------------
+Killing observer Neigh from the cell C3L13
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C3L15
+
+------------------------------------------------
+Killing observer Neigh from the cell C3L14
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C3L16
+
+------------------------------------------------
+Killing observer Neigh from the cell C3L15
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C3L17
+
+------------------------------------------------
+Killing observer Neigh from the cell C3L16
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C3L18
+
+------------------------------------------------
+Killing observer Neigh from the cell C3L17
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C3L19
+
+------------------------------------------------
+Killing observer Neigh from the cell C3L18
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C4L0
+
+------------------------------------------------
+Killing observer Neigh from the cell C3L19
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C4L1
+
+------------------------------------------------
+Killing observer Neigh from the cell C4L0
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C4L2
+
+------------------------------------------------
+Killing observer Neigh from the cell C4L1
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C4L3
+
+------------------------------------------------
+Killing observer Neigh from the cell C4L2
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C4L4
+
+------------------------------------------------
+Killing observer Neigh from the cell C4L3
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C4L5
+
+------------------------------------------------
+Killing observer Neigh from the cell C4L4
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C4L6
+
+------------------------------------------------
+Killing observer Neigh from the cell C4L5
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C4L7
+
+------------------------------------------------
+Killing observer Neigh from the cell C4L6
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C4L8
+
+------------------------------------------------
+Killing observer Neigh from the cell C4L7
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C4L9
+
+------------------------------------------------
+Killing observer Neigh from the cell C4L8
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C4L10
+
+------------------------------------------------
+Killing observer Neigh from the cell C4L9
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C4L11
+
+------------------------------------------------
+Killing observer Neigh from the cell C4L10
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C4L12
+
+------------------------------------------------
+Killing observer Neigh from the cell C4L11
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C4L13
+
+------------------------------------------------
+Killing observer Neigh from the cell C4L12
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C4L14
+
+------------------------------------------------
+Killing observer Neigh from the cell C4L13
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C4L15
+
+------------------------------------------------
+Killing observer Neigh from the cell C4L14
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C4L16
+
+------------------------------------------------
+Killing observer Neigh from the cell C4L15
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C4L17
+
+------------------------------------------------
+Killing observer Neigh from the cell C4L16
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C4L18
+
+------------------------------------------------
+Killing observer Neigh from the cell C4L17
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C4L19
+
+------------------------------------------------
+Killing observer Neigh from the cell C4L18
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C5L0
+
+------------------------------------------------
+Killing observer Neigh from the cell C4L19
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C5L1
+
+------------------------------------------------
+Killing observer Neigh from the cell C5L0
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C5L2
+
+------------------------------------------------
+Killing observer Neigh from the cell C5L1
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C5L3
+
+------------------------------------------------
+Killing observer Neigh from the cell C5L2
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C5L4
+
+------------------------------------------------
+Killing observer Neigh from the cell C5L3
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C5L5
+
+------------------------------------------------
+Killing observer Neigh from the cell C5L4
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C5L6
+
+------------------------------------------------
+Killing observer Neigh from the cell C5L5
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C5L7
+
+------------------------------------------------
+Killing observer Neigh from the cell C5L6
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C5L8
+
+------------------------------------------------
+Killing observer Neigh from the cell C5L7
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C5L9
+
+------------------------------------------------
+Killing observer Neigh from the cell C5L8
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C5L10
+
+------------------------------------------------
+Killing observer Neigh from the cell C5L9
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C5L11
+
+------------------------------------------------
+Killing observer Neigh from the cell C5L10
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C5L12
+
+------------------------------------------------
+Killing observer Neigh from the cell C5L11
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C5L13
+
+------------------------------------------------
+Killing observer Neigh from the cell C5L12
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C5L14
+
+------------------------------------------------
+Killing observer Neigh from the cell C5L13
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C5L15
+
+------------------------------------------------
+Killing observer Neigh from the cell C5L14
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C5L16
+
+------------------------------------------------
+Killing observer Neigh from the cell C5L15
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C5L17
+
+------------------------------------------------
+Killing observer Neigh from the cell C5L16
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C5L18
+
+------------------------------------------------
+Killing observer Neigh from the cell C5L17
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C5L19
+
+------------------------------------------------
+Killing observer Neigh from the cell C5L18
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C6L0
+
+------------------------------------------------
+Killing observer Neigh from the cell C5L19
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C6L1
+
+------------------------------------------------
+Killing observer Neigh from the cell C6L0
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C6L2
+
+------------------------------------------------
+Killing observer Neigh from the cell C6L1
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C6L3
+
+------------------------------------------------
+Killing observer Neigh from the cell C6L2
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C6L4
+
+------------------------------------------------
+Killing observer Neigh from the cell C6L3
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C6L5
+
+------------------------------------------------
+Killing observer Neigh from the cell C6L4
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C6L6
+
+------------------------------------------------
+Killing observer Neigh from the cell C6L5
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C6L7
+
+------------------------------------------------
+Killing observer Neigh from the cell C6L6
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C6L8
+
+------------------------------------------------
+Killing observer Neigh from the cell C6L7
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C6L9
+
+------------------------------------------------
+Killing observer Neigh from the cell C6L8
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C6L10
+
+------------------------------------------------
+Killing observer Neigh from the cell C6L9
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C6L11
+
+------------------------------------------------
+Killing observer Neigh from the cell C6L10
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C6L12
+
+------------------------------------------------
+Killing observer Neigh from the cell C6L11
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C6L13
+
+------------------------------------------------
+Killing observer Neigh from the cell C6L12
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C6L14
+
+------------------------------------------------
+Killing observer Neigh from the cell C6L13
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C6L15
+
+------------------------------------------------
+Killing observer Neigh from the cell C6L14
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C6L16
+
+------------------------------------------------
+Killing observer Neigh from the cell C6L15
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C6L17
+
+------------------------------------------------
+Killing observer Neigh from the cell C6L16
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C6L18
+
+------------------------------------------------
+Killing observer Neigh from the cell C6L17
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C6L19
+
+------------------------------------------------
+Killing observer Neigh from the cell C6L18
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C7L0
+
+------------------------------------------------
+Killing observer Neigh from the cell C6L19
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C7L1
+
+------------------------------------------------
+Killing observer Neigh from the cell C7L0
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C7L2
+
+------------------------------------------------
+Killing observer Neigh from the cell C7L1
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C7L3
+
+------------------------------------------------
+Killing observer Neigh from the cell C7L2
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C7L4
+
+------------------------------------------------
+Killing observer Neigh from the cell C7L3
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C7L5
+
+------------------------------------------------
+Killing observer Neigh from the cell C7L4
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C7L6
+
+------------------------------------------------
+Killing observer Neigh from the cell C7L5
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C7L7
+
+------------------------------------------------
+Killing observer Neigh from the cell C7L6
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C7L8
+
+------------------------------------------------
+Killing observer Neigh from the cell C7L7
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C7L9
+
+------------------------------------------------
+Killing observer Neigh from the cell C7L8
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C7L10
+
+------------------------------------------------
+Killing observer Neigh from the cell C7L9
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C7L11
+
+------------------------------------------------
+Killing observer Neigh from the cell C7L10
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C7L12
+
+------------------------------------------------
+Killing observer Neigh from the cell C7L11
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C7L13
+
+------------------------------------------------
+Killing observer Neigh from the cell C7L12
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C7L14
+
+------------------------------------------------
+Killing observer Neigh from the cell C7L13
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C7L15
+
+------------------------------------------------
+Killing observer Neigh from the cell C7L14
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C7L16
+
+------------------------------------------------
+Killing observer Neigh from the cell C7L15
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C7L17
+
+------------------------------------------------
+Killing observer Neigh from the cell C7L16
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C7L18
+
+------------------------------------------------
+Killing observer Neigh from the cell C7L17
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C7L19
+
+------------------------------------------------
+Killing observer Neigh from the cell C7L18
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C8L0
+
+------------------------------------------------
+Killing observer Neigh from the cell C7L19
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C8L1
+
+------------------------------------------------
+Killing observer Neigh from the cell C8L0
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C8L2
+
+------------------------------------------------
+Killing observer Neigh from the cell C8L1
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C8L3
+
+------------------------------------------------
+Killing observer Neigh from the cell C8L2
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C8L4
+
+------------------------------------------------
+Killing observer Neigh from the cell C8L3
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C8L5
+
+------------------------------------------------
+Killing observer Neigh from the cell C8L4
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C8L6
+
+------------------------------------------------
+Killing observer Neigh from the cell C8L5
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C8L7
+
+------------------------------------------------
+Killing observer Neigh from the cell C8L6
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C8L8
+
+------------------------------------------------
+Killing observer Neigh from the cell C8L7
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C8L9
+
+------------------------------------------------
+Killing observer Neigh from the cell C8L8
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C8L10
+
+------------------------------------------------
+Killing observer Neigh from the cell C8L9
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C8L11
+
+------------------------------------------------
+Killing observer Neigh from the cell C8L10
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C8L12
+
+------------------------------------------------
+Killing observer Neigh from the cell C8L11
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C8L13
+
+------------------------------------------------
+Killing observer Neigh from the cell C8L12
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C8L14
+
+------------------------------------------------
+Killing observer Neigh from the cell C8L13
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C8L15
+
+------------------------------------------------
+Killing observer Neigh from the cell C8L14
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C8L16
+
+------------------------------------------------
+Killing observer Neigh from the cell C8L15
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C8L17
+
+------------------------------------------------
+Killing observer Neigh from the cell C8L16
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C8L18
+
+------------------------------------------------
+Killing observer Neigh from the cell C8L17
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C8L19
+
+------------------------------------------------
+Killing observer Neigh from the cell C8L18
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C9L0
+
+------------------------------------------------
+Killing observer Neigh from the cell C8L19
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C9L1
+
+------------------------------------------------
+Killing observer Neigh from the cell C9L0
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C9L2
+
+------------------------------------------------
+Killing observer Neigh from the cell C9L1
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C9L3
+
+------------------------------------------------
+Killing observer Neigh from the cell C9L2
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C9L4
+
+------------------------------------------------
+Killing observer Neigh from the cell C9L3
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C9L5
+
+------------------------------------------------
+Killing observer Neigh from the cell C9L4
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C9L6
+
+------------------------------------------------
+Killing observer Neigh from the cell C9L5
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C9L7
+
+------------------------------------------------
+Killing observer Neigh from the cell C9L6
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C9L8
+
+------------------------------------------------
+Killing observer Neigh from the cell C9L7
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C9L9
+
+------------------------------------------------
+Killing observer Neigh from the cell C9L8
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C9L10
+
+------------------------------------------------
+Killing observer Neigh from the cell C9L9
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C9L11
+
+------------------------------------------------
+Killing observer Neigh from the cell C9L10
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C9L12
+
+------------------------------------------------
+Killing observer Neigh from the cell C9L11
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C9L13
+
+------------------------------------------------
+Killing observer Neigh from the cell C9L12
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C9L14
+
+------------------------------------------------
+Killing observer Neigh from the cell C9L13
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C9L15
+
+------------------------------------------------
+Killing observer Neigh from the cell C9L14
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C9L16
+
+------------------------------------------------
+Killing observer Neigh from the cell C9L15
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C9L17
+
+------------------------------------------------
+Killing observer Neigh from the cell C9L16
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C9L18
+
+------------------------------------------------
+Killing observer Neigh from the cell C9L17
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C9L19
+
+------------------------------------------------
+Killing observer Neigh from the cell C9L18
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C10L0
+
+------------------------------------------------
+Killing observer Neigh from the cell C9L19
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C10L1
+
+------------------------------------------------
+Killing observer Neigh from the cell C10L0
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C10L2
+
+------------------------------------------------
+Killing observer Neigh from the cell C10L1
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C10L3
+
+------------------------------------------------
+Killing observer Neigh from the cell C10L2
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C10L4
+
+------------------------------------------------
+Killing observer Neigh from the cell C10L3
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C10L5
+
+------------------------------------------------
+Killing observer Neigh from the cell C10L4
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C10L6
+
+------------------------------------------------
+Killing observer Neigh from the cell C10L5
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C10L7
+
+------------------------------------------------
+Killing observer Neigh from the cell C10L6
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C10L8
+
+------------------------------------------------
+Killing observer Neigh from the cell C10L7
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C10L9
+
+------------------------------------------------
+Killing observer Neigh from the cell C10L8
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C10L10
+
+------------------------------------------------
+Killing observer Neigh from the cell C10L9
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C10L11
+
+------------------------------------------------
+Killing observer Neigh from the cell C10L10
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C10L12
+
+------------------------------------------------
+Killing observer Neigh from the cell C10L11
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C10L13
+
+------------------------------------------------
+Killing observer Neigh from the cell C10L12
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C10L14
+
+------------------------------------------------
+Killing observer Neigh from the cell C10L13
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C10L15
+
+------------------------------------------------
+Killing observer Neigh from the cell C10L14
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C10L16
+
+------------------------------------------------
+Killing observer Neigh from the cell C10L15
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C10L17
+
+------------------------------------------------
+Killing observer Neigh from the cell C10L16
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C10L18
+
+------------------------------------------------
+Killing observer Neigh from the cell C10L17
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C10L19
+
+------------------------------------------------
+Killing observer Neigh from the cell C10L18
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C11L0
+
+------------------------------------------------
+Killing observer Neigh from the cell C10L19
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C11L1
+
+------------------------------------------------
+Killing observer Neigh from the cell C11L0
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C11L2
+
+------------------------------------------------
+Killing observer Neigh from the cell C11L1
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C11L3
+
+------------------------------------------------
+Killing observer Neigh from the cell C11L2
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C11L4
+
+------------------------------------------------
+Killing observer Neigh from the cell C11L3
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C11L5
+
+------------------------------------------------
+Killing observer Neigh from the cell C11L4
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C11L6
+
+------------------------------------------------
+Killing observer Neigh from the cell C11L5
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C11L7
+
+------------------------------------------------
+Killing observer Neigh from the cell C11L6
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C11L8
+
+------------------------------------------------
+Killing observer Neigh from the cell C11L7
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C11L9
+
+------------------------------------------------
+Killing observer Neigh from the cell C11L8
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C11L10
+
+------------------------------------------------
+Killing observer Neigh from the cell C11L9
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C11L11
+
+------------------------------------------------
+Killing observer Neigh from the cell C11L10
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C11L12
+
+------------------------------------------------
+Killing observer Neigh from the cell C11L11
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C11L13
+
+------------------------------------------------
+Killing observer Neigh from the cell C11L12
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C11L14
+
+------------------------------------------------
+Killing observer Neigh from the cell C11L13
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C11L15
+
+------------------------------------------------
+Killing observer Neigh from the cell C11L14
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C11L16
+
+------------------------------------------------
+Killing observer Neigh from the cell C11L15
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C11L17
+
+------------------------------------------------
+Killing observer Neigh from the cell C11L16
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C11L18
+
+------------------------------------------------
+Killing observer Neigh from the cell C11L17
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C11L19
+
+------------------------------------------------
+Killing observer Neigh from the cell C11L18
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C12L0
+
+------------------------------------------------
+Killing observer Neigh from the cell C11L19
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C12L1
+
+------------------------------------------------
+Killing observer Neigh from the cell C12L0
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C12L2
+
+------------------------------------------------
+Killing observer Neigh from the cell C12L1
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C12L3
+
+------------------------------------------------
+Killing observer Neigh from the cell C12L2
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C12L4
+
+------------------------------------------------
+Killing observer Neigh from the cell C12L3
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C12L5
+
+------------------------------------------------
+Killing observer Neigh from the cell C12L4
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C12L6
+
+------------------------------------------------
+Killing observer Neigh from the cell C12L5
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C12L7
+
+------------------------------------------------
+Killing observer Neigh from the cell C12L6
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C12L8
+
+------------------------------------------------
+Killing observer Neigh from the cell C12L7
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C12L9
+
+------------------------------------------------
+Killing observer Neigh from the cell C12L8
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C12L10
+
+------------------------------------------------
+Killing observer Neigh from the cell C12L9
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C12L11
+
+------------------------------------------------
+Killing observer Neigh from the cell C12L10
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C12L12
+
+------------------------------------------------
+Killing observer Neigh from the cell C12L11
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C12L13
+
+------------------------------------------------
+Killing observer Neigh from the cell C12L12
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C12L14
+
+------------------------------------------------
+Killing observer Neigh from the cell C12L13
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C12L15
+
+------------------------------------------------
+Killing observer Neigh from the cell C12L14
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C12L16
+
+------------------------------------------------
+Killing observer Neigh from the cell C12L15
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C12L17
+
+------------------------------------------------
+Killing observer Neigh from the cell C12L16
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C12L18
+
+------------------------------------------------
+Killing observer Neigh from the cell C12L17
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C12L19
+
+------------------------------------------------
+Killing observer Neigh from the cell C12L18
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C13L0
+
+------------------------------------------------
+Killing observer Neigh from the cell C12L19
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C13L1
+
+------------------------------------------------
+Killing observer Neigh from the cell C13L0
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C13L2
+
+------------------------------------------------
+Killing observer Neigh from the cell C13L1
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C13L3
+
+------------------------------------------------
+Killing observer Neigh from the cell C13L2
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C13L4
+
+------------------------------------------------
+Killing observer Neigh from the cell C13L3
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C13L5
+
+------------------------------------------------
+Killing observer Neigh from the cell C13L4
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C13L6
+
+------------------------------------------------
+Killing observer Neigh from the cell C13L5
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C13L7
+
+------------------------------------------------
+Killing observer Neigh from the cell C13L6
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C13L8
+
+------------------------------------------------
+Killing observer Neigh from the cell C13L7
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C13L9
+
+------------------------------------------------
+Killing observer Neigh from the cell C13L8
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C13L10
+
+------------------------------------------------
+Killing observer Neigh from the cell C13L9
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C13L11
+
+------------------------------------------------
+Killing observer Neigh from the cell C13L10
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C13L12
+
+------------------------------------------------
+Killing observer Neigh from the cell C13L11
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C13L13
+
+------------------------------------------------
+Killing observer Neigh from the cell C13L12
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C13L14
+
+------------------------------------------------
+Killing observer Neigh from the cell C13L13
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C13L15
+
+------------------------------------------------
+Killing observer Neigh from the cell C13L14
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C13L16
+
+------------------------------------------------
+Killing observer Neigh from the cell C13L15
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C13L17
+
+------------------------------------------------
+Killing observer Neigh from the cell C13L16
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C13L18
+
+------------------------------------------------
+Killing observer Neigh from the cell C13L17
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C13L19
+
+------------------------------------------------
+Killing observer Neigh from the cell C13L18
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C14L0
+
+------------------------------------------------
+Killing observer Neigh from the cell C13L19
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C14L1
+
+------------------------------------------------
+Killing observer Neigh from the cell C14L0
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C14L2
+
+------------------------------------------------
+Killing observer Neigh from the cell C14L1
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C14L3
+
+------------------------------------------------
+Killing observer Neigh from the cell C14L2
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C14L4
+
+------------------------------------------------
+Killing observer Neigh from the cell C14L3
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C14L5
+
+------------------------------------------------
+Killing observer Neigh from the cell C14L4
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C14L6
+
+------------------------------------------------
+Killing observer Neigh from the cell C14L5
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C14L7
+
+------------------------------------------------
+Killing observer Neigh from the cell C14L6
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C14L8
+
+------------------------------------------------
+Killing observer Neigh from the cell C14L7
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C14L9
+
+------------------------------------------------
+Killing observer Neigh from the cell C14L8
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C14L10
+
+------------------------------------------------
+Killing observer Neigh from the cell C14L9
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C14L11
+
+------------------------------------------------
+Killing observer Neigh from the cell C14L10
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C14L12
+
+------------------------------------------------
+Killing observer Neigh from the cell C14L11
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C14L13
+
+------------------------------------------------
+Killing observer Neigh from the cell C14L12
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C14L14
+
+------------------------------------------------
+Killing observer Neigh from the cell C14L13
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C14L15
+
+------------------------------------------------
+Killing observer Neigh from the cell C14L14
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C14L16
+
+------------------------------------------------
+Killing observer Neigh from the cell C14L15
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C14L17
+
+------------------------------------------------
+Killing observer Neigh from the cell C14L16
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C14L18
+
+------------------------------------------------
+Killing observer Neigh from the cell C14L17
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C14L19
+
+------------------------------------------------
+Killing observer Neigh from the cell C14L18
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C15L0
+
+------------------------------------------------
+Killing observer Neigh from the cell C14L19
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C15L1
+
+------------------------------------------------
+Killing observer Neigh from the cell C15L0
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C15L2
+
+------------------------------------------------
+Killing observer Neigh from the cell C15L1
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C15L3
+
+------------------------------------------------
+Killing observer Neigh from the cell C15L2
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C15L4
+
+------------------------------------------------
+Killing observer Neigh from the cell C15L3
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C15L5
+
+------------------------------------------------
+Killing observer Neigh from the cell C15L4
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C15L6
+
+------------------------------------------------
+Killing observer Neigh from the cell C15L5
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C15L7
+
+------------------------------------------------
+Killing observer Neigh from the cell C15L6
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C15L8
+
+------------------------------------------------
+Killing observer Neigh from the cell C15L7
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C15L9
+
+------------------------------------------------
+Killing observer Neigh from the cell C15L8
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C15L10
+
+------------------------------------------------
+Killing observer Neigh from the cell C15L9
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C15L11
+
+------------------------------------------------
+Killing observer Neigh from the cell C15L10
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C15L12
+
+------------------------------------------------
+Killing observer Neigh from the cell C15L11
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C15L13
+
+------------------------------------------------
+Killing observer Neigh from the cell C15L12
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C15L14
+
+------------------------------------------------
+Killing observer Neigh from the cell C15L13
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C15L15
+
+------------------------------------------------
+Killing observer Neigh from the cell C15L14
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C15L16
+
+------------------------------------------------
+Killing observer Neigh from the cell C15L15
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C15L17
+
+------------------------------------------------
+Killing observer Neigh from the cell C15L16
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C15L18
+
+------------------------------------------------
+Killing observer Neigh from the cell C15L17
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C15L19
+
+------------------------------------------------
+Killing observer Neigh from the cell C15L18
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C16L0
+
+------------------------------------------------
+Killing observer Neigh from the cell C15L19
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C16L1
+
+------------------------------------------------
+Killing observer Neigh from the cell C16L0
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C16L2
+
+------------------------------------------------
+Killing observer Neigh from the cell C16L1
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C16L3
+
+------------------------------------------------
+Killing observer Neigh from the cell C16L2
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C16L4
+
+------------------------------------------------
+Killing observer Neigh from the cell C16L3
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C16L5
+
+------------------------------------------------
+Killing observer Neigh from the cell C16L4
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C16L6
+
+------------------------------------------------
+Killing observer Neigh from the cell C16L5
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C16L7
+
+------------------------------------------------
+Killing observer Neigh from the cell C16L6
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C16L8
+
+------------------------------------------------
+Killing observer Neigh from the cell C16L7
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C16L9
+
+------------------------------------------------
+Killing observer Neigh from the cell C16L8
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C16L10
+
+------------------------------------------------
+Killing observer Neigh from the cell C16L9
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C16L11
+
+------------------------------------------------
+Killing observer Neigh from the cell C16L10
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C16L12
+
+------------------------------------------------
+Killing observer Neigh from the cell C16L11
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C16L13
+
+------------------------------------------------
+Killing observer Neigh from the cell C16L12
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C16L14
+
+------------------------------------------------
+Killing observer Neigh from the cell C16L13
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C16L15
+
+------------------------------------------------
+Killing observer Neigh from the cell C16L14
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C16L16
+
+------------------------------------------------
+Killing observer Neigh from the cell C16L15
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C16L17
+
+------------------------------------------------
+Killing observer Neigh from the cell C16L16
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C16L18
+
+------------------------------------------------
+Killing observer Neigh from the cell C16L17
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C16L19
+
+------------------------------------------------
+Killing observer Neigh from the cell C16L18
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C17L0
+
+------------------------------------------------
+Killing observer Neigh from the cell C16L19
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C17L1
+
+------------------------------------------------
+Killing observer Neigh from the cell C17L0
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C17L2
+
+------------------------------------------------
+Killing observer Neigh from the cell C17L1
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C17L3
+
+------------------------------------------------
+Killing observer Neigh from the cell C17L2
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C17L4
+
+------------------------------------------------
+Killing observer Neigh from the cell C17L3
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C17L5
+
+------------------------------------------------
+Killing observer Neigh from the cell C17L4
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C17L6
+
+------------------------------------------------
+Killing observer Neigh from the cell C17L5
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C17L7
+
+------------------------------------------------
+Killing observer Neigh from the cell C17L6
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C17L8
+
+------------------------------------------------
+Killing observer Neigh from the cell C17L7
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C17L9
+
+------------------------------------------------
+Killing observer Neigh from the cell C17L8
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C17L10
+
+------------------------------------------------
+Killing observer Neigh from the cell C17L9
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C17L11
+
+------------------------------------------------
+Killing observer Neigh from the cell C17L10
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C17L12
+
+------------------------------------------------
+Killing observer Neigh from the cell C17L11
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C17L13
+
+------------------------------------------------
+Killing observer Neigh from the cell C17L12
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C17L14
+
+------------------------------------------------
+Killing observer Neigh from the cell C17L13
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C17L15
+
+------------------------------------------------
+Killing observer Neigh from the cell C17L14
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C17L16
+
+------------------------------------------------
+Killing observer Neigh from the cell C17L15
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C17L17
+
+------------------------------------------------
+Killing observer Neigh from the cell C17L16
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C17L18
+
+------------------------------------------------
+Killing observer Neigh from the cell C17L17
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C17L19
+
+------------------------------------------------
+Killing observer Neigh from the cell C17L18
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C18L0
+
+------------------------------------------------
+Killing observer Neigh from the cell C17L19
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C18L1
+
+------------------------------------------------
+Killing observer Neigh from the cell C18L0
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C18L2
+
+------------------------------------------------
+Killing observer Neigh from the cell C18L1
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C18L3
+
+------------------------------------------------
+Killing observer Neigh from the cell C18L2
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C18L4
+
+------------------------------------------------
+Killing observer Neigh from the cell C18L3
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C18L5
+
+------------------------------------------------
+Killing observer Neigh from the cell C18L4
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C18L6
+
+------------------------------------------------
+Killing observer Neigh from the cell C18L5
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C18L7
+
+------------------------------------------------
+Killing observer Neigh from the cell C18L6
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C18L8
+
+------------------------------------------------
+Killing observer Neigh from the cell C18L7
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C18L9
+
+------------------------------------------------
+Killing observer Neigh from the cell C18L8
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C18L10
+
+------------------------------------------------
+Killing observer Neigh from the cell C18L9
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C18L11
+
+------------------------------------------------
+Killing observer Neigh from the cell C18L10
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C18L12
+
+------------------------------------------------
+Killing observer Neigh from the cell C18L11
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C18L13
+
+------------------------------------------------
+Killing observer Neigh from the cell C18L12
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C18L14
+
+------------------------------------------------
+Killing observer Neigh from the cell C18L13
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C18L15
+
+------------------------------------------------
+Killing observer Neigh from the cell C18L14
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C18L16
+
+------------------------------------------------
+Killing observer Neigh from the cell C18L15
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C18L17
+
+------------------------------------------------
+Killing observer Neigh from the cell C18L16
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C18L18
+
+------------------------------------------------
+Killing observer Neigh from the cell C18L17
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C18L19
+
+------------------------------------------------
+Killing observer Neigh from the cell C18L18
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C19L0
+
+------------------------------------------------
+Killing observer Neigh from the cell C18L19
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C19L1
+
+------------------------------------------------
+Killing observer Neigh from the cell C19L0
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C19L2
+
+------------------------------------------------
+Killing observer Neigh from the cell C19L1
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C19L3
+
+------------------------------------------------
+Killing observer Neigh from the cell C19L2
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C19L4
+
+------------------------------------------------
+Killing observer Neigh from the cell C19L3
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C19L5
+
+------------------------------------------------
+Killing observer Neigh from the cell C19L4
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C19L6
+
+------------------------------------------------
+Killing observer Neigh from the cell C19L5
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C19L7
+
+------------------------------------------------
+Killing observer Neigh from the cell C19L6
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C19L8
+
+------------------------------------------------
+Killing observer Neigh from the cell C19L7
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C19L9
+
+------------------------------------------------
+Killing observer Neigh from the cell C19L8
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C19L10
+
+------------------------------------------------
+Killing observer Neigh from the cell C19L9
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C19L11
+
+------------------------------------------------
+Killing observer Neigh from the cell C19L10
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C19L12
+
+------------------------------------------------
+Killing observer Neigh from the cell C19L11
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C19L13
+
+------------------------------------------------
+Killing observer Neigh from the cell C19L12
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C19L14
+
+------------------------------------------------
+Killing observer Neigh from the cell C19L13
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C19L15
+
+------------------------------------------------
+Killing observer Neigh from the cell C19L14
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C19L16
+
+------------------------------------------------
+Killing observer Neigh from the cell C19L15
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C19L17
+
+------------------------------------------------
+Killing observer Neigh from the cell C19L16
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C19L18
+
+------------------------------------------------
+Killing observer Neigh from the cell C19L17
+Kill returned 	true
+
+------------------------------------------------
+creating Observer Neigh for the cell C19L19
+
+------------------------------------------------
+Killing observer Neigh from the cell C19L18
+Kill returned 	true
+
+------------------------------------------------
+Killing observer Neigh from the cell C19L19
+observer:kill(): 	true
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_Map2
+File: 	/home/terralab/TerraME_Beta/tests/src/observers/neighborhood/test_map.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

@@ -1,0 +1,10 @@
+GRAPHIC 05
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_graph05
+File: 	/home/terralab/TerraME_Beta/tests/src/observers/trajectory/test_chart.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
