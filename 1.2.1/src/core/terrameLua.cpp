@@ -415,16 +415,13 @@ void versions()
     //qWarning("\nTerraLab -- Earth System Modelling and Simulation Laboratory");
     qWarning("\nTerraME - Terra Modelling Environment");
     qWarning("    Version: %s ", TME_VERSION);     // macro in the file "terrameLua5_1.h"
-    qWarning("    Lua Kernel: ");
-
-    qWarning("        Version: 1.2.0 ");
     string buffer = "TME_PATH_";
 
     QString tmeVersion = QString("%1").arg(TME_VERSION);
     buffer.append(tmeVersion.replace(QString("."),QString("_")).toAscii().constData());
     qWarning("        Location: '%s' ", getenv(buffer.c_str()));
 
-    qWarning("\n\nCompiled with: ");
+    qWarning("\nCompiled with: ");
     qWarning("    %s ", LUA_RELEASE);                  // macro in the file "lua.h"
     qWarning("    Qt %s ", qVersion());                // Qt version method
     qWarning("    Qwt %s ", QWT_VERSION_STR);          // macro in the file "qwt_global.h"                   
@@ -432,7 +429,7 @@ void versions()
         TERRALIB_VERSION,       // macro in the file "TeVersion.h"
         TeDBVERSION.c_str());   // macro in the file "TeDefines.h" linha 221
 
-    qWarning("\n\nFor more information, please visit: www.terrame.org\n");
+    qWarning("\nFor more information, please visit: www.terrame.org\n");
 }
 
 /// Opens Lua environment and Lua libraries 
@@ -486,8 +483,7 @@ int main ( int argc, char *argv[] )
 
     // TODO
     // retrive lua version from TerraME.lua
-    TME_VERSION = "1.2.0";
-    TME_LUA_VERSION = "1.2.0";
+    TME_VERSION = "1.2.1";
 
     QApplication app(argc, argv);
     //app.setQuitOnLastWindowClosed(true);

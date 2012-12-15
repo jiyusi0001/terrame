@@ -64,7 +64,6 @@ extern "C"
 
 
 static char* TME_VERSION;
-static char* TME_LUA_VERSION;
 
 /**
 * \brief 
