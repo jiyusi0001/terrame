@@ -33,6 +33,13 @@ function contains(t,value)
 	return false  
 end
 
+function os.capture(cmd)
+    local f = assert(io.popen(cmd, 'r'))
+    local s = assert(f:read('*a'))
+    f:close()
+    return s
+end
+
 function createTestFolder(subject, observer, testNumber, path)
 	local copyTo = RESULT_PATH..subject..TME_DIR_SEPARATOR..observer..testNumber..TME_DIR_SEPARATOR
 	local copyFrom = path

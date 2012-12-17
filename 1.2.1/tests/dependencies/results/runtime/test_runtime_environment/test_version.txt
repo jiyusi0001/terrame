@@ -1,0 +1,9 @@
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_version
+File: 	/home/terralab/TerraME_Beta/tests/src/runtime/test_runtime_environment.lua
+
+Assertions: 1 total, 1 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
