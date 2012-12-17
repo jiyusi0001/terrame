@@ -27,8 +27,16 @@
 
 dofile (TME_PATH.."/tests/dependencies/UnitTest.lua")
 
+-- attributes name can differ in differents DBMS's
+HEIGHT= "height_"
+DB_VERSION = "4_2_0"
+
+db = getDataBase()
+dbms = db["dbms"]
+pwd = db["pwd"]
+
 local neighborhood_createTest = UnitTest {
-	test_NeighborhoodCreationMethods = function(self)
+	test_NeighborhoodCreationMethods = function(unitTest)
 
 		print("-------------------------------------");
 		print("-- test_NeighborhoodCreationMethods");
@@ -36,8 +44,8 @@ local neighborhood_createTest = UnitTest {
 		local cs = CellularSpace{
 			xdim=10
 		}
-		self:assert_not_nil(cs)
-		self:assert_equal(100, cs:size())
+		unitTest:assert_not_nil(cs)
+		unitTest:assert_equal(100, cs:size())
 
 		print("--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=") io.flush()
 		print("Testing Neighborhood creation...") io.flush()
@@ -53,7 +61,7 @@ local neighborhood_createTest = UnitTest {
 
 		forEachCell(cs, function(c)
 			local n = c:getNeighborhood("moore")		
-			self:assert_not_nil(n)
+			unitTest:assert_not_nil(n)
 
 			if(x[n:size()] == nil)then
 				x[n:size()] = 0
@@ -65,14 +73,14 @@ local neighborhood_createTest = UnitTest {
 			c,
 			"moore",
 			function(cell, neigh, weight)
-				self:assert_equal(0.11111111111111, weight, 0.00001)
+				unitTest:assert_equal(0.11111111111111, weight, 0.00001)
 			end
 			)
 		end)
 
-		self:assert_equal(32, x[6])
-		self:assert_equal(4,  x[4])
-		self:assert_equal(64, x[9])
+		unitTest:assert_equal(32, x[6])
+		unitTest:assert_equal(4,  x[4])
+		unitTest:assert_equal(64, x[9])
 
 		------------------------------------------------------- 3x3 -------------------------------------------------------------------
 		print("\t-> 3x3")
@@ -90,7 +98,7 @@ local neighborhood_createTest = UnitTest {
 
 		forEachCell(cs, function(c)
 			n = c:getNeighborhood("3x3")
-			self:assert_not_nil(n)
+			unitTest:assert_not_nil(n)
 
 			if(x[n:size()] == nil)then
 				x[n:size()] = 0
@@ -102,14 +110,14 @@ local neighborhood_createTest = UnitTest {
 			c,
 			"3x3",
 			function(cell, neigh, weight)
-				self:assert_equal(1, weight)
+				unitTest:assert_equal(1, weight)
 			end
 			)
 		end)
 
-		self:assert_equal(32, x[6])
-		self:assert_equal(4,  x[4])
-		self:assert_equal(64, x[9])
+		unitTest:assert_equal(32, x[6])
+		unitTest:assert_equal(4,  x[4])
+		unitTest:assert_equal(64, x[9])
 
 		------------------------------------------------------- mxn -------------------------------------------------------------------	
 		print("\t-> MxN")
@@ -126,8 +134,8 @@ local neighborhood_createTest = UnitTest {
 
 		forEachCell(cs, function(c)
 			local n = c:getNeighborhood("mxn")
-			self:assert_not_nil(n)
-			self:assert_gte(n:size(),6)
+			unitTest:assert_not_nil(n)
+			unitTest:assert_gte(n:size(),6)
 
 			if(x[n:size()] == nil)then
 				x[n:size()] = 0
@@ -139,17 +147,17 @@ local neighborhood_createTest = UnitTest {
 			c,
 			"mxn",
 			function(cell, neigh, weight)
-				self:assert_equal(1, weight)
+				unitTest:assert_equal(1, weight)
 			end
 			)
 		end)
 
-		self:assert_equal(4,  x[6])
-		self:assert_equal(4,  x[8])
-		self:assert_equal(16, x[9])
-		self:assert_equal(12, x[10])
-		self:assert_equal(16, x[12])
-		self:assert_equal(48, x[15])
+		unitTest:assert_equal(4,  x[6])
+		unitTest:assert_equal(4,  x[8])
+		unitTest:assert_equal(16, x[9])
+		unitTest:assert_equal(12, x[10])
+		unitTest:assert_equal(16, x[12])
+		unitTest:assert_equal(48, x[15])
 
 		-- RAIAN: Another Strategies to create neighborhoods
 		------------------------------------------------------- Function --------------------------------------------------------------
@@ -178,8 +186,8 @@ local neighborhood_createTest = UnitTest {
 		cs, 
 		function(cell)
 			local neighborhood = cell:getNeighborhood("function")
-			self:assert_not_nil(neighborhood)
-			self:assert_gte(neighborhood:size(),8)
+			unitTest:assert_not_nil(neighborhood)
+			unitTest:assert_gte(neighborhood:size(),8)
 
 			if(x[neighborhood:size()] == nil)then
 				x[neighborhood:size()] = 0
@@ -191,8 +199,8 @@ local neighborhood_createTest = UnitTest {
 			cell, 
 			"function",
 			function(c, neigh, weight)
-				self:assert_gte(weight,0)
-				self:assert_lte(weight, 4)
+				unitTest:assert_gte(weight,0)
+				unitTest:assert_lte(weight, 4)
 				maxWeight = math.max(maxWeight, weight)
 				minWeight = math.min(minWeight, weight)
 				sumWeight = sumWeight + weight
@@ -201,16 +209,16 @@ local neighborhood_createTest = UnitTest {
 		end
 		)
 
-		self:assert_equal(4, x[8])
-		self:assert_equal(8, x[11])
-		self:assert_equal(24, x[14])
-		self:assert_equal(4, x[15])
-		self:assert_equal(24, x[19])
-		self:assert_equal(36, x[24])
+		unitTest:assert_equal(4, x[8])
+		unitTest:assert_equal(8, x[11])
+		unitTest:assert_equal(24, x[14])
+		unitTest:assert_equal(4, x[15])
+		unitTest:assert_equal(24, x[19])
+		unitTest:assert_equal(36, x[24])
 
-		self:assert_equal(1679.7929714764, sumWeight, 0.00001)
-		self:assert_equal(4, maxWeight)
-		self:assert_equal(0, minWeight)
+		unitTest:assert_equal(1679.7929714764, sumWeight, 0.00001)
+		unitTest:assert_equal(4, maxWeight)
+		unitTest:assert_equal(0, minWeight)
 
 		------------------------------------------------------- Von Neumann -----------------------------------------------------------
 
@@ -224,8 +232,8 @@ local neighborhood_createTest = UnitTest {
 		cs,
 		function(cell)
 			local neighborhood = cell:getNeighborhood("vonneumann")
-			self:assert_not_nil(neighborhood)
-			self:assert_gte(neighborhood:size(),2)
+			unitTest:assert_not_nil(neighborhood)
+			unitTest:assert_gte(neighborhood:size(),2)
 
 			if(x[neighborhood:size()] == nil)then
 				x[neighborhood:size()] = 0
@@ -237,15 +245,15 @@ local neighborhood_createTest = UnitTest {
 			cell, 
 			"vonneumann",
 			function(c, neigh, weight)
-				self:assert_equal(0.25, weight)
+				unitTest:assert_equal(0.25, weight)
 			end
 			)
 		end
 		)
 
-		self:assert_equal(4, x[2])
-		self:assert_equal(32, x[3])
-		self:assert_equal(64, x[4])
+		unitTest:assert_equal(4, x[2])
+		unitTest:assert_equal(32, x[3])
+		unitTest:assert_equal(64, x[4])
 
 		--###################################################### Coupling ###########################################################--
 		print("Testing Coupling functions...")
@@ -253,8 +261,8 @@ local neighborhood_createTest = UnitTest {
 		local cs2 = CellularSpace{
 			xdim = 10
 		}
-		self:assert_not_nil(cs2)
-		self:assert_equal(100, cs2:size())
+		unitTest:assert_not_nil(cs2)
+		unitTest:assert_equal(100, cs2:size())
 		------------------------------------------------------- Coord -----------------------------------------------------------------
 		print("\t-> COORD")
 
@@ -266,8 +274,8 @@ local neighborhood_createTest = UnitTest {
 		cs,
 		function(cell)
 			local neighborhood = cell:getNeighborhood("coupling_coord")
-			self:assert_not_nil(neighborhood)
-			self:assert_equal(1, neighborhood:size())
+			unitTest:assert_not_nil(neighborhood)
+			unitTest:assert_equal(1, neighborhood:size())
 
 			if(x[neighborhood:size()] == nil)then
 				x[neighborhood:size()] = 0
@@ -279,13 +287,13 @@ local neighborhood_createTest = UnitTest {
 			cell, 
 			"coupling_coord", 
 			function(c, neigh, weight)
-				self:assert_equal(1, weight)
+				unitTest:assert_equal(1, weight)
 			end
 			)
 		end
 		)
 
-		self:assert_equal(100, x[1])
+		unitTest:assert_equal(100, x[1])
 
 		------------------------------------------------------- mxn -------------------------------------------------------------------
 		print("\t-> MxN")
@@ -317,8 +325,8 @@ local neighborhood_createTest = UnitTest {
 		cs,
 		function(cell)
 			local neighborhood = cell:getNeighborhood("coupling_mxn")
-			self:assert_not_nil(neighborhood)
-			self:assert_gte(neighborhood:size(),4)
+			unitTest:assert_not_nil(neighborhood)
+			unitTest:assert_gte(neighborhood:size(),4)
 
 			if(x[neighborhood:size()] == nil)then
 				x[neighborhood:size()] = 0
@@ -330,8 +338,8 @@ local neighborhood_createTest = UnitTest {
 			cell, 
 			"coupling_mxn",
 			function(c, neigh, weight)
-				self:assert_gte(weight, 0)
-				self:assert_lte(weight, 64.8)
+				unitTest:assert_gte(weight, 0)
+				unitTest:assert_lte(weight, 64.8)
 				minWeight = math.min(minWeight, weight)
 				maxWeight = math.max(maxWeight, weight)
 				sumWeight = sumWeight + weight
@@ -340,22 +348,20 @@ local neighborhood_createTest = UnitTest {
 		end
 		)
 
-		self:assert_equal(32, x[6])
-		self:assert_equal(4, x[4])
-		self:assert_equal(64, x[9])
+		unitTest:assert_equal(32, x[6])
+		unitTest:assert_equal(4, x[4])
+		unitTest:assert_equal(64, x[9])
 
-		self:assert_equal(64.8, maxWeight)
-		self:assert_equal(0, minWeight)
-		self:assert_equal(12700.8, sumWeight, 0.00001)
-
-		-- RAIAN: Fim
+		unitTest:assert_equal(64.8, maxWeight)
+		unitTest:assert_equal(0, minWeight)
+		unitTest:assert_equal(12700.8, sumWeight, 0.00001)
 
 		print("READY!!")
-		self:assert_true(true)
+		unitTest:assert_true(true)
 	end,
 
 	-- RAIAN: Tests for loadNeighborhood Methods
-	test_LoadNeighborhoodMethod = function(self)
+	test_LoadNeighborhoodMethod = function(unitTest)
 
 		print("-------------------------------------");
 		print("-- test_LoadNeighborhoodMethod");
@@ -380,8 +386,8 @@ local neighborhood_createTest = UnitTest {
 			}		
 		end
 
-		self:assert_not_nil(cs)
-		self:assert_equal(121, cs:size())
+		unitTest:assert_not_nil(cs)
+		unitTest:assert_equal(121, cs:size())
 
 		print("Testing load Neighborhood method from CellularSpace...") io.flush()	
 
@@ -406,10 +412,10 @@ local neighborhood_createTest = UnitTest {
 		cs, 
 		function(cell)
 			local neighborhood = cell:getNeighborhood("gpmReg")
-			self:assert_not_nil(neighborhood)
+			unitTest:assert_not_nil(neighborhood)
 
-			self:assert_gte(neighborhood:size(),5)
-			self:assert_lte(neighborhood:size(),12)
+			unitTest:assert_gte(neighborhood:size(),5)
+			unitTest:assert_lte(neighborhood:size(),12)
 
 			minSize = math.min(neighborhood:size(), minSize)
 			maxSize = math.max(neighborhood:size(), maxSize)
@@ -421,8 +427,8 @@ local neighborhood_createTest = UnitTest {
 			cell, 
 			"gpmReg",
 			function(c, neigh, weight)
-				self:assert_gte(weight,900)
-				self:assert_lte(weight,1800)
+				unitTest:assert_gte(weight,900)
+				unitTest:assert_lte(weight,1800)
 
 				minWeight = math.min(weight, minWeight)
 				maxWeight = math.max(weight, maxWeight)
@@ -432,18 +438,18 @@ local neighborhood_createTest = UnitTest {
 		end
 		)
 
-		self:assert_equal(5, minSize)
-		self:assert_equal(12, maxSize)
-		self:assert_equal(900, minWeight)
-		self:assert_equal(1800, maxWeight)
-		self:assert_equal(1617916.8, sumWeight, 0.00001)
+		unitTest:assert_equal(5, minSize)
+		unitTest:assert_equal(12, maxSize)
+		unitTest:assert_equal(900, minWeight)
+		unitTest:assert_equal(1800, maxWeight)
+		unitTest:assert_equal(1617916.8, sumWeight, 0.00001)
 
-		self:assert_equal(28, x[11])
-		self:assert_equal(8, x[7])
-		self:assert_equal(28, x[8])
-		self:assert_equal(4, x[10])
-		self:assert_equal(49, x[12])
-		self:assert_equal(4, x[5])
+		unitTest:assert_equal(28, x[11])
+		unitTest:assert_equal(8, x[7])
+		unitTest:assert_equal(28, x[8])
+		unitTest:assert_equal(4, x[10])
+		unitTest:assert_equal(49, x[12])
+		unitTest:assert_equal(4, x[5])
 
 		-------------------------------------------------------- .gpm Irreg CS --------------------------------------------------------
 		-- Arranjar um BD com estruturas irregulares para testar
@@ -465,10 +471,10 @@ local neighborhood_createTest = UnitTest {
 		cs, 
 		function(cell)
 			local neighborhood = cell:getNeighborhood("galReg")
-			self:assert_not_nil(neighborhood)
+			unitTest:assert_not_nil(neighborhood)
 
-			self:assert_gte(neighborhood:size(),5)
-			self:assert_lte(neighborhood:size(),12)
+			unitTest:assert_gte(neighborhood:size(),5)
+			unitTest:assert_lte(neighborhood:size(),12)
 
 			minSize = math.min(neighborhood:size(), minSize)
 			maxSize = math.max(neighborhood:size(), maxSize)
@@ -480,23 +486,23 @@ local neighborhood_createTest = UnitTest {
 			cell, 
 			"galReg",
 			function(c, neigh, weight)
-				self:assert_equal(1, weight)
+				unitTest:assert_equal(1, weight)
 				sumWeight = sumWeight + weight
 			end
 			)
 		end
 		)
 
-		self:assert_equal(1236, sumWeight)
-		self:assert_equal(5, minSize)
-		self:assert_equal(12, maxSize)
+		unitTest:assert_equal(1236, sumWeight)
+		unitTest:assert_equal(5, minSize)
+		unitTest:assert_equal(12, maxSize)
 
-		self:assert_equal(28, x[11])
-		self:assert_equal(8, x[7])
-		self:assert_equal(28, x[8])
-		self:assert_equal(4, x[10])
-		self:assert_equal(49, x[12])
-		self:assert_equal(4, x[5])
+		unitTest:assert_equal(28, x[11])
+		unitTest:assert_equal(8, x[7])
+		unitTest:assert_equal(28, x[8])
+		unitTest:assert_equal(4, x[10])
+		unitTest:assert_equal(49, x[12])
+		unitTest:assert_equal(4, x[5])
 
 		-------------------------------------------------------- .GAL Irreg CS --------------------------------------------------------
 		-- Arranjar um BD com estruturas irregulares para testar
@@ -520,10 +526,10 @@ local neighborhood_createTest = UnitTest {
 		cs, 
 		function(cell)
 			local neighborhood = cell:getNeighborhood("gwtReg")
-			self:assert_not_nil(neighborhood)
+			unitTest:assert_not_nil(neighborhood)
 
-			self:assert_gte(neighborhood:size(),5)
-			self:assert_lte(neighborhood:size(),12)
+			unitTest:assert_gte(neighborhood:size(),5)
+			unitTest:assert_lte(neighborhood:size(),12)
 
 			minSize = math.min(neighborhood:size(), minSize)
 			maxSize = math.max(neighborhood:size(), maxSize)
@@ -535,8 +541,8 @@ local neighborhood_createTest = UnitTest {
 			cell, 
 			"gwtReg",
 			function(c, neigh, weight)
-				self:assert_gte(weight,900)
-				self:assert_lte(weight, 1800)
+				unitTest:assert_gte(weight,900)
+				unitTest:assert_lte(weight, 1800)
 
 				minWeight = math.min(weight, minWeight)
 				maxWeight = math.max(weight, maxWeight)
@@ -546,16 +552,16 @@ local neighborhood_createTest = UnitTest {
 		end
 		)
 
-		self:assert_equal(1800, maxWeight)
-		self:assert_equal(900, minWeight)
-		self:assert_equal(1617916.8, sumWeight, 0.00001)
+		unitTest:assert_equal(1800, maxWeight)
+		unitTest:assert_equal(900, minWeight)
+		unitTest:assert_equal(1617916.8, sumWeight, 0.00001)
 
-		self:assert_equal(28, x[11])
-		self:assert_equal(8, x[7])
-		self:assert_equal(28, x[8])
-		self:assert_equal(4, x[10])
-		self:assert_equal(49, x[12])
-		self:assert_equal(4, x[5])
+		unitTest:assert_equal(28, x[11])
+		unitTest:assert_equal(8, x[7])
+		unitTest:assert_equal(28, x[8])
+		unitTest:assert_equal(4, x[10])
+		unitTest:assert_equal(49, x[12])
+		unitTest:assert_equal(4, x[5])
 
 		-------------------------------------------------------- .GWT Irreg CS --------------------------------------------------------
 		-- Arranjar um BD com estruturas irregulares para testar
@@ -588,15 +594,8 @@ local neighborhood_createTest = UnitTest {
 		--	print("-------------------------------------------------");	
 
 		print("READY!")
-		self:assert_true(true)
+		unitTest:assert_true(true)
 	end
 }
-
---db = getDataBase()
---dbms = db["dbms"]
---pwd = db["pwd"]
-
-dbms = 0
-pwd = "terralab0705"
 
 neighborhood_createTest:run()
