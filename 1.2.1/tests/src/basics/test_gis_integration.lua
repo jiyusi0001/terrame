@@ -34,14 +34,14 @@ dofile (TME_PATH.."/tests/dependencies/UnitTest.lua")
 -- attributes name can differ in differents DBMS's
 HEIGHT= "height_"
 DB_VERSION = "4_2_0"
-local gisTest = UnitTest {
-	test_LoadTerraLibCellularSpacesMinimalParameters = function(unitTest)
 
-		print("--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=")
-		print("\nTesting LoadTerraLibCellularSpacesMinimalParameters...")
+db = getDataBase()
+dbms = db["dbms"]
+pwd = db["pwd"]
 
+function createCS(dbms, pwd, t)
 		-- defines and loads the celular space from a TerraLib theme
-		cs = nil
+		local cs = nil
 		if(dbms == 0) then
 			cs = CellularSpace{
 				dbType = "mysql",
@@ -49,16 +49,25 @@ local gisTest = UnitTest {
 				database = "cabeca",
 				user = "root",
 				password = pwd,
-				theme = "cells90x90"
+				theme = t
 			}
 		else
 			cs = CellularSpace{
 				dbType = "ADO",
 				database = TME_PATH .. "\\database\\cabecaDeBoi_" .. DB_VERSION ..".mdb",
-				theme = "cells90x90"	
+				theme = t	
 			}		
 		end
-		--cs:load();
+    return cs
+end
+
+local gisTest = UnitTest {
+	test_LoadTerraLibCellularSpacesMinimalParameters = function(unitTest)
+
+		print("--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=")
+		print("\nTesting LoadTerraLibCellularSpacesMinimalParameters...")
+    
+    cs = createCS(dbms,pwd,"cells90x90")
 
 		cont = 0
 		forEachCell( cs, function( cell) 
@@ -76,37 +85,10 @@ local gisTest = UnitTest {
 	end,
 
 	test_LoadTerraLibCellularSpacesSelectedAttributes = function(unitTest)
-
-		--[[if(SKIPS[2]) then
-		skip("No testing...") -- 50002 assertions
-		end]]--
-
 		print("--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=")
 		print("\nTesting LoadTerraLibCellularSpacesSelectedAttributes...")
 
-		-- defines and loads the celular space from a TerraLib theme
-		cs = nil
-		if(dbms == 0) then
-			cs = CellularSpace{
-				dbType = "mysql",
-				host = "127.0.0.1",
-				database = "cabeca",
-				user = "root",
-				password = pwd,
-				theme = "cells90x90",
-				select = { HEIGHT, "soilWater" }	
-			}
-		else
-			cs = CellularSpace{
-				dbType = "ADO",
-				database = TME_PATH .. "\\database\\cabecaDeBoi_" .. DB_VERSION ..".mdb",
-				theme = "cells90x90",
-				select = { HEIGHT, "soilWater" }
-
-			}
-		end
-		print("Loading...")
-		--cs:load();
+    cs = createCS(dbms,pwd,"cells90x90")
 
 		print("testing loaded cells...")
 		cont = 0
@@ -135,7 +117,6 @@ local gisTest = UnitTest {
 		print("------------------------------------------------");
 		print("-- LoadTerraLibWhereClause ");
 
-		-- defines and loads the celular space from a TerraLib theme
 		cs = nil
 		if(dbms == 0) then
 			cs = CellularSpace{
@@ -157,11 +138,8 @@ local gisTest = UnitTest {
 				where = HEIGHT .. " > 100"	
 			}
 		end
-		--cs:load();
-
 
 		print("wait...") io.flush()
-		--cs:load();
 
 		cont = 0
 		forEachCell( cs, function( cell) 
@@ -169,8 +147,7 @@ local gisTest = UnitTest {
 			unitTest:assert_string(cell.objectId_)
 			unitTest:assert_number(cell.x )
 			unitTest:assert_number(cell.y )
-			unitTest:assert_gt(cell[ HEIGHT ],99)		
-			--assert_gt(100, cell[ HEIGHT ])
+			unitTest:assert_gt(cell[ HEIGHT ],99)
 			unitTest:assert_not_nil(cell.soilWater)
 		end)
 		print(cont) io.flush()
@@ -183,34 +160,7 @@ local gisTest = UnitTest {
 		print("------------------------------------------------");
 		print("\nTesting TerraLibCellularSpaceCoordinatesSystem...")
 
-		-- defines and loads the celular space from a TerraLib theme
-		csDB = nil
-		if(dbms == 0) then
-			csDB = CellularSpace{
-				dbType = "mysql",
-				host = "127.0.0.1",
-				database = "cabeca",
-				user = "root",
-				password = pwd,
-				theme = "cells90x90",
-				select = { HEIGHT, "soilWater" }
-			}
-		else
-			csDB = CellularSpace{
-				dbType = "ADO",
-				database = TME_PATH .. "\\database\\cabecaDeBoi_" .. DB_VERSION ..".mdb",
-				theme = "cells90x90",
-				select = { HEIGHT, "soilWater" }
-			}
-		end
-		--csDB:load();
-
-		-- GEO_DATABASE: Tests coordinates conversion functions
-		-- print( csDB.cells[0].x, csDB.cells[0].y) io.flush() -- ERROR: There is no index: 0 (zero)
-
-		--print( csDB.cells[1].x, csDB.cells[1].y) io.flush()
-		--print( csDB.cells[2].x, csDB.cells[2].y) io.flush()
-		--print( csDB.cells[3].x, csDB.cells[3].y) io.flush()
+    csDB= createCS(dbms,pwd,"cells90x90")
 
 		print("geo_wait...") io.flush()
 		x, y = index2coord(1, csDB.maxCol)
@@ -280,34 +230,11 @@ local gisTest = UnitTest {
 
 		neighName = "1";
 
-
 		print("\n-------------------------------------------------");
 		print("-- test_LoadTerraLibGPM");
 
+    cs = createCS(dbms,pwd,"cells90x90")
 
-
-		-- defines and loads the celular space from a TerraLib theme
-		cs = nil
-		if(dbms == 0)then
-			cs = CellularSpace{
-				dbType = "mysql",
-				host = "127.0.0.1",
-				database = "cabeca",
-				user = "root",
-				password = pwd,
-				theme = "cells90x90",
-				select = { HEIGHT, "soilWater" }
-			}
-		else
-			cs = CellularSpace{
-				dbType = "ADO",
-				database = TME_PATH .. "\\database\\cabecaDeBoi_" .. DB_VERSION ..".mdb",
-				theme = "cells90x90",
-				select = { HEIGHT, "soilWater" }	
-			}		
-		end
-		print("wait...") io.flush()
-		--cs:load();
 		print("wait...") io.flush()
 
 		--cs:loadTerraLibGPM(neighName);
@@ -483,7 +410,6 @@ local gisTest = UnitTest {
 		end
 
 		print("wait...") io.flush()
-		--cs:load();
 
 		cs:createNeighborhood{ strategy = "moore", name = "first" }
 
@@ -553,7 +479,6 @@ local gisTest = UnitTest {
 		--assert_equal(453.59519215437,sumWeight,0.00001)
 		unitTest:assert_equal(451.98359156683,sumWeight,0.00001)
 
-
 		print("READY!!!"); io.flush();
 		unitTest:assert_true(true)
 	end,
@@ -569,27 +494,9 @@ local gisTest = UnitTest {
 		print("-------------------------------------");
 		print("-- test_NeighborhoodOverwriting");
 
+    cs = createCS(dbms,pwd,"cells900x900")
 
-		-- defines and loads the celular space from a TerraLib theme
-		cs = nil
-		if(dbms == 0)then
-			cs = CellularSpace{
-				dbType = "mysql",
-				host = "127.0.0.1",
-				database = "cabeca",
-				user = "root",
-				password = pwd,
-				theme = "cells900x900"
-			}
-		else
-			cs = CellularSpace{
-				dbType = "ADO",
-				database = TME_PATH .. "\\database\\cabecaDeBoi_" .. DB_VERSION ..".mdb",
-				theme = "cells900x900"
-			}		
-		end
 		print("wait...") io.flush()
-		--cs:load();
 
 		cs:createNeighborhood()
 
@@ -667,24 +574,8 @@ local gisTest = UnitTest {
 		print("-------------------------------------");
 		print("-- test_NeighborhoodsIterators");
 
-		-- defines and loads the celular space from a TerraLib theme
-		cs = nil
-		if(dbms == 0)then
-			cs = CellularSpace{
-				dbType = "mysql",
-				host = "127.0.0.1",
-				database = "cabeca",
-				user = "root",
-				password = pwd,
-				theme = "cells90x90"
-			}
-		else
-			cs = CellularSpace{
-				dbType = "ADO",
-				database = TME_PATH .. "\\database\\cabecaDeBoi_" .. DB_VERSION ..".mdb",
-				theme = "cells90x90"
-			}		
-		end
+    cs = createCS(dbms,pwd,"cells90x90")
+
 		print("wait...") io.flush()
 
 		cs:createNeighborhood{ strategy = "moore", name = "moore1" }
@@ -737,31 +628,12 @@ local gisTest = UnitTest {
 		print("-------------------------------------");
 		print("-- test_forEachNeighbor");
 
-		-- defines and loads the celular space from a TerraLib theme
-		cs = nil
-		if(dbms == 0)then
-			cs = CellularSpace{
-				dbType = "mysql",
-				host = "127.0.0.1",
-				database = "cabeca",
-				user = "root",
-				password = pwd,
-				theme = "cells90x90"
-			}
-		else
-			cs = CellularSpace{
-				dbType = "ADO",
-				database = TME_PATH .. "\\database\\cabecaDeBoi_" .. DB_VERSION ..".mdb",
-				theme = "cells90x90"
-			}		
-		end
-		--cs:load();
+    cs = createCS(dbms,pwd,"cells90x90")
 
-		--createMooreNeighborhood( cs, "moore1" );
 		cs:createNeighborhood {
 			name = "moore1"
-		}	
-		--createMooreNeighborhood( cs, "moore2" );
+		}
+
 		cs:createNeighborhood {
 			name = "moore2"
 		}
@@ -813,24 +685,7 @@ local gisTest = UnitTest {
 		print("-------------------------------------");
 		print("-- test_createMxNNeighborhood ");
 
-		-- defines and loads the celular space from a TerraView theme
-		cs1 = nil
-		if(dbms == 0)then
-			cs1 = CellularSpace{
-				dbType = "mysql",
-				host = "127.0.0.1",
-				database = "cabeca",
-				user = "root",
-				password = pwd,
-				theme = "cells90x90"
-			}
-		else
-			cs1 = CellularSpace{
-				dbType = "ADO",
-				database = TME_PATH .. "\\database\\cabecaDeBoi_" .. DB_VERSION ..".mdb",
-				theme = "cells90x90"
-			}		
-		end
+    cs1 = createCS(dbms,pwd,"cells90x90")
 
 		cs1:createNeighborhood{	strategy = "moore", name = "moore" }
 
@@ -939,44 +794,8 @@ local gisTest = UnitTest {
 		print("-------------------------------------");
 		print("-- test_spatialCoupling");
 
-		-- defines and loads the celular space from a TerraView theme
-		cs1 = nil
-		if(dbms == 0)then
-			cs1 = CellularSpace{
-				dbType = "mysql",
-				host = "127.0.0.1",
-				database = "cabeca",
-				user = "root",
-				password = pwd,
-				theme = "cells900x900"
-			}
-		else
-			cs1 = CellularSpace{
-				dbType = "ADO",
-				database = TME_PATH .. "\\database\\cabecaDeBoi_" .. DB_VERSION ..".mdb",
-				theme = "cells900x900"
-			}		
-		end
-		--cs1:load();
-
-		cs2 = nil
-		if(dbms == 0)then
-			cs2 = CellularSpace{
-				dbType = "mysql",
-				host = "127.0.0.1",
-				database = "cabeca",
-				user = "root",
-				password = pwd,
-				theme = "cells90x90"
-			}
-		else
-			cs2 = CellularSpace{
-				dbType = "ADO",
-				database = TME_PATH .. "\\database\\cabecaDeBoi_" .. DB_VERSION ..".mdb",
-				theme = "cells90x90"
-			}		
-		end
-		--cs2:load();
+    cs1 = createCS(dbms,pwd,"cells900x900")
+		cs2 = createCS(dbms,pwd,"cells90x90")
 
 		print("wait...")
 		cs1:createNeighborhood {
@@ -1096,25 +915,7 @@ local gisTest = UnitTest {
 		print("-------------------------------------");
 		print("-- test_SaveImageFromTerraLibCellularSpace");
 
-		-- defines and loads the celular space from a TerraView theme
-		cs = nil
-		if(dbms == 0)then
-			cs = CellularSpace{
-				dbType = "mysql",
-				host = "127.0.0.1",
-				database = "cabeca",
-				user = "root",
-				password = pwd,
-				theme = "cells90x90"
-			}
-		else
-			cs = CellularSpace{
-				dbType = "ADO",
-				database = TME_PATH .. "\\database\\cabecaDeBoi_" .. DB_VERSION ..".mdb",
-				theme = "cells90x90"
-			}		
-		end
-		--cs:load();
+    cs = createCS(dbms,pwd,"cells90x90")
 
 		for t = 1,2 do
 
@@ -1122,10 +923,6 @@ local gisTest = UnitTest {
 			function( cell )
 				cell[HEIGHT] = t
 			end	)
-
-
-			-- NOTE: It should return a Boolean value indicating the sucess or the fail.
-			-- save2PNGc(cs, t, "test/results/rain/", HEIGHT, {0, 2}, {WHITE, BLUE}, 60)
 
 		end
 		print("READY!!! -- Look into the 'test/result/rain/' filesystem directory!!!")
@@ -1138,25 +935,7 @@ local gisTest = UnitTest {
 		print("---------------------------------------");
 		print("-- test_SaveTerraLibCellularSpace");
 
-		-- defines and loads the celular space from a TerraView theme
-		cs = nil
-		if(dbms == 0)then
-			cs = CellularSpace{
-				dbType = "mysql",
-				host = "127.0.0.1",
-				database = "cabeca",
-				user = "root",
-				password = pwd,
-				theme = "cells90x90"
-			}
-		else
-			cs = CellularSpace{
-				dbType = "ADO",
-				database = TME_PATH .. "\\database\\cabecaDeBoi_" .. DB_VERSION ..".mdb",
-				theme = "cells90x90"
-			}		
-		end
-		--cs:load()
+    cs = createCS(dbms,pwd,"cells90x90")
 
 		for t = 1,2 do
 
@@ -1203,13 +982,6 @@ local gisTest = UnitTest {
     end)   
   end
 }
-
---db = getDataBase()
---dbms = db["dbms"]
---pwd = db["pwd"]
-
-dbms = 0
-pwd = "terralab0705"
 
 gisTest.skips = {"test_LoadTerraLibGPM","test_LoadNeighborhoodFromGALFile"}
 gisTest:run()

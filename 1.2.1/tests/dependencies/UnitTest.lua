@@ -6,6 +6,7 @@ RESULT_PATH = TME_PATH.. TME_DIR_SEPARATOR .."bin".. TME_DIR_SEPARATOR .. "resul
 INPUT = RESULT_PATH.."number_test.txt"
 REG = RESULT_PATH.."reg.txt"
 DB = RESULT_PATH.."db.txt"
+--DB_PATH = RESULT_PATH.."db.txt"
 
 --@author: Rodrigo Reis
 function delay_s(delay)
@@ -13,19 +14,6 @@ function delay_s(delay)
 --local time_to = os.time() + delay
 --while os.time() < time_to do end
 end
-
---[[
-function retrieveFuncName(funcAddress, t)
-	local funcName = nil
-	for k,v in pairs(t) do
-		local vAux = tostring(v):gsub("function: ", "")    
-		if(funcAddress == vAux) then
-			funcName = k
-		end    
-	end
-	return funcName
-end
---]]
 
 function getn(t)
 	local n = 0
@@ -60,6 +48,32 @@ function createTestFolder(subject, observer, testNumber, path)
 	end
 	os.execute(copyCommand)
 	os.execute(removeCommand)
+end
+
+function getDataBase()
+    db = extractFile(DB):split("\n")
+    return {["dbms"] = tonumber(db[1]), ["pwd"] = db[2]}
+end
+
+function extractFile(filename)
+    str = ""
+    local file=io.open(filename,"r")
+    for line in file:lines() do str = str .. line .. "\n" end
+    file:close()
+    return str
+end
+
+function string:split(delimiter)
+  local result = { }
+  local from  = 1
+  local delim_from, delim_to = string.find( self, delimiter, from  )
+  while delim_from do
+    table.insert( result, string.sub( self, from , delim_from-1 ) )
+    from  = delim_to + 1
+    delim_from, delim_to = string.find( self, delimiter, from  )
+  end
+  table.insert( result, string.sub( self, from  ) )
+  return result
 end
 
 UnitTest_ = {
@@ -297,6 +311,10 @@ UnitTest_ = {
 	end,
 
 	compute = function(self,value)
+    
+    if(self.currentFile == nil ) then print("caraca!!! ", value) end
+
+
 		local w = debug.getinfo(2, "S")
 
 		local l = debug.getinfo(2, "l")
