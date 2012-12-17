@@ -27,42 +27,40 @@
 -------------------------------------------------------------------------------------------
 dofile (TME_PATH.."/tests/dependencies/UnitTest.lua")
 
-function createMySQLTable()
-	local parametrosMySQL = {
-		dbType = "mysql",
-		host = "127.0.0.1",
-		database = "cabeca",
-		user = "root",
-		password = PWD,
-		theme = "cells90x90"
-	}
-	return parametrosMySQL
-end
-
-function createAccessTable()
-	local parametrosAccess = {
-		dbType = "ADO",
-		database = "database\\cabecaDeBoi_" .. DB_VERSION ..".mdb",
-		theme = "cells90x90"	
-	}	
-	return parametrosAccess;
-end
 
 --db = getDataBase()
 --dbms = db["dbms"]
 --PWD = db["pwd"]
-dbms = 0
 DB_VERSION = "4_2_0"
 HEIGHT = "height_"
-PWD= "terralab0705"
 
+db = getDataBase()
+dbms = db["dbms"]
+pwd = db["pwd"]
 
-cs1 = nil
-if(dbms == 0) then
-	cs1 = CellularSpace(createMySQLTable())
-else
-	cs1 = CellularSpace(createAccessTable())
+function createCS(dbms, pwd, t)
+        -- defines and loads the celular space from a TerraLib theme 
+        local cs = nil 
+        if(dbms == 0) then 
+            cs = CellularSpace{ 
+                dbType = "mysql", 
+                host = "127.0.0.1", 
+                database = "cabeca", 
+                user = "root", 
+                password = pwd, 
+                theme = t 
+            } 
+        else 
+            cs = CellularSpace{ 
+                dbType = "ADO", 
+                database = TME_PATH .. "\\database\\cabecaDeBoi_" .. DB_VERSION ..".mdb", 
+                theme = t     
+            }         
+        end
+    return cs
 end
+
+cs1 = createCS(dbms,pwd,"cells90x90")
 
 soilWaterLeg = Legend{
 	-- Attribute name:  soilWater

@@ -30,30 +30,38 @@ dofile (TME_PATH.."/tests/dependencies/UnitTest.lua")
 DB_VERSION = "4_2_0"
 HEIGHT = "height_"
 
-DBMS = 0
-PWD = "terralab0705"
+db = getDataBase()
+dbms = db["dbms"]
+pwd = db["pwd"]
 
 arg = "nada"
 pcall(require, "luacov")    --measure code coverage, if luacov is present
 
 --require("XDebug")
 
-if(DBMS == 0) then
-	cs = CellularSpace{
-		dbType = "mysql",
-		host = "127.0.0.1",
-		database = "cabeca",
-		user = "root",
-		password = PWD,
-		theme = "cells90x90"
-	}
-else
-	cs = CellularSpace{
-		dbType = "ADO",
-		database = "database\\cabecaDeBoi_" .. DB_VERSION ..".mdb",
-		theme = "cells90x90"	
-	}		
+function createCS(dbms, pwd, t)
+        -- defines and loads the celular space from a TerraLib theme 
+        local cs = nil 
+        if(dbms == 0) then 
+            cs = CellularSpace{ 
+                dbType = "mysql", 
+                host = "127.0.0.1", 
+                database = "cabeca", 
+                user = "root", 
+                password = pwd, 
+                theme = t 
+            } 
+        else 
+            cs = CellularSpace{ 
+                dbType = "ADO", 
+                database = TME_PATH .. "\\database\\cabecaDeBoi_" .. DB_VERSION ..".mdb", 
+                theme = t     
+            }         
+        end
+    return cs
 end
+
+cs = createCS(dbms,pwd,"cells90x90")
 
 textScreenFor = function( killObserver )
 	for i = 1, 10, 1 do

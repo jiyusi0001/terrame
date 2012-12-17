@@ -30,21 +30,18 @@ dofile (TME_PATH.."/tests/dependencies/UnitTest.lua")
 DB_VERSION = "4_2_0"
 HEIGHT = "height_"
 
-DBMS = 0
-PWD = "terralab0705"
+db = getDataBase()
+dbms = db["dbms"]
+pwd = db["pwd"]
 
-arg = "nada"
-pcall(require, "luacov")    --measure code coverage, if luacov is present
-
---require("XDebug")
-
-if(DBMS == 0) then
+cs = nil
+if(dbms == 0) then
 	cs = CellularSpace{
 		dbType = "mysql",
 		host = "127.0.0.1",
 		database = "cabeca",
 		user = "root",
-		password = PWD,
+		password = pwd,
 		theme = "cells90x90"
 	}
 else
