@@ -663,7 +663,4 @@
       <Filter>Header Files\observer\types</Filter>
     </CustomBuild>
   </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="TerraME.rc" />
-  </ItemGroup>
 </Project>

@@ -564,9 +564,6 @@
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\ui_plotPropertiesGUI.h</Outputs>
     </CustomBuild>
   </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="TerraME.rc" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
 </Project>
