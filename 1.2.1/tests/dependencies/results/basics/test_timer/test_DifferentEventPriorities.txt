@@ -7,7 +7,7 @@ Ready!!!
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_DifferentEventPriorities
-File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_timer.lua
+File:	.../tests/src/basics/test_timer.lua
 
 Assertions: 9 total, 9 succeed, 0 failed.
 

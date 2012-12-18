@@ -4,7 +4,7 @@ OBSERVER IMAGE 03
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_image03
-File: 	/home/terralab/TerraME_Beta/tests/src/observers/trajectory/test_image.lua
+File:	.../tests/src/observers/trajectory/test_image.lua
 
 Assertions: 0 total, 0 succeed, 0 failed.
 

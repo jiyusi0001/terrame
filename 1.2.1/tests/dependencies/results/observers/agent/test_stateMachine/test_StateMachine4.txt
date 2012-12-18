@@ -75,7 +75,7 @@ walking
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_StateMachine4
-File: 	/home/terralab/TerraME_Beta/tests/src/observers/agent/test_stateMachine.lua
+File:	.../tests/src/observers/agent/test_stateMachine.lua
 
 Assertions: 0 total, 0 succeed, 0 failed.
 

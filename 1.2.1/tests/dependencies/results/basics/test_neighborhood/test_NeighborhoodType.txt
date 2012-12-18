@@ -5,7 +5,7 @@ READY!!
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_NeighborhoodType
-File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_neighborhood.lua
+File:	.../tests/src/basics/test_neighborhood.lua
 
 Assertions: 37 total, 37 succeed, 0 failed.
 

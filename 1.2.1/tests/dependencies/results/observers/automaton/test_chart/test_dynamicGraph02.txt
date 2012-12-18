@@ -4,7 +4,7 @@ OBSERVER DYNAMIC GRAPHIC 02
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_dynamicGraph02
-File: 	/home/terralab/TerraME_Beta/tests/src/observers/automaton/test_chart.lua
+File:	.../tests/src/observers/automaton/test_chart.lua
 
 Assertions: 0 total, 0 succeed, 0 failed.
 

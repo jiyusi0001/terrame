@@ -4,7 +4,7 @@ Testing Dynamic Neighborhoods...
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_DynamicNeighborhoods
-File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_neighborhood.lua
+File:	.../tests/src/basics/test_neighborhood.lua
 
 Assertions: 57 total, 57 succeed, 0 failed.
 

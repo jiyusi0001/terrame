@@ -2,7 +2,7 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_AgentCellInteraction
-File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_agent_automaton.lua
+File:	.../tests/src/basics/test_agent_automaton.lua
 
 Assertions: 4 total, 4 succeed, 0 failed.
 

@@ -22,7 +22,7 @@ step ev1	10
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_table10
-File: 	/home/terralab/TerraME_Beta/tests/src/observers/timer/test_table.lua
+File:	.../tests/src/observers/timer/test_table.lua
 
 Assertions: 0 total, 0 succeed, 0 failed.
 

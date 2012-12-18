@@ -4,7 +4,7 @@ DYNAMIC GRAPHIC 01
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_chart1
-File: 	/home/terralab/TerraME_Beta/tests/src/observers/cell/test_chart.lua
+File:	.../tests/src/observers/cell/test_chart.lua
 
 Assertions: 0 total, 0 succeed, 0 failed.
 

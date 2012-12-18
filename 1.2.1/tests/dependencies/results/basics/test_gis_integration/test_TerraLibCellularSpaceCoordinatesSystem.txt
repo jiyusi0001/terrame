@@ -7,7 +7,7 @@ READY
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_TerraLibCellularSpaceCoordinatesSystem
-File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_gis_integration.lua
+File:	.../tests/src/basics/test_gis_integration.lua
 
 Assertions: 16 total, 16 succeed, 0 failed.
 

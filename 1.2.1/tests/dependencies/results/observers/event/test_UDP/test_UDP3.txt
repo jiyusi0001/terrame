@@ -13,7 +13,7 @@ step	10
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_UDP3
-File: 	/home/terralab/TerraME_Beta/tests/src/observers/event/test_UDP.lua
+File:	.../tests/src/observers/event/test_UDP.lua
 
 Assertions: 0 total, 0 succeed, 0 failed.
 

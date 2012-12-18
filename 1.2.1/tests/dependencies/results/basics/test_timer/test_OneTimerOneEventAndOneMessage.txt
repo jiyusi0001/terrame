@@ -9,7 +9,7 @@ Ready!!!
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_OneTimerOneEventAndOneMessage
-File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_timer.lua
+File:	.../tests/src/basics/test_timer.lua
 
 Assertions: 2 total, 2 succeed, 0 failed.
 

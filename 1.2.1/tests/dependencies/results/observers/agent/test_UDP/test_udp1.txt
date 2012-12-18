@@ -75,7 +75,7 @@ walking
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_udp1
-File: 	/home/terralab/TerraME_Beta/tests/src/observers/agent/test_UDP.lua
+File:	.../tests/src/observers/agent/test_UDP.lua
 
 Assertions: 0 total, 0 succeed, 0 failed.
 

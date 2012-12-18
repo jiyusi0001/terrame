@@ -350,7 +350,9 @@ UnitTest_ = {
 	printReport = function(self)
 		print("\n- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n")
 		print("Testing function: ", self.funcName)
-	    print("File: ", self.currentFile)
+    local curFile = string.gsub(self.currentFile, TME_PATH, "")
+    curFile = string.gsub(curFile, '\\', '/')
+	  print("File:", "..."..curFile)
 		print("")
 		print("Assertions: ".. self.assertions .." total, ".. self.succeed .. " succeed, ".. self.failed .." failed.")
 		if(getn(self.fails) > 0) then

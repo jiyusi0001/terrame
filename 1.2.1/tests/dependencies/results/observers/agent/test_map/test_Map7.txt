@@ -76,7 +76,7 @@ walking
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_Map7
-File: 	/home/terralab/TerraME_Beta/tests/src/observers/agent/test_map.lua
+File:	.../tests/src/observers/agent/test_map.lua
 
 Assertions: 0 total, 0 succeed, 0 failed.
 

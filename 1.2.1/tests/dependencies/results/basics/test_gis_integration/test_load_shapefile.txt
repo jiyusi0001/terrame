@@ -110,7 +110,7 @@ pos: 4606373, 3597434
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_load_shapefile
-File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_gis_integration.lua
+File:	.../tests/src/basics/test_gis_integration.lua
 
 Assertions: 5 total, 5 succeed, 0 failed.
 

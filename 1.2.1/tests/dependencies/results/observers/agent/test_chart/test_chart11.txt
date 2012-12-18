@@ -32,7 +32,7 @@ walking
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_chart11
-File: 	/home/terralab/TerraME_Beta/tests/src/observers/agent/test_chart.lua
+File:	.../tests/src/observers/agent/test_chart.lua
 
 Assertions: 0 total, 0 succeed, 0 failed.
 

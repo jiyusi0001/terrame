@@ -15,7 +15,7 @@ READY!!
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_NeighborhoodCreationMethods
-File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_neighborhood_create.lua
+File:	.../tests/src/basics/test_neighborhood_create.lua
 
 Assertions: 9736 total, 9736 succeed, 0 failed.
 

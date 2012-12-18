@@ -6,7 +6,7 @@ READY!!!
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_CellsNeighborhoodAndIterator
-File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_cell.lua
+File:	.../tests/src/basics/test_cell.lua
 
 Assertions: 17 total, 17 succeed, 0 failed.
 

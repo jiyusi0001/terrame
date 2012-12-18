@@ -43,7 +43,7 @@ step ev4	10
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_logFile02
-File: 	/home/terralab/TerraME_Beta/tests/src/observers/timer/test_logFile.lua
+File:	.../tests/src/observers/timer/test_logFile.lua
 
 Assertions: 0 total, 0 succeed, 0 failed.
 

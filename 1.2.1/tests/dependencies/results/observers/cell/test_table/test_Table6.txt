@@ -14,7 +14,7 @@ step	10
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_Table6
-File: 	/home/terralab/TerraME_Beta/tests/src/observers/cell/test_table.lua
+File:	.../tests/src/observers/cell/test_table.lua
 
 Assertions: 0 total, 0 succeed, 0 failed.
 

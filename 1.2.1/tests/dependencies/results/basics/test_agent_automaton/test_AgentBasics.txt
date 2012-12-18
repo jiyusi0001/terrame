@@ -46,7 +46,7 @@ Please, press <ENTER> to quit...
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_AgentBasics
-File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_agent_automaton.lua
+File:	.../tests/src/basics/test_agent_automaton.lua
 
 Assertions: 15 total, 15 succeed, 0 failed.
 

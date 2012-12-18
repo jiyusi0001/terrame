@@ -4,7 +4,7 @@ IMAGE 01
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_image1
-File: 	/home/terralab/TerraME_Beta/tests/src/observers/cellularSpace/test_image.lua
+File:	.../tests/src/observers/cellularSpace/test_image.lua
 
 Assertions: 0 total, 0 succeed, 0 failed.
 

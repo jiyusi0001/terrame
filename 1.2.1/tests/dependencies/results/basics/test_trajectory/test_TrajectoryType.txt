@@ -13,7 +13,7 @@ READY!!!
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_TrajectoryType
-File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_trajectory.lua
+File:	.../tests/src/basics/test_trajectory.lua
 
 Assertions: 259 total, 259 succeed, 0 failed.
 

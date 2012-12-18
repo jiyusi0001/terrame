@@ -3,7 +3,7 @@ OBSERVER TABLE 02
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_Table2
-File: 	/home/terralab/TerraME_Beta/tests/src/observers/environment/test_table.lua
+File:	.../tests/src/observers/environment/test_table.lua
 
 Assertions: 0 total, 0 succeed, 0 failed.
 

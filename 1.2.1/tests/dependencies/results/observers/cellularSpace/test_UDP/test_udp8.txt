@@ -14,7 +14,7 @@ STEP: 	10
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_udp8
-File: 	/home/terralab/TerraME_Beta/tests/src/observers/cellularSpace/test_UDP.lua
+File:	.../tests/src/observers/cellularSpace/test_UDP.lua
 
 Assertions: 0 total, 0 succeed, 0 failed.
 

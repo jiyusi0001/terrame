@@ -23,7 +23,7 @@ READY!!!
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_TrajectoriesFiltersAndReordered
-File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_agent_automaton.lua
+File:	.../tests/src/basics/test_agent_automaton.lua
 
 Assertions: 7 total, 7 succeed, 0 failed.
 

@@ -3,7 +3,7 @@ OBSERVER LOGFILE 05
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_logFile05
-File: 	/home/terralab/TerraME_Beta/tests/src/observers/trajectory/test_logFile.lua
+File:	.../tests/src/observers/trajectory/test_logFile.lua
 
 Assertions: 0 total, 0 succeed, 0 failed.
 

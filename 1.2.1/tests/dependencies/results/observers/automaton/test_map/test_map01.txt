@@ -4,7 +4,7 @@ OBSERVER MAP 01
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_map01
-File: 	/home/terralab/TerraME_Beta/tests/src/observers/automaton/test_map.lua
+File:	.../tests/src/observers/automaton/test_map.lua
 
 Assertions: 0 total, 0 succeed, 0 failed.
 

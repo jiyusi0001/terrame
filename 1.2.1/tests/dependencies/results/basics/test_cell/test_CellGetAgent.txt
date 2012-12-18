@@ -3,7 +3,7 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_CellGetAgent
-File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_cell.lua
+File:	.../tests/src/basics/test_cell.lua
 
 Assertions: 2 total, 2 succeed, 0 failed.
 

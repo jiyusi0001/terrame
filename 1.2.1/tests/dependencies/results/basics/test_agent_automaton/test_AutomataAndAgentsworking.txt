@@ -9,7 +9,7 @@ Agent count:	88
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_AutomataAndAgentsworking
-File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_agent_automaton.lua
+File:	.../tests/src/basics/test_agent_automaton.lua
 
 Assertions: 8 total, 8 succeed, 0 failed.
 

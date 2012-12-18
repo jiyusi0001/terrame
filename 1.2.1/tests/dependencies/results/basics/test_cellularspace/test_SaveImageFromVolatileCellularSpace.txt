@@ -4,7 +4,7 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_SaveImageFromVolatileCellularSpace
-File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_cellularspace.lua
+File:	.../tests/src/basics/test_cellularspace.lua
 
 Assertions: 1 total, 1 succeed, 0 failed.
 

@@ -32,7 +32,7 @@ READY!!!
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_NeverTestTrajectoriesInUse
-File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_agent_automaton.lua
+File:	.../tests/src/basics/test_agent_automaton.lua
 
 Assertions: 2 total, 2 succeed, 0 failed.
 

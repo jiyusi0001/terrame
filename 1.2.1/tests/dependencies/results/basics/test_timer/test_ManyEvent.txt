@@ -35,7 +35,7 @@ EVENT 1: 	100
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_ManyEvent
-File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_timer.lua
+File:	.../tests/src/basics/test_timer.lua
 
 Assertions: 64 total, 64 succeed, 0 failed.
 

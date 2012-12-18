@@ -57,7 +57,7 @@ step ev1	30
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_scheduler07
-File: 	/home/terralab/TerraME_Beta/tests/src/observers/timer/test_scheduler.lua
+File:	.../tests/src/observers/timer/test_scheduler.lua
 
 Assertions: 0 total, 0 succeed, 0 failed.
 

@@ -413,7 +413,7 @@ step	10
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_Map1
-File: 	/home/terralab/TerraME_Beta/tests/src/observers/neighborhood/test_map.lua
+File:	.../tests/src/observers/neighborhood/test_map.lua
 
 Assertions: 0 total, 0 succeed, 0 failed.
 

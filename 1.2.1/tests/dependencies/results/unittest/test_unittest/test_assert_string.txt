@@ -2,7 +2,7 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_assert_string
-File: 	/home/terralab/TerraME_Beta/tests/src/unittest/test_unittest.lua
+File:	.../tests/src/unittest/test_unittest.lua
 
 Assertions: 2 total, 2 succeed, 0 failed.
 

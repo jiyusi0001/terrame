@@ -210,7 +210,7 @@ READY!!!
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_TrajectoriesCanBeChangeNotOverwritten
-File: 	/home/terralab/TerraME_Beta/tests/src/basics/test_agent_automaton.lua
+File:	.../tests/src/basics/test_agent_automaton.lua
 
 Assertions: 20 total, 20 succeed, 0 failed.
 
