@@ -339,7 +339,7 @@ UnitTest_ = {
 			return true
 		else
 			self.failed = self.failed + 1
-			local msg = "File '".. currentFile .."'"
+			local msg = "File '".. self.currentFile .."'"
 			if(self.funcName ~= nil) then msg = msg .." function '".. self.funcName .."'" end
 			msg = msg .." in line ".. currentLine
 			table.insert(self.fails,msg)
