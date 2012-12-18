@@ -208,10 +208,14 @@ function scandir(dirname)
 end
 
 function isFile(path)
-    local f = io.open(path)
-    local ok, err, code = f:read(1)
-    f:close()
-    return err==nil
+	local f = io.open(path)	
+    if(f) then
+		local ok, err, code = f:read(1)
+		f:close()
+		return err==nil
+	else
+		return false
+	end    
 end
 
 function os.capture(cmd)
