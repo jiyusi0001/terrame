@@ -1,5 +1,3 @@
--- Creates a Moore neighborhood for each cell
-
 local function coordCoupling(cs1, cs2, name)
 	if name == nil then name = "1"; end
 	local lin
@@ -245,8 +243,13 @@ CellularSpace_ = {
 		local y = 0
 		local legendStr = ""
 		
+		local load = load
+        if (_VERSION ~= "Lua 5.2") then
+           load = loadstring
+        end		
+		
 		self.cells, self.minCol, self.minRow, self.maxCol, self.maxRow, legendStr = self.cObj_:load()
-		self.legend = loadstring(legendStr)()
+		self.legend = load(legendStr)()
 
 		-- A ordenacao eh necessaria pq o TerraView ordena os 
 		-- objectIDs como strings:..., C00L10, C00L100, C00L11...
@@ -361,7 +364,12 @@ CellularSpace_ = {
 
 		s = s.."} end"
 
-		forEachCell(self, loadstring(s)())
+		
+		local load = load
+		if (_VERSION ~= "Lua 5.2") then
+           load = loadstring
+		end
+		forEachCell(self, load(s)())
 	end
 }
 
