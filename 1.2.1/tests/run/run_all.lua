@@ -36,6 +36,7 @@ function runAllDirectory(directory,directoryRoot,all)
     for j = 1, #files, 1 do
         if not all then j = n end
         os.remove(REG)
+		--TODO add absolute path in this command
         local command = "TerraME "..directory..files[j]
         os.capture(command)
         command = command.." < " .. INPUT
@@ -85,8 +86,8 @@ function executeTest(command, directoryRoot, file, skips, test, all)
         if not all then print("This test was marked to be skipped.") io.flush() end
     else
         print(output)io.flush()
-        local path_ = RESULT_PATH..directoryRoot..getBaseFileName(file).."/"
-        local results_ = path_..getBaseFileName(test).."/"
+        local path_ = RESULT_PATH..directoryRoot..getBaseFileName(file)..TME_DIR_SEPARATOR
+        local results_ = path_..getBaseFileName(test)..TME_DIR_SEPARATOR
         if hasResultFile() then
             os.createDir(results_)
             for _,v in ipairs(extensions_) do
@@ -188,8 +189,8 @@ function moveFilesToResults(path,copyTo,extension)
 		copyCommand = "cp *"..extension.." ".. path .." ".. copyTo .." > /dev/null 2>&1 "
 		removeCommand = "rm *"..extension .." > /dev/null 2>&1 "
 	else
-		copyCommand = "copy *"..extension.." ".. copyTo .. " >NUL 2>&1"
-		removeCommand = "del *"..extension.." > /dev/null 2>&1 "
+		copyCommand = "copy /Y *"..extension.." ".. copyTo .. " >NUL 2>&1"
+		removeCommand = "del *"..extension.." >NUL 2>&1"
     end
     os.capture(copyCommand)
 	os.capture(removeCommand)
@@ -240,9 +241,9 @@ end
 function os.createDir(path)
     if os.isFileExist(path) then return false end
     if os.isUnix() then
-        os.capture('mkdir -p "'..path..'"')
+        os.capture('mkdir -p "'..path..'"'.." > /dev/null 2>&1 ")
     else
-        os.capture("md "..string.gsub(path, '/', '\\'))
+        os.capture("md "..string.gsub(path, '/', '\\').." >NUL 2>&1")
     end
     return true
 end
@@ -285,7 +286,7 @@ function extractFile(filename)
 end
 
 function createOutPutFilename(path,directoryRoot, filename,functionname)
-    return path..directoryRoot..getBaseFileName(filename).."/"..functionname..".txt"
+    return path..directoryRoot..getBaseFileName(filename)..TME_DIR_SEPARATOR..functionname..".txt"
 end
 
 function writeResult(result)
