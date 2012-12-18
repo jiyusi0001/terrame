@@ -183,7 +183,7 @@ UpgradeApplicationID
 {}
 
 Version
-{1.2.0}
+{1.2.1}
 
 WizardHeight
 {365}
@@ -308,7 +308,6 @@ File ::6B51DA8B-CFDD-190E-ABA1-507F286E9C7E -type dir -name props -parent 3F5F8B
 File ::088B197E-059C-8AA9-C6DF-EA75B4EDF7A8 -type dir -name text-base -parent 3F5F8B5A-0370-9383-903C-0FCCDE8B6F6C
 File ::200D07C3-B972-6558-666A-DB19CB133C0D -type dir -name /home/terralab/TerraME_Beta/bin -parent F1B5D3BF-4452-4219-B548-0149C78E7718
 File ::06FBED02-6F9E-D875-A188-1FAC835C6347 -name libaudio.so.2 -parent 200D07C3-B972-6558-666A-DB19CB133C0D
-File ::5CBE4225-8863-CC38-BEB5-090D67A306F6 -name liblua5.1.so.0 -parent 200D07C3-B972-6558-666A-DB19CB133C0D
 File ::D4378312-867A-0A8A-0246-8F6958925307 -name libproj.so.0 -parent 200D07C3-B972-6558-666A-DB19CB133C0D
 File ::36950552-59B2-75BE-4083-70C5F7523E56 -name libQtCore.so.4 -parent 200D07C3-B972-6558-666A-DB19CB133C0D
 File ::5147C6EA-58ED-5E31-6447-193BC8551394 -name libQtGui.so.4 -parent 200D07C3-B972-6558-666A-DB19CB133C0D
@@ -341,6 +340,10 @@ File ::E186E5B2-6509-EDA7-F890-D3D1359211FE -name Legend.lua -parent 371DFB25-6D
 File ::D9ED70DB-1CCF-883A-398D-302F35D09F67 -name SocialNetwork.lua -parent 371DFB25-6D9A-E70B-B0D5-30B85114189C
 File ::D6C7F860-26F8-4ABB-38E5-CE16C4F25191 -name libgeotiff.so.2 -parent 200D07C3-B972-6558-666A-DB19CB133C0D
 File ::8F6EB2EF-1E29-25B8-973B-B7D1AF67351F -name libmysqlclient.so.18 -parent 200D07C3-B972-6558-666A-DB19CB133C0D
+File ::14C8C3ED-B27E-96AE-1102-87AB349A897C -name libtiff.so.4 -parent 200D07C3-B972-6558-666A-DB19CB133C0D
+File ::8CBAA39F-4DAB-DE29-E33A-77BD266DCB5A -name liblua5.2.so.0 -parent 200D07C3-B972-6558-666A-DB19CB133C0D
+File ::E56D4DB9-44E1-5688-DF9A-45EDEFB3F36E -name lunatest.lua~ -active 0 -parent 200D07C3-B972-6558-666A-DB19CB133C0D
+File ::7AF84927-4056-0DDA-A0C0-B157EB9BCA6F -name libjpeg.so.8 -parent 200D07C3-B972-6558-666A-DB19CB133C0D
 Component ::6AE94842-08C1-4364-8B8B-1B3215B0142E -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name {Default Component} -parent Components
 SetupType ::BBEEDE60-E0A1-4220-8589-B1681710640D -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name Typical -parent SetupTypes
 SetupType ::645A025C-5DD6-48A8-99D4-166F05960EDC -setup Install -active Yes -platforms {AIX-ppc FreeBSD-4-x86 FreeBSD-5-x86 FreeBSD-6-x86 FreeBSD-7-x86 HPUX-hppa Linux-x86 Linux-x86_64 Solaris-sparc Solaris-x86 Windows} -name Custom -parent SetupTypes
