@@ -4,7 +4,7 @@ IMAGE 07
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_image7
-File: 	/home/terralab/TerraME_Beta/tests/src/observers/society/test_image.lua
+File:	.../tests/src/observers/society/test_image.lua
 
 Assertions: 0 total, 0 succeed, 0 failed.
 
