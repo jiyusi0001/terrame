@@ -22,7 +22,6 @@
 --
 -- Author: Tiago Garcia de Senna Carneiro (tiago@dpi.inpe.br)
 -------------------------------------------------------------------------------------------
-
 dofile (TME_PATH.."/tests/dependencies/UnitTest.lua")
 
 local abmTest = UnitTest {
