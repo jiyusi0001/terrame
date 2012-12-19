@@ -4,6 +4,10 @@
 Testing function: 	test_abm_basic_social_network
 File:	.../tests/src/basics/test_abm.lua
 
-Assertions: 5 total, 5 succeed, 0 failed.
+Assertions: 5 total, 2 succeed, 3 failed.
+Failed: 
+	- File '/home/terralab/TerraME_Beta/tests/src/basics/test_abm.lua' function 'test_abm_basic_social_network' in line 541
+	- File '/home/terralab/TerraME_Beta/tests/src/basics/test_abm.lua' function 'test_abm_basic_social_network' in line 564
+	- File '/home/terralab/TerraME_Beta/tests/src/basics/test_abm.lua' function 'test_abm_basic_social_network' in line 567
 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

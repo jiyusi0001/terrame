@@ -236,7 +236,7 @@ local abmTest = UnitTest {
 		}
 
 		unitTest:assert_equal(g.agents[1].age,1)
-
+    print(g.agents[8].age)
 		unitTest:assert_equal(7,g.agents[8].age)
 		nonFooSociety:execute()
 		g:rebuild()

@@ -4,6 +4,9 @@
 Testing function: 	test_abm_basic_clone
 File:	.../tests/src/basics/test_abm.lua
 
-Assertions: 2 total, 2 succeed, 0 failed.
+Assertions: 2 total, 0 succeed, 2 failed.
+Failed: 
+	- File '/home/terralab/TerraME_Beta/tests/src/basics/test_abm.lua' function 'test_abm_basic_clone' in line 176
+	- File '/home/terralab/TerraME_Beta/tests/src/basics/test_abm.lua' function 'test_abm_basic_clone' in line 177
 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
