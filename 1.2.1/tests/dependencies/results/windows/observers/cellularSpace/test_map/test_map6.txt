@@ -1,0 +1,11 @@
+MAP 06
+C:\TerraME_Beta//bin//Lua//Legend.lua:568: attempt to call global 'unpack' (a nil value)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_map6
+File:	.../tests/src/observers/cellularSpace/test_map.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

@@ -1,0 +1,11 @@
+IMAGE 07
+C:\TerraME_Beta//bin//Lua//Legend.lua:568: attempt to call global 'unpack' (a nil value)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_image7
+File:	.../tests/src/observers/cellularSpace/test_image.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
