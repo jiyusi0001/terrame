@@ -565,7 +565,8 @@ function Legend(attrTab)
 					end 
 				end
 				if (#precisions > 0) then
-					attrTab["precision"] = math.max(unpack(precisions))
+					--attrTab["precision"] = math.max(unpack(precisions))
+					attrTab["precision"] = math.max(table.unpack(precisions))
 				else
 					attrTab["precision"] = DEF_PRECISION
 				end

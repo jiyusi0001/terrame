@@ -226,17 +226,6 @@ function os.capture(cmd)
     return s
 end
 
-function os.isUnix() 
-	local isWin=string.find(string.lower(os.getenv('OS') or 'nil'),'windows')~=nil
-	return not isWin
-end
-
-function os.isLinux()
-    local res = os.execute("uname -o > /dev/null 2>&1")
-    if res then return true
-    else return false end
-end
-
 function os.isFileExist(fn)
 	local f=io.open(fn,'r')
 	if f==nil then return false end
@@ -289,18 +278,6 @@ function extractFile(filename)
     for line in file:lines() do table.insert(lines,line) end
     file:close()
     return lines
-end
-
-function getSOName()
-    if os.isUnix() then
-        if os.isLinux() then
-            return "linux"
-        else
-            return "mac"
-        end
-    else
-        return "windows"
-    end
 end
 
 function createOutPutFilename(path,directoryRoot, filename,functionname)

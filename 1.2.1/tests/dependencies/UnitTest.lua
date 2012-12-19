@@ -83,6 +83,29 @@ function string:split(delimiter)
   return result
 end
 
+function os.isUnix() 
+	local isWin=string.find(string.lower(os.getenv('OS') or 'nil'),'windows')~=nil
+	return not isWin
+end
+
+function os.isLinux()
+    local res = os.execute("uname -o > /dev/null 2>&1")
+    if res then return true
+    else return false end
+end
+
+function getSOName()
+    if os.isUnix() then
+        if os.isLinux() then
+            return "linux"
+        else
+            return "mac"
+        end
+    else
+        return "windows"
+    end
+end
+
 UnitTest_ = {
 	assert_nil = function(self,v)
 		return self:compute(v == nil)
