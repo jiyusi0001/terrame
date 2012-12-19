@@ -1,23 +1,21 @@
 OBSERVER TEXTSCREEN 05
 step 	1
-sleeping
-walking
-6
-step 	2
 walking
 5
-step 	3
+step 	2
 walking
 4
-step 	4
+step 	3
 walking
 3
-step 	5
+step 	4
 walking
 2
-step 	6
+step 	5
 walking
 1
+sleeping
+step 	6
 sleeping
 step 	7
 sleeping
@@ -26,10 +24,11 @@ sleeping
 	observerTextScreen05:kill	true
 step 	9
 sleeping
-step 	10
-sleeping
 walking
 5
+step 	10
+walking
+4
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 

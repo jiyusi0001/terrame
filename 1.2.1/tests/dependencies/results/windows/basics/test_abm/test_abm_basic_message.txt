@@ -6,9 +6,9 @@ File:	.../tests/src/basics/test_abm.lua
 
 Assertions: 6 total, 2 succeed, 4 failed.
 Failed: 
-	- File 'C:\TerraME_Beta\tests\src\basics\test_abm.lua' function 'test_abm_basic_message' in line 353
-	- File 'C:\TerraME_Beta\tests\src\basics\test_abm.lua' function 'test_abm_basic_message' in line 380
-	- File 'C:\TerraME_Beta\tests\src\basics\test_abm.lua' function 'test_abm_basic_message' in line 388
-	- File 'C:\TerraME_Beta\tests\src\basics\test_abm.lua' function 'test_abm_basic_message' in line 393
+	- File 'C:\TerraME_Beta\tests\src\basics\test_abm.lua' function 'test_abm_basic_message' in line 352
+	- File 'C:\TerraME_Beta\tests\src\basics\test_abm.lua' function 'test_abm_basic_message' in line 379
+	- File 'C:\TerraME_Beta\tests\src\basics\test_abm.lua' function 'test_abm_basic_message' in line 387
+	- File 'C:\TerraME_Beta\tests\src\basics\test_abm.lua' function 'test_abm_basic_message' in line 392
 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

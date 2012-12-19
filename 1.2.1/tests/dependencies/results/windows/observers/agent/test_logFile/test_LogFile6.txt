@@ -1,21 +1,23 @@
 OBSERVER LOGFILE 06
 step 	1
+sleeping
 walking
-5
+6
 step 	2
 walking
-4
+5
 step 	3
 walking
-3
+4
 step 	4
 walking
-2
+3
 step 	5
 walking
-1
-sleeping
+2
 step 	6
+walking
+1
 sleeping
 step 	7
 sleeping
@@ -24,11 +26,10 @@ sleeping
 	observerLogFile06:kill	true
 step 	9
 sleeping
+step 	10
+sleeping
 walking
 5
-step 	10
-walking
-4
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 

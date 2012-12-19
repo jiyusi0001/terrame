@@ -1,11 +1,11 @@
-cells;user;database;dbType;maxCol;xdim;cObj_;ydim;minRow;password;maxRow;host;theme;minCol;layer
-Lua-Address(TB): 00D7E260;root;cabeca;mysql;mysql100;100;Lua-Address(UD): 00DB6190;terralab0705100;cells90x900;terralab0705;root100;127.0.0.1;cells90x90;cabeca0;cells90x90
-Lua-Address(TB): 00D7E260;root;cabeca;mysql;mysql100;100;Lua-Address(UD): 00DB6190;terralab0705100;cells90x900;terralab0705;root100;127.0.0.1;cells90x90;cabeca0;cells90x90
-Lua-Address(TB): 00D7E260;root;cabeca;mysql;mysql100;100;Lua-Address(UD): 00DB6190;terralab0705100;cells90x900;terralab0705;root100;127.0.0.1;cells90x90;cabeca0;cells90x90
-Lua-Address(TB): 00D7E260;root;cabeca;mysql;mysql100;100;Lua-Address(UD): 00DB6190;terralab0705100;cells90x900;terralab0705;root100;127.0.0.1;cells90x90;cabeca0;cells90x90
-Lua-Address(TB): 00D7E260;root;cabeca;mysql;mysql100;100;Lua-Address(UD): 00DB6190;terralab0705100;cells90x900;terralab0705;root100;127.0.0.1;cells90x90;cabeca0;cells90x90
-Lua-Address(TB): 00D7E260;root;cabeca;mysql;mysql100;100;Lua-Address(UD): 00DB6190;terralab0705100;cells90x900;terralab0705;root100;127.0.0.1;cells90x90;cabeca0;cells90x90
-Lua-Address(TB): 00D7E260;root;cabeca;mysql;mysql100;100;Lua-Address(UD): 00DB6190;terralab0705100;cells90x900;terralab0705;root100;127.0.0.1;cells90x90;cabeca0;cells90x90
-Lua-Address(TB): 00D7E260;root;cabeca;mysql;mysql100;100;Lua-Address(UD): 00DB6190;terralab0705100;cells90x900;terralab0705;root100;127.0.0.1;cells90x90;cabeca0;cells90x90
-Lua-Address(TB): 00D7E260;root;cabeca;mysql;mysql100;100;Lua-Address(UD): 00DB6190;terralab0705100;cells90x900;terralab0705;root100;127.0.0.1;cells90x90;cabeca0;cells90x90
-Lua-Address(TB): 00D7E260;root;cabeca;mysql;mysql100;100;Lua-Address(UD): 00DB6190;terralab0705100;cells90x900;terralab0705;root100;127.0.0.1;cells90x90;cabeca0;cells90x90
+user;minRow;host;layer;ydim;theme;minCol;xdim;database;password;maxRow;maxCol;dbType;cells;cObj_
+root;0;127.0.0.1;cells90x90;127.0.0.1100;cells90x90;cells90x900;cells90x90100;cabeca;terralab0705;terralab0705100;root100;mysql;Lua-Address(TB): 006CDA08;Lua-Address(UD): 006CD070
+root;0;127.0.0.1;cells90x90;127.0.0.1100;cells90x90;cells90x900;cells90x90100;cabeca;terralab0705;terralab0705100;root100;mysql;Lua-Address(TB): 006CDA08;Lua-Address(UD): 006CD070
+root;0;127.0.0.1;cells90x90;127.0.0.1100;cells90x90;cells90x900;cells90x90100;cabeca;terralab0705;terralab0705100;root100;mysql;Lua-Address(TB): 006CDA08;Lua-Address(UD): 006CD070
+root;0;127.0.0.1;cells90x90;127.0.0.1100;cells90x90;cells90x900;cells90x90100;cabeca;terralab0705;terralab0705100;root100;mysql;Lua-Address(TB): 006CDA08;Lua-Address(UD): 006CD070
+root;0;127.0.0.1;cells90x90;127.0.0.1100;cells90x90;cells90x900;cells90x90100;cabeca;terralab0705;terralab0705100;root100;mysql;Lua-Address(TB): 006CDA08;Lua-Address(UD): 006CD070
+root;0;127.0.0.1;cells90x90;127.0.0.1100;cells90x90;cells90x900;cells90x90100;cabeca;terralab0705;terralab0705100;root100;mysql;Lua-Address(TB): 006CDA08;Lua-Address(UD): 006CD070
+root;0;127.0.0.1;cells90x90;127.0.0.1100;cells90x90;cells90x900;cells90x90100;cabeca;terralab0705;terralab0705100;root100;mysql;Lua-Address(TB): 006CDA08;Lua-Address(UD): 006CD070
+root;0;127.0.0.1;cells90x90;127.0.0.1100;cells90x90;cells90x900;cells90x90100;cabeca;terralab0705;terralab0705100;root100;mysql;Lua-Address(TB): 006CDA08;Lua-Address(UD): 006CD070
+root;0;127.0.0.1;cells90x90;127.0.0.1100;cells90x90;cells90x900;cells90x90100;cabeca;terralab0705;terralab0705100;root100;mysql;Lua-Address(TB): 006CDA08;Lua-Address(UD): 006CD070
+root;0;127.0.0.1;cells90x90;127.0.0.1100;cells90x90;cells90x900;cells90x90100;cabeca;terralab0705;terralab0705100;root100;mysql;Lua-Address(TB): 006CDA08;Lua-Address(UD): 006CD070

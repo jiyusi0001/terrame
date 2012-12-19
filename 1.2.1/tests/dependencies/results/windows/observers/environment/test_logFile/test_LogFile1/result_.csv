@@ -1,12 +1,12 @@
-t;counter;c1;id;cObj_;temperature
-Lua-Address(TB): 0091C8B8;0;Lua-Address(TB): 00918B50;MyEnvironment;Lua-Address(UD):0091CA88;MyEnvironment0
-Lua-Address(TB): 0091C8B8;1;Lua-Address(TB): 00918B50;MyEnvironment;Lua-Address(UD):0091CA88;MyEnvironment0
-Lua-Address(TB): 0091C8B8;2;Lua-Address(TB): 00918B50;MyEnvironment;Lua-Address(UD):0091CA88;MyEnvironment2
-Lua-Address(TB): 0091C8B8;3;Lua-Address(TB): 00918B50;MyEnvironment;Lua-Address(UD):0091CA88;MyEnvironment4
-Lua-Address(TB): 0091C8B8;4;Lua-Address(TB): 00918B50;MyEnvironment;Lua-Address(UD):0091CA88;MyEnvironment6
-Lua-Address(TB): 0091C8B8;5;Lua-Address(TB): 00918B50;MyEnvironment;Lua-Address(UD):0091CA88;MyEnvironment8
-Lua-Address(TB): 0091C8B8;6;Lua-Address(TB): 00918B50;MyEnvironment;Lua-Address(UD):0091CA88;MyEnvironment10
-Lua-Address(TB): 0091C8B8;7;Lua-Address(TB): 00918B50;MyEnvironment;Lua-Address(UD):0091CA88;MyEnvironment12
-Lua-Address(TB): 0091C8B8;8;Lua-Address(TB): 00918B50;MyEnvironment;Lua-Address(UD):0091CA88;MyEnvironment14
-Lua-Address(TB): 0091C8B8;9;Lua-Address(TB): 00918B50;MyEnvironment;Lua-Address(UD):0091CA88;MyEnvironment16
-Lua-Address(TB): 0091C8B8;10;Lua-Address(TB): 00918B50;MyEnvironment;Lua-Address(UD):0091CA88;MyEnvironment18
+t;temperature;c1;id;cObj_;counter
+Lua-Address(TB): 00F9B930;0;Lua-Address(TB): 00F54CB0;MyEnvironment;Lua-Address(UD):00F9BB00;MyEnvironment0
+Lua-Address(TB): 00F9B930;0;Lua-Address(TB): 00F54CB0;MyEnvironment;Lua-Address(UD):00F9BB00;MyEnvironment1
+Lua-Address(TB): 00F9B930;2;Lua-Address(TB): 00F54CB0;MyEnvironment;Lua-Address(UD):00F9BB00;MyEnvironment2
+Lua-Address(TB): 00F9B930;4;Lua-Address(TB): 00F54CB0;MyEnvironment;Lua-Address(UD):00F9BB00;MyEnvironment3
+Lua-Address(TB): 00F9B930;6;Lua-Address(TB): 00F54CB0;MyEnvironment;Lua-Address(UD):00F9BB00;MyEnvironment4
+Lua-Address(TB): 00F9B930;8;Lua-Address(TB): 00F54CB0;MyEnvironment;Lua-Address(UD):00F9BB00;MyEnvironment5
+Lua-Address(TB): 00F9B930;10;Lua-Address(TB): 00F54CB0;MyEnvironment;Lua-Address(UD):00F9BB00;MyEnvironment6
+Lua-Address(TB): 00F9B930;12;Lua-Address(TB): 00F54CB0;MyEnvironment;Lua-Address(UD):00F9BB00;MyEnvironment7
+Lua-Address(TB): 00F9B930;14;Lua-Address(TB): 00F54CB0;MyEnvironment;Lua-Address(UD):00F9BB00;MyEnvironment8
+Lua-Address(TB): 00F9B930;16;Lua-Address(TB): 00F54CB0;MyEnvironment;Lua-Address(UD):00F9BB00;MyEnvironment9
+Lua-Address(TB): 00F9B930;18;Lua-Address(TB): 00F54CB0;MyEnvironment;Lua-Address(UD):00F9BB00;MyEnvironment10

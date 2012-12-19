@@ -1,9 +1,9 @@
-acum,cObj_,id,st1,it,class,curve,cont,parent,st2,currentState
-0,Lua-Address(UD): 00F6D838,MyAutomaton,Lua-Address(UD): 00F6CE88,Lua Address(TB): 00F6CFB0,automaton_1,automaton_10,0,Lua Address(TB): 00F6D898,Lua-Address(UD): 00F6CF78,seco
-490,Lua-Address(UD): 00F6D838,MyAutomaton,Lua-Address(UD): 00F6CE88,Lua Address(TB): 00F6CFB0,automaton_1,automaton_10,0,Lua Address(TB): 00F6D898,Lua-Address(UD): 00F6CF78,molhado
-980,Lua-Address(UD): 00F6D838,MyAutomaton,Lua-Address(UD): 00F6CE88,Lua Address(TB): 00F6CFB0,automaton_1,automaton_10,0,Lua Address(TB): 00F6D898,Lua-Address(UD): 00F6CF78,seco
-1470,Lua-Address(UD): 00F6D838,MyAutomaton,Lua-Address(UD): 00F6CE88,Lua Address(TB): 00F6CFB0,automaton_1,automaton_10,0,Lua Address(TB): 00F6D898,Lua-Address(UD): 00F6CF78,molhado
-1960,Lua-Address(UD): 00F6D838,MyAutomaton,Lua-Address(UD): 00F6CE88,Lua Address(TB): 00F6CFB0,automaton_1,automaton_10,0,Lua Address(TB): 00F6D898,Lua-Address(UD): 00F6CF78,seco
-2450,Lua-Address(UD): 00F6D838,MyAutomaton,Lua-Address(UD): 00F6CE88,Lua Address(TB): 00F6CFB0,automaton_1,automaton_10,0,Lua Address(TB): 00F6D898,Lua-Address(UD): 00F6CF78,molhado
-2940,Lua-Address(UD): 00F6D838,MyAutomaton,Lua-Address(UD): 00F6CE88,Lua Address(TB): 00F6CFB0,automaton_1,automaton_10,0,Lua Address(TB): 00F6D898,Lua-Address(UD): 00F6CF78,seco
-3430,Lua-Address(UD): 00F6D838,MyAutomaton,Lua-Address(UD): 00F6CE88,Lua Address(TB): 00F6CFB0,automaton_1,automaton_10,0,Lua Address(TB): 00F6D898,Lua-Address(UD): 00F6CF78,molhado
+st1,it,cont,parent,cObj_,acum,class,id,st2,curve,currentState
+Lua-Address(UD): 0070F040,Lua Address(TB): 0070F168,0,Lua Address(TB): 02A553A8,Lua-Address(UD): 02A55348,0,automaton_1,MyAutomaton,Lua-Address(UD): 0070F130,MyAutomaton0,seco
+Lua-Address(UD): 0070F040,Lua Address(TB): 0070F168,0,Lua Address(TB): 02A553A8,Lua-Address(UD): 02A55348,490,automaton_1,MyAutomaton,Lua-Address(UD): 0070F130,MyAutomaton0,molhado
+Lua-Address(UD): 0070F040,Lua Address(TB): 0070F168,0,Lua Address(TB): 02A553A8,Lua-Address(UD): 02A55348,980,automaton_1,MyAutomaton,Lua-Address(UD): 0070F130,MyAutomaton0,seco
+Lua-Address(UD): 0070F040,Lua Address(TB): 0070F168,0,Lua Address(TB): 02A553A8,Lua-Address(UD): 02A55348,1470,automaton_1,MyAutomaton,Lua-Address(UD): 0070F130,MyAutomaton0,molhado
+Lua-Address(UD): 0070F040,Lua Address(TB): 0070F168,0,Lua Address(TB): 02A553A8,Lua-Address(UD): 02A55348,1960,automaton_1,MyAutomaton,Lua-Address(UD): 0070F130,MyAutomaton0,seco
+Lua-Address(UD): 0070F040,Lua Address(TB): 0070F168,0,Lua Address(TB): 02A553A8,Lua-Address(UD): 02A55348,2450,automaton_1,MyAutomaton,Lua-Address(UD): 0070F130,MyAutomaton0,molhado
+Lua-Address(UD): 0070F040,Lua Address(TB): 0070F168,0,Lua Address(TB): 02A553A8,Lua-Address(UD): 02A55348,2940,automaton_1,MyAutomaton,Lua-Address(UD): 0070F130,MyAutomaton0,seco
+Lua-Address(UD): 0070F040,Lua Address(TB): 0070F168,0,Lua Address(TB): 02A553A8,Lua-Address(UD): 02A55348,3430,automaton_1,MyAutomaton,Lua-Address(UD): 0070F130,MyAutomaton0,molhado
