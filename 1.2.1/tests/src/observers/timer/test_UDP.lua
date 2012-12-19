@@ -210,7 +210,11 @@ local observersUdpTest = UnitTest {
 		udpFor(true)
 	end
 }
+-- TESTES OBSERVER UDPSENDER
 --[[
+UDPSENDER 01/02/03/04/05/06/07/08/09/10/11
+São apresentados vários Warnings, reportando uma falha no envio da mensagem. Erro no socket, pois também não consegue enviar a mensagem. Em seguida outro warning é apresentado reduzindo o tamanho do datagram.
+Outros dois warnings são mostrados, reportando que a tabela de parâmetros está vazia e outro dizendo que o "Port" não foi definido.
 
 ]]
 

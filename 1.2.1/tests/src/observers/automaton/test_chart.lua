@@ -337,5 +337,66 @@ local observersChartTest = UnitTest {
 	end
 }
 
+-- TESTES OBSERVER GRAPHIC
+--[[
+DYNAMIC GRAPHIC 01
+Programa não deverá ser executado, já que o gráfico de 'observers' deverá conter ao menos um atributo, então assim, ocorrerá um erro.
+
+DYNAMIC GRAPHIC 02
+Programa não será executado, pois para obsercar um autômato é requerido um parâmetro 'localização' para que seja uma célula, sendo assim ocorrerá um erro.
+
+DYNAMIC GRAPHIC 03
+Deverá ser criado um gráfico com título 'Graph Title', com a curva crescendo em relação a 'yLable' e 'time' de acordo com o 'currentState'.
+
+DYNAMIC GRAPHIC 04
+Programa cria um gráfico 'Title' cuja curva crescerá de acordo com 'time' no eixo x e 'currentState' no eixo y.
+
+DYNAMIC GRAPHIC 05
+Programa deverá apresentar um gráfico 'titutlo' com duas curvas um partindo de '0', de nome 'CurveTitle', e outra partindo de '1', de nome 'CurveTitle2', as duas crescendo em relação ao eixo x 'time' e ao eixo y 'currentState'.
+
+DYNAMIC GRAPHIC 06
+Programa deverá criar um gráfico 'titulo' com duas curvas, uma 'CurveTitle' que se apresenta na cor marrom e outra 'CurveTitle2' que se apresenta na cor verde, crescendo em relação ao 'tempo' e ao 'currentState'.
+
+DYNAMIC GRAPHIC 07
+Programa apresentará um gráfico 'título' com duas curvas, uma marrom 'CurveTitle' que parte de '0' e outra 'CurveTitle2' que parte de '1', as duas crescem de acordo com o eixo y 'currentState' e eixo y 'time'.
+
+
+DYNAMIC GRAPHIC 08
+Programa apresentará um gráfico 'titulo' com duas curvas de nomes 'CurveTitle' e 'CurveTitle2', sendo essas verde e marrom, respectivamente, a primeira partindo de '1', variando de '0-2' e a segunda partindo de '0', variando de '0-1' em altura.
+
+GRAPHIC 01
+Programa apresentará um gráfico 'GraphTitle', com uma curva roxa, partindo de '0', crescendo de acordo com os eixo1 x 'xLabel' e eixo y 'yLabe', variando de '0-1' em altura, e até 5.000 em largura.
+
+GRAPHIC 02
+Idem GRAPHIC 01.
+
+GRAPHIC 03
+Idem GRAPHIC 01.
+
+GRAPHIC 04
+Idem GRAPHIC 01.
+
+GRAPHIC 05
+Idem GRAPHIC 01.
+
+GRAPHIC 06
+Idem GRAPHIC 01, exceto que em largura varia apenas até 3.000.
+
+GRAPHIC 07
+Programa apresentará um gráfico 'GraphTitle' com duas curvas, uma azul partindo de '0' e variando de '0-2' e uma roxa patindo de '1' e variando de '0-1' em altura, até 5.000 em largura.
+
+GRAPHIC 08
+Idem GRAPHIC 07.
+
+GRAPHIC 09
+Idem GRAPHIC 07.
+
+GRAPHIC 10
+Idem GRAPHIC 07, exceto que a curva 2, é marrom.
+
+GRAPHIC 11
+Idem GRAPHIC 07, exceto que a curva 1 é verde e a curva 2 é azul.
+]]
+
 observersChartTest:run()
 os.exit(0)

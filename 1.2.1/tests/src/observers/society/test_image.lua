@@ -353,6 +353,8 @@ Deverá gerar uma imagem com plano de fundo preenchido (em verde) de acordo com 
 Deverá ser emitida mensagem de "Warning" informando o uso do diretório corrente para saída e o uso de prefixo padrão.
 
 IMAGE 10
+É apresentado um "Warning: Attribute 'colorBar' should be a table, got a nil." Using default color bar. Executando do STEP 1 ao STEP 10, utilizando a função test_image10, sendo que em todos os passos "Members in society 'sc1':   5"
+.
 --]]
 
 observersImageTest.skips = {"test_NotDeclaredStates"}

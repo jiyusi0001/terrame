@@ -121,5 +121,19 @@ local observersTextScreenTest = UnitTest {
 	end
 }
 
+-- TESTES OBSERVER TEXTSCREEN
+--[[
+
+TEXTSCREEN 01 / TEXTSCREEN 02
+Programa deverá apresentar uma tabela com as seguintes colunas, 'select', 't', 'valor1', 'valor2', 'sort', 'cObj_', 'cells', 'parent' e de acordo com a execução, cada coluna vai sendo preenchida, exceto algumas como 'sort' que ficam em branco.
+
+TEXTSCREEN 03
+Programa deverá apresentar uma tabela com duas colunas, 'valor 1' que varia de 1 a 5040, mas não de um em um e outra coluna 'valor2' que começa.
+
+TEXTSCREEN 04
+Idem TEXTSCREEN 01.
+
+]]
+
 observersTextScreenTest:run()
 os.exit(0)

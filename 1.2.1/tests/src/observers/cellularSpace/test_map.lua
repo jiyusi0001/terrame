@@ -27,10 +27,6 @@
 -------------------------------------------------------------------------------------------
 dofile (TME_PATH.."/tests/dependencies/UnitTest.lua")
 
-
---db = getDataBase()
---dbms = db["dbms"]
---PWD = db["pwd"]
 DB_VERSION = "4_2_0"
 HEIGHT = "height_"
 
@@ -274,6 +270,9 @@ A legenda do atributo HEIGHT deve conter 50 faixas. As notificações não alteram 
 
 MAP 09
 Este teste será idêntico ao teste IMAGE 08. Porém, no tempo de simulação 8, o observador "observerMap10" será destruído. Assim, serão geradas apenas 8 imagens iguais. O método "kill" retornará um valor booleano confirmando o sucesso da chamada e a janela referente a este observer será fechada.
+
+MAP 10
+Deverá ser executado do STEP 1 ao STEP 10, sendo que entre os STEPs 8 e 9, apresenta uma mensagem: "observerMap10:kill    true", utilizando a função test_map10.
 
 ]]
 

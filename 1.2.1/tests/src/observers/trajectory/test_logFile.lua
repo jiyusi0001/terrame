@@ -124,5 +124,19 @@ local observersLogFileTest = UnitTest {
 	end
 }
 
+-- TESTES OBSERVER LOGFILE
+--[[
+
+LOGFILE 01 / LOGFILE 02 / LOGFILE 05 
+Programa deverá criar um 'observer' do tipo 'logfile'.
+
+LOGFILE 03
+Idem LOGFILE 01, mas com o 'logfile.csv' do tipo 'outfile'.
+
+LOGFILE 04
+Idem LOGFILE 01, mas com dois atributos, 'valor1' e 'valor2'.
+
+]]
+
 observersLogFileTest:run()
 os.exit(0)

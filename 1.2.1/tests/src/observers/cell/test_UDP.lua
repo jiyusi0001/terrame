@@ -191,6 +191,9 @@ Deverão ser recebidas 10 mensagens idênticas. Estas mensagens serão transformada
 
 cell2?1?2?0?soilWater?1?0?height_?1?0??
 
+UDPSENDER 08
+Idem UDPSENDER 07, mas o programa deverá apresentar um erro, pois não comseguirá achar o atributo "counter". Sendo assim o programa será abortado antes de terminar a execução.
+
 ]]
 
 observersUDPTest:run()

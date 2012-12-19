@@ -229,6 +229,8 @@ Serão disparadas 10 mensagens "multicast" direcionadas ao porto "666" das máquin
 Deverão ser recebidas 10 mensagens idênticas. Estas mensagens serão transformadas em arquivos pelo cliente de testes.
 
 UDPSENDER 08
+Idem UDPSENDER 07.
+
 todo]]
 
 observersUDPTest:run()

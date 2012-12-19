@@ -296,14 +296,19 @@ Deve gerar 10 imagens exibindo o relevo obtido a partir do atributo HEIGHT e da 
 Deverão ser emitidas mensagens de "Warning" informando o uso do diretório corrente para saída e prefixo padrões.
 
 IMAGE 06
+Idem IMAGE 06, porém a legenda é "heightLeg_GROUP_MODE", devrá ter 10 faixas. Uma janela é exibida mostrando a execução, com os "parâmetros", "filename prefix" = "result" e "path".
 
 IMAGE 07
+Programa executará e logo no início deverão ser emitidas algumas mensagens, a primeira em relação a versão da TerraLib está diferente da versão das bases de dados, em seguida mais dois "Warning"s, pois são encontrados mais valores no modelo, do que na legenda do atributo "height_". Em seguida são geradas 10 imagens exibindo o relevo obtido a partir do atributo "HEIGHT" e da legenda "heightLeg_GROUP_MODE_NEW".
 
 IMAGE 08
+Idem IMAGE 07, com exceção da legenda que muda para "heightLeg_GROUP_MODE".
 
 IMAGE 09
+Idem IMAGE 08.
 
 IMAGE 10
+Idem IMAGE 08.
 
 
 IMAGE 11

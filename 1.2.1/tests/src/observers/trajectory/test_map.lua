@@ -285,5 +285,31 @@ local observersMapTest = UnitTest {
 	end
 }
 
+-- TESTES OBSERVER MAP
+--[[
+
+MAP 01/06
+Programa deverá apresentar um erro, pois não será achado o parâmetro do observer.
+
+MAP 02 / MAP 03 / MAP 04
+Programa deverá criar um 'observer' do tipo 'map', para então rodar o modelo de MAP.
+
+MAP 05
+Programa deverá criar um 'observer' do tipo 'map' e legenda 'tr1Leg', para então rodar o modelo de MAP.
+
+MAP 06
+Idem MAP 05, mas com um atributo a mais 'cont'.
+
+MAP 07
+Idem MAP 05, mas com um atributo a mais 'trajectory'.
+
+MAP 08
+Programa deverá criar um 'observer' do tipo 'map', legendas 'tr2Leg' e atributo 'trajectory' e então apresentará um mapa que a cada passo de execução deverá haver uma faixa na diagonal com escala de vermelho a amarelo, mudando da diagonal principal par a secundária e assim por diante.
+
+MAP 09
+Idem MAP 08, exceto que o map deverá ser abortado após o passo 8, ou seja, antes de acabar a execução do modelo.
+
+]]
+
 observersMapTest:run()
 os.exit(0)

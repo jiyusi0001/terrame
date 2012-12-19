@@ -213,6 +213,10 @@ Deverá ser emitida mensagem de "Warning" informando que a lista de atributos est
 
 STATEMACHINE 05
 Deve apresentar uma máquina de estados para o atributo "currentState" do agente "ag1" contendo dois estados, preenchidos de acordo com a legenda "currentStateLeg" ("walking" em verde e "sleeping" em marrom). A cada iteração o estado atual deve estar destacado com bordas em negrito.
+
+STATEMACHINE 06
+O prgrama deve apresentar uma máquina de estados semelhante ao STATEMACHINE 05, mas com a diferença é que as cores de "walking" e "sleeping", são vermelho e azul, respectivamente.
+
 ]]
 
 observersStateMachineTest:run()

@@ -160,14 +160,14 @@ local observersUDPTest = UnitTest {
 
 -- TESTES OBSERVER UDPSENDER
 --[[
-UDPSENDER01 / UDPSENDER02 / UDPSENDER03
+UDPSENDER 01 / UDPSENDER 02 / UDPSENDER 03
 A realização deste teste depende da execução do cliente UDP em diferentes computadores. Cada um deles deve receber a cada notificação as informações do espaço celular "cs1" e os dados referente aos atributos de todas suas células.
 Deverá ser emitida mensagem informando o uso de valores padrão para os parâmetros "port" e "address".
 Serão disparadas 10 mensagens "broadcast" (para todas maquinas na mesma TME_LEGEND_COLOR.REDe) direcionadas ao porto padrão "456456".
 Cada uma das máquinas cliente deve receber 10 mensagens idênticas. Estas mensagens serão transformadas em arquivos pelo cliente de testes, sendo que o conteúdo de cada um destes arquivos deve ser como o que segue:
 
 
-UDPSENDER04
+UDPSENDER 04
 A realização deste teste depende da execução do cliente UDP em diferentes computadores. Cada um deles deve receber a cada notificação as informações da célula "cs1" e seus atributos "soilWater" e "height_".
 Deverá ser emitida mensagem informando o uso de valores padrão para os parâmetros "port" e "address".
 Serão disparadas 10 mensagens "broadcast" (para todas maquinas na mesma TME_LEGEND_COLOR.REDe) direcionadas ao porto padrão "456456".
@@ -175,7 +175,7 @@ Cada uma das máquinas cliente deve receber 10 mensagens idênticas. Estas mensage
 
 cell2?1?2?0?soilWater?1?0?height_?1?0??
 
-UDPSENDER05
+UDPSENDER 05
 
 A realização deste teste depende da execução do cliente UDP em diferentes computadores. Cada um deles deve receber a cada notificação as informações da célula "cs1" e seus atributos "soilWater" e "height_".
 Deverá ser emitida mensagem informando o uso de valor padrão para o parâmetro "address".
@@ -184,7 +184,7 @@ Cada uma das máquinas cliente deve receber 10 mensagens idênticas. Estas mensage
 
 cell2?1?2?0?soilWater?1?0?height_?1?0??
 
-UDPSENDER06
+UDPSENDER 06
 
 A realização deste teste depende da execução do cliente UDP na mesma máquina onde ocorre a simulação (endereço "IP2"). O cliente deverá receber a cada notificação as informações da célula "cs1" e seus atributos "soilWater" e "height_".
 Serão disparadas 10 mensagens "unicast" direcionadas ao porto "666" do servidor local.
@@ -192,13 +192,16 @@ Deverão ser recebidas 10 mensagens idênticas. Estas mensagens serão transformada
 
 cell2?1?2?0?soilWater?1?0?height_?1?0??
 
-UDPSENDER07
+UDPSENDER 07
 
 A realização deste teste depende da execução do cliente UDP na máquinas com ips "IP1" e "IP2". Os clientes deverão receber a cada notificação as informações da célula "cs1" e seus atributos "soilWater" e "height_".
 Serão disparadas 10 mensagens "multicast" direcionadas ao porto "666" das máquinas em questão.
 Deverão ser recebidas 10 mensagens idênticas. Estas mensagens serão transformadas em arquivos pelo cliente de testes, sendo que o conteúdo de cada um destes arquivos deve ser como o que segue:
 
 cell2?1?2?0?soilWater?1?0?height_?1?0??
+
+UDPSENDER 08
+Executando do STEP 1 ao STEP 10, sendo que entre os STEPs 8 e 9, o observerUdpSender08 recebe kill(true). É apresentada uma janela com as udp messages.
 
 ]]
 

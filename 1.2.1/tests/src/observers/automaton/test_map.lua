@@ -219,5 +219,23 @@ local observersMapTest = UnitTest {
 	end
 }
 
+-- TESTES OBSERVER MAP
+--[[
+MAP 01
+Programa apresentará um erro, pois o 'observers' deve ter exatamente um ou dois atributos, no caso não tem nenhum atributo.
+
+MAP 02
+Prorgama apresentará um erro, porque no parâmetro 'observer' não foi achado.
+
+MAP 03
+Idem MAP 02.
+
+MAP 04
+Idem MAP 02.
+
+MAP 05
+Idem MAP 02.
+]]
+
 observersMapTest:run()
 os.exit(0)

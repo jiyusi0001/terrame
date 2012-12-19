@@ -203,5 +203,32 @@ local observersTableTest = UnitTest {
 
 }
 
+-- TESTES OBSERVER TABLE
+--[[
+TABLE 01
+Programa não será executado, pois para obsercar um autômato é requerido um parâmetro 'localização' para que seja uma célula, sendo assim ocorrerá um erro.
+
+TABLE 02
+Idem TABLE 01.
+
+TABLE 03
+Idem TABLE 01.
+
+TABLE 04
+Programa apresenta uma tabla com os atributos e os valores, sendo que o atributo 'acum' varia de acordo com o andamento do modelo, crescendo o seu valor.
+
+TABLE 05
+Programa exibe uma tabela com atributos e valores, sendo que o atributo 'currentState' varia entre dois estados, que são 'seco' e 'molhado'.
+
+TABLE 06
+Programa exibe uma tabela com duas colunas, uma de atributos e outra de valores. O atributo 'acum' varia de acordo com o andamento do modelo, crescendo seu valor.
+
+TABLE 07
+Idem TABLE 06, exceto que além do atributo 'acum' que cresce seu valor, há mais um atributo 'currentState' que varia entre dois estados, sendo eles 'seco' e 'molhado'
+
+TABLE 08
+Idem TABLE 07.
+]]
+
 observersTableTest:run()
 os.exit(0)

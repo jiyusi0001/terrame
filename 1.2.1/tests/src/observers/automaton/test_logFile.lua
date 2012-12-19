@@ -193,5 +193,29 @@ local observersLogFileTest = UnitTest {
 	end
 }
 
+-- TESTES OBSERVER LOGFILE
+--[[
+LOGFILE 01
+Programa não será executado, pois para obsercar um autômato é requerido um parâmetro 'localização' para que seja uma célula, sendo assim ocorrerá um erro.
+
+LOGFILE 02
+Idem LOGFILE 01.
+
+LOGFILE 03
+Idem LOGFILE 01.
+
+LOGFILE 04
+Programa criará um 'observerLogFile' que recebe 'Observer' do tipo 'logfile', sem atributos e com localização de cada célula.
+
+LOGFILE 05
+Idem LOGFILE 04.
+
+LOGFILE 06
+Idem LOGFILE 04.
+
+LOGFILE 07
+Idem LOGFILE 04, mas com a mudança de que o objeto será apagado antes do fim da execução.
+]]
+
 observersLogFileTest:run()
 os.exit(0)

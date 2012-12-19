@@ -124,5 +124,25 @@ local observersTableTest = UnitTest {
 	end
 }
 
+-- TESTES OBSERVER TABLE
+--[[
+
+TABLE 01
+Programa deverá criar um 'observer' do tipo 'table'.
+
+TABLE 02
+Idem TABLE 01, mas ao contrário do 01 que não tem atributos, o TABLE 02 terá atributos, mas estará vazio.
+
+TABLE 03 
+Programa deverá criar um 'observer' do tipo 'table', os atributos ficarão vazios, com uma coluna chamada '-- VALUES --' e outra '-- ATTRS --'.
+
+TABLE 04
+Programa deverá criar um 'observer' do tipo 'table' com dois atributos, 'valor1' e 'valor2', duas colunas '-- VALUES --' e outra '-- ATTRS --'.
+
+TABLE 05
+Idem TABLE 02.
+
+]]
+
 observersTableTest:run()
 os.exit(0)

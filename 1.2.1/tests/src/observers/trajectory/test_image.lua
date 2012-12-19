@@ -254,5 +254,29 @@ local observersImageTest = UnitTest {
 	end
 }
 
+-- TESTES OBSERVER IMAGE
+--[[
+
+IMAGE 01 / IMAGE 03
+Programa deverá apresentar um erro com relação ao parâmetro 'observer', que não será achado.
+
+IMAGE 02 / IMAGE 04
+Programa deverá criar uma 'image' do tipo 'observer, mas sem apresentar ou criar alguma imagem.
+
+
+IMAGE 05 
+Programa deverá  criar uma 'image' do tipo observer e com a legenda 'tr1leg'.
+
+IMAGE 06
+Idem IMAGE 05, com exceção do atributo adicional 'cont'.
+
+IMAGE 07 / IMAGE 08
+Programa deverá apresentar uma janela com os parâmetros enquanto o modelo é executado. Dez imagens são geradas como resultado, todas com uma escala de vermelhor para amarelo no canto esquerdo.
+
+IMAGE 09
+Idem IMAGE 07, mas com a diferença que nas imagens 8, 9 e 10, elas são todas azuis, sem escala, uma única cor sólida.
+
+]]
+
 observersImageTest:run()
 os.exit(0)

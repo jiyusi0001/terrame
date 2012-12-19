@@ -188,5 +188,70 @@ local observersGraphicTest = UnitTest {
 	end
 }
 
+-- TESTES OBSERVER GRAPHIC
+--[[
+
+DYNAMIC GRAPHIC 01
+O programa deverá apresentar uma mensagem de ERRO, reportando que o gráfico de Observers deve ter no mínimo um atributo, se for ao contrário disso, não será executado.
+
+DYNAMIC GRAPHIC 02
+O programa deverá apresentar um gráfico do tipo “chart”, com os atributos “valor1” e “valor2”, o gráfico deverá crescer durante a execução.
+
+DYNAMIC GRAPHIC 03
+Idem DYNAMIC GRAPHIC 02, exceto que a legenda deverá mudar para "tr2Leg".
+
+DYNAMIC GRAPHIC 04
+Idem DYNAMIC GRAPHIC 02, exceto que a legenda deverá mudar para "tr1Leg".
+
+DYNAMIC GRAPHIC 05
+O programa deverá apresentar um gráfico do tipo “chart”, com o atributo “valor1”, o gráfico deverá crescer durante a execução, neste caso não tem legenda para ser carregada.
+
+DYNAMIC GRAPHIC 06
+Idem Idem DYNAMIC GRAPHIC 02, exceto que ao invés do gráfico ter dois atributos, ele terá apenas um: "valor1".
+
+DYNAMIC GRAPHIC 07
+O programa deverá apresentar um gráfico do tipo “chart”, com o atributo “valor1” e "valor2" e duas legendas "tr1Leg" e "tr2Leg", o gráfico deverá crescer durante a execução.
+
+DYNAMIC GRAPHIC 08
+Idem DYNAMIC GRAPHIC 07, mas com o título diferente: "Dynamics Graphics".
+
+GRAPHIC 01
+O programa deverá apresentar um gráfico do tipo “chart”, com um atributo “valor1” e o eixo x deverá ser chamado de “t”.
+
+GRAPHIC 02
+Idem GRAPHIC 1, exceto que no lugar do título, está “nil”, vazio.
+
+GRAPHIC 03
+Idem GRAPHIC 1, mas com o nome do gráfico: “GraphicTitle”.
+
+GRAPHIC 04
+O programa deverá exibir um gráfico do tipo “chart”, com um atributo “valor1”, o eixo x “t”, título do gráfico deverá ser “GraphicTitle” e uma curva “Curve A”
+
+GRAPHIC 05
+Idem GRAPHIC 4, exceto que o eixo y, será o “valor1”.
+
+GRAPHIC 06
+O programa deverá apresentar um gráfico com um atributo “valor1”, o eixo x “Xlabel”, o eixo y “Ylabel”, uma curvo “Curve A”
+
+GRAPHIC 07
+Idem GRAPHIC 6.
+
+GRAPHIC 08
+O programa deverá apresentar um gráfico com dois atributos “valor1” e “valor2”.
+
+GRAPHIC 09
+Programa deverá apresentar um gráfico com dois atributos “valor1” e ”valor2”, duas legendas “tr1Leg” e “tr2Leg”, duas curvas “Curve A” e “Curve B”.
+
+GRAPHIC 10
+Idem 9, exceto que carrega apenas uma legenda “tr1Leg”.
+
+GRAPHIC 11
+Idem 10, mas carregando a legenda “tr2Leg”.
+
+GRAPHIC 12
+Programa deverá apresentar um gráfico com dois atributos “valor1” e “valor2”, eixo x “XLabel” e eixo y “Ylabel”, de título “GraphicTitle”, uma curva “Curve A”.
+
+]]
+
 observersGraphicTest:run()
 os.exit(0)

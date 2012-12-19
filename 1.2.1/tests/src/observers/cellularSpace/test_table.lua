@@ -150,7 +150,7 @@ TABLE 05
 Deve apresentar na tela uma tabela contendo os atributos "soilWater", "height_" e "counter". Os atributos devem ser apresentados na ordem em que é feita a especificação. O valor do atributo "counter" deverá variar de 1 a 10 durante o teste. As colunas deverão ter os valores padrão "Attributes" e "Values".
 Deverá ser emitida mensagem de "Warning" informando o uso de valores padrão para o título das colunas.
 
-TABLE 05
+TABLE 06
 Este teste será idêntico ao teste TABLE 05. Porém, no tempo de simulação 8, o observador "observerTextScreen05" será destruído. O método "kill" retornará um valor booleano confirmando o sucesso da chamada e a janela referente a este observer será fechada.
 
 ]]

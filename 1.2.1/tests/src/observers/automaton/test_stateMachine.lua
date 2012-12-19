@@ -228,5 +228,26 @@ local observersStateMachineTest = UnitTest {
 	end
 }
 
+-- TESTES OBSERVER STATEMACHINE
+--[[
+STATEMACHINE 01
+Programa não será executado, pois para obsercar um autômato é requerido um parâmetro 'localização' para que seja uma célula, sendo assim ocorrerá um erro.
+
+STATEMACHINE 02
+Idem STATEMACHINE 01.
+
+STATEMACHINE 03
+Idem STATEMACHINE 01.
+
+STATEMACHINE 04
+Programa apresenta uma máquina de estados, com dois estado em um autômato que representam molhado e seco. Quando o estado está ativado, muda da cor cinza(quando está desativado) para a cor verde e com as bordas em negrito.
+
+STATEMACHINE 05
+Idem STATEMACHINE 04, exceto que o estado molhado é sempre amarelo, estando ativo ou não e o estado seco é sempre marrom, diference quando ativos ou não, pela borda em negrito.
+
+STATEMACHINE 06
+Idem STATEMACHINE 05, exceto que o modelo acaba no após o passo 8.
+]]
+
 observersStateMachineTest:run()
 os.exit(0)
