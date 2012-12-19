@@ -1,21 +1,23 @@
 OBSERVER UDPSENDER 07
 step 	1
+sleeping
 walking
-5
+6
 step 	2
 walking
-4
+5
 step 	3
 walking
-3
+4
 step 	4
 walking
-2
+3
 step 	5
 walking
-1
-sleeping
+2
 step 	6
+walking
+1
 sleeping
 step 	7
 sleeping
@@ -23,22 +25,22 @@ step 	8
 sleeping
 step 	9
 sleeping
+step 	10
+sleeping
 walking
 5
-step 	10
-walking
-4
 step 	11
 walking
-3
+4
 step 	12
 walking
-2
+3
 step 	13
 walking
-1
-sleeping
+2
 step 	14
+walking
+1
 sleeping
 step 	15
 sleeping
@@ -46,22 +48,22 @@ step 	16
 sleeping
 step 	17
 sleeping
+step 	18
+sleeping
 walking
 5
-step 	18
-walking
-4
 step 	19
 walking
-3
+4
 step 	20
 walking
-2
+3
 step 	21
 walking
-1
-sleeping
+2
 step 	22
+walking
+1
 sleeping
 step 	23
 sleeping
@@ -69,8 +71,6 @@ step 	24
 sleeping
 step 	25
 sleeping
-walking
-5
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
