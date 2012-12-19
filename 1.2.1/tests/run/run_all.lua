@@ -323,8 +323,6 @@ end
 
 function compareOutPut(directoryRoot,filename, output, functionname)
     local f = createOutPutFilename(COMPARE_PATH..getSOName()..TME_DIR_SEPARATOR, directoryRoot,filename,functionname)
-    print(f)
-    io.read()
     local result = extractFile(f)
     if not result then io.flush() return false end
     compare = output:split("\n")
