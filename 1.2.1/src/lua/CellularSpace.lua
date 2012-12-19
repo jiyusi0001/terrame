@@ -276,7 +276,13 @@ CellularSpace_ = {
 		local y = 0
 		local legendStr = ""
 		self.cells, self.minCol, self.minRow, self.maxCol, self.maxRow = self.cObj_:loadShape()
-		self.legend = loadstring(legendStr)()
+
+		local load = load
+        if (_VERSION ~= "Lua 5.2") then
+           load = loadstring
+        end
+		
+		self.legend = load(legendStr)()
 		-- A ordenacao eh necessaria pq o TerraView ordena os 
 		-- objectIDs como strings:..., C00L10, C00L100, C00L11...
 		table.sort(self.cells, function(a, b) 

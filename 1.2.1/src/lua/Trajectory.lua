@@ -133,6 +133,10 @@ greaterByCoord = function(operator)
 	str = str.."if a.x"..operator.."b.x then return true end\n"
 	str = str.."if a.x == b.x and a.y"..operator.."b.y then return true end\n"
 	str = str.."return false end"
-	return loadstring(str)()
+	local load = load
+    if (_VERSION ~= "Lua 5.2") then
+		load = loadstring
+    end		
+	return load(str)()
 end
 

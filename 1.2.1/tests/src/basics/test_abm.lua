@@ -174,13 +174,8 @@ local abmTest = UnitTest {
 
 		g2 = g:clone()
     
-    --unitTest:assert_equal(3,g:size())
-    unitTest:assert_equal(5,g:size())
-
-		--print(g:size()) -- 3
-		--unitTest:assert_equal(3,g2:size())
-    unitTest:assert_equal(5,g2:size())
-		--print(g2:size()) -- 3
+    unitTest:assert_equal(3,g:size())
+    unitTest:assert_equal(3,g2:size())
 	end,
 
 	test_abm_basic_group = function(unitTest)
@@ -209,17 +204,13 @@ local abmTest = UnitTest {
 			end
 		}
 
-		--unitTest:assert_equal(3,g:size())
-    unitTest:assert_equal(5,g:size())
-		--print(g:size()) -- 3
+    unitTest:assert_equal(3,g:size())
 		sum = 0
 		forEachAgent(g, function(ag)
 			sum = sum + ag.age
 		end)
     
-    --unitTest:assert_equal(27,sum)  
-		unitTest:assert_equal(40,sum)
-		--print(sum) -- 27
+		unitTest:assert_equal(27,sum)
 
 		g = Group {
 			target = nonFooSociety,
@@ -230,9 +221,9 @@ local abmTest = UnitTest {
 
 		unitTest:assert_equal(10,g:size())
 		--print(g:size()) -- 10
-    unitTest:assert_equal(10,g.agents[1].age)
+		unitTest:assert_equal(10,g.agents[1].age)
 		--print(g.agents[1].age) -- 10
-		unitTest:assert_equal(2,g.agents[10].age)
+		unitTest:assert_equal(1,g.agents[10].age)
 		--print(g.agents[10].age) -- 1
 
 		g = Group {
@@ -245,31 +236,26 @@ local abmTest = UnitTest {
 			end
 		}
 
-		unitTest:assert_equal(g.agents[1].age,2)
+		unitTest:assert_equal(g.agents[1].age,1)
 
-		--@RODRIGO
-		-- comentei isto. 'g.agents[8].age' = nil
-		--unitTest:assert_equal(7,g.agents[8].age)
-		unitTest:assert_equal(6,g:size())
-		--print(g:size()) -- 8
+		unitTest:assert_equal(7,g.agents[8].age)
 		nonFooSociety:execute()
 		g:rebuild()
-		unitTest:assert_equal(6,g:size())
-		--print(g:size()) -- 7
+		unitTest:assert_equal(7,g:size())
 
 		g:execute()
 		g:execute()
 		g:execute()
 		g:rebuild()
 
-		--unitTest:assert_equal(5,g:size())
-    unitTest:assert_equal(2,g:size())
+		unitTest:assert_equal(5,g:size())
 		--print(g:size()) -- 5
-		--unitTest:assert_equal(2,g.agents[1].id)
-    unitTest:assert_equal(6,g.agents[1].id)
+
+		unitTest:assert_equal(2,g.agents[1].id)
 		--print(g.agents[1].id) -- 2
+		
 		g:randomize()
-		unitTest:assert_equal(9,g.agents[1].id)
+		unitTest:assert_equal(3,g.agents[1].id)
 		--print(g.agents[1].id) -- 3
 	end,
 
@@ -364,8 +350,7 @@ local abmTest = UnitTest {
 			sum = sum + friend.age
 		end)
 
-		--unitTest:assert_equal(4,sum)
-    unitTest:assert_equal(12,sum)
+		unitTest:assert_equal(4,sum)
 		--print(sum) -- 4
 
 		forEachConnection(myself, function(self, friend)
@@ -392,8 +377,7 @@ local abmTest = UnitTest {
 		--]]
 
 		soc:synchronize()
-		--unitTest:assert_equal(5,received)
-    unitTest:assert_equal(2,received)
+		unitTest:assert_equal(5,received)
 		--print(received) -- 5
 
 		t = Timer{
@@ -401,14 +385,12 @@ local abmTest = UnitTest {
 		}
 
 		t:execute(8)
-		--unitTest:assert_equal(16,received)
-    unitTest:assert_equal(13,received)
+		unitTest:assert_equal(16,received)
 		--print(received) -- 16
 
 		soc:synchronize(1.1)
 
-		--unitTest:assert_equal(18,received)
-    unitTest:assert_equal(16,received)
+		unitTest:assert_equal(18,received)
 		--print(received) -- 18
 
 		soc:synchronize(20)
@@ -556,8 +538,8 @@ local abmTest = UnitTest {
 			count_quant = count_quant + ag:getSocialNetwork("boss"):size()
 			count_all   = count_all   + ag:getSocialNetwork("all"):size()
 		end)
-		--unitTest:assert_equal(5300,count_prob) 
-    unitTest:assert_equal(4986,count_prob)
+		
+		unitTest:assert_equal(5300,count_prob)
 		--print(count_prob) -- 5300
 		unitTest:assert_equal(100,count_quant)
 		--print(count_quant) -- 100
@@ -579,12 +561,11 @@ local abmTest = UnitTest {
 			count_c  = count_c  + ag:getSocialNetwork("c"):size()
 			count_n  = count_n  + ag:getSocialNetwork("n"):size()
 		end)
-		--unitTest:assert_equal(408,count_c)-
-    unitTest:assert_equal(416,count_c)
+
+		unitTest:assert_equal(408,count_c)
 		--print(count_c) -- 408
 
-		--unitTest:assert_equal(2980,count_n)
-    unitTest:assert_equal(2540,count_n)
+		unitTest:assert_equal(2980,count_n)
 		--print(count_n) -- 2980
 
 	end,
@@ -612,16 +593,9 @@ local abmTest = UnitTest {
 			quantity = 10
 		}
 
-		--[[
-		forEachAgent(soc, function(a)
-		print(a.name, a.age)
-		end)
-		--]]
-
 		g = soc:split("name")
 
-    --unitTest:assert_equal(7,g.foo:size())
-		unitTest:assert_equal(4,g.foo:size())
+		unitTest:assert_equal(7,g.foo:size())
 		--print(g.foo:size()) -- 7
 		unitTest:assert_equal(10,g.foo:size() + g.nonfoo:size())
 		--print(g.foo:size() + g.nonfoo:size()) -- 10
@@ -633,8 +607,7 @@ local abmTest = UnitTest {
 			end
 		end)
 
-		--unitTest:assert_equal(2,g3[1]:size())
-    unitTest:assert_equal(1,g3[1]:size())
+		unitTest:assert_equal(2,g3[1]:size())
 		--print(g3[1]:size()) -- 2
 		unitTest:assert_equal(10,g3[1]:size() + g3[2]:size() + g3[3]:size())
 		--print(g3[1]:size() + g3[2]:size() + g3[3]:size()) -- 10
