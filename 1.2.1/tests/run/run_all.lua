@@ -102,8 +102,8 @@ function executeTest(command, directoryRoot, file, skips, test, all)
             out:close()
         else
             local result = compareOutPut(directoryRoot,file,output,test)
-            r = "NAO OK"
-            if result then r = "OK" end
+            r = "FAILED"
+            if result then r = "SUCCEED" end
             writeResult("\t"..getBaseFileName(directoryRoot..test..": "..r))
         end
     end
@@ -231,6 +231,12 @@ function os.isUnix()
 	return not isWin
 end
 
+function os.isLinux()
+    local res = os.execute("uname -o > /dev/null 2>&1")
+    if res then return true
+    else return false end
+end
+
 function os.isFileExist(fn)
 	local f=io.open(fn,'r')
 	if f==nil then return false end
@@ -285,6 +291,18 @@ function extractFile(filename)
     return lines
 end
 
+function getSOName()
+    if os.isUnix() then
+        if os.isLinux() then
+            return "linux"
+        else
+            return "mac"
+        end
+    else
+        return "windows"
+    end
+end
+
 function createOutPutFilename(path,directoryRoot, filename,functionname)
     return path..directoryRoot..getBaseFileName(filename)..TME_DIR_SEPARATOR..functionname..".txt"
 end
@@ -304,7 +322,9 @@ function writeResult(result)
 end
 
 function compareOutPut(directoryRoot,filename, output, functionname)
-    local f = createOutPutFilename(COMPARE_PATH, directoryRoot,filename,functionname)
+    local f = createOutPutFilename(COMPARE_PATH..getSOName()..TME_DIR_SEPARATOR, directoryRoot,filename,functionname)
+    print(f)
+    io.read()
     local result = extractFile(f)
     if not result then io.flush() return false end
     compare = output:split("\n")
