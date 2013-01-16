@@ -1,0 +1,10 @@
+OBSERVER LOGFILE 05
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_LogFile5
+File:	.../usr/local/1.2.1-TerraME/tests/src/observers/environment/test_logFile.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

@@ -1,0 +1,11 @@
+OBSERVER IMAGE 01
+/usr/local/1.2.1-TerraME//bin//Lua//Observer.lua:806: Error: Image observers must have exactly one or two attributes.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_Image1
+File:	.../usr/local/1.2.1-TerraME/tests/src/observers/agent/test_image.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

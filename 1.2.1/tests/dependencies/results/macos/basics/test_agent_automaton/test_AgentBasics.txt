@@ -1,0 +1,53 @@
+--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+Testing Agent, Jump, Flow, and State...
+add
+add
+LATENCY: 0
+BUILD:
+
+END BUILD:
+STATE: stop
+::EXECUTE
+stop: 4 -> 0  1
+::EXECUTE
+TIME: 1
+stop: 5 -> 0  1
+TIME: 2
+stop: 6 -> 0  2
+TIME: 3
+>>>JUMP
+ANOTHER JUMP
+go: 5 -> 3
+ANOTHER FLOW
+TIME: 4
+ANOTHER JUMP
+go: 4 -> 3
+ANOTHER FLOW
+TIME: 5
+ANOTHER JUMP
+go: 3 -> 3
+ANOTHER FLOW
+TIME: 6
+ANOTHER JUMP
+go: 2 -> 3
+ANOTHER FLOW
+TIME: 7
+>>>JUMP
+stop: 3 -> 7  7
+TIME: 8
+stop: 4 -> 7  8
+TIME: 9
+stop: 5 -> 7  9
+TIME: 10
+stop: 6 -> 7  10
+...End of Agent, Jump, Flow, and State
+Please, press <ENTER> to quit...
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_AgentBasics
+File:	.../usr/local/1.2.1-TerraME/tests/src/basics/test_agent_automaton.lua
+
+Assertions: 15 total, 15 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

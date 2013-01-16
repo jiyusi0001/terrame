@@ -1,0 +1,20 @@
+IMAGE 09
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_image9
+File:	.../usr/local/1.2.1-TerraME/tests/src/observers/cellularSpace/test_image.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

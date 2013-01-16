@@ -1,0 +1,12 @@
+/usr/local/1.2.1-TerraME/tests/src/basics/test_abm.lua:239: attempt to index field '?' (a nil value)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_abm_basic_group
+File:	.../usr/local/1.2.1-TerraME/tests/src/basics/test_abm.lua
+
+Assertions: 6 total, 5 succeed, 1 failed.
+Failed: 
+	- File '/usr/local/1.2.1-TerraME/tests/src/basics/test_abm.lua' function 'test_abm_basic_group' in line 212
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

@@ -1,0 +1,31 @@
+MAP 10
+Warning: Attribute 'colorBar' should be a table, got a nil. Using default color bar.
+STEP: 	1
+Members in society 'sc1':	5
+STEP: 	2
+Members in society 'sc1':	5
+STEP: 	3
+Members in society 'sc1':	5
+STEP: 	4
+Members in society 'sc1':	5
+STEP: 	5
+Members in society 'sc1':	5
+STEP: 	6
+Members in society 'sc1':	5
+STEP: 	7
+Members in society 'sc1':	5
+STEP: 	8
+Members in society 'sc1':	5
+STEP: 	9
+Members in society 'sc1':	5
+STEP: 	10
+Members in society 'sc1':	5
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_map10
+File:	.../usr/local/1.2.1-TerraME/tests/src/observers/society/test_map.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
