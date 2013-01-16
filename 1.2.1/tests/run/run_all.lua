@@ -220,7 +220,7 @@ function isFile(path)
 end
 
 function os.capture(cmd)
-    if getSOName() =="mac" then
+    if getSOName() =="macos" then
         return executeMac(cmd)
     else
         return executeLinuxWindows(cmd)
@@ -315,7 +315,7 @@ function getSOName()
         if os.isLinux() then
             return "linux"
         else
-            return "mac"
+            return "macos"
         end
     else
         return "windows"
