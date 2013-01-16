@@ -220,10 +220,40 @@ function isFile(path)
 end
 
 function os.capture(cmd)
+    if getSOName()~="mac" then
+        return executeMac(cmd)
+    else
+        return executeLinuxWindows(cmd)
+    end
+end
+
+function executeMac(cmd)
+    os.execute(cmd .. " > "..TEMP_PATH)
+    local f = assert(io.open(TEMP_PATH, 'r'))
+    local s = ""
+    for line in f:lines() do
+        s = s..line.."\n"
+    end
+    f:close()
+    return s
+end
+
+function executeLinuxWindows(cmd)
     local f = assert(io.popen(cmd, 'r'))
     local s = assert(f:read('*a'))
     f:close()
     return s
+end
+
+function os.isUnix() 
+	local isWin=string.find(string.lower(os.getenv('OS') or 'nil'),'windows')~=nil
+	return not isWin
+end
+
+function os.isLinux()
+    local res = os.execute("uname -o > /dev/null 2>&1")
+    if res then return true
+    else return false end
 end
 
 function os.isFileExist(fn)
@@ -278,6 +308,18 @@ function extractFile(filename)
     for line in file:lines() do table.insert(lines,line) end
     file:close()
     return lines
+end
+
+function getSOName()
+    if os.isUnix() then
+        if os.isLinux() then
+            return "linux"
+        else
+            return "mac"
+        end
+    else
+        return "windows"
+    end
 end
 
 function createOutPutFilename(path,directoryRoot, filename,functionname)

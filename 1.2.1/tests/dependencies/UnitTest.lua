@@ -6,6 +6,7 @@ RESULT_PATH = TME_PATH.. TME_DIR_SEPARATOR .."bin".. TME_DIR_SEPARATOR .. "resul
 INPUT = RESULT_PATH.."number_test.txt"
 REG = RESULT_PATH.."reg.txt"
 DB = RESULT_PATH.."db.txt"
+TEMP_PATH = RESULT_PATH.."temp.txt"
 --DB_PATH = RESULT_PATH.."db.txt"
 
 --@author: Rodrigo Reis
