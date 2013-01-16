@@ -220,7 +220,7 @@ function isFile(path)
 end
 
 function os.capture(cmd)
-    if getSOName()~="mac" then
+    if getSOName() =="mac" then
         return executeMac(cmd)
     else
         return executeLinuxWindows(cmd)
