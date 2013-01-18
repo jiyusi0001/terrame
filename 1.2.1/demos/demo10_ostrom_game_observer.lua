@@ -130,15 +130,18 @@ logger = Agent{
 			end
 		end)
 		-- loggers may decide to be legal
-		if (math.random() < P_DEFOREST) and (#ag.forestNeighs > 0) then 
-			local neigh = ag.forestNeighs[math.random(#ag.forestNeighs)]
+		--if (math.random() < P_DEFOREST) and (#ag.forestNeighs > 0) then
+		if (random() < P_DEFOREST) and (#ag.forestNeighs > 0) then  
+			--local neigh = ag.forestNeighs[math.random(#ag.forestNeighs)]
+			local neigh = ag.forestNeighs[random(#ag.forestNeighs)]
 			neigh.agent = ag
 			neigh.cover = RECENTLY_DEFORESTED
 			ag.decision =  NOT_FOLLOW_RULES
 		else
 			-- loggers move searching for new areas
 			if (#ag.deforestedNeighs > 0) then
-				local neigh = ag.deforestedNeighs[math.random(#ag.deforestedNeighs)]
+			    --local neigh = ag.deforestedNeighs[math.random(#ag.deforestedNeighs)]
+				local neigh = ag.deforestedNeighs[random(#ag.deforestedNeighs)]
 				ag:move(neigh)
 			end
 			ag:getCell().cover = INHABITED
@@ -157,8 +160,10 @@ fiscal = Agent{
 		end}
 
 		forEachCell(it, function(cell)
-			if (math.random() < P_ENFORCEMENT) then
-				if math.random() < P_CAUGHT then
+			--if (math.random() < P_ENFORCEMENT) then
+			if (random() < P_ENFORCEMENT) then
+			    --if math.random() < P_CAUGHT then
+				if random() < P_CAUGHT then
 					if (cell.cover == INHABITED) then cell.cover = MISTAKE else cell.cover = CAUGHT end
 				else 
 					if (cell.cover == INHABITED) then cell.cover = MISTAKE else cell.cover = NOT_CAUGHT end
@@ -199,7 +204,7 @@ commitDeforestation = function(cs)
 end
 
 -- Selects a new seed for the random number generator 
-math.randomseed( os.time() )
+randomSeed( os.time() )
 
 -- Initially, the forest is everywhere 
 forEachCell(cs, function(cell)

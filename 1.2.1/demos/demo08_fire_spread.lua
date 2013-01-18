@@ -113,7 +113,8 @@ end)
 
 seed = os.time()
 seed = seed % 1000000
-math.randomseed(seed)
+--math.randomseed(seed)
+randomSeed(seed)
 
 -- save initial state
 --cs:save(0,"state",{"state"})
@@ -129,6 +130,7 @@ for t = 1, STEPS do
 		forEachNeighbor(cell, function(cell,neigh)
 			if (neigh ~= cell and neigh.state <= INACTIVE5) then
 				p = math.random()
+				p = random()
 				if p < I[cell.accumulation][neigh.accumulation] then
 					neigh.state = BURNING
 				end
