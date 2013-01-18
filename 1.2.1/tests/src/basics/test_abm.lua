@@ -70,7 +70,8 @@ local abmTest = UnitTest {
 
 	test_abm_basic_society = function(unitTest)
 
-		math.randomseed(0)
+		--math.randomseed(0)
+    randomSeed(0)    
 
 		singleFooAgent = Agent {
 			size = 10,
@@ -85,7 +86,8 @@ local abmTest = UnitTest {
 		nonFooAgent = Agent {
 			name = "nonfoo",
 			init = function(self)
-				self.age = math.random(10)
+				--self.age = math.random(10)
+        self.age = math.random(10)
 			end,
 			execute = function(self)
 				self.age = self.age + 1

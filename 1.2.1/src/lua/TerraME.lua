@@ -51,7 +51,8 @@ function randomSeed(seed)
   r = random.new(seed)
 end
 
-function rand()
+function rand(v)
+  if(v) then return r() % v end
   return r()
 end
 
