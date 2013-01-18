@@ -83,15 +83,19 @@ cs:createNeighborhood()
 -- Model execution
 burned_total = 0
 --cs:save(0,"state",{"state"})
+--randomSeed(987654)
+
 for t = 1, STEPS do
 	itF = Trajectory{
 		target = cs,
 		select = function(cell) return cell.state == BURNING end
 	}
+  
 	forEachCell(itF, function(cell)
 		forEachNeighbor(cell, function(cell,neigh)
 			if (neigh ~= cell and neigh.state == INACTIVE) then
-				p = math.random()
+				--p = math.random()
+        p = rand()
 				if p < I then
 					neigh.state = BURNING
 				end

@@ -39,6 +39,22 @@ if (TME_PATH == nil or TME_PATH == "") then
 	error("Error: TME_PATH_" .. TME_VERSION .." environment variable should exist and point to TerraME installation folder.", 2)
 end
 
+-- includes lrandom library in TerraME scope
+package.cpath = package.cpath .. ";" .. TME_PATH.."/bin/?.so;" .. TME_PATH.."/bin/?.dll"
+random = require "random"
+
+DEFAULT_RANDOM_SEED = 12345
+
+local r = random.new(DEFAULT_RANDOM_SEED)
+
+function randomSeed(seed)
+  r = random.new(seed)
+end
+
+function rand()
+  return r()
+end
+
 -- substitute for table.getn(t)
 function getn(t)
   local n = 0

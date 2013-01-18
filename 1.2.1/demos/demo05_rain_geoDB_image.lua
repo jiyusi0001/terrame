@@ -1,7 +1,6 @@
 -- RAIN AND WATER DRAINAGE MODEL
 -- (C) 2010 INPE AND UFOP
 
-
 -- DBMS Type
 -- 0 : mysql
 -- 1 : msaccess
@@ -70,9 +69,6 @@ heightLeg = Legend{
 		}
 	}
 }
-
-
-math.randomseed(os.time())
 
 cs = nil
 if(dbms == 0) then
