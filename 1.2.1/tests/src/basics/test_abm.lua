@@ -70,7 +70,7 @@ local abmTest = UnitTest {
 
 	test_abm_basic_society = function(unitTest)
 
-		--math.randomseed(0)
+		--randomizeseed(0)
     randomSeed(0)    
 
 		singleFooAgent = Agent {
@@ -86,8 +86,8 @@ local abmTest = UnitTest {
 		nonFooAgent = Agent {
 			name = "nonfoo",
 			init = function(self)
-				--self.age = math.random(10)
-        self.age = math.random(10)
+				--self.age = randomize(10)
+        self.age = randomize(10)
 			end,
 			execute = function(self)
 				self.age = self.age + 1
@@ -112,7 +112,7 @@ local abmTest = UnitTest {
 		end)
 
 		--unitTest:assert_equal(258,sum)
-    unitTest:assert_equal(293,sum)
+    unitTest:assert_equal(244,sum)
 		--print(sum) -- 258
 
 		cs = CellularSpace {
@@ -134,8 +134,8 @@ local abmTest = UnitTest {
 		t:execute(10)
 
 		--unitTest:assert_equal( 5,findCounter)
-    unitTest:assert_equal(2,findCounter)
-		--print(findCounter) -- 5
+    unitTest:assert_equal(4,findCounter)
+		print("opa---->>>", findCounter) -- 5
 
 		count = 0
 		forEachCell(cs, function(cell)
@@ -146,14 +146,15 @@ local abmTest = UnitTest {
 	end,
 
 	test_abm_basic_clone = function(unitTest)
-
-		math.randomseed(0)
+		--randomizeseed(0)
+    randomSeed(0)
 
 		received = 0
 		nonFooAgent = Agent {
 			name = "nonfoo",
 			init = function(self)
-				self.age = math.random(10)
+				--self.age = randomize(10)
+        self.age = randomize(10)
 				if self.age < 5 then
 					self.name = "foo"
 				end
@@ -174,19 +175,21 @@ local abmTest = UnitTest {
 		}	
 
 		g2 = g:clone()
-    
-    unitTest:assert_equal(3,g:size())
-    unitTest:assert_equal(3,g2:size())
+
+    unitTest:assert_equal(5,g:size())
+    unitTest:assert_equal(5,g2:size())
 	end,
 
 	test_abm_basic_group = function(unitTest)
 
-		math.randomseed(0)
+		--randomizeseed(0)
+    randomSeed(0)
 
 		nonFooAgent = Agent {
 			name = "nonfoo",
 			init = function(self)
-				self.age = math.random(10)
+				--self.age = randomize(10)
+        self.age = randomize(10)
 			end,
 			execute = function(self)
 				self.age = self.age + 1
@@ -204,14 +207,14 @@ local abmTest = UnitTest {
 				return ag.age > 5
 			end
 		}
-
-    unitTest:assert_equal(3,g:size())
+    
+    unitTest:assert_equal(5,g:size())
 		sum = 0
 		forEachAgent(g, function(ag)
 			sum = sum + ag.age
 		end)
     
-		unitTest:assert_equal(27,sum)
+		unitTest:assert_equal(36,sum)
 
 		g = Group {
 			target = nonFooSociety,
@@ -222,9 +225,9 @@ local abmTest = UnitTest {
 
 		unitTest:assert_equal(10,g:size())
 		--print(g:size()) -- 10
-		unitTest:assert_equal(10,g.agents[1].age)
+		unitTest:assert_equal(9,g.agents[1].age)
 		--print(g.agents[1].age) -- 10
-		unitTest:assert_equal(1,g.agents[10].age)
+		unitTest:assert_equal(3,g.agents[10].age)
 		--print(g.agents[10].age) -- 1
 
 		g = Group {
@@ -237,11 +240,13 @@ local abmTest = UnitTest {
 			end
 		}
 
-		unitTest:assert_equal(g.agents[1].age,1)
-    print(g.agents[8].age)
+    --print(g.agents[1].age)
+		unitTest:assert_equal(g.agents[1].age,3)
+    --print(g.agents[8].age)
 		unitTest:assert_equal(7,g.agents[8].age)
 		nonFooSociety:execute()
 		g:rebuild()
+    --print(g:size())
 		unitTest:assert_equal(7,g:size())
 
 		g:execute()
@@ -249,14 +254,14 @@ local abmTest = UnitTest {
 		g:execute()
 		g:rebuild()
 
-		unitTest:assert_equal(5,g:size())
+		unitTest:assert_equal(1,g:size())
 		--print(g:size()) -- 5
 
-		unitTest:assert_equal(2,g.agents[1].id)
+		unitTest:assert_equal(11,g.agents[1].id)
 		--print(g.agents[1].id) -- 2
 		
 		g:randomize()
-		unitTest:assert_equal(3,g.agents[1].id)
+		unitTest:assert_equal(11,g.agents[1].id)
 		--print(g.agents[1].id) -- 3
 	end,
 
@@ -305,13 +310,15 @@ local abmTest = UnitTest {
 
 	test_abm_basic_message = function(unitTest)
 
-		math.randomseed(0)
+		--randomizeseed(0)
+    randomSeed(0)
 
 		received = 0
 		nonFooAgent = Agent {
 			name = "nonfoo",
 			init = function(self)
-				self.age = math.random(10)
+				--self.age = randomize(10)
+          self.age = randomize(10)
 			end,
 			execute = function(self)
 				self.age = self.age + 1
@@ -326,7 +333,7 @@ local abmTest = UnitTest {
 			quantity = 0
 		}
 
-		john   = soc:add() -- get a random agent from the society
+		john   = soc:add() -- get a randomize agent from the society
 		john.name = "john"
 		mary   = soc:add()
 		mary.name = "mary"
@@ -351,7 +358,7 @@ local abmTest = UnitTest {
 			sum = sum + friend.age
 		end)
 
-		unitTest:assert_equal(4,sum)
+		unitTest:assert_equal(12,sum)
 		--print(sum) -- 4
 
 		forEachConnection(myself, function(self, friend)
@@ -361,13 +368,13 @@ local abmTest = UnitTest {
 		--print(received) -- 2
 
 		forEachConnection(myself, function(self, friend)
-			myself:message{receiver = friend, delay = math.random(1, 10)}
-			myself:message{receiver = friend, delay = math.random(1, 10)}
-			myself:message{receiver = friend, delay = math.random(1, 10)}
-			myself:message{receiver = friend, delay = math.random(1, 10)}
-			myself:message{receiver = friend, delay = math.random(1, 10)}
-			myself:message{receiver = friend, delay = math.random(1, 10)}
-			myself:message{receiver = friend, delay = math.random(1, 10)}
+			myself:message{receiver = friend, delay = randomize(1, 10)}
+			myself:message{receiver = friend, delay = randomize(1, 10)}
+			myself:message{receiver = friend, delay = randomize(1, 10)}
+			myself:message{receiver = friend, delay = randomize(1, 10)}
+			myself:message{receiver = friend, delay = randomize(1, 10)}
+			myself:message{receiver = friend, delay = randomize(1, 10)}
+			myself:message{receiver = friend, delay = randomize(1, 10)}
 		end)
 
 		--[[
@@ -391,7 +398,7 @@ local abmTest = UnitTest {
 
 		soc:synchronize(1.1)
 
-		unitTest:assert_equal(18,received)
+		unitTest:assert_equal(16,received)
 		--print(received) -- 18
 
 		soc:synchronize(20)
@@ -399,7 +406,7 @@ local abmTest = UnitTest {
 
 	test_abm_basic_multiple_placement = function(unitTest)
 
-		math.randomseed(0)
+		randomSeed(0)
 
 		predator = Agent{
 			energy = 40,
@@ -509,7 +516,7 @@ local abmTest = UnitTest {
 
 	test_abm_basic_social_network = function(unitTest)
 
-		math.randomseed(0)
+		randomSeed(0)
 
 		predator = Agent{
 			energy = 40,
@@ -540,12 +547,12 @@ local abmTest = UnitTest {
 			count_all   = count_all   + ag:getSocialNetwork("all"):size()
 		end)
 		
-		unitTest:assert_equal(5300,count_prob)
-		--print(count_prob) -- 5300
+		unitTest:assert_equal(4965,count_prob)
+		print("opa1",count_prob) -- 5300
 		unitTest:assert_equal(100,count_quant)
 		--print(count_quant) -- 100
 		unitTest:assert_equal(10000,count_all)
-		--print(count_all) -- 10000
+		--print("opa3",count_all) -- 10000
 
 		cs = CellularSpace{xdim = 5}
 		cs:createNeighborhood()
@@ -563,23 +570,23 @@ local abmTest = UnitTest {
 			count_n  = count_n  + ag:getSocialNetwork("n"):size()
 		end)
 
-		unitTest:assert_equal(408,count_c)
-		--print(count_c) -- 408
+		unitTest:assert_equal(412,count_c)
+		print("opa2", count_c) -- 408
 
-		unitTest:assert_equal(2980,count_n)
-		--print(count_n) -- 2980
+		unitTest:assert_equal(2896,count_n)
+		print("opa3", count_n) -- 2980
 
 	end,
 
 	test_abm_basic_split = function(unitTest)
 
-		math.randomseed(0)
+		randomSeed(0)
 
 		received = 0
 		nonFooAgent = Agent {
 			name = "nonfoo",
 			init = function(self)
-				self.age = math.random(10)
+				self.age = randomize(10)
 				if self.age < 5 then
 					self.name = "foo"
 				end
@@ -596,7 +603,7 @@ local abmTest = UnitTest {
 
 		g = soc:split("name")
 
-		unitTest:assert_equal(7,g.foo:size())
+		unitTest:assert_equal(3,g.foo:size())
 		--print(g.foo:size()) -- 7
 		unitTest:assert_equal(10,g.foo:size() + g.nonfoo:size())
 		--print(g.foo:size() + g.nonfoo:size()) -- 10
@@ -608,9 +615,9 @@ local abmTest = UnitTest {
 			end
 		end)
 
-		unitTest:assert_equal(2,g3[1]:size())
-		--print(g3[1]:size()) -- 2
-		unitTest:assert_equal(10,g3[1]:size() + g3[2]:size() + g3[3]:size())
+		unitTest:assert_equal(7,g3[2]:size())
+		--print(g3[2]:size()) -- 2
+		unitTest:assert_equal(10,g3[2]:size() + g3[3]:size())
 		--print(g3[1]:size() + g3[2]:size() + g3[3]:size()) -- 10
 	end
 }

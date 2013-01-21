@@ -51,8 +51,8 @@ function randomSeed(seed)
   r = random.new(seed)
 end
 
-function rand(v)
-  if(v) then return r() % v end
+function randomize(v)
+  if(v) then return math.floor(r() % v * 10) end
   return r()
 end
 

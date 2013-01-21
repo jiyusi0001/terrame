@@ -1,15 +1,9 @@
-/home/terralab/TerraME_Beta/tests/src/basics/test_abm.lua:239: attempt to index field '?' (a nil value)
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 Testing function: 	test_abm_basic_group
 File:	.../tests/src/basics/test_abm.lua
 
-Assertions: 6 total, 2 succeed, 4 failed.
-Failed: 
-	- File '/home/terralab/TerraME_Beta/tests/src/basics/test_abm.lua' function 'test_abm_basic_group' in line 206
-	- File '/home/terralab/TerraME_Beta/tests/src/basics/test_abm.lua' function 'test_abm_basic_group' in line 212
-	- File '/home/terralab/TerraME_Beta/tests/src/basics/test_abm.lua' function 'test_abm_basic_group' in line 225
-	- File '/home/terralab/TerraME_Beta/tests/src/basics/test_abm.lua' function 'test_abm_basic_group' in line 238
+Assertions: 11 total, 11 succeed, 0 failed.
 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

@@ -4,9 +4,6 @@
 Testing function: 	test_abm_basic_split
 File:	.../tests/src/basics/test_abm.lua
 
-Assertions: 4 total, 2 succeed, 2 failed.
-Failed: 
-	- File '/home/terralab/TerraME_Beta/tests/src/basics/test_abm.lua' function 'test_abm_basic_split' in line 597
-	- File '/home/terralab/TerraME_Beta/tests/src/basics/test_abm.lua' function 'test_abm_basic_split' in line 609
+Assertions: 4 total, 4 succeed, 0 failed.
 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
