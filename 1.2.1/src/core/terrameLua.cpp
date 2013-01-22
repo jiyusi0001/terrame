@@ -27,7 +27,6 @@ Raian Vargas Maretto
 #include "TeVersion.h"
 
 #include "../observer/components/player/player.h"
-
 #define TME_STATISTIC_UNDEF
 
 #ifdef TME_STATISTIC
@@ -42,13 +41,13 @@ extern "C"
 }
 #include "luna.h"
 
+#include "RandomLib/Random.hpp"
 
 #include <QtGui/QApplication>
 #include <QtCore/QSystemLocale>
 
 //------------------------------------------------------------------------------------
 #define method(class, name) {#name, &class::name}
-
 
 //----------------------------------------------------------------------------------------------
 /* Pop-up a Windows message box with your choice of message and caption */
@@ -61,6 +60,157 @@ extern "C"
 //   return 1;
 //}
 
+//****************************** RANDOM NUMBERS **********************************************//
+//@RODRIGO
+class luaUtil
+{
+    RandomLib::Random r;
+    int ref;
+public:
+    ///< Data structure issued by Luna<T>
+    static const char className[];
+
+    ///< Data structure issued by Luna<T>
+    static Luna<luaUtil>::RegType methods[];
+public:
+    luaUtil(lua_State *L)
+    {
+        this->ref = 0;
+    }
+
+    int reseed(lua_State *L){
+
+        int v = 0; // valor recuperado de lua como semente
+        this->r.reseed(v);
+    }
+
+    // random(0)
+    // random(1,2)
+    int random(lua_State *L){
+
+        r.Reseed(12345);
+
+        qDebug() << "random" << r.IntegerC(1,6);
+        qDebug() << "random" << r.IntegerC(1,6);
+        qDebug() << "random" << r.IntegerC(1,6);
+
+
+
+        lua_rawgeti(L, LUA_REGISTRYINDEX, ref);
+        int top = lua_gettop(L);
+
+        int arg = (int)luaL_checkinteger(L, top - 1);
+        int v = this->r.Integer(arg);
+        lua_pushnumber( L, v);
+
+        qDebug() << "opa>>" << arg;
+
+        stackDump(L);
+        switch (lua_type(L,top)){
+            case LUA_TSTRING:
+            qDebug() << "string";
+                break;
+            case LUA_TNUMBER:
+            qDebug() << "number";
+                break;
+            case LUA_TBOOLEAN:
+            qDebug() << "boolean";
+                break;
+            case LUA_TNIL:
+            qDebug() << "nil";
+                break;
+            case LUA_TTABLE:
+            qDebug() << "table";
+                break;
+            case LUA_TUSERDATA:
+            qDebug() << "userdata";
+                break;
+        };
+
+
+        /*
+        lua_pushnil(L);
+        while(lua_next(L, top-2) != 0)
+        {
+
+            switch (lua_type(L,0)){
+                case LUA_TSTRING:
+                qDebug() << "string";
+                    break;
+                case LUA_TNUMBER:
+                qDebug() << "number";
+                    break;
+                case LUA_TBOOLEAN:
+                qDebug() << "boolean";
+                    break;
+                case LUA_TNIL:
+                qDebug() << "nil";
+                    break;
+                case LUA_TTABLE:
+                qDebug() << "table";
+                    break;
+                case LUA_TUSERDATA:
+                qDebug() << "userdata";
+                    break;
+            };
+
+            lua_pop(L, 1);
+            qDebug() << "opa";
+        }
+
+        stackDump(L);
+
+        switch (lua_type(L, top-1)){
+            case LUA_TSTRING:
+            qDebug() << "string";
+                break;
+            case LUA_TNUMBER:
+            qDebug() << "number";
+                break;
+            case LUA_TBOOLEAN:
+            qDebug() << "boolean";
+                break;
+            case LUA_TNIL:
+            qDebug() << "nil";
+                break;
+            case LUA_TTABLE:
+            qDebug() << "table";
+                break;
+            case LUA_TUSERDATA:
+            qDebug() << "userdata";
+                break;
+        }
+
+
+        if (lua_type(L, top) == LUA_TSTRING)
+        {
+            qDebug() << "opa";
+        }
+        else {
+            if (lua_type(L, top) == LUA_TNUMBER){
+                qDebug() << "caraca";
+            }
+            else {
+                qDebug() << "OIA";
+            }
+        }
+
+        */
+        //stackDump(L);
+        return 1;
+    }
+
+    int randomSeed(lua_State *L){
+        return 1;
+    }
+};
+
+const char luaUtil::className[] = "luaUtil";
+
+Luna<luaUtil>::RegType luaUtil::methods[] = {
+    method(luaUtil, random),
+    {0,0}
+};
 
 //****************************** SPACE **********************************************//
 //----------------------------------------------------------------------------------------------
@@ -474,6 +624,9 @@ void registerClasses()
     Luna<luaEnvironment > ::Register(L);
 
     Luna<luaTrajectory > ::Register(L);
+
+    //@RODRIGO
+    Luna<luaUtil > ::Register(L);
 }
 
 #ifndef TME_RECEIVER_MODE

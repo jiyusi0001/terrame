@@ -98,6 +98,7 @@ include_directories( ${SRCDIR}
           ${SRCDIR}/observer/types/
           ${SRCDIR}/observer/
           ${DEPS}/shapelib/
+          ${DEPS}/random/include/
   	)
 
 ## ---------------------------------------- Find dependencies -------------------------------------------------- ##
@@ -212,6 +213,9 @@ include(${QT_USE_FILE})
 set(LIBS ${LIBS} ${QT_LIBRARIES})
 link_directories(${QT_LIBRARIES})
 include_directories(${QT_INCLUDES})
+
+set(RANDOM_LIB ${DEPS}/random/src/libRandom.a)
+set(LIBS ${LIBS} ${RANDOM_LIB})
 
 ## ------------------------------------------------------------------------------------------------------------- ##
 # Set Qt moc parameters

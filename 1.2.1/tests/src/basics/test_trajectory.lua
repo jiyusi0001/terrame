@@ -92,7 +92,7 @@ local trajectoryTest = UnitTest {
 		--print("Count:", cont) io.flush()
 		unitTest:assert_equal(8, cont)
 
-		t:randomizeize()
+		t:randomize()
 		print("RANDOMISE")
 
 		forEachCell(t, function(cell)
