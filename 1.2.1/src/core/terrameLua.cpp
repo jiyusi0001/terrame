@@ -79,29 +79,33 @@ public:
     }
 
     int reseed(lua_State *L){
-
-        int v = 0; // valor recuperado de lua como semente
-        this->r.reseed(v);
+        lua_rawgeti(L, LUA_REGISTRYINDEX, ref);
+        int top = lua_gettop(L);
+        int v = (int)luaL_checkinteger(L, top - 1);
+        this->r.Reseed(v);
+        return 1;
     }
 
     // random(0)
     // random(1,2)
     int random(lua_State *L){
 
-        r.Reseed(12345);
-
-        qDebug() << "random" << r.IntegerC(1,6);
-        qDebug() << "random" << r.IntegerC(1,6);
-        qDebug() << "random" << r.IntegerC(1,6);
-
-
+        //r.Reseed(12345);
 
         lua_rawgeti(L, LUA_REGISTRYINDEX, ref);
         int top = lua_gettop(L);
 
-        int arg = (int)luaL_checkinteger(L, top - 1);
-        int v = this->r.Integer(arg);
+        int arg2 = (int)luaL_checkinteger(L, top - 1);
+        int arg = (int)luaL_checkinteger(L, top - 2);
+        
+        int v;
+        if(arg < 0)
+            v = this->r.Integer(arg2);
+        else
+            v = this->r.IntegerC(arg,arg2);
         lua_pushnumber( L, v);
+
+        /*
 
         qDebug() << "opa>>" << arg;
 
@@ -127,8 +131,6 @@ public:
                 break;
         };
 
-
-        /*
         lua_pushnil(L);
         while(lua_next(L, top-2) != 0)
         {
@@ -209,6 +211,7 @@ const char luaUtil::className[] = "luaUtil";
 
 Luna<luaUtil>::RegType luaUtil::methods[] = {
     method(luaUtil, random),
+    method(luaUtil, reseed),
     {0,0}
 };
 
