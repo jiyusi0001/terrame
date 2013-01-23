@@ -25,6 +25,7 @@
 --
 -- Authors: 
 --      Pedro Andrade
+--      Rodrigo Reis Pereira
 
 function forEachConnection(agent, index, f)
 	if type(index) == "function"  then

@@ -71,7 +71,7 @@ local abmTest = UnitTest {
 	test_abm_basic_society = function(unitTest)
 
 		--randomizeseed(0)
-    randomSeed(0)    
+    reSeed(0)    
 
 		singleFooAgent = Agent {
 			size = 10,
@@ -86,8 +86,8 @@ local abmTest = UnitTest {
 		nonFooAgent = Agent {
 			name = "nonfoo",
 			init = function(self)
-				--self.age = randomize(10)
-        self.age = randomize(10)
+				--self.age = random(10)
+        self.age = random(10)
 			end,
 			execute = function(self)
 				self.age = self.age + 1
@@ -147,14 +147,14 @@ local abmTest = UnitTest {
 
 	test_abm_basic_clone = function(unitTest)
 		--randomizeseed(0)
-    randomSeed(0)
+    reSeed(0)
 
 		received = 0
 		nonFooAgent = Agent {
 			name = "nonfoo",
 			init = function(self)
-				--self.age = randomize(10)
-        self.age = randomize(10)
+				--self.age = random(10)
+        self.age = random(10)
 				if self.age < 5 then
 					self.name = "foo"
 				end
@@ -176,20 +176,20 @@ local abmTest = UnitTest {
 
 		g2 = g:clone()
 
-    unitTest:assert_equal(5,g:size())
-    unitTest:assert_equal(5,g2:size())
+    unitTest:assert_equal(4,g:size())
+    unitTest:assert_equal(4,g2:size())
 	end,
 
 	test_abm_basic_group = function(unitTest)
 
 		--randomizeseed(0)
-    randomSeed(0)
+    reSeed(0)
 
 		nonFooAgent = Agent {
 			name = "nonfoo",
 			init = function(self)
-				--self.age = randomize(10)
-        self.age = randomize(10)
+				--self.age = random(10)
+        self.age = random(10)
 			end,
 			execute = function(self)
 				self.age = self.age + 1
@@ -208,7 +208,7 @@ local abmTest = UnitTest {
 			end
 		}
     
-    unitTest:assert_equal(5,g:size())
+    unitTest:assert_equal(4,g:size())
 		sum = 0
 		forEachAgent(g, function(ag)
 			sum = sum + ag.age
@@ -240,10 +240,12 @@ local abmTest = UnitTest {
 			end
 		}
 
+    dofile(TME_PATH .."/tests/dependencies/XDebug.lua")    
+
     --print(g.agents[1].age)
 		unitTest:assert_equal(g.agents[1].age,3)
-    --print(g.agents[8].age)
-		unitTest:assert_equal(7,g.agents[8].age)
+    --print(g.agents[7].age)
+		unitTest:assert_equal(7,g.agents[7].age)
 		nonFooSociety:execute()
 		g:rebuild()
     --print(g:size())
@@ -311,14 +313,14 @@ local abmTest = UnitTest {
 	test_abm_basic_message = function(unitTest)
 
 		--randomizeseed(0)
-    randomSeed(0)
+    reSeed(0)
 
 		received = 0
 		nonFooAgent = Agent {
 			name = "nonfoo",
 			init = function(self)
-				--self.age = randomize(10)
-          self.age = randomize(10)
+				--self.age = random(10)
+          self.age = random(10)
 			end,
 			execute = function(self)
 				self.age = self.age + 1
@@ -368,13 +370,13 @@ local abmTest = UnitTest {
 		--print(received) -- 2
 
 		forEachConnection(myself, function(self, friend)
-			myself:message{receiver = friend, delay = randomize(1, 10)}
-			myself:message{receiver = friend, delay = randomize(1, 10)}
-			myself:message{receiver = friend, delay = randomize(1, 10)}
-			myself:message{receiver = friend, delay = randomize(1, 10)}
-			myself:message{receiver = friend, delay = randomize(1, 10)}
-			myself:message{receiver = friend, delay = randomize(1, 10)}
-			myself:message{receiver = friend, delay = randomize(1, 10)}
+			myself:message{receiver = friend, delay = random(1, 10)}
+			myself:message{receiver = friend, delay = random(1, 10)}
+			myself:message{receiver = friend, delay = random(1, 10)}
+			myself:message{receiver = friend, delay = random(1, 10)}
+			myself:message{receiver = friend, delay = random(1, 10)}
+			myself:message{receiver = friend, delay = random(1, 10)}
+			myself:message{receiver = friend, delay = random(1, 10)}
 		end)
 
 		--[[
@@ -406,7 +408,7 @@ local abmTest = UnitTest {
 
 	test_abm_basic_multiple_placement = function(unitTest)
 
-		randomSeed(0)
+		reSeed(0)
 
 		predator = Agent{
 			energy = 40,
@@ -516,7 +518,7 @@ local abmTest = UnitTest {
 
 	test_abm_basic_social_network = function(unitTest)
 
-		randomSeed(0)
+		reSeed(0)
 
 		predator = Agent{
 			energy = 40,
@@ -580,13 +582,13 @@ local abmTest = UnitTest {
 
 	test_abm_basic_split = function(unitTest)
 
-		randomSeed(0)
+		reSeed(0)
 
 		received = 0
 		nonFooAgent = Agent {
 			name = "nonfoo",
 			init = function(self)
-				self.age = randomize(10)
+				self.age = random(10)
 				if self.age < 5 then
 					self.name = "foo"
 				end

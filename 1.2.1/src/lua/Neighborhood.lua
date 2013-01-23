@@ -89,7 +89,7 @@ Neighborhood_ = {
 		end
 	end,
 	sample = function(self)
-		local pos = math.random(1, self:size())
+		local pos = random(1, self:size())
 		local count = 1
 		self:first()
 		while (not self:isLast()) do

@@ -97,8 +97,18 @@ public:
         int arg = (int)luaL_checkinteger(L, top - 2);
         
         int v;
-        if(arg < 0)
-            v = this->r.Integer(arg2);
+        double dV;
+        if(arg < 0){
+            // condition arg < 0 and arg2 < 0 with random() semantics
+            if(arg2 < 0){
+                dV = this->r.Float();
+                lua_pushnumber(L, dV);
+                return 1;
+            }
+            else {
+                v = this->r.Integer(arg2);
+            }
+        }
         else
             v = this->r.IntegerC(arg,arg2);
         lua_pushnumber(L, v);

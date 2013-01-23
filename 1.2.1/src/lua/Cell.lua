@@ -33,7 +33,7 @@ Cell_ = {
 		return self.past
 	end,
 	getRandomAgent = function(cell)
-		return cell.agents_[math.random(1, #cell.agents_)]
+		return cell.agents_[random(1, #cell.agents_)]
 	end,
 	getStateName = function(self, agent)
 		return self.cObj_:getCurrentStateName(agent.cObj_)

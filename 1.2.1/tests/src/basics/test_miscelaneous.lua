@@ -144,8 +144,11 @@ local miscelaneousTest = UnitTest {
   test_random_fail04 = function(self)
     print("Fail 04", random(-1,10))
   end,
-  test_random_fail05 = function(self)
-    print("Fail 05", random())
+  test_random_without_arguments = function(self)
+    print("1st try without arguments:", random())
+    print("2nd try without arguments:", random())
+    print("3rd try without arguments:", random())
+    print("4th try without arguments:", random())
   end,
   test_random_one_argument = function(self)
     print("1st try with argument '5':", random(5))

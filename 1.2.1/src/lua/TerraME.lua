@@ -39,7 +39,7 @@ if (TME_PATH == nil or TME_PATH == "") then
 	error("Error: TME_PATH_" .. TME_VERSION .." environment variable should exist and point to TerraME installation folder.", 2)
 end
 
--- includes lrandom library in TerraME scope
+-- includes random library in TerraME scope
 local randomObj = luaUtil()
 
 function reSeed(seed)
@@ -51,14 +51,14 @@ function random(v1,v2)
     if(v1 and v2 and type(v1) == "number" and type(v2) == "number" and v1 > 0 and v2 > 0) then
       return randomObj:random(v1,v2)
     else
-      error("Error: The 'random' function expects exactly one or two positive integer numbers.", 2)
+      error("Error: The 'random' function expects as parameters zero, one or two positive integer numbers.", 2)
     end
   else
     if(v1 and type(v1) == "number" and v1 > 0) then
       -- this syntax is required by the luaUtil.random function (terrameLua.cpp)
       return randomObj:random(-1,v1)
     else
-      error("Error: The 'random' function expects exactly one or two positive integer numbers.", 2)
+      return randomObj:random(-1,-1)
     end
   end 
 end

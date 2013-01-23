@@ -313,7 +313,7 @@ CellularSpace_ = {
 		self.cObj_:notify(modelTime)
 	end,
 	sample = function(self)
-		return self.cells[math.random(1,self:size())]
+		return self.cells[random(1,self:size())]
 	end,
 	save = function(self, time, outputTableName, attrNames)
 		if (type(attrNames) == "string") then attrNames = {attrNames} end

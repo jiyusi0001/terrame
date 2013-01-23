@@ -25,6 +25,7 @@
 --
 -- Authors: 
 --      Pedro Andrade
+--      Rodrigo Reis Pereira
 
 SocialNetwork_ = {
 	type_ = "SocialNetwork",
@@ -65,7 +66,7 @@ SocialNetwork_ = {
 		self.count = self.count - 1
 	end,
 	sample = function(self)
-		pos = math.random(self.count)
+		pos = random(self.count)
 		count = 1
 		for i, j in ipairs(self.connections) do
 			if count <= pos then return j end
