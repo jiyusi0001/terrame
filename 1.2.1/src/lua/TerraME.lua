@@ -40,20 +40,27 @@ if (TME_PATH == nil or TME_PATH == "") then
 end
 
 -- includes lrandom library in TerraME scope
-package.cpath = package.cpath .. ";" .. TME_PATH.."/bin/?.so;" .. TME_PATH.."/bin/?.dll"
-random = require "random"
+local randomObj = luaUtil()
 
-DEFAULT_RANDOM_SEED = 12345
-
-local r = random.new(DEFAULT_RANDOM_SEED)
-
-function randomSeed(seed)
-  r = random.new(seed)
+function reSeed(seed)
+  randomObj:reseed(seed)
 end
 
-function randomize(v)
-  if(v) then return math.floor(r() % v * 10) end
-  return r()
+function random(v1,v2)
+  if(v1 and v2) then
+    if(v1 and v2 and type(v1) == "number" and type(v2) == "number" and v1 > 0 and v2 > 0) then
+      return randomObj:random(v1,v2)
+    else
+      error("Error: The 'random' function expects exactly one or two positive integer numbers.", 2)
+    end
+  else
+    if(v1 and type(v1) == "number" and v1 > 0) then
+      -- this syntax is required by the luaUtil.random function (terrameLua.cpp)
+      return randomObj:random(-1,v1)
+    else
+      error("Error: The 'random' function expects exactly one or two positive integer numbers.", 2)
+    end
+  end 
 end
 
 -- substitute for table.getn(t)

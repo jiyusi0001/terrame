@@ -76,6 +76,7 @@ public:
     luaUtil(lua_State *L)
     {
         this->ref = 0;
+        r.Reseed(12345);
     }
 
     int reseed(lua_State *L){
@@ -89,9 +90,6 @@ public:
     // random(0)
     // random(1,2)
     int random(lua_State *L){
-
-        //r.Reseed(12345);
-
         lua_rawgeti(L, LUA_REGISTRYINDEX, ref);
         int top = lua_gettop(L);
 
@@ -103,106 +101,7 @@ public:
             v = this->r.Integer(arg2);
         else
             v = this->r.IntegerC(arg,arg2);
-        lua_pushnumber( L, v);
-
-        /*
-
-        qDebug() << "opa>>" << arg;
-
-        stackDump(L);
-        switch (lua_type(L,top)){
-            case LUA_TSTRING:
-            qDebug() << "string";
-                break;
-            case LUA_TNUMBER:
-            qDebug() << "number";
-                break;
-            case LUA_TBOOLEAN:
-            qDebug() << "boolean";
-                break;
-            case LUA_TNIL:
-            qDebug() << "nil";
-                break;
-            case LUA_TTABLE:
-            qDebug() << "table";
-                break;
-            case LUA_TUSERDATA:
-            qDebug() << "userdata";
-                break;
-        };
-
-        lua_pushnil(L);
-        while(lua_next(L, top-2) != 0)
-        {
-
-            switch (lua_type(L,0)){
-                case LUA_TSTRING:
-                qDebug() << "string";
-                    break;
-                case LUA_TNUMBER:
-                qDebug() << "number";
-                    break;
-                case LUA_TBOOLEAN:
-                qDebug() << "boolean";
-                    break;
-                case LUA_TNIL:
-                qDebug() << "nil";
-                    break;
-                case LUA_TTABLE:
-                qDebug() << "table";
-                    break;
-                case LUA_TUSERDATA:
-                qDebug() << "userdata";
-                    break;
-            };
-
-            lua_pop(L, 1);
-            qDebug() << "opa";
-        }
-
-        stackDump(L);
-
-        switch (lua_type(L, top-1)){
-            case LUA_TSTRING:
-            qDebug() << "string";
-                break;
-            case LUA_TNUMBER:
-            qDebug() << "number";
-                break;
-            case LUA_TBOOLEAN:
-            qDebug() << "boolean";
-                break;
-            case LUA_TNIL:
-            qDebug() << "nil";
-                break;
-            case LUA_TTABLE:
-            qDebug() << "table";
-                break;
-            case LUA_TUSERDATA:
-            qDebug() << "userdata";
-                break;
-        }
-
-
-        if (lua_type(L, top) == LUA_TSTRING)
-        {
-            qDebug() << "opa";
-        }
-        else {
-            if (lua_type(L, top) == LUA_TNUMBER){
-                qDebug() << "caraca";
-            }
-            else {
-                qDebug() << "OIA";
-            }
-        }
-
-        */
-        //stackDump(L);
-        return 1;
-    }
-
-    int randomSeed(lua_State *L){
+        lua_pushnumber(L, v);
         return 1;
     }
 };

@@ -131,7 +131,51 @@ local miscelaneousTest = UnitTest {
 		print("READY!!!")
 		self:assert_true(true)
 
-	end
+	end,
+	test_random_fail01 = function(self)
+    print("Fail 01:", random(-1))
+  end,
+  test_random_fail02 = function(self)
+    print("Fail 02", random(10,-1))
+  end,
+  test_random_fail03 = function(self)
+    print("Fail 03", random(-1,-1))
+  end,
+  test_random_fail04 = function(self)
+    print("Fail 04", random(-1,10))
+  end,
+  test_random_fail05 = function(self)
+    print("Fail 05", random())
+  end,
+  test_random_one_argument = function(self)
+    print("1st try with argument '5':", random(5))
+    print("2nd try with argument '5':", random(5))
+    print("3rd try with argument '5':", random(5))
+  end,
+  test_random_two_arguments = function(self)
+    print("1st try with arguments '15' and '20':", random(15,20))
+    print("2nd try with arguments '15' and '20':", random(15,20))
+    print("3rd try with arguments '15' and '20':", random(15,20))
+  end,
+  test_random_reseed = function(self)
+    print("First run with seed value '98765'")
+    reSeed(98765)
+    print("1st try with argument '3':", random(3))
+    print("2nd try with argument '3':", random(3))
+    print("3rd try with argument '3':", random(3))
+    print("1st try with arguments '33' and '45':", random(15,20))
+    print("2nd try with arguments '33' and '45':", random(15,20))
+    print("3rd try with arguments '33' and '45':", random(15,20))
+    print("")
+    print("Second run with value seed '56789'")
+    reSeed(56789)
+    print("1st try with argument '3':", random(3))
+    print("2nd try with argument '3':", random(3)) 
+    print("3rd try with argument '3':", random(3))
+    print("1st try with arguments '33' and '45':", random(15,20))
+    print("2nd try with arguments '33' and '45':", random(15,20))
+    print("3rd try with arguments '33' and '45':", random(15,20))    
+  end
 }
 
 miscelaneousTest:run()
