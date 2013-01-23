@@ -1,9 +1,0 @@
-
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-Testing function: 	test_abm_basic_agent
-File:	.../tests/src/basics/test_abm.lua
-
-Assertions: 3 total, 3 succeed, 0 failed.
-
-= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
