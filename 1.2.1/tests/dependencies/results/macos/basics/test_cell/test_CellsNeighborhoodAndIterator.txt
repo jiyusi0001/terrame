@@ -1,0 +1,13 @@
+--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+
+Testing test_CellsNeighborhoodAndIterator...
+READY!!!
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_CellsNeighborhoodAndIterator
+File:	.../usr/local/1.2.1-TerraME/tests/src/basics/test_cell.lua
+
+Assertions: 17 total, 17 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

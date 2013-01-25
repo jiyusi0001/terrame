@@ -1,0 +1,21 @@
+-------------------------------------
+-- test_NeighborhoodOverwriting
+wait...
+Cells: 	121
+Neighbors: 	961
+Weight: 	106.77777777778
+......................................
+wait...
+Cells: 	121
+Neighbors: 	1236
+Weight: 	1617916.8
+READY!!!
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_NeighborhoodOverwriting
+File:	.../tests/src/basics/test_gis_integration.lua
+
+Assertions: 7 total, 7 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

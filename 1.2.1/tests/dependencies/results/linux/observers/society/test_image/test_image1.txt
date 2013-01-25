@@ -1,0 +1,30 @@
+IMAGE 01
+STEP: 	1
+Members in society 'sc1':	5
+STEP: 	2
+Members in society 'sc1':	5
+STEP: 	3
+Members in society 'sc1':	5
+STEP: 	4
+Members in society 'sc1':	5
+STEP: 	5
+Members in society 'sc1':	4
+STEP: 	6
+Members in society 'sc1':	4
+STEP: 	7
+Members in society 'sc1':	4
+STEP: 	8
+Members in society 'sc1':	4
+STEP: 	9
+Members in society 'sc1':	4
+STEP: 	10
+Members in society 'sc1':	4
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_image1
+File:	.../tests/src/observers/society/test_image.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

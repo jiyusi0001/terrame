@@ -1,0 +1,10 @@
+C:\TerraME_Beta\tests\src\basics\test_miscelaneous.lua:139: Error: The 'random' function expects as parameters zero, one or two positive integer numbers.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_random_fail02
+File:	.../tests/src/basics/test_miscelaneous.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

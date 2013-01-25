@@ -1,0 +1,10 @@
+UDPSENDER 07
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_udp7
+File:	.../tests/src/observers/cell/test_UDP.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

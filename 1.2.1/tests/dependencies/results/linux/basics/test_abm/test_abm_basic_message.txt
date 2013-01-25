@@ -1,0 +1,9 @@
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_abm_basic_message
+File:	.../tests/src/basics/test_abm.lua
+
+Assertions: 6 total, 6 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

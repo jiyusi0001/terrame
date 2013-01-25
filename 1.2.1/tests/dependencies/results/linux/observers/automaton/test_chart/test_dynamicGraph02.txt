@@ -1,0 +1,11 @@
+OBSERVER DYNAMIC GRAPHIC 02
+/home/terralab/TerraME_Beta//bin//Lua//Observer.lua:806: Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_dynamicGraph02
+File:	.../tests/src/observers/automaton/test_chart.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

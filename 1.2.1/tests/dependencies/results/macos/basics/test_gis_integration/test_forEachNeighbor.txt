@@ -1,0 +1,15 @@
+-------------------------------------
+-- test_forEachNeighbor
+Cells: 	10201
+Neighbors: 	181202
+Weight: 	20133.555555527
+READY!!!
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_forEachNeighbor
+File:	.../usr/local/1.2.1-TerraME/tests/src/basics/test_gis_integration.lua
+
+Assertions: 4 total, 4 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

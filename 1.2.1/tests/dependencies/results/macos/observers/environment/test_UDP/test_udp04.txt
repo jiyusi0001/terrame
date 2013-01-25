@@ -1,0 +1,10 @@
+OBSERVER UDPSENDER 04
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_udp04
+File:	.../usr/local/1.2.1-TerraME/tests/src/observers/environment/test_UDP.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
