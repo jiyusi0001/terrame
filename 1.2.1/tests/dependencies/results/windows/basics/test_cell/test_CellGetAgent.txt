@@ -1,0 +1,10 @@
+--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_CellGetAgent
+File:	.../tests/src/basics/test_cell.lua
+
+Assertions: 2 total, 2 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

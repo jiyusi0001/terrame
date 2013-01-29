@@ -1,0 +1,12 @@
+1st try with arguments '15' and '20':	17
+2nd try with arguments '15' and '20':	20
+3rd try with arguments '15' and '20':	16
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_random_two_arguments
+File:	.../tests/src/basics/test_miscelaneous.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

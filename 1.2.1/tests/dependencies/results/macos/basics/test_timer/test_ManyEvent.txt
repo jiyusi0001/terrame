@@ -1,0 +1,42 @@
+--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+EVENT 1: 	0
+EVENT 1: 	5
+EVENT 1: 	10
+EVENT 1: 	15
+EVENT 1: 	20
+EVENT 1: 	25
+EVENT 1: 	30
+EVENT 1: 	35
+EVENT 1: 	40
+EVENT 1: 	45
+EVENT 2: 	50
+EVENT 1: 	50
+EVENT 2: 	55
+EVENT 1: 	55
+EVENT 2: 	60
+EVENT 1: 	60
+EVENT 2: 	65
+EVENT 1: 	65
+EVENT 2: 	70
+EVENT 1: 	70
+EVENT 2: 	75
+EVENT 1: 	75
+EVENT 2: 	80
+EVENT 1: 	80
+EVENT 2: 	85
+EVENT 1: 	85
+EVENT 2: 	90
+EVENT 1: 	90
+EVENT 2: 	95
+EVENT 1: 	95
+EVENT 2: 	100
+EVENT 1: 	100
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_ManyEvent
+File:	.../usr/local/1.2.1-TerraME/tests/src/basics/test_timer.lua
+
+Assertions: 64 total, 64 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

@@ -1,0 +1,16 @@
+--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+-------------------------------------
+-- test_OneTimerOneEventAndOneMessage
+-------------------------------------
+Atributo do evento:	7	3	4
+Events: 	11
+Ready!!!
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_OneTimerOneEventAndOneMessage
+File:	.../tests/src/basics/test_timer.lua
+
+Assertions: 2 total, 2 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
