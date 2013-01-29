@@ -1,9 +1,0 @@
-
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-Testing function: 	test_abm_basic_group
-File:	.../usr/local/1.2.1-TerraME/tests/src/basics/test_abm.lua
-
-Assertions: 11 total, 11 succeed, 0 failed.
-
-= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
