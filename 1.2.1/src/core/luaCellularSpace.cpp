@@ -133,6 +133,13 @@ int luaCellularSpace::setDBName(lua_State *L )
     return 0;
 }
 
+/// Get the database name.
+int luaCellularSpace::getDBName(lua_State *L)
+{
+    lua_pushstring(L, this->dbName.c_str());
+    return 1;
+}
+
 /// Sets the user name.
 int luaCellularSpace::setUser(lua_State *L )
 {
@@ -1158,7 +1165,7 @@ int luaCellularSpace::loadShape(lua_State *L)
     string dbfFileN = filePrefix + ".dbf";
     SHPHandle hSHP = SHPOpen(shpFileN.c_str(),"rb");
     DBFHandle hDBF = DBFOpen(dbfFileN.c_str(), "rb");
-    
+
     double minBound[4];
     double maxBound[4];
     int shapeType;
@@ -1212,10 +1219,10 @@ int luaCellularSpace::loadShape(lua_State *L)
         int yc = 1;//(obj->padfY[1] + obj->padfY[0])/2;
         
         char cellId[20];
-        strcpy(cellId,QString::number(i).toStdString().c_str());
+        strcpy(cellId,QString::number(i+1).toStdString().c_str());
         
         // get lin and col
-        
+
         QPoint p = getCentroid(obj,width__,height__);
         
         int col = p.x()-transCol;//min(max(minCol,xc),maxCol);
@@ -1300,6 +1307,31 @@ int luaCellularSpace::loadShape(lua_State *L)
     return 0;
 #endif
     
+}
+
+int luaCellularSpace::saveShape(lua_State *L)
+{
+    string filePrefix = TeGetName(dbName.c_str());
+    string dbfFileN = filePrefix + ".dbf";
+    DBFHandle hDBF = DBFOpen(dbfFileN.c_str(), "rb+");
+    if(hDBF == NULL) return 0;
+    int top = lua_gettop(L);
+    int cellId = lua_tonumber(L,top-3);
+    string cellAttrName = lua_tostring(L,top-2);
+    int index = DBFGetFieldIndex(hDBF,cellAttrName.c_str());
+    if(index==-1) return 0; // attribute unknow
+    int cellAttrType = lua_tonumber(L,top-4);
+    if(cellAttrType==1){
+        double cellAttrValue = lua_tonumber(L,top-1);
+        DBFWriteDoubleAttribute(hDBF,cellId-1, index, cellAttrValue);
+    }
+    else if(cellAttrType==2){
+        string cellAttrValue = lua_tostring(L,top-1);
+        DBFWriteStringAttribute(hDBF,cellId-1, index, cellAttrValue.c_str());
+    }
+
+    DBFClose(hDBF);
+    return 0;
 }
 
 /// Loads the CellularSpace from a TerraLib database.

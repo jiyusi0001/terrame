@@ -1178,7 +1178,7 @@ local gisTest = UnitTest {
 
 	end,
 
-  test_load_shapefile = function(unitTest)
+  test_save_load_shapefile = function(unitTest)
     function createShapeTable()
 	    local cellspaceParameters = {
 		    dbType = "",
@@ -1205,7 +1205,72 @@ local gisTest = UnitTest {
         print("estado: "..cell.NOME_UF.."("..cell.SIGLA..")")
         print("pos: "..cell.x..", "..cell.y)
         print("\n")
-    end)   
+    end)
+    
+    local POPUL_before = {}
+    
+    local valuesDefault = {
+        500000,
+        2300000,
+        1300000,
+        300000,
+        2300000,
+        1900000,
+        9600000,
+        300000,
+        4800000,
+        8700000,
+        1000000,
+        1700000,
+        4300000,
+        5400000,
+        33700000,
+        16500000,
+        13300000,
+        2700000,
+        5200000,
+        2800000,
+        6700000,
+        12600000,
+        7400000,
+        1600000,
+        3300000,
+        2700000,
+        2600000
+    }
+    
+    print("population values loaded:")
+
+    for i = 1, 27, 1 do
+        print(t.cells[i].POPUL)
+        POPUL_before[i] = cs.cells[i].POPUL
+    end
+
+    for i = 1, 27, 1 do
+        cs.cells[i].POPUL = 10
+    end
+
+    cs:save()
+
+    print("population values saved:")
+
+    for i = 1, 27, 1 do
+        print(cs.cells[i].POPUL)
+    end
+
+    for i = 1, 27, 1 do
+        cs.cells[i].POPUL = POPUL_before[i]
+    end
+
+    print("population values restored:")
+
+    for i = 1, 27, 1 do
+        unitTest:assert_equal(cs.cells[i].POPUL, valuesDefault[i])
+        print(t.cells[i].POPUL)
+    end
+
+    cs:save()
+    
   end
 }
 

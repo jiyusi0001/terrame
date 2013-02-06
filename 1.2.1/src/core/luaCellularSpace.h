@@ -106,6 +106,8 @@ public:
     /// Sets the database name.
     int setDBName(lua_State *L );
 
+    int getDBName(lua_State *L);
+
     /// Sets the user name.
     int setUser(lua_State *L );
 
@@ -132,6 +134,8 @@ public:
     
     /// Load the luaCellularSpace object from the Shapefile
     int loadShape(lua_State *L);
+
+    int saveShape(lua_State *L);
 
     /// Save the luaCellularSpace object to the TerraLib geographic database
     int save(lua_State *L);

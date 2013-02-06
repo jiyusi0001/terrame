@@ -316,9 +316,37 @@ CellularSpace_ = {
 		return self.cells[random(1,self:size())]
 	end,
 	save = function(self, time, outputTableName, attrNames)
+	    if(time == nil and outputTableName == nil and attrNames == nil) then
+	        self:saveShape()
+	        return
+	    end
 		if (type(attrNames) == "string") then attrNames = {attrNames} end
 		local erros = self.cObj_:save(time, outputTableName, attrNames, self.cells)
 	end,
+	saveShape = function(self)
+	    local shapefileName = self.cObj_:getDBName()
+	    if(shapefileName=="") then error("Error: Shapefile must be loaded before being saved.",2) end
+	    local shapeExists = io.open(shapefileName,"r")
+            if shapeExists==nil then error("Error: Shapefile not Found",2)
+            else io.close(shapeExists)
+            end
+        local contCells = 0
+        forEachCell(t, function(cell)
+            for k,v in pairs(cell) do
+                local type_
+                if(type(v) == "number") then
+                    type_ = 1
+                elseif(type(v) == "string") then
+                    type_ = 2
+                else
+                    type_ = 0
+                end
+                t.cObj_:saveShape(cell.objectId_,k,v,type_)
+            end
+            contCells = contCells + 1
+        end)
+        print("\tnumber of saved cells: "..contCells..".")io.flush()
+    end,
 	size = function(self) return getn(self.cells); end,
 	split = function(self, argument)
 		if type(argument) == "string" then
