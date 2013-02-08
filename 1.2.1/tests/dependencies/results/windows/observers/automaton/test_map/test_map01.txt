@@ -1,0 +1,11 @@
+OBSERVER MAP 01 
+C:\TerraME_Beta//bin//Lua//Observer.lua:806: Error: Map observers must have exactly one or two attributes.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_map01
+File:	.../tests/src/observers/automaton/test_map.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

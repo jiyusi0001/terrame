@@ -1,0 +1,20 @@
+--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+Testing Trajectory...
+------------------------------------
+RANDOMISE
+not tested :-(
+SORT:
+SORT COORD:
+REFRESH:
+GET CELL:
+READY!!!
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_TrajectoryType
+File:	.../usr/local/1.2.1-TerraME/tests/src/basics/test_trajectory.lua
+
+Assertions: 259 total, 259 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

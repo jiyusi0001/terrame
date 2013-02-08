@@ -1,0 +1,11 @@
+OBSERVER LOGFILE 01
+C:\TerraME_Beta//bin//Lua//Observer.lua:806: Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_logFile01
+File:	.../tests/src/observers/automaton/test_logFile.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

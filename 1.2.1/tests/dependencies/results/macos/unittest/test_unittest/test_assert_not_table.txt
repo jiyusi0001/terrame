@@ -1,0 +1,9 @@
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_assert_not_table
+File:	.../usr/local/1.2.1-TerraME/tests/src/unittest/test_unittest.lua
+
+Assertions: 5 total, 5 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

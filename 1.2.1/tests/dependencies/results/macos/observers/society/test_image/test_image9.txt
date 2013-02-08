@@ -1,0 +1,31 @@
+IMAGE 09
+STEP: 	1
+Members in society 'sc1':	5
+STEP: 	2
+Members in society 'sc1':	5
+STEP: 	3
+Members in society 'sc1':	5
+STEP: 	4
+Members in society 'sc1':	5
+STEP: 	5
+Members in society 'sc1':	5
+STEP: 	6
+Members in society 'sc1':	5
+STEP: 	7
+Members in society 'sc1':	5
+STEP: 	8
+	observerImage09:kill	false
+Members in society 'sc1':	5
+STEP: 	9
+Members in society 'sc1':	5
+STEP: 	10
+Members in society 'sc1':	5
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_image9
+File:	.../usr/local/1.2.1-TerraME/tests/src/observers/society/test_image.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

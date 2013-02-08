@@ -1,0 +1,11 @@
+OBSERVER MAP 02 
+C:\TerraME_Beta//bin//Lua//Observer.lua:806: Error: Parameter 'observer' not found.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_map02
+File:	.../tests/src/observers/automaton/test_map.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

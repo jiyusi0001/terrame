@@ -1,0 +1,19 @@
+Random value: 	10.671179360193
+Random value: 	16.45678438805
+Random value: 	15.77654619126
+Random value: 	15.93343083665
+Random value: 	12.415410301194
+Random value: 	12.025891063293
+Random value: 	12.099421456146
+Random value: 	15.185372793431
+Random value: 	13.692371625135
+Random value: 	11.189498132623
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_random_float04
+File:	.../tests/src/basics/test_miscelaneous.lua
+
+Assertions: 30 total, 30 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

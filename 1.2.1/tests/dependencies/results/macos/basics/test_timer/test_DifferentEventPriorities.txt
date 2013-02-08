@@ -1,0 +1,14 @@
+--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+-------------------------------------
+-- DifferentEventPriorities
+-------------------------------------
+Ready!!!
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_DifferentEventPriorities
+File:	.../usr/local/1.2.1-TerraME/tests/src/basics/test_timer.lua
+
+Assertions: 9 total, 9 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

@@ -1,0 +1,11 @@
+OBSERVER MAP 01
+/home/terralab/TerraME_Beta//bin//Lua//Observer.lua:806: Error: Parameter 'observer' not found.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_map01
+File:	.../tests/src/observers/trajectory/test_map.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
