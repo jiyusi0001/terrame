@@ -1,9 +1,0 @@
-
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-Testing function: 	test_assert_not_metatable
-File:	.../usr/local/1.2.1-TerraME/tests/src/unittest/test_unittest.lua
-
-Assertions: 1 total, 1 succeed, 0 failed.
-
-= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

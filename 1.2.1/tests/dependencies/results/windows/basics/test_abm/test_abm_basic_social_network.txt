@@ -1,9 +1,0 @@
-
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-Testing function: 	test_abm_basic_social_network
-File:	.../tests/src/basics/test_abm.lua
-
-Assertions: 5 total, 5 succeed, 0 failed.
-
-= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
