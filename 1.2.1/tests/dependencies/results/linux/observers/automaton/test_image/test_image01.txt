@@ -1,0 +1,11 @@
+OBSERVER IMAGE 01 
+...rraME_1_2_1/tests/src/observers/automaton/test_image.lua:180: Error: Image observers must have exactly one or two attributes.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_image01
+File:	.../tests/src/observers/automaton/test_image.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

@@ -1,0 +1,14 @@
+------------------------------------------------
+
+Testing TerraLibCellularSpaceCoordinatesSystem...
+geo_wait...
+READY
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_TerraLibCellularSpaceCoordinatesSystem
+File:	.../usr/local/1.2.1-TerraME/tests/src/basics/test_gis_integration.lua
+
+Assertions: 16 total, 16 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

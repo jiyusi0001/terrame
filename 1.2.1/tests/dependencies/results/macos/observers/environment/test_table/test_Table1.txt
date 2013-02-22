@@ -1,0 +1,10 @@
+OBSERVER TABLE 01
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_Table1
+File:	.../usr/local/1.2.1-TerraME/tests/src/observers/environment/test_table.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

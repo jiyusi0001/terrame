@@ -1,0 +1,24 @@
+First run with seed value '98765'
+1st try with argument '3':	0
+2nd try with argument '3':	2
+3rd try with argument '3':	2
+1st try with arguments '33' and '45':	20
+2nd try with arguments '33' and '45':	15
+3rd try with arguments '33' and '45':	20
+
+Second run with value seed '56789'
+1st try with argument '3':	2
+2nd try with argument '3':	1
+3rd try with argument '3':	1
+1st try with arguments '33' and '45':	17
+2nd try with arguments '33' and '45':	16
+3rd try with arguments '33' and '45':	18
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_random_reseed
+File:	.../usr/local/1.2.1-TerraME/tests/src/basics/test_miscelaneous.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

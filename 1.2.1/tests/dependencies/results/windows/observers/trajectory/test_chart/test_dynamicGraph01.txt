@@ -1,0 +1,11 @@
+OBSERVER DYNAMIC GRAPHIC 01
+C:\TerraME_Beta//bin//Lua//Observer.lua:806: Error: Chart observers must have at least one attribute.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_dynamicGraph01
+File:	.../tests/src/observers/trajectory/test_chart.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

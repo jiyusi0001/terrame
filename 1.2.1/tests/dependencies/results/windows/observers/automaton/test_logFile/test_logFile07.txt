@@ -1,0 +1,21 @@
+OBSERVER LOGFILE 07
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+	observerLogFile07:kill	true
+STEP: 	9
+STEP: 	10
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_logFile07
+File:	.../tests/src/observers/automaton/test_logFile.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

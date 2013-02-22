@@ -1,0 +1,11 @@
+OBSERVER MAP 02
+...lab/TerraME_1_2_1/tests/src/observers/agent/test_map.lua:167: Error: Parameter 'observer' not found.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_Map2
+File:	.../tests/src/observers/agent/test_map.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

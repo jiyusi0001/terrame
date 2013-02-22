@@ -1,0 +1,13 @@
+1st try without arguments:	0.056552411900272
+2nd try without arguments:	0.62938459287622
+3rd try without arguments:	0.56203427636234
+4th try without arguments:	0.5775674095693
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_random_without_arguments
+File:	.../usr/local/1.2.1-TerraME/tests/src/basics/test_miscelaneous.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

@@ -1,0 +1,82 @@
+OBSERVER STATEMACHINE 02
+step 	1
+walking
+5
+step 	2
+walking
+4
+step 	3
+walking
+3
+step 	4
+walking
+2
+step 	5
+walking
+1
+sleeping
+step 	6
+sleeping
+step 	7
+sleeping
+step 	8
+sleeping
+step 	9
+sleeping
+walking
+5
+step 	10
+walking
+4
+step 	11
+walking
+3
+step 	12
+walking
+2
+step 	13
+walking
+1
+sleeping
+step 	14
+sleeping
+step 	15
+sleeping
+step 	16
+sleeping
+step 	17
+sleeping
+walking
+5
+step 	18
+walking
+4
+step 	19
+walking
+3
+step 	20
+walking
+2
+step 	21
+walking
+1
+sleeping
+step 	22
+sleeping
+step 	23
+sleeping
+step 	24
+sleeping
+step 	25
+sleeping
+walking
+5
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_StateMachine2
+File:	.../tests/src/observers/agent/test_stateMachine.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

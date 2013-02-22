@@ -1,0 +1,14 @@
+--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+------------------------------------------------------
+-- MutipleEnvironmentsMultipleTimersWithInternalTimer
+------------------------------------------------------
+READY!!!
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_MutipleEnvorinmentsMultipleTimersWithInternalTimer
+File:	.../tests/src/basics/test_environment.lua
+
+Assertions: 17 total, 17 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

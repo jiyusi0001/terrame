@@ -1,0 +1,10 @@
+OBSERVER IMAGE 07
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_image07
+File:	.../usr/local/1.2.1-TerraME/tests/src/observers/trajectory/test_image.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

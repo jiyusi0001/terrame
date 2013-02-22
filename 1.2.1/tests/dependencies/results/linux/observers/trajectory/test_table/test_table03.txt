@@ -1,0 +1,10 @@
+OBSERVER TABLE 03
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_table03
+File:	.../tests/src/observers/trajectory/test_table.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

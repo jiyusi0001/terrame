@@ -1,0 +1,11 @@
+OBSERVER TABLE 03
+...rraME_1_2_1/tests/src/observers/automaton/test_table.lua:156: Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_table03
+File:	.../tests/src/observers/automaton/test_table.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
