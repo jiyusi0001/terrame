@@ -1,0 +1,11 @@
+OBSERVER DYNAMIC GRAPHIC 02
+...rraME_1_2_1/tests/src/observers/automaton/test_chart.lua:193: Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_dynamicGraph02
+File:	.../tests/src/observers/automaton/test_chart.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

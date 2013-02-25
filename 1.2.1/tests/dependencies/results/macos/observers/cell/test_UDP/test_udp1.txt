@@ -1,0 +1,10 @@
+UDPSENDER 01
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_udp1
+File:	.../usr/local/1.2.1-TerraME/tests/src/observers/cell/test_UDP.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

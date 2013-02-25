@@ -1,0 +1,11 @@
+OBSERVER STATEMACHINE 03
+...raME/tests/src/observers/automaton/test_stateMachine.lua:199: Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_stateMachine03
+File:	.../usr/local/1.2.1-TerraME/tests/src/observers/automaton/test_stateMachine.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

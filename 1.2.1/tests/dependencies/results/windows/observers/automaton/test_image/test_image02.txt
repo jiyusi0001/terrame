@@ -1,0 +1,11 @@
+OBSERVER IMAGE 02 
+...top\TerraME\tests\src\observers\automaton\test_image.lua:189: Error: Parameter 'observer' not found.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_image02
+File:	.../tests/src/observers/automaton/test_image.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

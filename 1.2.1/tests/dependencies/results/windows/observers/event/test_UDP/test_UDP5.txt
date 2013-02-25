@@ -1,0 +1,11 @@
+OBSERVER UDPSENDER 05
+...P\Desktop\TerraME\tests\src\observers\event\test_UDP.lua:94: attempt to call global 'port' (a nil value)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_UDP5
+File:	.../tests/src/observers/event/test_UDP.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

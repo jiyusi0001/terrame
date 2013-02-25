@@ -1,0 +1,39 @@
+-------------------------------------
+-- NeverTestTrajectoriesInUse
+-------------------------------------
+Automaton... 
+Scd: MyAutomaton: 2 - cell[0, 0]
+Scd: MyAutomaton: 4 - cell[0, 0]
+Scd: MyAutomaton: 6 - cell[0, 0]
+Scd: MyAutomaton: 8 - cell[0, 0]
+jump: 0, second
+Scd: MyAutomaton: 1 - cell[0, 0]
+Scd: MyAutomaton: 3 - cell[0, 0]
+Scd: MyAutomaton: 5 - cell[0, 0]
+Scd: MyAutomaton: 7 - cell[0, 0]
+Scd: MyAutomaton: 9 - cell[0, 0]
+jump: 1, first
+Scd: MyAutomaton: 2 - cell[0, 0]
+Scd: MyAutomaton: 4 - cell[0, 0]
+Scd: MyAutomaton: 6 - cell[0, 0]
+Scd: MyAutomaton: 8 - cell[0, 0]
+jump: 2, second
+Scd: MyAutomaton: 1 - cell[0, 0]
+Scd: MyAutomaton: 3 - cell[0, 0]
+Scd: MyAutomaton: 5 - cell[0, 0]
+Scd: MyAutomaton: 7 - cell[0, 0]
+Scd: MyAutomaton: 9 - cell[0, 0]
+jump: 3, first
+jump: 4, first
+
+Count: 	56
+READY!!!
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_NeverTestTrajectoriesInUse
+File:	.../tests/src/basics/test_agent_automaton.lua
+
+Assertions: 2 total, 2 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

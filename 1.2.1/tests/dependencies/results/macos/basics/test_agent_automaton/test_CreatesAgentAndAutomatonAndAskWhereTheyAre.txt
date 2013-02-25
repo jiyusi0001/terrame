@@ -1,0 +1,21 @@
+----------------------------------------------
+-- CreatesAgentAndAutomatonAndAskWhereTheyAre 
+----------------------------------------------
+Automaton: 
+MyAutomaton, 0
+Where?
+
+Agent: 
+MyAgent, 0
+first
+
+READY!!!
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_CreatesAgentAndAutomatonAndAskWhereTheyAre
+File:	.../usr/local/1.2.1-TerraME/tests/src/basics/test_agent_automaton.lua
+
+Assertions: 3 total, 3 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

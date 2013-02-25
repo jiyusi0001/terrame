@@ -1,0 +1,13 @@
+--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+
+Testing LoadTerraLibCellularSpacesMinimalParameters...
+READY
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_LoadTerraLibCellularSpacesMinimalParameters
+File:	.../usr/local/1.2.1-TerraME/tests/src/basics/test_gis_integration.lua
+
+Assertions: 51007 total, 51007 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

@@ -1,0 +1,16 @@
+-------------------------------------
+-- AgentAndAutomatonTrajectories
+-------------------------------------
+Agent... 
+Automaton... 
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_AgentAndAutomatonTrajectories
+File:	.../tests/src/basics/test_agent_automaton.lua
+
+Assertions: 17 total, 17 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

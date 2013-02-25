@@ -1,0 +1,11 @@
+IMAGE 01
+...TerraME\tests\src\observers\cellularSpace\test_image.lua:142: Error: Image observers must have exactly one or two attributes.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_image1
+File:	.../tests/src/observers/cellularSpace/test_image.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

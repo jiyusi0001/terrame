@@ -1,0 +1,20 @@
+------------------------------------------------
+-- LoadTerraLibWhereClauseAndCreateNeighborhood 
+wait...
+Cells: 	5673
+Neighbors: 	49385
+Weight: 	5487.2222222281
+................
+Cells: 	5673
+Neighbors: 	18582
+Weight: 	451.98359156683
+READY!!!
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_LoadTerraLibWhereClauseAndCreateNeighborhood
+File:	.../usr/local/1.2.1-TerraME/tests/src/basics/test_gis_integration.lua
+
+Assertions: 7 total, 7 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
