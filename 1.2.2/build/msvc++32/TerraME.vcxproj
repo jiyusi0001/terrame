@@ -204,7 +204,7 @@
     <ClCompile Include="..\..\src\observer\types\chartPlot\chartPlot.cpp" />
     <ClCompile Include="..\..\src\observer\types\chartPlot\plotPropertiesGUI.cpp" />
     <ClCompile Include="..\..\src\observer\types\observerShapefile.cpp" />
-    <ClCompile Include="..\..\src\observer\types\observerSuperclass.cpp" />
+    <ClCompile Include="..\..\src\observer\types\observerMapSuperclass.cpp" />
     <ClCompile Include="..\..\src\observer\types\udpSender\udpSenderGUI.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\msvc2010;..\..\dependencies\qt\include;..\..\dependencies\qt\include\QtCore;..\..\dependencies\qt\include\QtNetwork;..\..\dependencies\qt\include\QtGui;.;..\..\src\core;..\..\src\observer;..\..\src\observer\types;..\..\src\observer\protocol\blackBoard;..\..\dependencies\terralib\src\terralib\drivers\MySQL;..\..\dependencies\terralib\src\terralib\drivers\MySQL\include;..\..\dependencies\terralib\src\terralib\drivers\ado;..\..\dependencies\terralib\src\terralib\kernel;..\..\dependencies\terralib\src\terralib\functions;..\..\dependencies\terralib\src\terralib\stat;..\..\dependencies\terralib\src\terralib\utils;..\..\dependencies\terralib\src\terralib\drivers\shapelib;..\..\dependencies\terralib\src\shapelib;..\..\dependencies\terralib\src\zlib;..\..\dependencies\terralib\src\tiff;..\..\dependencies\qwt\src;..\..\dependencies\lua\include;debug;generatedFiles;..\..\dependencies\qt\mkspecs\win32-msvc2010;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
@@ -219,7 +219,7 @@
     <ClCompile Include="generatedFiles\moc_observerScheduler.cpp" />
     <ClCompile Include="generatedFiles\moc_observerShapefile.cpp" />
     <ClCompile Include="generatedFiles\moc_observerStateMachine.cpp" />
-    <ClCompile Include="generatedFiles\moc_observerSuperclass.cpp" />
+    <ClCompile Include="generatedFiles\moc_observerMapSuperclass.cpp" />
     <ClCompile Include="generatedFiles\moc_plotPropertiesGUI.cpp" />
     <ClCompile Include="generatedFiles\moc_udpSenderGUI.cpp" />
     <ClCompile Include="generatedFiles\moc_painterThread.cpp" />
@@ -254,14 +254,14 @@
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\moc_observerShapefile.cpp</Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
     </CustomBuild>
-    <CustomBuild Include="..\..\src\observer\types\observerSuperclass.h">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\observerSuperclass.h -o generatedFiles\moc_observerSuperclass.cpp</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\observerSuperclass.h -o generatedFiles\moc_observerSuperclass.cpp</Command>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC ObserverSuperclass</Message>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\moc_observerSuperclass.cpp</Outputs>
+    <CustomBuild Include="..\..\src\observer\types\observerMapSuperclass.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\observerMapSuperclass.h -o generatedFiles\moc_observerMapSuperclass.cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\observerMapSuperclass.h -o generatedFiles\moc_observerMapSuperclass.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC ObserverMapSuperclass</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\moc_observerMapSuperclass.cpp</Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC ObserverSuperclass</Message>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\moc_observerSuperclass.cpp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC ObserverMapSuperclass</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\moc_observerMapSuperclass.cpp</Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
     </CustomBuild>
     <ClInclude Include="resource.h" />

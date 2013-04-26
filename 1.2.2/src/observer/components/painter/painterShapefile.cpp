@@ -4,7 +4,7 @@
 
 #include<QDebug>
 
-#include "observer/types/observerShapefile.h"
+#include "../../types/observerShapefile.h"
 
 using namespace TerraMEObserver;
 
