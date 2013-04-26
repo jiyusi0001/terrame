@@ -1,5 +1,5 @@
 OBSERVER DYNAMIC GRAPHIC 02
-...top\TerraME\tests\src\observers\automaton\test_chart.lua:193: Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+...erraME_Beta\tests\src\observers\automaton\test_chart.lua:190: Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 

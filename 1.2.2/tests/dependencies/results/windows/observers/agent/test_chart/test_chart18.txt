@@ -35,6 +35,6 @@ walking
 Testing function: 	test_chart18
 File:	.../tests/src/observers/agent/test_chart.lua
 
-Assertions: 0 total, 0 succeed, 0 failed.
+Assertions: 2 total, 2 succeed, 0 failed.
 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

@@ -1,5 +1,5 @@
 OBSERVER DYNAMIC GRAPHIC 01
-...top\TerraME\tests\src\observers\automaton\test_chart.lua:184: Error: Chart observers must have at least one attribute.
+...erraME_Beta\tests\src\observers\automaton\test_chart.lua:182: Error: Chart observers must have at least one attribute.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 

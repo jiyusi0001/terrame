@@ -1,5 +1,5 @@
 OBSERVER IMAGE 01 
-...top\TerraME\tests\src\observers\automaton\test_image.lua:180: Error: Image observers must have exactly one or two attributes.
+...erraME_Beta\tests\src\observers\automaton\test_image.lua:189: Error: Image observers must have exactly one or two attributes.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 

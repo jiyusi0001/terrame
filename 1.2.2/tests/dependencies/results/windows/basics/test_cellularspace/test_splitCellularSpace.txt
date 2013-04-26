@@ -5,6 +5,6 @@
 Testing function: 	test_splitCellularSpace
 File:	.../tests/src/basics/test_cellularspace.lua
 
-Assertions: 3 total, 3 succeed, 0 failed.
+Assertions: 6 total, 6 succeed, 0 failed.
 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

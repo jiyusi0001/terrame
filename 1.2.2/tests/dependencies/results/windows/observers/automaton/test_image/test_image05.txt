@@ -16,6 +16,23 @@ STEP: 	10
 Testing function: 	test_image05
 File:	.../tests/src/observers/automaton/test_image.lua
 
-Assertions: 0 total, 0 succeed, 0 failed.
+Assertions: 12 total, 4 succeed, 8 failed.
+Failed: 
+	- File 'C:\TerraME_Beta\tests\src\observers\automaton\test_image.lua' function 'test_image05'
+	Expected 'img1 = img2' got ''  in line 49
+	- File 'C:\TerraME_Beta\tests\src\observers\automaton\test_image.lua' function 'test_image05'
+	Expected 'img1 = img2' got ''  in line 49
+	- File 'C:\TerraME_Beta\tests\src\observers\automaton\test_image.lua' function 'test_image05'
+	Expected 'img1 = img2' got ''  in line 49
+	- File 'C:\TerraME_Beta\tests\src\observers\automaton\test_image.lua' function 'test_image05'
+	Expected 'img1 = img2' got ''  in line 49
+	- File 'C:\TerraME_Beta\tests\src\observers\automaton\test_image.lua' function 'test_image05'
+	Expected 'img1 = img2' got ''  in line 49
+	- File 'C:\TerraME_Beta\tests\src\observers\automaton\test_image.lua' function 'test_image05'
+	Expected 'img1 = img2' got ''  in line 49
+	- File 'C:\TerraME_Beta\tests\src\observers\automaton\test_image.lua' function 'test_image05'
+	Expected 'img1 = img2' got ''  in line 49
+	- File 'C:\TerraME_Beta\tests\src\observers\automaton\test_image.lua' function 'test_image05'
+	Expected 'img1 = img2' got ''  in line 49
 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

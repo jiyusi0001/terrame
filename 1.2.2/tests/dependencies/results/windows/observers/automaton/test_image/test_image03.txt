@@ -15,6 +15,6 @@ STEP: 	10
 Testing function: 	test_image03
 File:	.../tests/src/observers/automaton/test_image.lua
 
-Assertions: 0 total, 0 succeed, 0 failed.
+Assertions: 12 total, 12 succeed, 0 failed.
 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
