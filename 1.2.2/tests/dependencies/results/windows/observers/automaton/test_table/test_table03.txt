@@ -1,5 +1,5 @@
 OBSERVER TABLE 03
-...top\TerraME\tests\src\observers\automaton\test_table.lua:156: Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+...erraME_Beta\tests\src\observers\automaton\test_table.lua:153: Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 

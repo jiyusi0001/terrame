@@ -1,5 +1,5 @@
 OBSERVER TEXTSCREEN 01
-...erraME\tests\src\observers\automaton\test_textScreen.lua:137: Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+...E_Beta\tests\src\observers\automaton\test_textScreen.lua:136: Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 

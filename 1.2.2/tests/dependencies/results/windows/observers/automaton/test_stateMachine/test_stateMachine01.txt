@@ -1,5 +1,5 @@
 OBSERVER STATEMACHINE 01
-...raME\tests\src\observers\automaton\test_stateMachine.lua:182: Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
+...Beta\tests\src\observers\automaton\test_stateMachine.lua:181: Error: Observing an Automaton requires parameter 'location' to be a Cell, got nil.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 

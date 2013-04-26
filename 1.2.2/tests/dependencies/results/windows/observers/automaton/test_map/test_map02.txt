@@ -1,5 +1,5 @@
 OBSERVER MAP 02 
-...sktop\TerraME\tests\src\observers\automaton\test_map.lua:189: Error: Parameter 'observer' not found.
+C:\TerraME_Beta\tests\src\observers\automaton\test_map.lua:187: Error: Parameter 'observer' not found.
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 

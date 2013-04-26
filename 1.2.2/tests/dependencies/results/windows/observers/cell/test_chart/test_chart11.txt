@@ -7,6 +7,7 @@ step	5
 step	6
 step	7
 step	8
+	observerGraphic08:kill	true
 step	9
 step	10
 
@@ -15,6 +16,6 @@ step	10
 Testing function: 	test_chart11
 File:	.../tests/src/observers/cell/test_chart.lua
 
-Assertions: 0 total, 0 succeed, 0 failed.
+Assertions: 2 total, 2 succeed, 0 failed.
 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

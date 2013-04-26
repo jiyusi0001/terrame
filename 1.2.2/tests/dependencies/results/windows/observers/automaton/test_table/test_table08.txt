@@ -16,6 +16,6 @@ STEP: 	10
 Testing function: 	test_table08
 File:	.../tests/src/observers/automaton/test_table.lua
 
-Assertions: 0 total, 0 succeed, 0 failed.
+Assertions: 2 total, 2 succeed, 0 failed.
 
 = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
