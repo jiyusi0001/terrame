@@ -1,0 +1,602 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C2E8FC5B-78B3-3AED-B7FA-881D36D2A2AF}</ProjectGuid>
+    <RootNamespace>TerraME</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <OutputDirectory>debug\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>debug\</IntermediateDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <OutputDirectory>release\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>release\</IntermediateDirectory>
+    <PlatformToolset>v100</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <!--
+    <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">TerraME</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</IgnoreImportLibrary>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">TerraME</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+-->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>debug/</OutDir>
+    <IntDir>debug/</IntDir>
+    <TargetName>TerraME</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>release\</OutDir>
+    <IntDir>release\</IntDir>
+    <TargetName>TerraME</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\dependencies\msvc2010;..\..\dependencies\qt\include;..\..\dependencies\qt\include\QtCore;..\..\dependencies\qt\include\QtNetwork;..\..\dependencies\qt\include\QtGui;.;..\..\src\core;..\..\src\observer;..\..\src\observer\types;..\..\src\observer\protocol\blackBoard;..\..\dependencies\terralib\src\terralib\drivers\MySQL;..\..\dependencies\terralib\src\terralib\drivers\MySQL\include;..\..\dependencies\terralib\src\terralib\drivers\ado;..\..\dependencies\terralib\src\terralib\kernel;..\..\dependencies\terralib\src\terralib\functions;..\..\dependencies\terralib\src\terralib\stat;..\..\dependencies\terralib\src\terralib\utils;..\..\dependencies\terralib\src\terralib\drivers\shapelib;..\..\dependencies\terralib\src\shapelib;..\..\dependencies\terralib\src\zlib;..\..\dependencies\terralib\src\tiff;..\..\dependencies\qwt\src;..\..\dependencies\lua\include;debug;generatedFiles;..\..\dependencies\qt\mkspecs\win32-msvc2010;..\..\dependencies\random\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>debug\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>debug\</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>UNICODE;WIN32;QT_LARGEFILE_SUPPORT;TME_WIN32;TME_LUA_5_1;TME_TERRALIB_RC3;QT_DLL;QT_GUI_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_THREAD_SUPPORT;TME_MSVC;QWT_DLL;TME_BLACK_BOARD_OFF;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>.\</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>terralib.lib;terralib_ado.lib;terralib_shp.lib;libmysql.lib;lua5.2_d.lib;QtCored4.lib;QtGuid4.lib;QtNetworkd4.lib;qtmaind.lib;qwt5d.lib;Random_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\dependencies\lua\lib;..\..\dependencies\msvc2010;..\..\dependencies\mysql;..\..\dependencies\qt\lib;..\..\dependencies\qwt\lib;..\..\dependencies\random\lib;..\..\dependencies\terralib\Release</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <OutputFile>debug\TerraME.exe</OutputFile>
+      <SubSystem>Console</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>msvcmrt.lib</IgnoreSpecificDefaultLibraries>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
+    <Midl />
+    <ResourceCompile>
+      <PreprocessorDefinitions>UNICODE;WIN32;QT_LARGEFILE_SUPPORT;WIN32;TME_WIN32;TME_LUA_5_1;TME_TERRALIB_RC3;QT_DLL;QT_GUI_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_THREAD_SUPPORT;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\dependencies\msvc2010;..\..\dependencies\qt\include\QtCore;..\..\dependencies\qt\include\QtNetwork;..\..\dependencies\qt\include\QtGui;..\..\dependencies\qt\include;.;..\..\src\core;..\..\src\observer;..\..\src\observer\types;..\..\src\observer\protocol\blackBoard;..\..\dependencies\terralib\src\shapelib;..\..\dependencies\terralib\src\terralib\drivers\ado;..\..\dependencies\terralib\src\terralib\drivers\MySQL;..\..\dependencies\terralib\src\terralib\drivers\MySQL\include;..\..\dependencies\terralib\src\terralib\drivers\shapelib;..\..\dependencies\terralib\src\terralib\functions;..\..\dependencies\terralib\src\terralib\kernel;..\..\dependencies\terralib\src\terralib\stat;..\..\dependencies\terralib\src\terralib\utils;..\..\dependencies\terralib\src\tiff;..\..\dependencies\terralib\src\zlib;..\..\dependencies\qwt\src;..\..\dependencies\lua\include;..\..\dependencies\qt\include\ActiveQt;generatedFiles;release;..\..\dependencies\qt\mkspecs\win32-msvc2010;..\..\dependencies\shapelib;..\..\dependencies\random\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zm200 -w34100 -w34189 /DTME_MSVC %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>release\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>release\</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>QT_NO_DEBUG;NDEBUG;UNICODE;WIN32;QT_LARGEFILE_SUPPORT;TME_WIN32;TME_LUA_5_1;TME_TERRALIB_RC3;QT_DLL;QT_GUI_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_THREAD_SUPPORT;QWT_DLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>.\</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>StdAfx.h</PrecompiledHeaderFile>
+      <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>terralib.lib;terralib_ado.lib;terralib_shp.lib;libmysql.lib;lua5.2.lib;qtmain.lib;QtCore4.lib;QtGui4.lib;QtNetwork4.lib;qwt5.lib;Random.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\dependencies\lua\lib;..\..\dependencies\mysql;..\..\dependencies\msvc2010;..\..\dependencies\qt\lib;..\..\dependencies\qwt\lib;..\..\dependencies\terralib\Release;..\..\dependencies\random\lib</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkIncremental>false</LinkIncremental>
+      <OutputFile>release\TerraME.exe</OutputFile>
+      <SubSystem>Console</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>msvcmrt.lib</IgnoreSpecificDefaultLibraries>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+    <Midl />
+    <ResourceCompile>
+      <PreprocessorDefinitions>QT_NO_DEBUG;NDEBUG;UNICODE;WIN32;QT_LARGEFILE_SUPPORT;WIN32;TME_WIN32;TME_LUA_5_1;TME_TERRALIB_RC3;QT_DLL;QT_NO_DEBUG;QT_GUI_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_THREAD_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Manifest>
+      <VerboseOutput>false</VerboseOutput>
+    </Manifest>
+    <PostBuildEvent>
+      <Command>binaries.bat</Command>
+    </PostBuildEvent>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\dependencies\shapelib\dbfopen.c" />
+    <ClCompile Include="..\..\dependencies\shapelib\findCentroid.cpp" />
+    <ClCompile Include="..\..\dependencies\shapelib\shpopen.c" />
+    <ClCompile Include="..\..\src\core\environment.cpp" />
+    <ClCompile Include="..\..\src\core\event.cpp" />
+    <ClCompile Include="..\..\src\core\luaCell.cpp" />
+    <ClCompile Include="..\..\src\core\luaCellularSpace.cpp" />
+    <ClCompile Include="..\..\src\core\luaEnvironment.cpp" />
+    <ClCompile Include="..\..\src\core\luaEvent.cpp" />
+    <ClCompile Include="..\..\src\core\luaGlobalAgent.cpp" />
+    <ClCompile Include="..\..\src\core\luaLocalAgent.cpp" />
+    <ClCompile Include="..\..\src\core\luaNeighborhood.cpp" />
+    <ClCompile Include="..\..\src\core\luaSociety.cpp" />
+    <ClCompile Include="..\..\src\core\luaTimer.cpp" />
+    <ClCompile Include="..\..\src\core\luaTrajectory.cpp" />
+    <ClCompile Include="..\..\src\core\luaUtils.cpp" />
+    <ClCompile Include="..\..\src\core\model.cpp" />
+    <ClCompile Include="..\..\src\observer\cellSpaceSubjectInterf.cpp" />
+    <ClCompile Include="..\..\src\observer\cellSubjectInterf.cpp" />
+    <ClCompile Include="..\..\src\observer\components\canvas.cpp" />
+    <ClCompile Include="..\..\src\observer\components\console\modelConsole.cpp" />
+    <ClCompile Include="..\..\src\observer\components\legend\legendAttributes.cpp" />
+    <ClCompile Include="..\..\src\observer\components\legend\legendColorBar.cpp" />
+    <ClCompile Include="..\..\src\observer\components\legend\legendColorUtils.cpp" />
+    <ClCompile Include="..\..\src\observer\components\legend\legendWindow.cpp" />
+    <ClCompile Include="..\..\src\observer\components\painter\painterShapefile.cpp" />
+    <ClCompile Include="..\..\src\observer\components\painter\painterThread.cpp" />
+    <ClCompile Include="..\..\src\observer\components\painter\painterWidget.cpp" />
+    <ClCompile Include="..\..\src\observer\components\player\player.cpp" />
+    <ClCompile Include="..\..\src\observer\components\player\playerGUI.cpp" />
+    <ClCompile Include="..\..\src\observer\components\receiver\receiver.cpp" />
+    <ClCompile Include="..\..\src\observer\environmentSubjectInterf.cpp" />
+    <ClCompile Include="..\..\src\observer\eventSubjectInterf.cpp" />
+    <ClCompile Include="..\..\src\observer\globalAgentSubjectInterf.cpp" />
+    <ClCompile Include="..\..\src\observer\localAgentSubjectInterf.cpp" />
+    <ClCompile Include="..\..\src\observer\observerImpl.cpp" />
+    <ClCompile Include="..\..\src\observer\observerInterf.cpp" />
+    <ClCompile Include="..\..\src\core\terrameLua.cpp" />
+    <ClCompile Include="..\..\src\observer\protocol\blackBoard\blackBoard.cpp" />
+    <ClCompile Include="..\..\src\observer\protocol\decoder\decoder.cpp" />
+    <ClCompile Include="..\..\src\observer\societySubjectInterf.cpp" />
+    <ClCompile Include="..\..\src\observer\statistic\statistic.cpp" />
+    <ClCompile Include="..\..\src\observer\trajectorySubjectInterf.cpp" />
+    <ClCompile Include="..\..\src\observer\types\chartPlot\chartPlot.cpp" />
+    <ClCompile Include="..\..\src\observer\types\chartPlot\plotPropertiesGUI.cpp" />
+    <ClCompile Include="..\..\src\observer\types\observerShapefile.cpp" />
+    <ClCompile Include="..\..\src\observer\types\observerSuperclass.cpp" />
+    <ClCompile Include="..\..\src\observer\types\udpSender\udpSenderGUI.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\msvc2010;..\..\dependencies\qt\include;..\..\dependencies\qt\include\QtCore;..\..\dependencies\qt\include\QtNetwork;..\..\dependencies\qt\include\QtGui;.;..\..\src\core;..\..\src\observer;..\..\src\observer\types;..\..\src\observer\protocol\blackBoard;..\..\dependencies\terralib\src\terralib\drivers\MySQL;..\..\dependencies\terralib\src\terralib\drivers\MySQL\include;..\..\dependencies\terralib\src\terralib\drivers\ado;..\..\dependencies\terralib\src\terralib\kernel;..\..\dependencies\terralib\src\terralib\functions;..\..\dependencies\terralib\src\terralib\stat;..\..\dependencies\terralib\src\terralib\utils;..\..\dependencies\terralib\src\terralib\drivers\shapelib;..\..\dependencies\terralib\src\shapelib;..\..\dependencies\terralib\src\zlib;..\..\dependencies\terralib\src\tiff;..\..\dependencies\qwt\src;..\..\dependencies\lua\include;debug;generatedFiles;..\..\dependencies\qt\mkspecs\win32-msvc2010;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <ClCompile Include="generatedFiles\moc_canvas.cpp" />
+    <ClCompile Include="generatedFiles\moc_chartPlot.cpp" />
+    <ClCompile Include="generatedFiles\moc_legendColorBar.cpp" />
+    <ClCompile Include="generatedFiles\moc_legendWindow.cpp" />
+    <ClCompile Include="generatedFiles\moc_modelConsole.cpp" />
+    <ClCompile Include="generatedFiles\moc_observerGraphic.cpp" />
+    <ClCompile Include="generatedFiles\moc_imageGUI.cpp" />
+    <ClCompile Include="generatedFiles\moc_observerMap.cpp" />
+    <ClCompile Include="generatedFiles\moc_observerScheduler.cpp" />
+    <ClCompile Include="generatedFiles\moc_observerShapefile.cpp" />
+    <ClCompile Include="generatedFiles\moc_observerStateMachine.cpp" />
+    <ClCompile Include="generatedFiles\moc_observerSuperclass.cpp" />
+    <ClCompile Include="generatedFiles\moc_plotPropertiesGUI.cpp" />
+    <ClCompile Include="generatedFiles\moc_udpSenderGUI.cpp" />
+    <ClCompile Include="generatedFiles\moc_painterThread.cpp" />
+    <ClCompile Include="generatedFiles\moc_painterWidget.cpp" />
+    <ClCompile Include="generatedFiles\moc_playerGUI.cpp" />
+    <ClCompile Include="generatedFiles\moc_receiver.cpp" />
+    <ClCompile Include="generatedFiles\qrc_observerResource.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\dependencies\shapelib\findCentroid.h" />
+    <ClInclude Include="..\..\dependencies\shapelib\shapefil.h" />
+    <ClInclude Include="..\..\src\core\agent.h" />
+    <ClInclude Include="..\..\src\core\bridge.h" />
+    <ClInclude Include="..\..\src\core\cell.h" />
+    <ClInclude Include="..\..\src\core\cellularSpace.h" />
+    <ClInclude Include="..\..\src\core\composite.h" />
+    <ClInclude Include="..\..\src\core\controlMode.h" />
+    <ClInclude Include="..\..\src\core\environment.h" />
+    <ClInclude Include="..\..\src\core\event.h" />
+    <ClInclude Include="..\..\src\core\luaSociety.h" />
+    <ClInclude Include="..\..\src\observer\cellSpaceSubjectInterf.h" />
+    <ClInclude Include="..\..\src\observer\cellSubjectInterf.h" />
+    <ClInclude Include="..\..\src\observer\components\painter\painterShapefile.h" />
+    <ClInclude Include="..\..\src\observer\societySubjectInterf.h" />
+    <CustomBuild Include="..\..\src\observer\types\observerShapefile.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\observerShapefile.h -o generatedFiles\moc_observerShapefile.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC ObserverShapefile.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\moc_observerShapefile.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\observerShapefile.h -o generatedFiles\moc_observerShapefile.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC ObserverShapefile.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\moc_observerShapefile.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\types\observerSuperclass.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\observerSuperclass.h -o generatedFiles\moc_observerSuperclass.cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\observerSuperclass.h -o generatedFiles\moc_observerSuperclass.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC ObserverSuperclass</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\moc_observerSuperclass.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC ObserverSuperclass</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\moc_observerSuperclass.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+    </CustomBuild>
+    <ClInclude Include="resource.h" />
+    <CustomBuild Include="..\..\src\observer\types\chartPlot\chartPlot.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\chartPlot\chartPlot.h -o generatedFiles\moc_chartPlot.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC ChartPlot</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\moc_chartPlot.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\chartPlot\chartPlot.h -o generatedFiles\moc_chartPlot.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC ChartPlot</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\moc_chartPlot.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\types\chartPlot\plotPropertiesGUI.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\chartPlot\plotPropertiesGUI.h -o generatedFiles\moc_plotPropertiesGUI.cpp</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\moc_plotPropertiesGUI.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC PlotPropertiesGUI</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\chartPlot\plotPropertiesGUI.h -o generatedFiles\moc_plotPropertiesGUI.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC PlotPropertiesGUI</Message>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\moc_plotPropertiesGUI.cpp</Outputs>
+    </CustomBuild>
+    <ClInclude Include="..\..\src\observer\observerGlobals.h" />
+    <ClInclude Include="..\..\src\observer\types\chartPlot\internalCurve.h" />
+    <ClInclude Include="generatedFiles\ui_modelConsoleGUI.h" />
+    <ClInclude Include="generatedFiles\ui_imageGUI.h" />
+    <ClInclude Include="generatedFiles\ui_plotPropertiesGUI.h" />
+    <ClInclude Include="generatedFiles\ui_udpSenderGUI.h" />
+    <ClInclude Include="generatedFiles\ui_playerGUI.h" />
+    <ClInclude Include="generatedFiles\ui_receiverGUI.h" />
+    <CustomBuild Include="..\..\src\observer\types\udpSender\udpSenderGUI.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\udpSender\udpSenderGUI.h -o generatedFiles\moc_udpSenderGUI.cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\udpSender\udpSenderGUI.h -o generatedFiles\moc_udpSenderGUI.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC udpSenderGUI</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\moc_udpSenderGUI.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC udpSenderGUI</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\moc_udpSenderGUI.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+    </CustomBuild>
+    <ClInclude Include="..\..\src\observer\components\player\player.h" />
+    <CustomBuild Include="..\..\src\observer\components\player\playerGUI.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\components\player\playerGUI.h -o generatedFiles\moc_playerGUI.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC Private Player GUI</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\components\player\playerGUI.h -o generatedFiles\moc_playerGUI.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC Private Player GUI</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\moc_playerGUI.cpp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\moc_playerGUI.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+    </CustomBuild>
+    <ClInclude Include="..\..\src\observer\statistic\statistic.h" />
+    <CustomBuild Include="..\..\src\observer\components\console\modelConsole.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\components\console\modelConsole.h -o generatedFiles\moc_modelConsole.cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\components\console\modelConsole.h -o generatedFiles\moc_modelConsole.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC modelConsole.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\moc_modelConsole.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC modelConsole.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\moc_modelConsole.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\components\canvas.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\components\canvas.h -o generatedFiles\moc_canvas.cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\components\canvas.h -o generatedFiles\moc_canvas.cpp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC canvas.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\moc_canvas.cpp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC canvas.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\moc_canvas.cpp</Outputs>
+    </CustomBuild>
+    <ClInclude Include="..\..\src\observer\components\legend\legendAttributes.h" />
+    <CustomBuild Include="..\..\src\observer\components\receiver\receiver.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\components\receiver\receiver.h -o generatedFiles\moc_receiver.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC receiver.h</Message>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\moc_receiver.cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\components\receiver\receiver.h -o generatedFiles\moc_receiver.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC receiver.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\moc_receiver.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+    </CustomBuild>
+    <ClInclude Include="..\..\src\observer\protocol\blackBoard\blackBoard.h" />
+    <ClInclude Include="..\..\src\observer\protocol\decoder\decoder.h" />
+    <ClInclude Include="..\..\src\observer\trajectorySubjectInterf.h" />
+    <CustomBuild Include="..\..\src\observer\components\legend\legendColorBar.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\components\legend\legendColorBar.h -o generatedFiles\moc_legendColorBar.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC legendColorBar.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\components\legend\legendColorBar.h -o generatedFiles\moc_legendColorBar.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC legendColorBar.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\moc_legendColorBar.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\moc_legendColorBar.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+    </CustomBuild>
+    <ClInclude Include="..\..\src\observer\components\legend\legendColorUtils.h" />
+    <CustomBuild Include="..\..\src\observer\components\legend\legendWindow.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\components\legend\legendWindow.h -o generatedFiles\moc_legendWindow.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC legendWindow.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\moc_legendWindow.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\components\legend\legendWindow.h -o generatedFiles\moc_legendWindow.cpp</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC legendWindow.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\moc_legendWindow.cpp</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\components\painter\painterThread.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\components\painter\painterThread.h -o generatedFiles\moc_painterThread.cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\components\painter\painterThread.h -o generatedFiles\moc_painterThread.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC painterThread.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\moc_painterThread.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC painterThread.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\moc_painterThread.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\components\painter\painterWidget.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\components\painter\painterWidget.h -o generatedFiles\moc_painterWidget.cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\components\painter\painterWidget.h -o generatedFiles\moc_painterWidget.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC painterWidget.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\moc_painterWidget.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC painterWidget.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\moc_painterWidget.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+    </CustomBuild>
+    <ClInclude Include="..\..\src\observer\environmentSubjectInterf.h" />
+    <ClInclude Include="..\..\src\observer\eventSubjectInterf.h" />
+    <ClInclude Include="..\..\src\observer\globalAgentSubjectInterf.h" />
+    <ClInclude Include="..\..\src\observer\localAgentSubjectInterf.h" />
+    <ClInclude Include="..\..\src\observer\schedulerSubjectInterf.h" />
+    <ClInclude Include="..\..\src\observer\types\agentObserverImage.h" />
+    <ClInclude Include="..\..\src\observer\types\agentObserverMap.h" />
+    <CustomBuild Include="..\..\src\observer\types\image\imageGUI.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\image\imageGUI.h -o generatedFiles\moc_imageGUI.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC imageGUI</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\image\imageGUI.h -o generatedFiles\moc_imageGUI.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC imageGUI.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\moc_imageGUI.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\moc_imageGUI.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\types\observerGraphic.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\observerGraphic.h -o generatedFiles\moc_observerGraphic.cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\observerGraphic.h -o generatedFiles\moc_observerGraphic.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC observerGraphic.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\moc_observerGraphic.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC observerGraphic.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\moc_observerGraphic.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+    </CustomBuild>
+    <ClInclude Include="..\..\src\observer\types\observerImage.h" />
+    <ClInclude Include="..\..\src\observer\types\observerLogFile.h" />
+    <CustomBuild Include="..\..\src\observer\types\observerMap.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\observerMap.h -o generatedFiles\moc_observerMap.cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\observerMap.h -o generatedFiles\moc_observerMap.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC observerMap.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\moc_observerMap.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC observerMap.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\moc_observerMap.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\types\observerScheduler.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\observerScheduler.h -o generatedFiles\moc_observerScheduler.cpp</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\observerScheduler.h -o generatedFiles\moc_observerScheduler.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC observerScheduler.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\moc_observerScheduler.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC observerScheduler.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\moc_observerScheduler.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\types\observerStateMachine.h">
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\observerStateMachine.h -o generatedFiles\moc_observerStateMachine.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">MOC observerStateMachine.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\moc_observerStateMachine.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe ..\..\src\observer\types\observerStateMachine.h -o generatedFiles\moc_observerStateMachine.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">MOC observerStateMachine.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\moc_observerStateMachine.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\moc.exe</AdditionalInputs>
+    </CustomBuild>
+    <ClInclude Include="..\..\src\observer\types\observerTable.h" />
+    <ClInclude Include="..\..\src\observer\types\observerTextScreen.h" />
+    <ClInclude Include="..\..\src\observer\types\observerUDPSender.h" />
+    <ClInclude Include="..\..\src\observer\types\stateMachine\edge.h" />
+    <ClInclude Include="..\..\src\observer\types\stateMachine\node.h" />
+    <ClInclude Include="..\..\src\core\loadNeighborhood.h" />
+    <ClInclude Include="..\..\dependencies\lua\include\lua.h" />
+    <ClInclude Include="..\..\src\core\luaAgent.h" />
+    <ClInclude Include="..\..\src\core\luaCell.h" />
+    <ClInclude Include="..\..\src\core\luaCellIndex.h" />
+    <ClInclude Include="..\..\src\core\luaCellularSpace.h" />
+    <ClInclude Include="..\..\src\core\luaControlMode.h" />
+    <ClInclude Include="..\..\src\core\luaEnvironment.h" />
+    <ClInclude Include="..\..\src\core\luaEvent.h" />
+    <ClInclude Include="..\..\src\core\luaFlowCondition.h" />
+    <ClInclude Include="..\..\src\core\luaGlobalAgent.h" />
+    <ClInclude Include="..\..\src\core\luaJumpCondition.h" />
+    <ClInclude Include="..\..\src\core\luaLocalAgent.h" />
+    <ClInclude Include="..\..\src\core\luaMessage.h" />
+    <ClInclude Include="..\..\src\core\luaNeighborhood.h" />
+    <ClInclude Include="..\..\src\core\luaRegion.h" />
+    <ClInclude Include="..\..\src\core\luaRule.h" />
+    <ClInclude Include="..\..\src\core\luaTimer.h" />
+    <ClInclude Include="..\..\src\core\luaTrajectory.h" />
+    <ClInclude Include="..\..\src\core\luaUtils.h" />
+    <ClInclude Include="..\..\src\core\luna.h" />
+    <ClInclude Include="..\..\src\core\message.h" />
+    <ClInclude Include="..\..\src\core\model.h" />
+    <ClInclude Include="..\..\src\core\neighborhood.h" />
+    <ClInclude Include="..\..\src\observer\observer.h" />
+    <ClInclude Include="..\..\src\observer\observerImpl.h" />
+    <ClInclude Include="..\..\src\observer\observerInterf.h" />
+    <ClInclude Include="..\..\src\core\process.h" />
+    <ClInclude Include="..\..\src\core\region.h" />
+    <ClInclude Include="..\..\src\core\rule.h" />
+    <ClInclude Include="..\..\src\core\scheduler.h" />
+    <ClInclude Include="..\..\src\core\strategy.h" />
+    <ClInclude Include="..\..\src\observer\terrameIncludes.h" />
+    <ClInclude Include="..\..\src\core\terrameLua.h" />
+    <ClInclude Include="..\..\src\core\terrameLua5_0.h" />
+    <ClInclude Include="..\..\src\core\terrameLua5_1.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\observer\schedulerSubjectInterf.cpp" />
+    <ClCompile Include="..\..\src\observer\types\agentObserverImage.cpp" />
+    <ClCompile Include="..\..\src\observer\types\agentObserverMap.cpp" />
+    <ClCompile Include="..\..\src\observer\types\image\imageGUI.cpp" />
+    <ClCompile Include="..\..\src\observer\types\observerGraphic.cpp" />
+    <ClCompile Include="..\..\src\observer\types\observerImage.cpp" />
+    <ClCompile Include="..\..\src\observer\types\observerLogFile.cpp" />
+    <ClCompile Include="..\..\src\observer\types\observerMap.cpp" />
+    <ClCompile Include="..\..\src\observer\types\observerScheduler.cpp" />
+    <ClCompile Include="..\..\src\observer\types\observerStateMachine.cpp" />
+    <ClCompile Include="..\..\src\observer\types\observerTable.cpp" />
+    <ClCompile Include="..\..\src\observer\types\observerTextScreen.cpp" />
+    <ClCompile Include="..\..\src\observer\types\observerUDPSender.cpp" />
+    <ClCompile Include="..\..\src\observer\types\stateMachine\edge.cpp" />
+    <ClCompile Include="..\..\src\observer\types\stateMachine\node.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\observer\observerResource.qrc">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\rcc.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\rcc.exe -name observerResource ..\..\src\observer\observerResource.qrc -o generatedFiles\qrc_observerResource.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">RCC observerResource</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\qrc_observerResource.cpp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\rcc.exe</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\rcc.exe -name observerResource ..\..\src\observer\observerResource.qrc -o generatedFiles\qrc_observerResource.cpp</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">RCC observerResource</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\qrc_observerResource.cpp</Outputs>
+    </CustomBuild>
+    <CustomBuild Include="..\..\src\observer\types\image\imageGUI.ui">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\uic.exe  ..\..\src\observer\types\image\imageGUI.ui -o generatedFiles\ui_imageGUI.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\uic.exe  ..\..\src\observer\types\image\imageGUI.ui -o generatedFiles\ui_imageGUI.h</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\ui_imageGUI.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\uic.exe</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\ui_imageGUI.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\uic.exe</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">UIC imageGUI.ui</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">UIC imageGUI.ui</Message>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\observer\components\console\modelConsoleGUI.ui">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\uic.exe  ..\..\src\observer\components\console\modelConsoleGUI.ui -o generatedFiles\ui_modelConsoleGUI.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\uic.exe  ..\..\src\observer\components\console\modelConsoleGUI.ui -o generatedFiles\ui_modelConsoleGUI.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">UIC modeloConsoleGUI.ui</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\ui_modelConsoleGUI.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\uic.exe</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">UIC modeloConsoleGUI.ui</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\ui_modelConsoleGUI.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\uic.exe</AdditionalInputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\observer\components\receiver\receiverGUI.ui">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\uic.exe  ..\..\src\observer\components\receiver\receiverGUI.ui -o generatedFiles\ui_receiverGUI.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">UIC receiverGUI</Message>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\uic.exe</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\ui_receiverGUI.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\uic.exe</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\ui_receiverGUI.h</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">UIC receiverGUI</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\uic.exe  ..\..\src\observer\components\receiver\receiverGUI.ui -o generatedFiles\ui_receiverGUI.h</Command>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\observer\types\udpSender\udpSenderGUI.ui">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\uic.exe  ..\..\src\observer\types\udpSender\udpSenderGUI.ui -o generatedFiles\ui_udpSenderGUI.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\uic.exe  ..\..\src\observer\types\udpSender\udpSenderGUI.ui -o generatedFiles\ui_udpSenderGUI.h</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\ui_udpSenderGUI.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\uic.exe</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\ui_udpSenderGUI.h</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\uic.exe</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">UIC udpSenderGUI</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">UIC udpSenderGUI</Message>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\observer\components\player\playerGUI.ui">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\uic.exe ..\..\src\observer\components\player\playerGUI.ui -o generatedFiles\ui_playerGUI.h</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\uic.exe ..\..\src\observer\components\player\playerGUI.ui -o generatedFiles\ui_playerGUI.h</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\uic.exe</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\uic.exe</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">UIC Private Player GUI</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">UIC Private Player GUI</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\ui_playerGUI.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\ui_playerGUI.h</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\src\observer\types\chartPlot\plotPropertiesGUI.ui">
+      <FileType>Document</FileType>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\uic.exe  ..\..\src\observer\types\chartPlot\plotPropertiesGUI.ui -o generatedFiles\ui_plotPropertiesGUI.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">UIC PlotPropertiesGUI</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\uic.exe  ..\..\src\observer\types\chartPlot\plotPropertiesGUI.ui -o generatedFiles\ui_plotPropertiesGUI.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">UIC PlotPropertiesGUI</Message>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\dependencies\qt\bin\uic.exe</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\dependencies\qt\bin\uic.exe</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">generatedFiles\ui_plotPropertiesGUI.h</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">generatedFiles\ui_plotPropertiesGUI.h</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

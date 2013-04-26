@@ -1,0 +1,13 @@
+--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+Testing Miscelaneous...
+READY!!!
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_miscelaneous
+File:	.../usr/local/1.2.1-TerraME/tests/src/basics/test_miscelaneous.lua
+
+Assertions: 16 total, 16 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

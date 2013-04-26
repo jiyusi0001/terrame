@@ -1,0 +1,19 @@
+Random value: 	10
+Random value: 	10
+Random value: 	10
+Random value: 	10
+Random value: 	10
+Random value: 	10
+Random value: 	10
+Random value: 	10
+Random value: 	10
+Random value: 	10
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_random_integer05
+File:	.../tests/src/basics/test_miscelaneous.lua
+
+Assertions: 10 total, 10 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

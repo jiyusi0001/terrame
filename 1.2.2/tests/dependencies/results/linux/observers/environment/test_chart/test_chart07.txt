@@ -1,0 +1,10 @@
+OBSERVER DYNAMIC GRAPHIC 07
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_chart07
+File:	.../tests/src/observers/environment/test_chart.lua
+
+Assertions: 2 total, 2 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

@@ -1,0 +1,10 @@
+OBSERVER TABLE 02
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_Table02
+File:	.../tests/src/observers/environment/test_table.lua
+
+Assertions: 2 total, 2 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

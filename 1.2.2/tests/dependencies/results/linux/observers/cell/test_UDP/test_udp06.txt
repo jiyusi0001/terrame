@@ -1,0 +1,10 @@
+UDPSENDER 06
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_udp06
+File:	.../tests/src/observers/cell/test_UDP.lua
+
+Assertions: 2 total, 2 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

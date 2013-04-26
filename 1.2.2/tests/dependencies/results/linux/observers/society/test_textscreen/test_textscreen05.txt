@@ -1,0 +1,20 @@
+TEXTSCREEN  05
+STEP: 	1
+Members in society 'sc1':	5
+STEP: 	2
+Members in society 'sc1':	5
+STEP: 	3
+Members in society 'sc1':	5
+STEP: 	4
+Members in society 'sc1':	5
+STEP: 	5
+.../TerraME/tests/src/observers/society/test_textscreen.lua:220: attempt to index global 'observerTextSreen05' (a nil value)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_textscreen05
+File:	.../tests/src/observers/society/test_textscreen.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

@@ -1,0 +1,9 @@
+select;t;valor2;sort;cObj_;cells;parent;valor1
+Lua-Address(FT): 0x14241f0;0;1;Lua-Address(FT): 0x14242d0;Lua-Address(UD): 0x14247d8;Lua-Address(TB): 0x14246b0;Lua-Address(TB): 0x13ad790;1
+Lua-Address(FT): 0x14241f0;2;1;Lua-Address(FT): 0x14242d0;Lua-Address(UD): 0x14247d8;Lua-Address(TB): 0x14246b0;Lua-Address(TB): 0x13ad790;1
+Lua-Address(FT): 0x14241f0;4;2;Lua-Address(FT): 0x14242d0;Lua-Address(UD): 0x14247d8;Lua-Address(TB): 0x14246b0;Lua-Address(TB): 0x13ad790;2
+Lua-Address(FT): 0x14241f0;6;1.5;Lua-Address(FT): 0x14242d0;Lua-Address(UD): 0x14247d8;Lua-Address(TB): 0x14246b0;Lua-Address(TB): 0x13ad790;6
+Lua-Address(FT): 0x14241f0;8;2.6666666666666665186;Lua-Address(FT): 0x14242d0;Lua-Address(UD): 0x14247d8;Lua-Address(TB): 0x14246b0;Lua-Address(TB): 0x13ad790;24
+Lua-Address(FT): 0x14241f0;10;1.875;Lua-Address(FT): 0x14242d0;Lua-Address(UD): 0x14247d8;Lua-Address(TB): 0x14246b0;Lua-Address(TB): 0x13ad790;120
+Lua-Address(FT): 0x14241f0;12;3.2000000000000001776;Lua-Address(FT): 0x14242d0;Lua-Address(UD): 0x14247d8;Lua-Address(TB): 0x14246b0;Lua-Address(TB): 0x13ad790;720
+Lua-Address(FT): 0x14241f0;14;2.1875;Lua-Address(FT): 0x14242d0;Lua-Address(UD): 0x14247d8;Lua-Address(TB): 0x14246b0;Lua-Address(TB): 0x13ad790;5040

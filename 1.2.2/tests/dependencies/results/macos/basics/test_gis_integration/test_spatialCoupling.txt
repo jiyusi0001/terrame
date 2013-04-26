@@ -1,0 +1,21 @@
+-------------------------------------
+-- test_spatialCoupling
+wait...
+-- Traverses the cs1 neighborhood. 
+Cells: 	121
+Neighbors: 	903
+Weight: 	100.33333333334
+-- Traverses the cs2 neighborhood.
+Cells: 	10201
+Neighbors: 	903
+Weight: 	100.33333333334
+READY!!!
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_spatialCoupling
+File:	.../usr/local/1.2.1-TerraME/tests/src/basics/test_gis_integration.lua
+
+Assertions: 7 total, 7 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

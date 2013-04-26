@@ -1,0 +1,11 @@
+MAP 01
+...p\TerraME\tests\src\observers\cellularSpace\test_map.lua:135: Error: Map observers must have exactly one or two attributes.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_map1
+File:	.../tests/src/observers/cellularSpace/test_map.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
