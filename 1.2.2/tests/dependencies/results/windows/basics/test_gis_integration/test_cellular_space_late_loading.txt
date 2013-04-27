@@ -1,9 +1,0 @@
-
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-Testing function: 	test_cellular_space_late_loading
-File:	.../tests/src/basics/test_gis_integration.lua
-
-Assertions: 12 total, 12 succeed, 0 failed.
-
-= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

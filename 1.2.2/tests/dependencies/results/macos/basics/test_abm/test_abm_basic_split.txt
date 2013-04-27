@@ -1,9 +1,0 @@
-
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-Testing function: 	test_abm_basic_split
-File:	.../usr/local/1.2.1-TerraME/tests/src/basics/test_abm.lua
-
-Assertions: 4 total, 4 succeed, 0 failed.
-
-= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
