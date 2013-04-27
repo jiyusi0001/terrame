@@ -1,0 +1,10 @@
+OBSERVER LOGFILE 03
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_LogFile03
+File:	.../tests/src/observers/environment/test_logFile.lua
+
+Assertions: 2 total, 2 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

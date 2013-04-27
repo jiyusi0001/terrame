@@ -1,0 +1,19 @@
+Random value: 	0
+Random value: 	1
+Random value: 	1
+Random value: 	1
+Random value: 	0
+Random value: 	0
+Random value: 	0
+Random value: 	1
+Random value: 	0
+Random value: 	0
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_random_integer01
+File:	.../usr/local/1.2.1-TerraME/tests/src/basics/test_miscelaneous.lua
+
+Assertions: 20 total, 20 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

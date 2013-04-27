@@ -1,0 +1,10 @@
+OBSERVER MAP 07
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_map07
+File:	.../tests/src/observers/trajectory/test_map.lua
+
+Assertions: 2 total, 2 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

@@ -1,0 +1,19 @@
+Random value: 	14
+Random value: 	20
+Random value: 	12
+Random value: 	16
+Random value: 	10
+Random value: 	16
+Random value: 	12
+Random value: 	16
+Random value: 	13
+Random value: 	14
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_random_integer04
+File:	.../tests/src/basics/test_miscelaneous.lua
+
+Assertions: 20 total, 20 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

@@ -1,0 +1,21 @@
+-------------------------------------
+-- test_createMxNNeighborhood 
+Cells: 	80400
+Neighbors: 	80400
+Weight: 	27549.251190486
+Cells: 	10201
+Neighbors: 	80400
+Weight: 	27549.251190486
+Cells: 	10201
+Neighbors: 	171001
+Weight: 	20267.777777763
+READY!!!
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_createMxNNeighborhood
+File:	.../usr/local/1.2.1-TerraME/tests/src/basics/test_gis_integration.lua
+
+Assertions: 10 total, 10 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

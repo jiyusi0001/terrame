@@ -1,0 +1,10 @@
+OBSERVER TEXTSCREEN 04
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_TextScreen04
+File:	.../tests/src/observers/environment/test_textScreen.lua
+
+Assertions: 2 total, 2 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

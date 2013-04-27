@@ -1,0 +1,13 @@
+--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+
+Testing VolatileCellularSpaceCoordinatesSystem...
+READY
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_VolatileCellularSpaceCoordinatesSystem
+File:	.../usr/local/1.2.1-TerraME/tests/src/basics/test_cellularspace.lua
+
+Assertions: 16 total, 16 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

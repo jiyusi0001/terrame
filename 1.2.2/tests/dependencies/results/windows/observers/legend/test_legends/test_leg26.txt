@@ -1,0 +1,25 @@
+Warning: Attribute 'colorBar' should be a table, got a nil. Using default color bar.
+OBSERVER LEGEND 26
+Testing Attribute Suggestion Due Syntax Errors
+Warning: Attribute 'aminimum' not found. Did you mean 'minimum'?
+Warning: Attribute 'aprecision' not found. Did you mean 'precision'?
+Warning: Attribute 'acolorBar' not found. Did you mean 'colorBar'?
+Warning: Attribute 'atype' not found. Did you mean 'style'?
+Warning: Attribute 'amaximum' not found. Did you mean 'maximum'?
+Warning: Attribute 'aslices' not found. Did you mean 'slices'?
+Warning: Attribute 'asymbol' not found. Did you mean 'symbol'?
+Warning: Attribute 'afont' not found. Did you mean 'font'?
+Warning: Attribute 'afontSize' not found. Did you mean 'fontSize'?
+Warning: Attribute 'astdDeviation' not found. Did you mean 'stdDeviation'?
+Warning: Attribute 'agrouping' not found. Did you mean 'grouping'?
+
+Warning: Attribute 'colorBar' should be a table, got a nil. Using default color bar.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_leg26
+File:	.../tests/src/observers/legend/test_legends.lua
+
+Assertions: 1 total, 1 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

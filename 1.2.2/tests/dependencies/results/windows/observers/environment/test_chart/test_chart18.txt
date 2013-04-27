@@ -1,0 +1,10 @@
+OBSERVER GRAPHIC 11
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_chart18
+File:	.../tests/src/observers/environment/test_chart.lua
+
+Assertions: 2 total, 2 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

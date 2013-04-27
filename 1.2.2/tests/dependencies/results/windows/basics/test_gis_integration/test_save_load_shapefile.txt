@@ -1,0 +1,201 @@
+estado: ACRE(AC)
+pos: 880923, 3207343
+
+
+estado: AMAZONAS(AM)
+pos: 1502193, 3803740
+
+
+estado: RONDONIA(RO)
+pos: 1718687, 3056311
+
+
+estado: RORAIMA(RR)
+pos: 1863557, 4506915
+
+
+estado: MATO GROSSO(MT)
+pos: 2487509, 2850958
+
+
+estado: MATO GROSSO DO SUL(MS)
+pos: 2600039, 2042873
+
+
+estado: RIO GRANDE DO SUL(RS)
+pos: 2756332, 1002125
+
+
+estado: AMAPA(AP)
+pos: 3114169, 4479400
+
+
+estado: SANTA CATARINA(SC)
+pos: 3231495, 1369689
+
+
+estado: PARANA(PR)
+pos: 3262064, 1453440
+
+
+estado: TOCANTIS(TO)
+pos: 3321866, 3151140
+
+
+estado: DISTRITO FEDERAL(DF)
+pos: 3360015, 2530353
+
+
+estado: GOIAS(GO)
+pos: 3360015, 2530353
+
+
+estado: PARA(PA)
+pos: 3410328, 4206170
+
+
+estado: SAO PAULO(SP)
+pos: 3578997, 1624335
+
+
+estado: MINAS GERAIS(MG)
+pos: 3680052, 2217855
+
+
+estado: RIO DE JANEIRO(RJ)
+pos: 3736121, 1702442
+
+
+estado: PIAUI(PI)
+pos: 3914933, 3446599
+
+
+estado: MARANHAO(MA)
+pos: 4017660, 3967216
+
+
+estado: ESPIRITO SANTO(ES)
+pos: 4088932, 2066258
+
+
+estado: CEARA(CE)
+pos: 4291202, 3688782
+
+
+estado: BAHIA(BA)
+pos: 4321128, 2741963
+
+
+estado: PERNAMBUCO(PE)
+pos: 4452732, 3321499
+
+
+estado: SERGIPE(SE)
+pos: 4506310, 3059581
+
+
+estado: PARAIBA(PB)
+pos: 4585267, 3452983
+
+
+estado: ALAGOAS(AL)
+pos: 4598610, 3181601
+
+
+estado: RIO GRANDE DO NORTE(RN)
+pos: 4606372, 3597433
+
+
+population values loaded:
+500000
+2300000
+1300000
+300000
+2300000
+1900000
+9600000
+300000
+4800000
+8700000
+1000000
+1700000
+4300000
+5400000
+33700000
+16500000
+13300000
+2700000
+5200000
+2800000
+6700000
+12600000
+7400000
+1600000
+3300000
+2700000
+2600000
+population values saved:
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
+10
+population values restored:
+500000
+2300000
+1300000
+300000
+2300000
+1900000
+9600000
+300000
+4800000
+8700000
+1000000
+1700000
+4300000
+5400000
+33700000
+16500000
+13300000
+2700000
+5200000
+2800000
+6700000
+12600000
+7400000
+1600000
+3300000
+2700000
+2600000
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_save_load_shapefile
+File:	.../tests/src/basics/test_gis_integration.lua
+
+Assertions: 32 total, 32 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

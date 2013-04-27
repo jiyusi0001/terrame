@@ -1,0 +1,60 @@
+MAP 08
+STEP: 	1
+T:	1
+-- sleeping
+boi[10] - visible	sleeping
+Members in society 'sc1':	6
+STEP: 	2
+T:	2
+-- sleeping
+boi[10] - hidden	sleeping
+Members in society 'sc1':	5
+STEP: 	3
+T:	3
+-- foraging
+boi[10] - visible	foraging
+Members in society 'sc1':	6
+STEP: 	4
+T:	4
+-- sleeping
+boi[10] - hidden	sleeping
+Members in society 'sc1':	5
+STEP: 	5
+T:	5
+-- sleeping
+boi[10] - visible	sleeping
+Members in society 'sc1':	6
+STEP: 	6
+T:	6
+-- foraging
+boi[10] - hidden	foraging
+Members in society 'sc1':	5
+STEP: 	7
+T:	7
+-- sleeping
+boi[10] - visible	sleeping
+Members in society 'sc1':	6
+STEP: 	8
+T:	8
+-- sleeping
+boi[10] - hidden	sleeping
+Members in society 'sc1':	5
+STEP: 	9
+T:	9
+-- foraging
+boi[10] - visible	foraging
+Members in society 'sc1':	6
+STEP: 	10
+T:	10
+-- sleeping
+boi[10] - hidden	sleeping
+Members in society 'sc1':	5
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_map08
+File:	.../tests/src/observers/society/test_map.lua
+
+Assertions: 2 total, 2 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

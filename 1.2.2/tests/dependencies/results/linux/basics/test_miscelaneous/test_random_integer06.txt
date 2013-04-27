@@ -1,0 +1,19 @@
+Random value: 	-2
+Random value: 	9
+Random value: 	-5
+Random value: 	3
+Random value: 	-10
+Random value: 	1
+Random value: 	-6
+Random value: 	2
+Random value: 	-3
+Random value: 	-2
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_random_integer06
+File:	.../tests/src/basics/test_miscelaneous.lua
+
+Assertions: 20 total, 20 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

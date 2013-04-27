@@ -1,0 +1,21 @@
+OBSERVER TABLE 08
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+	observerTable08:kill	true
+STEP: 	9
+STEP: 	10
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_table08
+File:	.../tests/src/observers/society/test_table.lua
+
+Assertions: 2 total, 2 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

@@ -1,0 +1,9 @@
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_AgentCellInteraction
+File:	.../usr/local/1.2.1-TerraME/tests/src/basics/test_agent_automaton.lua
+
+Assertions: 4 total, 4 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

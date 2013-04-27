@@ -1,0 +1,20 @@
+OBSERVER IMAGE 06
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_image06
+File:	.../tests/src/observers/automaton/test_image.lua
+
+Assertions: 11 total, 11 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

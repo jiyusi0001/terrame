@@ -1,0 +1,12 @@
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_assert_image_match
+File:	.../tests/src/unittest/test_unittest.lua
+
+Assertions: 2 total, 1 succeed, 1 failed.
+Failed: 
+	- File 'C:\TerraME\tests\src\unittest\test_unittest.lua' function 'test_assert_image_match'
+	Expected 'img1 = img2' got ''  in line 238
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

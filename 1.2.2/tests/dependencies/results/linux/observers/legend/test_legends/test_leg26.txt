@@ -1,0 +1,16 @@
+Warning: Attribute 'colorBar' should be a table, got a nil. Using default color bar.
+OBSERVER LEGEND 26
+Testing Attribute Suggestion Due Syntax Errors
+Warning: Attribute 'aminimum' not found. Did you mean 'minimum'?
+Warning: Attribute 'atype' not found. Did you mean 'style'?
+Warning: Attribute 'astdDeviation' not found. Did you mean 'stdDeviation'?
+Warning: Attribute 'afontSize' not found. Did you mean 'fontSize'?
+Warning: Attribute 'aprecision' not found. Did you mean 'precision'?
+Warning: Attribute 'acolorBar' not found. Did you mean 'colorBar'?
+Warning: Attribute 'agrouping' not found. Did you mean 'grouping'?
+Warning: Attribute 'afont' not found. Did you mean 'font'?
+Warning: Attribute 'amaximum' not found. Did you mean 'maximum'?
+Warning: Attribute 'aslices' not found. Did you mean 'slices'?
+Warning: Attribute 'asymbol' not found. Did you mean 'symbol'?
+
+Warning: Attribute 'colorBar' should be a table, got a nil. Using default color bar.

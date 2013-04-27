@@ -1,0 +1,10 @@
+--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=--=
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_splitCellularSpace
+File:	.../tests/src/basics/test_cellularspace.lua
+
+Assertions: 6 total, 6 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

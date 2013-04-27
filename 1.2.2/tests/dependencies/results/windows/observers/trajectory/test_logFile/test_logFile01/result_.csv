@@ -1,0 +1,11 @@
+select;parent;t;valor1;sort;cells;cObj_;valor2
+Lua-Address(FT): 02AA31C0;Lua-Address(TB): 005949F0;0;1;Lua-Address(FT): 02AA31E0;Lua-Address(TB): 02AA0240;Lua-Address(UD): 02AA0208;1
+Lua-Address(FT): 02AA31C0;Lua-Address(TB): 005949F0;2;1;Lua-Address(FT): 02AA31E0;Lua-Address(TB): 02AA0240;Lua-Address(UD): 02AA0208;1
+Lua-Address(FT): 02AA31C0;Lua-Address(TB): 005949F0;4;2;Lua-Address(FT): 02AA31E0;Lua-Address(TB): 02AA0240;Lua-Address(UD): 02AA0208;2
+Lua-Address(FT): 02AA31C0;Lua-Address(TB): 005949F0;6;6;Lua-Address(FT): 02AA31E0;Lua-Address(TB): 02AA0240;Lua-Address(UD): 02AA0208;1.5
+Lua-Address(FT): 02AA31C0;Lua-Address(TB): 005949F0;8;24;Lua-Address(FT): 02AA31E0;Lua-Address(TB): 02AA0240;Lua-Address(UD): 02AA0208;2.6666666666666665186
+Lua-Address(FT): 02AA31C0;Lua-Address(TB): 005949F0;10;120;Lua-Address(FT): 02AA31E0;Lua-Address(TB): 02AA0240;Lua-Address(UD): 02AA0208;1.875
+Lua-Address(FT): 02AA31C0;Lua-Address(TB): 005949F0;12;720;Lua-Address(FT): 02AA31E0;Lua-Address(TB): 02AA0240;Lua-Address(UD): 02AA0208;3.2000000000000001776
+Lua-Address(FT): 02AA31C0;Lua-Address(TB): 005949F0;14;5040;Lua-Address(FT): 02AA31E0;Lua-Address(TB): 02AA0240;Lua-Address(UD): 02AA0208;2.1875
+Lua-Address(FT): 02AA31C0;Lua-Address(TB): 005949F0;16;40320;Lua-Address(FT): 02AA31E0;Lua-Address(TB): 02AA0240;Lua-Address(UD): 02AA0208;3.6571428571428570287
+Lua-Address(FT): 02AA31C0;Lua-Address(TB): 005949F0;18;362880;Lua-Address(FT): 02AA31E0;Lua-Address(TB): 02AA0240;Lua-Address(UD): 02AA0208;2.4609375

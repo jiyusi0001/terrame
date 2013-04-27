@@ -1,0 +1,20 @@
+GRAPHIC 03
+STEP: 	1
+STEP: 	2
+STEP: 	3
+STEP: 	4
+STEP: 	5
+STEP: 	6
+STEP: 	7
+STEP: 	8
+STEP: 	9
+STEP: 	10
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_chart11
+File:	.../tests/src/observers/cellularSpace/test_chart.lua
+
+Assertions: 2 total, 2 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

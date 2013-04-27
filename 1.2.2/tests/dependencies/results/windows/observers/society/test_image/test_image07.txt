@@ -1,0 +1,11 @@
+IMAGE 07
+C:\TerraME\tests\src\observers\society\test_image.lua:259: Error: Parameter 'observer' not found.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_image07
+File:	.../tests/src/observers/society/test_image.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

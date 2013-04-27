@@ -1,0 +1,11 @@
+OBSERVER IMAGE 02
+...erralab/TerraME/tests/src/observers/agent/test_image.lua:177: Error: Parameter 'observer' not found.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_Image02
+File:	.../tests/src/observers/agent/test_image.lua
+
+Assertions: 0 total, 0 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

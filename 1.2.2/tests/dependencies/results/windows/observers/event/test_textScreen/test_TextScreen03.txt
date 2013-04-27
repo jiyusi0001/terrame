@@ -1,0 +1,20 @@
+TEXTSCREEN 03
+step	1
+step	2
+step	3
+step	4
+step	5
+step	6
+step	7
+step	8
+step	9
+step	10
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_TextScreen03
+File:	.../tests/src/observers/event/test_textScreen.lua
+
+Assertions: 2 total, 2 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

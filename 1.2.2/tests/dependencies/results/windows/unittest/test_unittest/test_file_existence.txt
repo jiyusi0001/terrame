@@ -1,0 +1,12 @@
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_file_existence
+File:	.../tests/src/unittest/test_unittest.lua
+
+Assertions: 2 total, 1 succeed, 1 failed.
+Failed: 
+	- File 'C:\TerraME\tests\src\unittest\test_unittest.lua' function 'test_file_existence'
+	Expected 'file does not exists.' got ''  in line 246
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =

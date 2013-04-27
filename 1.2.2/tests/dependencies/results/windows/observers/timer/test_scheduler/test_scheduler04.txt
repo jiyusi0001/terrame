@@ -1,0 +1,64 @@
+OBSERVER SCHEDULER 04
+step ev1	1
+step ev2	1
+step ev3	1
+step ev4	1
+step ev1	2
+step ev1	3
+step ev1	4
+step ev1	5
+step ev2	5
+step ev3	5
+step ev4	5
+step ev1	6
+step ev1	7
+step ev1	8
+step ev1	9
+step ev2	9
+step ev3	9
+step ev4	9
+step ev1	10
+step ev1	11
+step ev1	12
+step ev1	13
+step ev2	13
+step ev3	13
+step ev4	13
+step ev1	14
+step ev1	15
+step ev1	16
+step ev1	17
+step ev2	17
+step ev3	17
+step ev4	17
+step ev1	18
+step ev1	19
+step ev1	20
+step ev1	21
+step ev2	21
+step ev3	21
+step ev4	21
+step ev1	22
+step ev1	23
+step ev1	24
+step ev1	25
+step ev2	25
+step ev3	25
+step ev4	25
+step ev1	26
+step ev1	27
+step ev1	28
+step ev1	29
+step ev2	29
+step ev3	29
+step ev4	29
+step ev1	30
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Testing function: 	test_scheduler04
+File:	.../tests/src/observers/timer/test_scheduler.lua
+
+Assertions: 2 total, 2 succeed, 0 failed.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
