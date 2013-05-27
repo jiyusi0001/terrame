@@ -1,9 +1,0 @@
-
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
-Testing function: 	test_random_seed_value
-File:	.../usr/local/1.2.1-TerraME/tests/src/basics/test_miscelaneous.lua
-
-Assertions: 2 total, 2 succeed, 0 failed.
-
-= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
